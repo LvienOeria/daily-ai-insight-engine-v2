@@ -25,7 +25,10 @@ def cluster_events(
     if not isinstance(records, list):
         raise ValueError("clustering LLM output must contain events list")
     valid_news_ids = {item.news_id for item in structured}
-    events = [EventItem.model_validate(record) for record in records]
+    events = [
+        EventItem.model_validate(_normalize_event_record(record, valid_news_ids))
+        for record in records
+    ]
     for event in events:
         unknown = set(event.related_news_ids) - valid_news_ids
         if unknown:
@@ -74,8 +77,94 @@ def _single_item_event(item: StructuredNewsItem) -> EventItem:
     )
 
 
+def _normalize_event_record(record: dict, valid_news_ids: set[str]) -> dict:
+    for field in [
+        "related_news_ids",
+        "main_entities",
+        "technologies",
+        "key_facts",
+        "evidence",
+        "impact_scope",
+        "risk_tags",
+        "opportunity_tags",
+    ]:
+        record[field] = _as_list(record.get(field))
+
+    record["related_news_ids"] = [
+        news_id for news_id in record["related_news_ids"] if news_id in valid_news_ids
+    ]
+
+    if not record.get("event_id"):
+        record["event_id"] = stable_id(
+            "event",
+            ",".join(record.get("related_news_ids", [])),
+            record.get("event_name"),
+        )
+    if not record.get("event_name"):
+        record["event_name"] = record.get("core_topic") or record["event_id"]
+    if not record.get("core_topic"):
+        record["core_topic"] = record.get("event_name") or record["event_id"]
+    if not record.get("why_it_matters"):
+        record["why_it_matters"] = "该事件的重要性需要结合结构化证据和评分结果判断。"
+
+    if record.get("event_type") not in {
+        "product_release",
+        "model_release",
+        "funding",
+        "acquisition",
+        "partnership",
+        "regulation",
+        "research",
+        "open_source",
+        "infrastructure",
+        "security_risk",
+        "business_update",
+        "market_commentary",
+        "other",
+    }:
+        record["event_type"] = "other"
+
+    if record.get("industry_area") not in {
+        "foundation_model",
+        "ai_agent",
+        "multimodal_ai",
+        "ai_infrastructure",
+        "chip_compute",
+        "enterprise_ai",
+        "consumer_ai",
+        "developer_tools",
+        "ai_safety",
+        "policy_regulation",
+        "research",
+        "capital_market",
+        "other",
+    }:
+        record["industry_area"] = "other"
+
+    if record.get("confidence") not in {"low", "medium", "high"}:
+        record["confidence"] = "medium"
+    if not record.get("evidence"):
+        record["evidence"] = record.get("key_facts", [])
+    if not record.get("risk_tags"):
+        record["risk_tags"] = ["none"]
+    if not record.get("opportunity_tags"):
+        record["opportunity_tags"] = ["none"]
+
+    return record
+
+
+def _as_list(value: object) -> list[str]:
+    if value is None:
+        return []
+    if isinstance(value, list):
+        return [str(item).strip() for item in value if str(item).strip()]
+    if isinstance(value, str):
+        text = value.strip()
+        return [text] if text else []
+    return [str(value)]
+
+
 def _why_it_matters(item: StructuredNewsItem) -> str:
     if item.importance_score >= 4:
         return "该条信息在单新闻重要性评分中较高，可能影响相关技术、企业或行业议题。"
     return "该条信息提供了当日 AI 领域的补充信号，重要性需结合其他事件判断。"
-

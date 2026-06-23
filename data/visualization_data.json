@@ -1,52 +1,48 @@
 {
-  "generated_at": "2026-06-23T16:57:12Z",
+  "generated_at": "2026-06-23T17:09:58Z",
   "source_type_distribution": [
+    {
+      "name": "research",
+      "count": 18
+    },
+    {
+      "name": "official",
+      "count": 2
+    }
+  ],
+  "event_type_distribution": [
     {
       "name": "research",
       "count": 19
     },
     {
-      "name": "official",
+      "name": "business_update",
       "count": 1
-    }
-  ],
-  "event_type_distribution": [
-    {
-      "name": "model_release",
-      "count": 16
-    },
-    {
-      "name": "other",
-      "count": 2
-    },
-    {
-      "name": "regulation",
-      "count": 2
     }
   ],
   "industry_area_distribution": [
     {
-      "name": "foundation_model",
-      "count": 4
-    },
-    {
-      "name": "policy_regulation",
-      "count": 4
-    },
-    {
-      "name": "other",
-      "count": 3
-    },
-    {
-      "name": "ai_agent",
-      "count": 3
+      "name": "research",
+      "count": 10
     },
     {
       "name": "multimodal_ai",
-      "count": 3
+      "count": 2
     },
     {
-      "name": "research",
+      "name": "ai_agent",
+      "count": 2
+    },
+    {
+      "name": "enterprise_ai",
+      "count": 2
+    },
+    {
+      "name": "consumer_ai",
+      "count": 1
+    },
+    {
+      "name": "developer_tools",
       "count": 1
     },
     {
@@ -54,64 +50,92 @@
       "count": 1
     },
     {
-      "name": "chip_compute",
+      "name": "foundation_model",
       "count": 1
     }
   ],
   "technology_distribution": [
     {
       "name": "LLM",
-      "count": 8
+      "count": 4
     },
     {
-      "name": "RAG",
-      "count": 6
+      "name": "GPT-5",
+      "count": 1
     },
     {
-      "name": "AI agent",
-      "count": 3
+      "name": "OpenAI",
+      "count": 1
     },
     {
-      "name": "multimodal AI",
-      "count": 3
+      "name": "AutoDex",
+      "count": 1
     },
     {
-      "name": "inference",
+      "name": "dexterous grasping",
+      "count": 1
+    },
+    {
+      "name": "robotics",
+      "count": 1
+    },
+    {
+      "name": "Randomized YaRN",
+      "count": 1
+    },
+    {
+      "name": "positional encoding",
+      "count": 1
+    },
+    {
+      "name": "CoorDex",
+      "count": 1
+    },
+    {
+      "name": "dexterous manipulation",
+      "count": 1
+    },
+    {
+      "name": "humanoid robotics",
+      "count": 1
+    },
+    {
+      "name": "text-to-image models",
       "count": 1
     }
   ],
   "top_event_scores": [
     {
-      "event_id": "event_3ac7b6714c50",
-      "event_name": "Tapered Language Models",
+      "event_id": "evt_013",
+      "event_name": "Limits of prompt-conditioned LLMs as general-purpose learners",
       "rank": 1,
-      "score": 3.44,
-      "confidence": "medium"
+      "score": 3.67,
+      "confidence": "high"
     },
     {
-      "event_id": "event_9ca585198e1b",
-      "event_name": "EnterpriseClawBench: Benchmarking Agents from Real Workplace Sessions",
+      "event_id": "evt_003",
+      "event_name": "AutoDex: automated dexterous grasping data collection",
       "rank": 2,
       "score": 3.33,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
-      "event_id": "event_88f296fa00c1",
-      "event_name": "Muown Implicitly Performs Angular Step-size Decay",
+      "event_id": "evt_005",
+      "event_name": "CoorDex: dexterous loco-manipulation on humanoid",
       "rank": 3,
       "score": 3.33,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
-      "event_id": "event_47a58d35e0d6",
-      "event_name": "AIR: Adaptive Interleaved Reasoning with Code in MLLMs",
+      "event_id": "evt_012",
+      "event_name": "Tapered Language Models improve perplexity and downstream performance",
       "rank": 4,
-      "score": 3.22,
-      "confidence": "medium"
+      "score": 3.33,
+      "confidence": "high"
     },
     {
-      "event_id": "event_fdc75e57ceff",
-      "event_name": "TailorMind: Towards Preference-Aligned Multimodal Content Generation",
+      "event_id": "evt_001",
+      "event_name": "GPT-5 solves immunology mystery",
       "rank": 5,
       "score": 3.22,
       "confidence": "medium"
@@ -119,144 +143,144 @@
   ],
   "risk_opportunity_matrix": [
     {
-      "event_id": "event_3ac7b6714c50",
-      "event_name": "Tapered Language Models",
-      "risk_level": 0,
-      "opportunity_level": 3,
-      "confidence": "medium"
+      "event_id": "evt_013",
+      "event_name": "Limits of prompt-conditioned LLMs as general-purpose learners",
+      "risk_level": 4,
+      "opportunity_level": 4,
+      "confidence": "high"
     },
     {
-      "event_id": "event_9ca585198e1b",
-      "event_name": "EnterpriseClawBench: Benchmarking Agents from Real Workplace Sessions",
+      "event_id": "evt_003",
+      "event_name": "AutoDex: automated dexterous grasping data collection",
+      "risk_level": 0,
+      "opportunity_level": 5,
+      "confidence": "high"
+    },
+    {
+      "event_id": "evt_005",
+      "event_name": "CoorDex: dexterous loco-manipulation on humanoid",
+      "risk_level": 0,
+      "opportunity_level": 5,
+      "confidence": "high"
+    },
+    {
+      "event_id": "evt_012",
+      "event_name": "Tapered Language Models improve perplexity and downstream performance",
+      "risk_level": 0,
+      "opportunity_level": 4,
+      "confidence": "high"
+    },
+    {
+      "event_id": "evt_001",
+      "event_name": "GPT-5 solves immunology mystery",
       "risk_level": 0,
       "opportunity_level": 4,
       "confidence": "medium"
     },
     {
-      "event_id": "event_88f296fa00c1",
-      "event_name": "Muown Implicitly Performs Angular Step-size Decay",
+      "event_id": "evt_002",
+      "event_name": "Omio adopts OpenAI for conversational travel",
       "risk_level": 0,
-      "opportunity_level": 3,
+      "opportunity_level": 4,
       "confidence": "medium"
     },
     {
-      "event_id": "event_47a58d35e0d6",
+      "event_id": "evt_004",
+      "event_name": "Randomized YaRN improves long-context reasoning",
+      "risk_level": 0,
+      "opportunity_level": 4,
+      "confidence": "high"
+    },
+    {
+      "event_id": "evt_014",
+      "event_name": "MAS-PromptBench: prompt optimization in multi-agent LLM systems",
+      "risk_level": 0,
+      "opportunity_level": 4,
+      "confidence": "high"
+    },
+    {
+      "event_id": "evt_015",
+      "event_name": "Action-BED: task-driven Bayesian experimental design",
+      "risk_level": 0,
+      "opportunity_level": 4,
+      "confidence": "high"
+    },
+    {
+      "event_id": "evt_011",
+      "event_name": "LLMs cannot reliably self-report adversarial prefills",
+      "risk_level": 5,
+      "opportunity_level": 0,
+      "confidence": "high"
+    },
+    {
+      "event_id": "evt_006",
+      "event_name": "Semantic Browsing for controlled diversity in image generation",
+      "risk_level": 0,
+      "opportunity_level": 0,
+      "confidence": "high"
+    },
+    {
+      "event_id": "evt_007",
       "event_name": "AIR: Adaptive Interleaved Reasoning with Code in MLLMs",
       "risk_level": 0,
-      "opportunity_level": 3,
-      "confidence": "medium"
+      "opportunity_level": 0,
+      "confidence": "high"
     },
     {
-      "event_id": "event_fdc75e57ceff",
-      "event_name": "TailorMind: Towards Preference-Aligned Multimodal Content Generation",
-      "risk_level": 0,
-      "opportunity_level": 3,
-      "confidence": "medium"
-    },
-    {
-      "event_id": "event_cd51647e8890",
-      "event_name": "CoorDex: Coordinating Body and Hand Priors for Continuous Dexterous Humanoid Loco-Manipulation",
-      "risk_level": 0,
-      "opportunity_level": 3,
-      "confidence": "medium"
-    },
-    {
-      "event_id": "event_c5fb585a023d",
-      "event_name": "AI Exposure Scores: what they measure, what they miss, and what comes next",
-      "risk_level": 0,
-      "opportunity_level": 3,
-      "confidence": "medium"
-    },
-    {
-      "event_id": "event_150edab91671",
-      "event_name": "Randomized YaRN Improves Length Generalization for Long-Context Reasoning",
+      "event_id": "evt_008",
+      "event_name": "Open problem: AdamW under heavy-tailed noise",
       "risk_level": 0,
       "opportunity_level": 0,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
-      "event_id": "event_10c0d436ea82",
-      "event_name": "Open Problem: Is AdamW Effective Under Heavy-Tailed Noise?",
+      "event_id": "evt_009",
+      "event_name": "PsyBridge: hybrid mental health assessment framework",
       "risk_level": 0,
       "opportunity_level": 0,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
-      "event_id": "event_e8511bff4266",
-      "event_name": "PsyBridge: A Hybrid Intelligent Framework for Multi-Dimensional Mental Health Assessment and Decision Support",
-      "risk_level": 0,
-      "opportunity_level": 0,
-      "confidence": "medium"
-    },
-    {
-      "event_id": "event_2193c6284fdd",
-      "event_name": "Semantic Browsing: Controllable Diversity for Image Generation",
-      "risk_level": 0,
-      "opportunity_level": 0,
-      "confidence": "medium"
-    },
-    {
-      "event_id": "event_c01d69a84363",
-      "event_name": "Teaching LLMs String Matching, Backtracking, and Error Recovery to Deduce Bases and Truth Tables for the Combinatorially",
-      "risk_level": 0,
-      "opportunity_level": 0,
-      "confidence": "medium"
-    },
-    {
-      "event_id": "event_0871a1d8e3f1",
-      "event_name": "On the Limits of Prompt-Conditioned Language Models as General-Purpose Learners",
-      "risk_level": 0,
-      "opportunity_level": 0,
-      "confidence": "medium"
-    },
-    {
-      "event_id": "event_54ee5281e844",
-      "event_name": "MAS-PromptBench: When Does Prompt Optimization Improve Multi-Agent LLM Systems?",
-      "risk_level": 0,
-      "opportunity_level": 0,
-      "confidence": "medium"
-    },
-    {
-      "event_id": "event_609e85ef9b4f",
-      "event_name": "Action-BED: Task-Driven Bayesian Experimental Design with Singly Intractable Objectives",
-      "risk_level": 0,
-      "opportunity_level": 0,
-      "confidence": "medium"
-    },
-    {
-      "event_id": "event_1040d6455589",
-      "event_name": "Learning Process Rewards via Success Visitation Matching for Efficient RL",
-      "risk_level": 0,
-      "opportunity_level": 0,
-      "confidence": "medium"
-    },
-    {
-      "event_id": "event_c428e1803bfb",
-      "event_name": "AutoDex: An Automated Real-World System for Dexterous Grasping Data Collection",
-      "risk_level": 0,
-      "opportunity_level": 0,
-      "confidence": "medium"
-    },
-    {
-      "event_id": "event_cdd5e057d01b",
-      "event_name": "Can LLMs Reliably Self-Report Adversarial Prefills, and How?",
-      "risk_level": 0,
-      "opportunity_level": 0,
-      "confidence": "medium"
-    },
-    {
-      "event_id": "event_e0a415240175",
-      "event_name": "How Omio is building the future of conversational travel",
-      "risk_level": 0,
-      "opportunity_level": 0,
-      "confidence": "medium"
-    },
-    {
-      "event_id": "event_0baf4e3233c1",
+      "event_id": "evt_016",
       "event_name": "Dynamic estimation of slowly varying sequences",
       "risk_level": 0,
       "opportunity_level": 0,
-      "confidence": "medium"
+      "confidence": "high"
+    },
+    {
+      "event_id": "evt_017",
+      "event_name": "EnterpriseClawBench: benchmark for enterprise agents",
+      "risk_level": 0,
+      "opportunity_level": 0,
+      "confidence": "high"
+    },
+    {
+      "event_id": "evt_018",
+      "event_name": "TailorMind: personalized multimodal content generation",
+      "risk_level": 0,
+      "opportunity_level": 0,
+      "confidence": "high"
+    },
+    {
+      "event_id": "evt_019",
+      "event_name": "Learning process rewards via success visitation matching",
+      "risk_level": 0,
+      "opportunity_level": 0,
+      "confidence": "high"
+    },
+    {
+      "event_id": "evt_020",
+      "event_name": "Muown implicitly performs angular step-size decay",
+      "risk_level": 0,
+      "opportunity_level": 0,
+      "confidence": "high"
+    },
+    {
+      "event_id": "evt_010",
+      "event_name": "Teaching LLMs bit manipulation puzzles via string similarity and backtracking",
+      "risk_level": 0,
+      "opportunity_level": 0,
+      "confidence": "high"
     }
   ]
 }

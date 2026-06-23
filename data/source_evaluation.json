@@ -73,7 +73,7 @@
     },
     "strengths": [
       "Official OpenAI product, research, safety, and company updates.",
-      "Observed 1017 candidate items during fetch attempt."
+      "Observed 1018 candidate items during fetch attempt."
     ],
     "weaknesses": [
       "Observed missing fields: summary_or_content=107"
@@ -82,7 +82,7 @@
       "official single-company perspective",
       "RSS availability may change"
     ],
-    "observed_item_count": 1017,
+    "observed_item_count": 1018,
     "fetch_status": "success",
     "fetch_error": null,
     "recommended_tier": "core",

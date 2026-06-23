@@ -79,8 +79,13 @@ def structure_news_items(
         records = response.get("items")
         if not isinstance(records, list):
             raise ValueError("structuring LLM output must contain items list")
+        source_by_id = {item.news_id: item for item in batch}
         for record in records:
-            structured.append(StructuredNewsItem.model_validate(record))
+            structured.append(
+                StructuredNewsItem.model_validate(
+                    _normalize_structured_record(record, source_by_id)
+                )
+            )
     return structured
 
 
@@ -146,6 +151,76 @@ def _mock_structure(item: CleanedNewsItem) -> StructuredNewsItem:
         confidence="medium" if len(item.summary) >= 120 else "low",
         evidence=facts,
     )
+
+
+def _normalize_structured_record(
+    record: dict,
+    source_by_id: dict[str, CleanedNewsItem],
+) -> dict:
+    news_id = record.get("news_id")
+    source = source_by_id.get(news_id)
+
+    if source:
+        for field in [
+            "news_id",
+            "title",
+            "source",
+            "source_type",
+            "published_at",
+            "language",
+            "url",
+        ]:
+            record.setdefault(field, getattr(source, field))
+
+    for field in [
+        "entities",
+        "technologies",
+        "key_facts",
+        "impact_scope",
+        "risk_tags",
+        "opportunity_tags",
+        "evidence",
+    ]:
+        record[field] = _as_list(record.get(field))
+
+    if record.get("event_type") not in EVENT_TYPES:
+        record["event_type"] = "other"
+    if record.get("industry_area") not in INDUSTRY_AREAS:
+        record["industry_area"] = "other"
+    if record.get("sentiment") not in {"positive", "neutral", "negative", "mixed"}:
+        record["sentiment"] = "neutral"
+    if record.get("confidence") not in {"low", "medium", "high"}:
+        record["confidence"] = "medium"
+
+    try:
+        score = int(record.get("importance_score", 1))
+    except (TypeError, ValueError):
+        score = 1
+    record["importance_score"] = min(5, max(1, score))
+
+    if not record.get("summary") and source:
+        record["summary"] = source.summary
+    if not record.get("key_facts") and record.get("summary"):
+        record["key_facts"] = [_short_fact(record["summary"])]
+    if not record.get("evidence"):
+        record["evidence"] = record.get("key_facts", [])
+    if not record.get("risk_tags"):
+        record["risk_tags"] = ["none"]
+    if not record.get("opportunity_tags"):
+        record["opportunity_tags"] = ["none"]
+
+    return record
+
+
+def _as_list(value: object) -> list[str]:
+    if value is None:
+        return []
+    if isinstance(value, list):
+        return [str(item).strip() for item in value if str(item).strip()]
+    if isinstance(value, str):
+        text = value.strip()
+        return [text] if text else []
+    return [str(value)]
 
 
 def _infer_event_type(text: str) -> str:
