@@ -10,7 +10,7 @@
     "api_key_env": "DEEPSEEK_API_KEY",
     "base_url": "https://api.deepseek.com",
     "default_model": "deepseek-v4-flash",
-    "report_model": "deepseek-v4-pro",
+    "report_model": "deepseek-v4-flash",
     "temperature": 0.2,
     "max_output_tokens": 8192,
     "json_outputs_required": true

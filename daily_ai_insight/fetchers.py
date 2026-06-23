@@ -165,7 +165,16 @@ def _fetch_hacker_news(candidate: CandidateSource, config: AppConfig) -> list[Ra
 
 
 def _fetch_websearch_observations(candidate: CandidateSource, config: AppConfig) -> list[RawNewsItem]:
+    """Fetch from Chinese websearch sources via MCP, with static file fallback."""
     websearch_config = config.defaults["source_selection"]["chinese_websearch"]
+
+    # --- Primary: MCP-based web search ---
+    try:
+        return _fetch_via_mcp(candidate, config, websearch_config)
+    except Exception as mcp_exc:
+        mcp_error = str(mcp_exc)
+
+    # --- Fallback: static observation file ---
     observation_file = Path(
         config.root
         / (
@@ -175,9 +184,10 @@ def _fetch_websearch_observations(candidate: CandidateSource, config: AppConfig)
     )
     if not observation_file.exists():
         raise SourceFetchError(
-            "DeepSeek websearch has no standalone Chat Completions endpoint in the current "
-            "implementation. Add observations to "
-            f"{observation_file.relative_to(config.root)} after running allowlisted DeepSeek websearch."
+            f"MCP websearch unavailable ({mcp_error}). "
+            "Add observations to "
+            f"{observation_file.relative_to(config.root)} after running allowlisted DeepSeek websearch, "
+            "or fix MCP connectivity."
         )
 
     observations = read_json(observation_file)
@@ -216,6 +226,70 @@ def _fetch_websearch_observations(candidate: CandidateSource, config: AppConfig)
             )
         )
     return items
+
+
+def _fetch_via_mcp(
+    candidate: CandidateSource,
+    config: AppConfig,
+    websearch_config: dict[str, Any],
+) -> list[RawNewsItem]:
+    """Fetch Chinese AI news via direct HTTP scraping.
+
+    The MCP server (daily_ai_insight.mcp_search) is reserved for DeepSeek tool-calling:
+    when a real DeepSeek API key is configured, the LLM can use MCP tools to search
+    the web.  For the deterministic pipeline path we call the scraping backend inline.
+    """
+    from .mcp_search import SITE_CONFIG, _direct_fetch
+
+    domain = _candidate_domain(candidate)
+    if not domain:
+        raise SourceFetchError(f"no domain mapped for candidate: {candidate.source_name}")
+
+    site_config = SITE_CONFIG.get(domain)
+    if not site_config:
+        raise SourceFetchError(f"unsupported domain: {domain}")
+
+    results = _direct_fetch(domain, site_config, max_results=10)
+
+    if not results:
+        raise SourceFetchError(f"MCP search returned no results for {domain}")
+
+    items: list[RawNewsItem] = []
+    for result in results:
+        if not isinstance(result, dict):
+            continue
+        url = result.get("url") or ""
+        if not _is_allowed_url(url, {domain}):
+            continue
+        items.append(
+            _raw_item(
+                candidate=candidate,
+                title=_clean_text(result.get("title")),
+                url=url,
+                source=result.get("source") or candidate.source_name,
+                published_at=normalize_datetime(
+                    result.get("published_at"), config.report.timezone
+                ),
+                summary=_clean_text(result.get("summary")),
+                content=_clean_text(result.get("content")),
+                raw_payload=result,
+                collected_at=utc_now_iso(),
+            )
+        )
+
+    return items
+
+
+def _candidate_domain(candidate: CandidateSource) -> str | None:
+    """Map a candidate source to its web domain."""
+    name = candidate.source_name
+    if "量子位" in name:
+        return "qbitai.com"
+    if "机器之心" in name:
+        return "jiqizhixin.com"
+    if "知乎" in name:
+        return "zhihu.com"
+    return None
 
 
 def _raw_item(

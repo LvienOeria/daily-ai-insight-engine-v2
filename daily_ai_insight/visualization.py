@@ -33,6 +33,7 @@ def build_visualization_data(
                 "risk_level": risk,
                 "opportunity_level": opportunity,
                 "confidence": event.confidence,
+                "event_type": event.event_type,
             }
         )
 

@@ -29,7 +29,7 @@ Configured defaults:
 - `LLM_PROVIDER=deepseek`
 - `DEEPSEEK_BASE_URL=https://api.deepseek.com`
 - `DEEPSEEK_MODEL=deepseek-v4-flash`
-- `DEEPSEEK_REPORT_MODEL=deepseek-v4-pro`
+- `DEEPSEEK_REPORT_MODEL=deepseek-v4-flash`
 - `DEEPSEEK_WEBSEARCH_ENABLED=true`
 - `DEEPSEEK_WEBSEARCH_ALLOWED_SITES=qbitai.com,jiqizhixin.com,zhihu.com`
 - `REPORT_TIMEZONE=Asia/Shanghai`

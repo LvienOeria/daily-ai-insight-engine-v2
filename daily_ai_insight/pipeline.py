@@ -71,6 +71,16 @@ def run_pipeline(
     write_json(config.path("structured_news"), structured)
 
     events = cluster_events(structured, llm=llm, mock_llm=options.mock_llm)
+    # Stamp event dates from related news
+    news_date_map = {n.news_id: n.published_at for n in structured}
+    for ev in events:
+        dates = [
+            news_date_map[nid]
+            for nid in ev.related_news_ids
+            if nid in news_date_map and news_date_map[nid]
+        ]
+        if dates:
+            ev.published_at = min(dates)
     write_json(config.path("clustered_events"), {"events": events})
 
     ranked_events = score_events(events, structured)

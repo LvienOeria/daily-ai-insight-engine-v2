@@ -125,28 +125,27 @@
     "coverage": "Chinese AI industry and technology reporting from 量子位.",
     "language": "zh",
     "field_completeness": {
-      "title": "no",
-      "summary_or_content": "no",
-      "source": "no",
-      "published_at": "no",
-      "url": "no"
+      "title": "yes",
+      "summary_or_content": "yes",
+      "source": "yes",
+      "published_at": "yes",
+      "url": "yes"
     },
     "strengths": [
-      "Chinese AI industry and technology reporting from 量子位."
+      "Chinese AI industry and technology reporting from 量子位.",
+      "Observed 10 candidate items during fetch attempt."
     ],
-    "weaknesses": [
-      "Fetch issue: DeepSeek websearch has no standalone Chat Completions endpoint in the current implementation. Add observations to data/manual/chinese_websearch_observations.json after running allowlisted DeepSeek websearch."
-    ],
+    "weaknesses": [],
     "risks": [
       "allowlisted Chinese websearch only",
       "observed fields must be validated",
       "DeepSeek websearch observations require allowlist and field validation."
     ],
-    "observed_item_count": 0,
-    "fetch_status": "failed",
-    "fetch_error": "DeepSeek websearch has no standalone Chat Completions endpoint in the current implementation. Add observations to data/manual/chinese_websearch_observations.json after running allowlisted DeepSeek websearch.",
-    "recommended_tier": "future",
-    "reason": "Fetch path needs implementation or access before MVP use: DeepSeek websearch has no standalone Chat Completions endpoint in the current implementation. Add observations to data/manual/chinese_websearch_observations.json after running allowlisted DeepSeek websearch."
+    "observed_item_count": 10,
+    "fetch_status": "success",
+    "fetch_error": null,
+    "recommended_tier": "core",
+    "reason": "Observed results satisfy required fields and are suitable for the main dataset."
   },
   {
     "source_name": "机器之心 DeepSeek Websearch",
@@ -165,18 +164,19 @@
       "Chinese AI research, product, and industry reporting from 机器之心."
     ],
     "weaknesses": [
-      "Fetch issue: DeepSeek websearch has no standalone Chat Completions endpoint in the current implementation. Add observations to data/manual/chinese_websearch_observations.json after running allowlisted DeepSeek websearch."
+      "Fetch issue: source disabled"
     ],
     "risks": [
       "allowlisted Chinese websearch only",
       "observed fields must be validated",
+      "site structure changed — direct scrape broken",
       "DeepSeek websearch observations require allowlist and field validation."
     ],
     "observed_item_count": 0,
     "fetch_status": "failed",
-    "fetch_error": "DeepSeek websearch has no standalone Chat Completions endpoint in the current implementation. Add observations to data/manual/chinese_websearch_observations.json after running allowlisted DeepSeek websearch.",
+    "fetch_error": "source disabled",
     "recommended_tier": "future",
-    "reason": "Fetch path needs implementation or access before MVP use: DeepSeek websearch has no standalone Chat Completions endpoint in the current implementation. Add observations to data/manual/chinese_websearch_observations.json after running allowlisted DeepSeek websearch."
+    "reason": "Fetch path needs implementation or access before MVP use: source disabled"
   },
   {
     "source_name": "知乎 DeepSeek Websearch",
@@ -196,18 +196,19 @@
     ],
     "weaknesses": [
       "Community source; use as auxiliary signal unless item is complete.",
-      "Fetch issue: DeepSeek websearch has no standalone Chat Completions endpoint in the current implementation. Add observations to data/manual/chinese_websearch_observations.json after running allowlisted DeepSeek websearch."
+      "Fetch issue: source disabled"
     ],
     "risks": [
       "community signal",
       "not primary evidence by default",
       "observed fields must be validated",
+      "requires login — direct scrape blocked",
       "DeepSeek websearch observations require allowlist and field validation."
     ],
     "observed_item_count": 0,
     "fetch_status": "failed",
-    "fetch_error": "DeepSeek websearch has no standalone Chat Completions endpoint in the current implementation. Add observations to data/manual/chinese_websearch_observations.json after running allowlisted DeepSeek websearch.",
+    "fetch_error": "source disabled",
     "recommended_tier": "future",
-    "reason": "Fetch path needs implementation or access before MVP use: DeepSeek websearch has no standalone Chat Completions endpoint in the current implementation. Add observations to data/manual/chinese_websearch_observations.json after running allowlisted DeepSeek websearch."
+    "reason": "Fetch path needs implementation or access before MVP use: source disabled"
   }
 ]

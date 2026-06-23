@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-06-23T17:10:35Z",
+  "generated_at": "2026-06-23T18:43:23Z",
   "report": {
     "timezone": "Asia/Shanghai",
     "window_days": 3,
-    "markdown": "好的，这是根据您提供的结构化数据生成的每日 AI 洞察报告。\n\n---\n\n# 每日 AI 洞察报告\n\n**日期**: 2026年6月24日\n**生成时间**: 2026-06-23T17:09:58Z\n\n---\n\n## 1. 今日概览\n\n今日共追踪到 **20** 条 AI 领域事件，其中绝大多数（19条）为前沿学术研究，另有1条为商业动态。整体来看，今日热点聚焦于**大语言模型（LLM）的理论边界与架构创新**，以及**具身智能（机器人）的灵巧操作能力突破**。\n\n- **研究前沿**：多篇论文对 LLM 的根本能力提出了挑战与改进。一方面，有研究从理论上证明了仅通过提示词（Prompt）无法使 LLM 成为通用求解器；另一方面，新的模型架构（如 Tapered Language Models）和训练方法（如 Randomized YaRN）在性能和长文本推理上取得了显著进步。\n- **应用落地**：OpenAI 官方消息显示，GPT-5 在免疫学研究中辅助解决了长达3年的科学难题，展示了 AI 在科研加速上的巨大潜力。同时，旅游平台 Omio 正在利用 OpenAI 技术向 AI 原生公司转型。\n- **风险警示**：一项关于 AI 安全的研究指出，当前 LLM 无法可靠地自我识别其输出是否受到对抗性攻击的操纵，这为依赖模型自检的安全机制敲响了警钟。\n\n---\n\n## 2. 今日 AI 领域 Top 5 热点事件\n\n根据事件的重要性、影响力、新颖性和来源权威性综合评分，今日最值得关注的 Top 5 事件如下：\n\n| 排名 | 事件名称 | 核心主题 | 重要性评分 | 置信度 |\n| :--- | :--- | :--- | :--- | :--- |\n| 1 | **提示词条件 LLM 的通用学习能力极限** | 理论证明语言作为信息通道的容量限制，使 LLM 无法仅通过提示成为通用求解器。 | 3.67 | 高 |\n| 2 | **AutoDex：自动化灵巧抓取数据采集系统** | 提出自动化真实世界数据采集系统，将机器人灵巧抓取的数据吞吐量提升4.8倍。 | 3.33 | 高 |\n| 3 | **CoorDex：人形机器人移动中的灵巧操作** | 使 Unitree G1 人形机器人能在移动中完成抓取、开门等复杂灵巧操作。 | 3.33 | 高 |\n| 4 | **Tapered Language Models：改进的模型架构** | 发现将模型参数向前几层倾斜分配（Tapering），可在不增加成本下提升性能。 | 3.33 | 高 |\n| 5 | **GPT-5 解决免疫学难题** | GPT-5 Pro 辅助免疫学家破解了关于 T 细胞行为的3年未解之谜。 | 3.22 | 中 |\n\n---\n\n## 3. 重要事件深度总结\n\n### 事件一：提示词条件 LLM 的通用学习能力极限\n- **事件ID**: `evt_013`\n- **来源**: arXiv 论文 (`news_1ecdb86d7644`)\n- **核心发现**: 该研究从理论上挑战了“LLM 是通用任务求解器”的观点。它将人机交互建模为博弈过程，并推导出两个根本性限制：\n    1.  **表达力下限 (Expressivity floor)**：自然语言是一个容量有限的通信信道。当任务的复杂性超过该信道容量时，不同任务将不可避免地变得无法区分，导致错误率无法通过扩大模型或增加数据来消除。\n    2.  **目标偏差下限 (Objective-misalignment floor)**：当对齐（Alignment）约束限制了模型的输出时，用户理想中的输出分布可能无法实现，从而产生不可消除的偏差。\n- **关键证据**: 论文通过 PAC-Bayes 界限等形式化方法证明了上述结论。\n- **为何重要**: 该研究为 LLM 的能力划定了理论边界，明确指出仅靠提示词工程无法实现通用人工智能。这为未来研究指明了方向，即需要超越自然语言的界面（如多模态、外部记忆）来突破这些限制。\n\n### 事件二：AutoDex 与 CoorDex：机器人灵巧操作的突破\n- **事件ID**: `evt_003` (AutoDex), `evt_005` (CoorDex)\n- **来源**: arXiv 论文 (`news_757df02a5298`, `news_abae4f31f1fe`)\n- **核心发现**: 这两个研究代表了机器人灵巧操作的不同路径，均取得显著进展。\n    - **AutoDex** 专注于**数据采集**，通过自动化系统，将灵巧抓取的数据收集效率相比人工遥操作提升了 **4.8 倍**，且采集的数据训练出的模型成功率（76%）远超纯仿真数据（34%）。\n    - **CoorDex** 专注于**运动控制**，成功让搭载 20 自由度灵巧手的 Unitree G1 人形机器人在**移动中**完成抓取水瓶、开关冰箱门等复杂任务，解决了移动与操作协调的难题。\n- **关键证据**: AutoDex 的定量实验数据（10.3小时 vs 49.4小时，76% vs 34%成功率）；CoorDex 的实物演示（移动中抓取、开门）。\n- **为何重要**: 两项研究分别从数据和算法层面，为人形机器人进入更复杂的服务与工业场景铺平了道路，是具身智能领域的重要进展。\n\n### 事件三：LLM 无法可靠自报对抗性攻击\n- **事件ID**: `evt_011`\n- **来源**: arXiv 论文 (`news_eef0dcc2e091`)\n- **核心发现**: 该研究对 LLM 的“内省”能力进行了安全性测试。结果显示，当 LLM 的回复被对抗性预填充攻击操纵后，**没有任何模型能可靠地识别出自己的输出已被攻破**。模型声称其被操纵的回复是“有意为之”的平均概率仅为 27.3%。更严重的是，试图通过微调来增强模型内省能力的干预措施，反而在某些情况下**提高了攻击成功率**。\n- **关键证据**: 在 10 个开源指令微调 LLM（3B 到 70B）和 4 个安全基准上的广泛实验。\n- **为何重要**: 这是对 AI 安全领域的重大警示。它表明，目前依赖模型自我解释或自我审查的安全机制是不可靠的，对抗性攻击的防御需要寻求模型自检之外的新范式。\n\n---\n\n## 4. 趋势判断\n\n1.  **LLM 研究进入“理论反思与架构创新”并行期**：\n    - **判断依据**: 今日排名第一的事件 (`evt_013`) 从理论上证明了提示工程的局限性，而 `evt_012` (Tapered Language Models) 和 `evt_004` (Randomized YaRN) 则从模型架构和训练方法上寻求突破。这表明业界不再盲目追求模型规模，而是更深入地思考如何从根本上提升模型的效率与能力边界。\n    - **不确定性**: 理论限制的证明基于特定模型假设，其结论在更复杂的现实场景中的普适性仍需进一步验证。\n\n2.  **具身智能向“高动态、高灵巧”方向快速演进**：\n    - **判断依据**: `evt_003` (AutoDex) 和 `evt_005` (CoorDex) 分别解决了灵巧操作中“数据获取难”和“动-手协调难”两大核心痛点。这预示着机器人研究正从静态、简单的抓取，转向动态、复杂的移动操作，离实际应用更近一步。\n    - **不确定性**: 两项成果均在实验室环境中验证，其在实际嘈杂、非结构化环境中的鲁棒性和泛化能力有待观察。\n\n3.  **AI 在严肃科学领域的应用价值持续凸显**：\n    - **判断依据**: `evt_001` (GPT-5 解决免疫学难题) 是继蛋白质折叠预测后，AI 在基础科学领域的又一典型案例。这表明顶尖 AI 模型正成为科学研究中不可或缺的“超级助手”，其角色从工具向合作伙伴转变。\n    - **不确定性**: 该事件信息仅来自 OpenAI 官方博客，缺乏第三方验证和详细的同行评议，其成果的普适性需谨慎看待。\n\n---\n\n## 5. 风险与机会提示\n\n### 机会\n- **AI 驱动的科学研究**：GPT-5 在免疫学上的突破 (`evt_001`) 为 AI 辅助药物研发、疾病机理探索等领域带来了巨大想象空间。投资者和科研机构可关注 AI 与生物医药、材料科学等交叉领域的应用机会。\n- **机器人自动化**：AutoDex (`evt_003`) 和 CoorDex (`evt_005`) 的技术突破，为制造业、物流、家政服务等场景的自动化升级提供了关键技术支撑，相关产业链（如灵巧手、传感器、机器人本体）值得关注。\n- **模型架构创新**：Tapered Language Models (`evt_012`) 提供了一种“免费”的性能提升手段，任何大模型厂商均可借鉴此思路优化模型设计，提升产品竞争力。\n\n### 风险\n- **AI 安全机制失效**：研究 (`evt_011`) 明确指出 LLM 无法自检对抗性攻击，这对所有依赖模型自我审查的安全对齐方案构成严峻挑战。AI 安全厂商和开发者需警惕此类风险，并探索基于外部监控或形式化验证的新防御体系。\n- **LLM 能力泡沫**：理论证明 (`evt_013`) 提示，仅靠“提示词工程”无法实现通用智能，过度依赖和炒作提示词应用可能导致投资和发展方向的误判。需理性看待 LLM 的能力边界。\n\n---\n\n## 6. 可视化说明\n\n以下是对今日事件数据的可视化描述：\n\n- **来源类型分布**：今日事件主要来自学术研究（`research`，共 18 条），占比 90%；官方来源（`official`，OpenAI 新闻）2 条，占比 10%。这表明今日信息以硬核科研进展为主。\n- **行业领域分布**：事件覆盖了多个领域，其中通用研究（`research`）最多（10条），其次是多模态 AI（`multimodal_ai`）、AI 智能体（`ai_agent`）和企业 AI（`enterprise_ai`）各 2 条。这反映了当前 AI 研究的多元化格局。\n- **风险与机会矩阵**：\n    - **高机会、低风险**：机器人灵巧操作（`evt_003`, `evt_005`）和模型架构改进（`evt_012`）均位于此象限，是明确的积极信号。\n    - **高风险、低机会**：LLM 无法自报对抗性攻击（`evt_011`）是今日唯一的高风险事件，需引起高度警惕。\n    - **高风险、高机会**：提示词 LLM 的局限性（`evt_013`）既是风险（提示工程失效），也是机会（指明了多模态、外部记忆等新方向）。\n\n---\n\n## 7. 数据与方法说明\n\n- **数据来源**：本报告基于 **3** 个核心数据源生成，包括：\n    - **arXiv AI Search** (学术预印本): 成功获取 20 条数据，为今日主要信息来源。\n    - **OpenAI News RSS** (官方博客): 成功获取 1018 条数据，筛选出 2 条当日重要新闻。\n    - **Hacker News Algolia AI Search** (社区讨论): 成功获取 1 条数据，作为辅助信号。\n- **未成功数据源**：本次报告未能获取到中文来源（量子位、机器之心、知乎）的数据，因此报告视角可能更偏向国际学术界和 OpenAI 官方动态。\n- **事件识别与排名**：事件由系统根据新闻标题、摘要和实体的相似度自动聚合而成。排名基于多维度加权评分，包括：影响范围、来源权威性、新颖性、多源支持度、技术/商业影响、风险/机会等级和时效性。\n- **不确定性声明**：所有趋势判断和风险提示均基于今日提供的有限数据。部分事件（如 `evt_001`）置信度为“中”，因其证据仅来自单一官方来源，缺乏多方验证。报告不包含任何未在提供数据中明确陈述的事实、日期或融资额。"
+    "markdown": "好的，这是为您生成的每日AI洞察报告。\n\n***\n\n# 每日 AI 洞察报告 | 2026-06-24\n\n## 1. 今日概览\n\n今日AI领域呈现出“基础研究突破”与“产业应用落地”并行的活跃态势。在基础研究层面，多项来自顶级学术机构的研究在机器人灵巧操作、大模型长上下文推理等关键领域取得了显著进展。在产业层面，具身智能赛道持续火热，大额融资与重磅产品发布频现，同时，AI在医疗、营销等垂直行业的应用也展现出巨大潜力。值得注意的是，今日排名最高的事件指向了AI基础理论中的一个开放性问题，这提醒我们在追求技术应用的同时，仍需关注底层理论的完善。\n\n## 2. 今日 AI 领域 Top 5 热点事件\n\n| 排名 | 事件名称 | 核心要点 | 关键来源 |\n| :--- | :--- | :--- | :--- |\n| **1** | **AdamW在重尾噪声下的有效性开放问题** | 提出当前主流LLM训练优化器AdamW在重尾噪声环境下的理论收敛性尚未被证明，这是一个重要的开放性问题。 | arXiv (event_18) |\n| **2** | **正行创新完成近亿美元天使轮融资** | 具身智能企业“正行创新”完成近亿美元天使轮融资，由正大集团、华勤技术等多家上市公司联合投资。 | 量子位 (event_3) |\n| **3** | **CoorDex: 连续灵巧人形机器人操作** | 提出CoorDex学习管线，首次实现人形机器人在移动中完成灵巧操作（如开门、抓取瓶子），技术突破显著。 | arXiv (event_15) |\n| **4** | **特斯拉申请Megapod商标进军AI数据中心硬件** | 特斯拉提交“Megapod”商标申请，计划销售模块化AI数据中心硬件，正式进军AI基础设施领域。 | 量子位 (event_7) |\n| **5** | **AutoDex: 自动化灵巧抓取数据收集系统** | 提出AutoDex系统，实现机器人灵巧抓取数据的全自动收集，效率提升4.8倍，且验证后的抓取成功率远高于纯仿真数据。 | arXiv (event_13) |\n\n## 3. 重要事件深度总结\n\n### 事件一：具身智能领域“软硬”齐飞，资本与技术共振\n\n今日具身智能领域成为绝对焦点，资本与技术均展现出强劲活力。\n\n*   **资本层面**：**正行创新（Striding AI）** 完成近亿美元天使轮融资（event_3），投资方包括正大集团、华勤技术、九安医疗等产业巨头。这笔大额融资不仅反映了市场对具身智能商业前景的高度认可，也预示着产业资本正在加速布局该赛道。同时，行业评论指出，2026年尚未过半，具身智能领域的融资总额已超过去年全年，且超过一半的资金流向了机器人的“大脑”技术（event_10），表明行业正从“硬件堆砌”转向“智能核心”的竞争。\n\n*   **技术层面**：两项来自arXiv的研究代表了机器人技术的重大突破。\n    *   **CoorDex**（event_15）解决了人形机器人“移动中操作”的难题。该研究让Unitree G1机器人在不停止行走的情况下，完成了抓取瓶子、打开冰箱门等复杂任务。其核心在于将身体与手部的控制解耦为“潜在先验”，再通过协调策略进行组合，为下一代高动态人形机器人提供了关键技术路径。\n    *   **AutoDex**（event_13）则解决了机器人学习中的“数据瓶颈”。它构建了一个全自动的数据采集闭环，能以4.8倍于人工遥操作的效率收集真实世界的灵巧抓取数据。更重要的是，基于该系统验证的数据训练的模型，其抓取成功率（76%）远高于仅使用仿真数据训练的模型（34%），证明了真实世界数据对于机器人学习不可替代的价值。\n\n### 事件二：AI基础设施竞争加剧，从芯片到数据中心全面铺开\n\nAI基础设施领域的竞争正在从单一的芯片层面扩展到整个数据中心。\n\n*   **特斯拉的“Megapod”**（event_7）标志着这家电动车巨头正式将AI硬件作为一项独立业务。通过销售模块化AI数据中心硬件，特斯拉意图将其在能源和制造领域的优势延伸至AI算力市场，这可能会对现有的数据中心供应商格局产生冲击。\n*   **英伟达的“Halos for Robotics”**（event_6）则从操作系统层面切入，旨在成为机器人领域的“安卓”。这一全栈操作系统的发布，有望降低机器人开发的门槛，加速机器人技术的标准化和普及，对具身智能生态产生深远影响。\n\n### 事件三：大模型能力持续进化，向“推理”与“长上下文”纵深发展\n\n大模型的能力边界正在被不断拓宽，尤其在推理和长文本处理方面。\n\n*   **豆包2.1发布**（event_9）展示了AI Agent在复杂任务上的潜力。其Agent能够自主运行18小时完成芯片设计代码，这标志着AI从“对话助手”向“生产力工具”迈出了重要一步。\n*   **Randomized YaRN**（event_14）提出了一种新的训练方法，显著提升了LLM在长上下文（16K-128K tokens）下的推理能力。该研究通过在短文本训练中引入随机位置编码，让模型学会了泛化到更长的文本，这对于需要处理长文档、复杂对话的应用场景至关重要。\n*   **GPT-5助力免疫学研究**（event_11）则再次证明了AI在科学发现中的价值。GPT-5 Pro帮助免疫学家解决了一个困扰其3年的T细胞行为谜题，这一突破有望推动癌症和自身免疫疾病的研究。\n\n## 4. 趋势判断\n\n1.  **具身智能进入“大脑”竞赛时代**：资本和技术的双重信号表明，具身智能的竞争焦点已从硬件本体转向了赋予机器人“智能”的算法、模型和操作系统。未来，谁能更好地解决机器人的感知、决策和运动控制问题，谁就能占据行业制高点。\n2.  **AI基础设施“模块化”与“标准化”趋势显现**：特斯拉的模块化数据中心硬件和英伟达的机器人操作系统，都指向了AI基础设施的标准化和模块化趋势。这有助于降低AI部署的门槛和成本，但也可能加剧巨头对生态的控制。\n3.  **AI for Science进入“问题解决”阶段**：从数学证明到免疫学谜题，AI正从辅助工具转变为能够独立解决科学难题的“合作者”。这一趋势将加速科研范式变革，尤其是在需要海量数据搜索和模式识别的领域。\n4.  **企业AI转型的最大挑战是“人”而非“技术”**：浪潮信息高管的观点（event_2）揭示了企业AI转型中的深层障碍。技术可以购买，但组织文化、流程和人员技能的变革才是决定转型成败的关键。这一判断具有普遍性，值得所有正在进行AI转型的企业深思。\n\n## 5. 风险与机会提示\n\n### 风险提示\n*   **理论风险**：**AdamW优化器在重尾噪声下的理论空白**（event_18）是一个值得关注的信号。这表明当前驱动LLM训练的底层理论可能并不完备，未来若出现理论上的重大挑战，可能影响现有模型的训练效率和稳定性。该事件风险评分较高（2.458），需保持关注。\n*   **转型阻力**：**组织文化变革**（event_2）是企业AI转型中不可忽视的风险。如果企业只关注技术投入而忽视组织层面的配套改革，可能导致AI项目落地困难，投资回报率低下。\n\n### 机会提示\n*   **机器人数据服务**：AutoDex（event_13）的成功表明，高质量的真实世界机器人数据是稀缺资源。提供自动化、标准化的机器人数据采集、标注和验证服务，可能成为一个新兴的蓝海市场。\n*   **AI驱动的药物研发**：GPT-5在免疫学上的突破（event_11）再次验证了AI在药物发现和疾病机理研究中的巨大潜力。专注于AI+生物医药的初创公司和技术平台将迎来发展机遇。\n*   **长上下文应用开发**：Randomized YaRN（event_14）等技术突破，为开发需要处理超长文本的AI应用（如法律文档分析、长篇小说创作、复杂代码库理解）扫清了技术障碍，相关应用市场有望快速增长。\n\n## 6. 可视化说明\n\n### 今日Top 5事件风险与机会矩阵\n\n下图展示了今日排名前五的事件在“风险”与“机会”两个维度上的分布情况。可以看出，大部分事件（如融资、技术突破）呈现出“低风险、高机会”的特征，而排名第一的“AdamW理论问题”则表现出相对较高的风险水平。\n\n```mermaid\nquadrantChart\n    title 今日Top 5事件风险-机会矩阵\n    x-axis 低风险 --> 高风险\n    y-axis 低机会 --> 高机会\n    quadrant-1 高机会-低风险\n    quadrant-2 高机会-高风险\n    quadrant-3 低机会-低风险\n    quadrant-4 低机会-高风险\n    “正行创新融资”: [0.15, 0.68]\n    “CoorDex”: [0.18, 0.85]\n    “特斯拉Megapod”: [0.08, 0.66]\n    “AutoDex”: [0.14, 0.84]\n    “AdamW理论问题”: [0.82, 0.65]\n```\n\n### 今日事件类型分布\n\n从事件类型来看，**研究（Research）** 类事件占据了半壁江山，其次是产品发布和商业评论，这反映了今日AI领域“学术驱动”与“产业落地”并重的特点。\n\n```mermaid\npie\n    title 今日事件类型分布\n    “研究” : 10\n    “产品发布” : 3\n    “市场评论” : 2\n    “融资” : 1\n    “其他” : 1\n    “合作” : 1\n    “模型发布” : 1\n    “商业更新” : 1\n```\n\n## 7. 数据与方法说明\n\n本报告数据来源于对多个信息源的自动化采集与结构化处理，包括：\n*   **学术研究**：arXiv AI Search API，获取最新预印本论文。\n*   **官方渠道**：OpenAI News RSS、Google DeepMind Blog RSS，获取官方动态。\n*   **行业媒体**：量子位（通过DeepSeek Websearch），获取中文产业资讯。\n*   **社区讨论**：Hacker News Algolia API，作为辅助信号。\n\n**排名方法**：事件重要性评分（`final_importance_score`）基于一个多维度加权模型，综合考量了事件的影响范围、来源权威性、新颖性、多源支持度、技术与商业影响、风险与机会水平以及时效性。评分越高，代表事件在当日综合重要性越高。\n\n**不确定性说明**：部分事件（如“AI在数学证明中的突破”、“可口可乐AI营销”）的置信度为“medium”，主要因为其信息来源单一（仅来自量子位），且缺乏更广泛的交叉验证。对于这些事件，报告中的判断和趋势分析应视为基于现有信息的初步解读。"
   },
   "source_profiles": [
     {
@@ -132,28 +132,27 @@
       "coverage": "Chinese AI industry and technology reporting from 量子位.",
       "language": "zh",
       "field_completeness": {
-        "title": "no",
-        "summary_or_content": "no",
-        "source": "no",
-        "published_at": "no",
-        "url": "no"
+        "title": "yes",
+        "summary_or_content": "yes",
+        "source": "yes",
+        "published_at": "yes",
+        "url": "yes"
       },
       "strengths": [
-        "Chinese AI industry and technology reporting from 量子位."
+        "Chinese AI industry and technology reporting from 量子位.",
+        "Observed 10 candidate items during fetch attempt."
       ],
-      "weaknesses": [
-        "Fetch issue: DeepSeek websearch has no standalone Chat Completions endpoint in the current implementation. Add observations to data/manual/chinese_websearch_observations.json after running allowlisted DeepSeek websearch."
-      ],
+      "weaknesses": [],
       "risks": [
         "allowlisted Chinese websearch only",
         "observed fields must be validated",
         "DeepSeek websearch observations require allowlist and field validation."
       ],
-      "observed_item_count": 0,
-      "fetch_status": "failed",
-      "fetch_error": "DeepSeek websearch has no standalone Chat Completions endpoint in the current implementation. Add observations to data/manual/chinese_websearch_observations.json after running allowlisted DeepSeek websearch.",
-      "recommended_tier": "future",
-      "reason": "Fetch path needs implementation or access before MVP use: DeepSeek websearch has no standalone Chat Completions endpoint in the current implementation. Add observations to data/manual/chinese_websearch_observations.json after running allowlisted DeepSeek websearch."
+      "observed_item_count": 10,
+      "fetch_status": "success",
+      "fetch_error": null,
+      "recommended_tier": "core",
+      "reason": "Observed results satisfy required fields and are suitable for the main dataset."
     },
     {
       "source_name": "机器之心 DeepSeek Websearch",
@@ -172,18 +171,19 @@
         "Chinese AI research, product, and industry reporting from 机器之心."
       ],
       "weaknesses": [
-        "Fetch issue: DeepSeek websearch has no standalone Chat Completions endpoint in the current implementation. Add observations to data/manual/chinese_websearch_observations.json after running allowlisted DeepSeek websearch."
+        "Fetch issue: source disabled"
       ],
       "risks": [
         "allowlisted Chinese websearch only",
         "observed fields must be validated",
+        "site structure changed — direct scrape broken",
         "DeepSeek websearch observations require allowlist and field validation."
       ],
       "observed_item_count": 0,
       "fetch_status": "failed",
-      "fetch_error": "DeepSeek websearch has no standalone Chat Completions endpoint in the current implementation. Add observations to data/manual/chinese_websearch_observations.json after running allowlisted DeepSeek websearch.",
+      "fetch_error": "source disabled",
       "recommended_tier": "future",
-      "reason": "Fetch path needs implementation or access before MVP use: DeepSeek websearch has no standalone Chat Completions endpoint in the current implementation. Add observations to data/manual/chinese_websearch_observations.json after running allowlisted DeepSeek websearch."
+      "reason": "Fetch path needs implementation or access before MVP use: source disabled"
     },
     {
       "source_name": "知乎 DeepSeek Websearch",
@@ -203,22 +203,409 @@
       ],
       "weaknesses": [
         "Community source; use as auxiliary signal unless item is complete.",
-        "Fetch issue: DeepSeek websearch has no standalone Chat Completions endpoint in the current implementation. Add observations to data/manual/chinese_websearch_observations.json after running allowlisted DeepSeek websearch."
+        "Fetch issue: source disabled"
       ],
       "risks": [
         "community signal",
         "not primary evidence by default",
         "observed fields must be validated",
+        "requires login — direct scrape blocked",
         "DeepSeek websearch observations require allowlist and field validation."
       ],
       "observed_item_count": 0,
       "fetch_status": "failed",
-      "fetch_error": "DeepSeek websearch has no standalone Chat Completions endpoint in the current implementation. Add observations to data/manual/chinese_websearch_observations.json after running allowlisted DeepSeek websearch.",
+      "fetch_error": "source disabled",
       "recommended_tier": "future",
-      "reason": "Fetch path needs implementation or access before MVP use: DeepSeek websearch has no standalone Chat Completions endpoint in the current implementation. Add observations to data/manual/chinese_websearch_observations.json after running allowlisted DeepSeek websearch."
+      "reason": "Fetch path needs implementation or access before MVP use: source disabled"
     }
   ],
   "structured_news": [
+    {
+      "news_id": "news_2bee6be45637",
+      "title": "陶哲轩12年前的预言，现在AI帮他兑现了 – 量子位",
+      "source": "量子位",
+      "source_type": "media",
+      "published_at": "2026-06-24T02:41:18+08:00",
+      "language": "zh",
+      "url": "https://www.qbitai.com/2026/06/437023.html",
+      "entities": [
+        "陶哲轩",
+        "OpenAI",
+        "DeepMind"
+      ],
+      "technologies": [
+        "AI",
+        "形式化系统"
+      ],
+      "event_type": "research",
+      "industry_area": "research",
+      "key_facts": [
+        "OpenAI解决开放问题",
+        "DeepMind批量攻克数学猜想",
+        "数学证明被写进形式化系统，交给计算机自动验证"
+      ],
+      "summary": "从OpenAI解决开放问题，到DeepMind批量攻克数学猜想，越来越多数学证明被写进形式化系统，交给计算机自动验证。",
+      "sentiment": "positive",
+      "impact_scope": [
+        "global"
+      ],
+      "risk_tags": [
+        "none"
+      ],
+      "opportunity_tags": [
+        "AI数学证明",
+        "形式化验证"
+      ],
+      "importance_score": 4,
+      "confidence": "medium",
+      "evidence": [
+        "输入摘要提到'从OpenAI解决开放问题，到DeepMind批量攻克数学猜想，越来越多数学证明被写进形式化系统，交给计算机自动验证。'"
+      ]
+    },
+    {
+      "news_id": "news_abe5d0557b16",
+      "title": "AI转型最大的门槛，不是技术，是人 – 量子位",
+      "source": "量子位",
+      "source_type": "media",
+      "published_at": "2026-06-24T02:41:18+08:00",
+      "language": "zh",
+      "url": "https://www.qbitai.com/2026/06/436435.html",
+      "entities": [
+        "彭震",
+        "浪潮信息"
+      ],
+      "technologies": [],
+      "event_type": "market_commentary",
+      "industry_area": "enterprise_ai",
+      "key_facts": [
+        "彭震用三分之二的时间讲文化、组织和流程",
+        "基础设施、算力、芯片不是重点"
+      ],
+      "summary": "值得注意的是，基础设施、算力、芯片，这些浪潮信息最擅长的领域，彭震没把它们当成重点，却用三分之二的时间在讲文化、组织和流程。",
+      "sentiment": "neutral",
+      "impact_scope": [
+        "industry"
+      ],
+      "risk_tags": [
+        "转型阻力"
+      ],
+      "opportunity_tags": [
+        "组织变革"
+      ],
+      "importance_score": 3,
+      "confidence": "medium",
+      "evidence": [
+        "输入摘要提到'彭震没把它们当成重点，却用三分之二的时间在讲文化、组织和流程。'"
+      ]
+    },
+    {
+      "news_id": "news_ce615def00da",
+      "title": "正行创新完成近亿美元天使轮融资，正大集团、华勤技术等多家上市企业联合加持 – 量子位",
+      "source": "量子位",
+      "source_type": "media",
+      "published_at": "2026-06-24T02:41:18+08:00",
+      "language": "zh",
+      "url": "https://www.qbitai.com/2026/06/437694.html",
+      "entities": [
+        "正行创新",
+        "Striding AI",
+        "正大集团",
+        "华勤技术",
+        "九安医疗"
+      ],
+      "technologies": [
+        "具身智能",
+        "物理智能"
+      ],
+      "event_type": "funding",
+      "industry_area": "ai_agent",
+      "key_facts": [
+        "完成近亿美元天使轮系列融资",
+        "投资方包括正大集团、华勤技术、九安医疗等多家上市企业"
+      ],
+      "summary": "6月23日，面向物理智能的具身智能企业正行创新（Striding AI）已完成近亿美元天使轮系列融资。投资方包括正大集团、华勤技术、九安医疗等多家上市企业，多位国内外知名企业家，以及多家一线投资机构。资本的集中加持，反映出市场对其技术判断与商业路径的认可。",
+      "sentiment": "positive",
+      "impact_scope": [
+        "industry"
+      ],
+      "risk_tags": [
+        "none"
+      ],
+      "opportunity_tags": [
+        "具身智能",
+        "天使轮融资"
+      ],
+      "importance_score": 4,
+      "confidence": "high",
+      "evidence": [
+        "输入摘要提到'正行创新（Striding AI）已完成近亿美元天使轮系列融资。投资方包括正大集团、华勤技术、九安医疗等多家上市企业'"
+      ]
+    },
+    {
+      "news_id": "news_2d5bebb6615b",
+      "title": "57场面试杀进OpenAI！华人博士开源「AI面经」，含泪推荐 – 量子位",
+      "source": "量子位",
+      "source_type": "media",
+      "published_at": "2026-06-24T02:41:18+08:00",
+      "language": "zh",
+      "url": "https://www.qbitai.com/2026/06/437425.html",
+      "entities": [
+        "Alisa",
+        "OpenAI"
+      ],
+      "technologies": [],
+      "event_type": "other",
+      "industry_area": "other",
+      "key_facts": [
+        "Alisa在下周入职OpenAI",
+        "她将求职经历以Blog形式开源"
+      ],
+      "summary": "一点不把咱当外人，在下周入职OpenAI之前，Alisa决定将自己这一路的求职经历，全部以Blog的形式开源出来……",
+      "sentiment": "positive",
+      "impact_scope": [
+        "individual"
+      ],
+      "risk_tags": [
+        "none"
+      ],
+      "opportunity_tags": [
+        "求职经验",
+        "开源"
+      ],
+      "importance_score": 2,
+      "confidence": "medium",
+      "evidence": [
+        "输入摘要提到'在下周入职OpenAI之前，Alisa决定将自己这一路的求职经历，全部以Blog的形式开源出来'"
+      ]
+    },
+    {
+      "news_id": "news_e73aa3c33eb7",
+      "title": "可口可乐的世界杯TVC，居然是prompt生成的 – 量子位",
+      "source": "量子位",
+      "source_type": "media",
+      "published_at": "2026-06-24T02:41:18+08:00",
+      "language": "zh",
+      "url": "https://www.qbitai.com/2026/06/437381.html",
+      "entities": [
+        "可口可乐",
+        "范指导"
+      ],
+      "technologies": [
+        "prompt生成"
+      ],
+      "event_type": "product_release",
+      "industry_area": "consumer_ai",
+      "key_facts": [
+        "可口可乐中国小程序'可口可乐吧'允许用户与范指导互动",
+        "范指导有上海口音，热梗张口就来"
+      ],
+      "summary": "是的，打开可口可乐中国小程序'可口可乐吧'，你可以随时跟范指导唠上两句：上海口音原汁原味，热梗张口就来，聊球照样犀利。",
+      "sentiment": "positive",
+      "impact_scope": [
+        "industry"
+      ],
+      "risk_tags": [
+        "none"
+      ],
+      "opportunity_tags": [
+        "AI营销",
+        "世界杯"
+      ],
+      "importance_score": 3,
+      "confidence": "medium",
+      "evidence": [
+        "输入摘要提到'打开可口可乐中国小程序'可口可乐吧'，你可以随时跟范指导唠上两句'"
+      ]
+    },
+    {
+      "news_id": "news_2dd6edcc3bcb",
+      "title": "机器人全栈操作系统！老黄率先抛出“具身版安卓” – 量子位",
+      "source": "量子位",
+      "source_type": "media",
+      "published_at": "2026-06-24T02:41:18+08:00",
+      "language": "zh",
+      "url": "https://www.qbitai.com/2026/06/437382.html",
+      "entities": [
+        "英伟达"
+      ],
+      "technologies": [
+        "Halos for Robotics"
+      ],
+      "event_type": "product_release",
+      "industry_area": "ai_agent",
+      "key_facts": [
+        "英伟达在芝加哥Automate 2026大会上发布了 Halos for Robotics"
+      ],
+      "summary": "英伟达在Automate 2026大会上发布了机器人全栈操作系统Halos for Robotics，被比喻为“具身版安卓”。",
+      "sentiment": "positive",
+      "impact_scope": [
+        "industry"
+      ],
+      "risk_tags": [
+        "none"
+      ],
+      "opportunity_tags": [
+        "机器人操作系统",
+        "具身智能"
+      ],
+      "importance_score": 4,
+      "confidence": "medium",
+      "evidence": [
+        "原文：刚刚，在芝加哥Automate 2026大会上，英伟达发布了 Halos for Robotics ——"
+      ]
+    },
+    {
+      "news_id": "news_0d240d5e0b0e",
+      "title": "马斯克又盯上AI基建：特斯拉要卖“算力积木”了 – 量子位",
+      "source": "量子位",
+      "source_type": "media",
+      "published_at": "2026-06-24T02:41:18+08:00",
+      "language": "zh",
+      "url": "https://www.qbitai.com/2026/06/437340.html",
+      "entities": [
+        "特斯拉",
+        "马斯克"
+      ],
+      "technologies": [
+        "Megapod"
+      ],
+      "event_type": "product_release",
+      "industry_area": "ai_infrastructure",
+      "key_facts": [
+        "特斯拉向美国专利商标局提交了“Megapod”商标申请，计划销售模块化AI数据中心硬件"
+      ],
+      "summary": "特斯拉提交了“Megapod”商标申请，计划销售模块化AI数据中心硬件，进军AI基建领域。",
+      "sentiment": "positive",
+      "impact_scope": [
+        "industry"
+      ],
+      "risk_tags": [
+        "none"
+      ],
+      "opportunity_tags": [
+        "AI数据中心",
+        "模块化硬件"
+      ],
+      "importance_score": 4,
+      "confidence": "medium",
+      "evidence": [
+        "原文：刚刚，特斯拉向美国专利商标局(USPTO)提交了一个名叫 “Megapod” 的商标申请，计划销售模块化AI数据中心硬件。"
+      ]
+    },
+    {
+      "news_id": "news_777e9e6efd3a",
+      "title": "云计算一哥，让小鹏、Kimi和猎豹都爽了一把 – 量子位",
+      "source": "量子位",
+      "source_type": "media",
+      "published_at": "2026-06-24T02:41:17+08:00",
+      "language": "zh",
+      "url": "https://www.qbitai.com/2026/06/437672.html",
+      "entities": [
+        "小鹏",
+        "Kimi",
+        "猎豹",
+        "亚马逊云科技"
+      ],
+      "technologies": [
+        "Kiro",
+        "Amazon Bedrock",
+        "Amazon EKS"
+      ],
+      "event_type": "partnership",
+      "industry_area": "enterprise_ai",
+      "key_facts": [
+        "小鹏基于亚马逊云科技的Kiro、Amazon Bedrock、Amazon EKS等服务搭建了企业内部AI编程与Agentic工作平台“灵犀”"
+      ],
+      "summary": "小鹏汽车基于亚马逊云科技的服务搭建了企业内部AI编程与Agentic工作平台“灵犀”，提升了开发效率。",
+      "sentiment": "positive",
+      "impact_scope": [
+        "company"
+      ],
+      "risk_tags": [
+        "none"
+      ],
+      "opportunity_tags": [
+        "企业AI平台",
+        "云计算服务"
+      ],
+      "importance_score": 3,
+      "confidence": "medium",
+      "evidence": [
+        "原文：小鹏基于亚马逊云科技的 Kiro 、 Amazon Bedrock 、 Amazon EKS 等服务，搭了一套企业内部AI编程与Agentic工作平台，名字叫 灵犀 。"
+      ]
+    },
+    {
+      "news_id": "news_6fb8292ea943",
+      "title": "刚刚，豆包2.1发布！Agent自己跑18个小时搞定芯片设计代码 – 量子位",
+      "source": "量子位",
+      "source_type": "media",
+      "published_at": "2026-06-24T02:41:17+08:00",
+      "language": "zh",
+      "url": "https://www.qbitai.com/2026/06/437503.html",
+      "entities": [
+        "豆包"
+      ],
+      "technologies": [
+        "Doubao-Seed-2.1-Pro",
+        "Doubao-Seed-2.1-Turbo"
+      ],
+      "event_type": "model_release",
+      "industry_area": "foundation_model",
+      "key_facts": [
+        "豆包2.1发布，包含两个模型：Doubao-Seed-2.1-Pro和Doubao-Seed-2.1-Turbo，API服务已全量上线火山方舟"
+      ],
+      "summary": "豆包2.1发布，包含Pro和Turbo两个模型，API服务已上线火山方舟，Agent可自主运行18小时完成芯片设计代码。",
+      "sentiment": "positive",
+      "impact_scope": [
+        "industry"
+      ],
+      "risk_tags": [
+        "none"
+      ],
+      "opportunity_tags": [
+        "AI模型",
+        "芯片设计",
+        "Agent"
+      ],
+      "importance_score": 4,
+      "confidence": "medium",
+      "evidence": [
+        "原文：这个版本一共包含2个模型，分别是Doubao-Seed-2.1-Pro和Doubao-Seed-2.1-Turbo，并且API服务已全量上线火山方舟。"
+      ]
+    },
+    {
+      "news_id": "news_65fac99616ac",
+      "title": "具身赛道现状素描：脑子灵，模型好，不是百亿，就是独角 – 量子位",
+      "source": "量子位",
+      "source_type": "media",
+      "published_at": "2026-06-24T02:41:17+08:00",
+      "language": "zh",
+      "url": "https://www.qbitai.com/2026/06/437198.html",
+      "entities": [],
+      "technologies": [],
+      "event_type": "market_commentary",
+      "industry_area": "ai_agent",
+      "key_facts": [
+        "2026年具身智能融资超过去年全年，超过一半的钱流入机器人的“大脑”"
+      ],
+      "summary": "2026年具身智能领域融资火热，已超去年全年，资金主要流向机器人“大脑”技术。",
+      "sentiment": "positive",
+      "impact_scope": [
+        "industry"
+      ],
+      "risk_tags": [
+        "none"
+      ],
+      "opportunity_tags": [
+        "具身智能",
+        "融资"
+      ],
+      "importance_score": 3,
+      "confidence": "medium",
+      "evidence": [
+        "原文：2026年还没过半，具身智能的融资就快要超过去年全年了，超过一半的钱都流入了机器人的“大脑”。"
+      ]
+    },
     {
       "news_id": "news_62391ad72ce4",
       "title": "How GPT-5 helped immunologist Derya Unutmaz solve a 3-year-old mystery",
@@ -256,7 +643,7 @@
       "importance_score": 4,
       "confidence": "medium",
       "evidence": [
-        "GPT-5 Pro helped solve a 3-year-old immunology mystery, offering insights into T cell behavior. The breakthrough could support cancer and autoimmune research."
+        "The summary states: 'GPT-5 Pro helped solve a 3-year-old immunology mystery, offering insights into T cell behavior. The breakthrough could support cancer and autoimmune research.'"
       ]
     },
     {
@@ -279,7 +666,7 @@
       "key_facts": [
         "Omio uses OpenAI to power conversational travel experiences",
         "accelerates product development",
-        "transforms into an AI-native company"
+        "transforming into an AI-native company"
       ],
       "summary": "Discover how Omio uses OpenAI to power conversational travel experiences, accelerate product development, and transform into an AI-native company.",
       "sentiment": "positive",
@@ -290,13 +677,13 @@
         "none"
       ],
       "opportunity_tags": [
-        "travel industry",
-        "conversational AI"
+        "conversational AI",
+        "travel industry"
       ],
       "importance_score": 3,
       "confidence": "medium",
       "evidence": [
-        "Omio uses OpenAI to power conversational travel experiences, accelerate product development, and transform into an AI-native company."
+        "The summary states: 'Discover how Omio uses OpenAI to power conversational travel experiences, accelerate product development, and transform into an AI-native company.'"
       ]
     },
     {
@@ -308,7 +695,9 @@
       "language": "en",
       "url": "http://arxiv.org/abs/2606.23689v1",
       "entities": [
-        "AutoDex"
+        "AutoDex",
+        "Allegro",
+        "Inspire"
       ],
       "technologies": [
         "AutoDex",
@@ -321,9 +710,9 @@
         "AutoDex is an automated real-world data-collection system for dexterous grasping",
         "collects 3,593 grasp trials across Allegro and Inspire hands on 100 diverse objects",
         "4.8x throughput improvement over teleoperation",
-        "grasps retrieved from AutoDex-validated database succeed 76% versus 34% for simulation-only validation"
+        "grasps from AutoDex-validated database succeed 76% vs 34% for simulation-only validation"
       ],
-      "summary": "AutoDex is an automated real-world data-collection system for dexterous grasping that achieves 4.8x throughput improvement over teleoperation and 76% success rate versus 34% for simulation-only validation.",
+      "summary": "Learning robust dexterous grasping requires real-world data that records the physical outcomes of grasp attempts. Such data is hard to obtain at scale: teleoperation yields valid physical outcomes but is slow and operator-biased, while simulation-based generation is cheap and scalable but cannot certify contact validity. A natural solution is to generate candidate grasps and verify them on real hardware, but this scales only if the entire collection loop (perception, execution, labeling, and reset) runs without human intervention. We present AutoDex, an automated real-world data-collection system that closes this loop: for each candidate from a replaceable generator, it localizes the object under severe hand-object occlusion with dense 20-camera perception, executes collision-monitored robot motions, labels lift-and-hold success or failure, and actively resets the object between trials to expose additional candidates across stable poses. The result is a reusable database of physically labeled grasp trials that downstream systems can query by retrieval and feasibility filtering. Using AutoDex, we collect 3,593 grasp trials across Allegro and Inspire hands on 100 diverse objects, with synchronized multi-view observations and robot-state logs. For a matched 500-trajectory collection, AutoDex requires 10.3 h versus 49.4 h for teleoperation, yielding a 4.8x throughput improvement, and grasps retrieved from the AutoDex-validated database succeed 76% versus 34% for simulation-only validation. Code and data will be publicly released.",
       "sentiment": "positive",
       "impact_scope": [
         "research"
@@ -339,7 +728,7 @@
       "importance_score": 4,
       "confidence": "high",
       "evidence": [
-        "AutoDex requires 10.3 h versus 49.4 h for teleoperation, yielding a 4.8x throughput improvement, and grasps retrieved from the AutoDex-validated database succeed 76% versus 34% for simulation-only validation."
+        "The abstract states: 'AutoDex, an automated real-world data-collection system... collects 3,593 grasp trials... 4.8x throughput improvement... grasps retrieved from the AutoDex-validated database succeed 76% versus 34% for simulation-only validation.'"
       ]
     },
     {
@@ -351,7 +740,8 @@
       "language": "en",
       "url": "http://arxiv.org/abs/2606.23687v1",
       "entities": [
-        "Randomized YaRN"
+        "Randomized YaRN",
+        "YaRN"
       ],
       "technologies": [
         "Randomized YaRN",
@@ -363,9 +753,10 @@
       "key_facts": [
         "Randomized YaRN combines YaRN-based positional extrapolation with randomized positional encoding and a length curriculum",
         "evaluated on BABILong and Multi-Round Coreference Resolution",
-        "improves reasoning performance on context lengths from 16K to 128K when trained on <8K context"
+        "improves reasoning performance on context lengths from 16K to 128K when trained on <8K context",
+        "outperforms standard fine-tuning"
       ],
-      "summary": "Randomized YaRN is a training method that improves length generalization for long-context reasoning by combining YaRN-based positional extrapolation with randomized positional encoding and a length curriculum.",
+      "summary": "Large language models (LLMs) are typically pretrained on short sequences and then extended to work on longer sequences with additional training. However, such LLMs still struggle to further generalize to very long sequences. We propose Randomized YaRN, a training method that improves length generalization by combining YaRN-based positional extrapolation with randomized positional encoding and a length curriculum. During training on short context data, tokens are assigned YaRN positional encodings sampled from a larger position range, exposing the model to out-of-distribution positional representations even on short-context inputs. We evaluate Randomized YaRN on two challenging long-context reasoning benchmarks, BABILong and Multi-Round Coreference Resolution (MRCR). When training on data with <8K context, Randomized YaRN consistently improves reasoning performance on context lengths from 16K to 128K and outperforms standard fine-tuning, with the largest gains appearing at far out-of-distribution lengths. Our results suggest that progressively exposing models to OOD positional distributions provides an effective recipe for generalizable long-context reasoning.",
       "sentiment": "positive",
       "impact_scope": [
         "research"
@@ -374,13 +765,13 @@
         "none"
       ],
       "opportunity_tags": [
-        "long-context reasoning",
-        "LLM generalization"
+        "long-context LLMs",
+        "length generalization"
       ],
       "importance_score": 4,
       "confidence": "high",
       "evidence": [
-        "Randomized YaRN consistently improves reasoning performance on context lengths from 16K to 128K and outperforms standard fine-tuning, with the largest gains appearing at far out-of-distribution lengths."
+        "The abstract states: 'Randomized YaRN... improves reasoning performance on context lengths from 16K to 128K and outperforms standard fine-tuning.'"
       ]
     },
     {
@@ -398,17 +789,18 @@
       ],
       "technologies": [
         "CoorDex",
-        "dexterous manipulation",
-        "humanoid robotics"
+        "humanoid loco-manipulation",
+        "dexterous hand"
       ],
       "event_type": "research",
       "industry_area": "research",
       "key_facts": [
-        "CoorDex enables a Unitree G1 humanoid with a 20-DoF WUJI hand to execute dexterous manipulation while in motion",
-        "includes non-stop bottle grasping and carrying, fridge door opening on the move, and cube pick-and-turn",
+        "CoorDex enables high-DoF dexterous loco-manipulation on the move",
+        "uses a Unitree G1 humanoid with a 20-DoF WUJI hand",
+        "demonstrates non-stop bottle grasping and carrying, fridge door opening on the move, and cube pick-and-turn",
         "joint-space PPO, joint-space hand control, and monolithic latent prediction all fail under the same reward budget"
       ],
-      "summary": "CoorDex is a learning pipeline that enables high-DoF dexterous loco-manipulation on the move, demonstrated on a Unitree G1 humanoid with a 20-DoF WUJI hand.",
+      "summary": "Humanoid loco-manipulation is often simplified into a stop-and-go process: walking to an object, stopping to manipulate it, and then resuming locomotion. It also commonly relies on low degree-of-freedom (DoF) end effectors that behave like an open-close grasp primitive. We introduce CoorDex, a learning pipeline that converts high-dimensional body and dexterous hand control into coordinated latent residual control, enabling high-DoF dexterous loco-manipulation on the move. Starting from simulated whole-body and hand demonstrations, CoorDex trains privileged motion tracking teachers for the humanoid body and dexterous hand, distills them into proprioception-conditioned latent priors, and uses the frozen priors as the action space for downstream residual reinforcement learning. A coordinated latent residual policy composes these priors through shared task context and separate body-hand residual heads, preserving natural whole-body motion while improving finger-level contact reliability. CoorDex enables a Unitree G1 humanoid with a 20-DoF WUJI hand to execute dexterous manipulation while in motion, including non-stop bottle grasping and carrying, fridge door opening on the move, and cube pick-and-turn. Ablations on the walk-grasp-carry task show that joint-space PPO, joint-space hand control, and monolithic latent prediction all fail under the same reward budget, while the latent-prior interface and coordinated residual structure make high-dimensional contact-rich loco-manipulation trainable. Project Page: https://skevinci.github.io/coordex/",
       "sentiment": "positive",
       "impact_scope": [
         "research"
@@ -424,7 +816,7 @@
       "importance_score": 4,
       "confidence": "high",
       "evidence": [
-        "CoorDex enables a Unitree G1 humanoid with a 20-DoF WUJI hand to execute dexterous manipulation while in motion, including non-stop bottle grasping and carrying, fridge door opening on the move, and cube pick-and-turn."
+        "The abstract states: 'CoorDex enables a Unitree G1 humanoid with a 20-DoF WUJI hand to execute dexterous manipulation while in motion... joint-space PPO, joint-space hand control, and monolithic latent prediction all fail under the same reward budget.'"
       ]
     },
     {
@@ -447,7 +839,7 @@
         "Modern text-to-image models excel in visual fidelity and prompt adherence."
       ],
       "summary": "Modern text-to-image models excel in visual fidelity and prompt adherence. However, this strict adherence comes at the cost of diversity: generated samples tend to collapse into a single visual interpretation. Existing methods to improve diversity produce outputs driven by incidental variations rather than meaningful design choices. This motivates a new variant of the diversity task where structure is enforced on the generated samples. We introduce a method for controlled diversity that enables Semantic Browsing, where users can navigate structured image galleries and experience creative exploration through a systematic traversal of meaningful, interpretable axes of variation. Achieving this level of semantic control requires a deep understanding of the scene. We exploit the fact that recent text-to-image models are trained on elaborated captions, effectively decoupling semantic decision-making from pixel generation. This enables a paradigm shift: instead of relying on stochastic variation within the text-to-image model, we induce diversity directly at the text level. By leveraging rich textual representations, we allow a Vision Language Model (VLM) to operate on the full scene context. To overcome the generic outputs typical of standard VLMs, we employ an agentic workflow that explicitly enforces structured variation attuned to the original prompt. We demonstrate that our method produces diverse and navigable design spaces where every variation corresponds to a specific, user-understandable semantic decision.",
-      "sentiment": "neutral",
+      "sentiment": "positive",
       "impact_scope": [
         "research"
       ],
@@ -455,12 +847,14 @@
         "none"
       ],
       "opportunity_tags": [
-        "none"
+        "controllable diversity",
+        "semantic browsing",
+        "creative exploration"
       ],
       "importance_score": 3,
-      "confidence": "high",
+      "confidence": "medium",
       "evidence": [
-        "The paper introduces a method for controlled diversity that enables Semantic Browsing, where users can navigate structured image galleries."
+        "The paper introduces a method for controlled diversity that enables Semantic Browsing, where users can navigate structured image galleries and experience creative exploration."
       ]
     },
     {
@@ -491,10 +885,12 @@
         "none"
       ],
       "opportunity_tags": [
-        "none"
+        "adaptive interleaved reasoning",
+        "code-augmented tasks",
+        "reinforcement learning"
       ],
-      "importance_score": 4,
-      "confidence": "high",
+      "importance_score": 3,
+      "confidence": "medium",
       "evidence": [
         "The paper empowers MLLMs with adaptive interleaved reasoning capabilities through extended reinforcement learning training on code-augmented complex numerical computation tasks."
       ]
@@ -510,9 +906,8 @@
       "entities": [],
       "technologies": [
         "AdamW",
-        "Lion",
-        "Muon",
-        "AdaGrad"
+        "large language models (LLMs)",
+        "optimizers"
       ],
       "event_type": "research",
       "industry_area": "research",
@@ -525,15 +920,16 @@
         "research"
       ],
       "risk_tags": [
-        "none"
+        "theoretical gap"
       ],
       "opportunity_tags": [
-        "none"
+        "optimizer theory",
+        "heavy-tailed noise"
       ],
-      "importance_score": 3,
-      "confidence": "high",
+      "importance_score": 2,
+      "confidence": "medium",
       "evidence": [
-        "The paper formulates an open problem about AdamW's convergence under heavy-tailed noise."
+        "The paper formulates an open problem about AdamW's convergence under heavy-tailed noise, stating that no rigorous convergence theory for AdamW has yet been established in this regime."
       ]
     },
     {
@@ -548,8 +944,7 @@
       "technologies": [
         "PHQ-9",
         "GAD-7",
-        "cognitive evaluation",
-        "personality profiling"
+        "hybrid intelligent framework"
       ],
       "event_type": "research",
       "industry_area": "enterprise_ai",
@@ -565,12 +960,14 @@
         "none"
       ],
       "opportunity_tags": [
-        "none"
+        "mental health assessment",
+        "decision support",
+        "digital healthcare"
       ],
       "importance_score": 3,
-      "confidence": "high",
+      "confidence": "medium",
       "evidence": [
-        "The study proposes PsyBridge, a hybrid intelligent decision-support framework for multi-dimensional mental health assessment."
+        "The study proposes PsyBridge, a hybrid intelligent decision-support framework for multi-dimensional mental health assessment, achieving an overall accuracy of 0.84."
       ]
     },
     {
@@ -586,8 +983,9 @@
       ],
       "technologies": [
         "LLMs",
-        "string similarity",
-        "backtracking DFS",
+        "string matching",
+        "backtracking",
+        "error recovery",
         "bit tokenization"
       ],
       "event_type": "research",
@@ -604,385 +1002,387 @@
         "none"
       ],
       "opportunity_tags": [
-        "none"
+        "bit manipulation puzzles",
+        "LLM reasoning",
+        "NVIDIA Nemotron Challenge"
       ],
       "importance_score": 3,
-      "confidence": "high",
+      "confidence": "medium",
       "evidence": [
-        "The paper presents algorithmic innovations for the NVIDIA Nemotron Model Reasoning Challenge, focusing on Bit Manipulation Puzzles."
-      ]
-    },
-    {
-      "news_id": "news_eef0dcc2e091",
-      "title": "Can LLMs Reliably Self-Report Adversarial Prefills, and How?",
-      "source": "arXiv",
-      "source_type": "research",
-      "published_at": "2026-06-23T01:56:30+08:00",
-      "language": "en",
-      "url": "http://arxiv.org/abs/2606.23671v1",
-      "entities": [],
-      "technologies": [
-        "LLM",
-        "LoRA",
-        "SFT",
-        "GRPO",
-        "DPO"
-      ],
-      "event_type": "research",
-      "industry_area": "ai_safety",
-      "key_facts": [
-        "No model reliably recognizes its own compromised outputs.",
-        "Models claim intent on prefilled responses at an average rate of 27.3%.",
-        "Introspective signal stems largely from safety- and refusal-related reasoning.",
-        "Orthogonalizing weights against refusal direction collapses the gap.",
-        "Framing as internal intention vs external tampering elicits different responses.",
-        "LoRA finetuning methods widen intention-probe gap on models 8B to 27B.",
-        "Intervention does not transfer to tampering probe and raises attack success rate."
-      ],
-      "summary": "Prior work shows that large language models (LLMs) exhibit introspective capability on benign tasks. We extend the question to safety contexts and examine how reliably a model can recognize that its own prior response was elicited by an adversarial prefill attack. Across ten open-weight instruction-tuned LLMs (3B to 70B) and four safety benchmarks, no model reliably recognizes its own compromised outputs, with models claiming intent on prefilled responses at an average rate of $27.3\\%$. Introspective signal stems largely from safety- and refusal-related reasoning. Orthogonalizing models' weights against the refusal direction collapses the gap between claiming rates on prefilled and natural outputs to near zero, though the direction is not its unique mediator. The signal is also probe-dependent: framing the question as internal intention versus external tampering elicits qualitatively different responses on the same models. We test three LoRA finetuning methods (SFT, GRPO, DPO) on eight models from 3B to 27B; all three widen the intention-probe gap on every model from 8B to 27B, with method ranking varying by model. The intervention does not transfer to the tampering probe and counterintuitively raises attack success rate under adversarial prefill on most models, amounting to a partial mitigation. These findings outline mechanisms underpinning the observed introspective signals in safety contexts and highlight risks in the reliability of LLM self-reports.",
-      "sentiment": "negative",
-      "impact_scope": [
-        "research"
-      ],
-      "risk_tags": [
-        "adversarial attack",
-        "safety",
-        "introspection reliability"
-      ],
-      "opportunity_tags": [
-        "none"
-      ],
-      "importance_score": 4,
-      "confidence": "high",
-      "evidence": [
-        "No model reliably recognizes its own compromised outputs; models claiming intent on prefilled responses at an average rate of 27.3%; intervention raises attack success rate."
-      ]
-    },
-    {
-      "news_id": "news_936a93fd1d91",
-      "title": "Tapered Language Models",
-      "source": "arXiv",
-      "source_type": "research",
-      "published_at": "2026-06-23T01:56:25+08:00",
-      "language": "en",
-      "url": "http://arxiv.org/abs/2606.23670v1",
-      "entities": [],
-      "technologies": [
-        "Transformer",
-        "Gated Attention",
-        "Hope-attention",
-        "Titans",
-        "MLP"
-      ],
-      "event_type": "research",
-      "industry_area": "foundation_model",
-      "key_facts": [
-        "Allocating more capacity to earlier layers improves perplexity.",
-        "Tapered Language Models (TLMs) monotonically taper a parameter-bearing component across depth.",
-        "MLPs are the natural site for tapering.",
-        "Tapering MLP width via smooth cosine schedule improves perplexity and downstream performance.",
-        "No additional parameter or compute cost."
-      ],
-      "summary": "Modern language models, including transformer, recurrent, and memory-based variants, share a common chassis: a stack of identical layers in which parameters are allocated uniformly across depth. This is a default inherited from the original transformer and largely unchanged since, yet a growing body of evidence suggests that layers contribute non-uniformly to the final output, with later layers refining the residual stream rather than transforming it. We ask whether parameter capacity should reflect this asymmetry. Our controlled experiment shows that, under a fixed budget, allocating more capacity to earlier layers and less to later layers improves perplexity over a uniform-width baseline, while the reverse allocation hurts. Building on this result, we introduce Tapered Language Models (TLMs), an architectural principle in which a parameter-bearing component is monotonically tapered across depth under a fixed total budget. MLPs are the natural site for this instantiation: they dominate parameter count across all modern LM families and expose width as a single, clean axis of variation. Across three model scales and four architectures (Transformer, Gated Attention, Hope-attention, and Titans), tapering MLP width via a smooth cosine schedule consistently improves perplexity and downstream benchmark performance over uniform baselines, at no additional parameter or compute cost. These findings establish depth-aware capacity allocation as a simple, architecture-agnostic axis of language model design, a free lever hidden in plain sight.",
-      "sentiment": "positive",
-      "impact_scope": [
-        "research"
-      ],
-      "risk_tags": [
-        "none"
-      ],
-      "opportunity_tags": [
-        "architecture improvement",
-        "efficiency"
-      ],
-      "importance_score": 4,
-      "confidence": "high",
-      "evidence": [
-        "Allocating more capacity to earlier layers improves perplexity; tapering MLP width consistently improves perplexity and downstream performance at no additional cost."
-      ]
-    },
-    {
-      "news_id": "news_1ecdb86d7644",
-      "title": "On the Limits of Prompt-Conditioned Language Models as General-Purpose Learners",
-      "source": "arXiv",
-      "source_type": "research",
-      "published_at": "2026-06-23T01:52:59+08:00",
-      "language": "en",
-      "url": "http://arxiv.org/abs/2606.23668v1",
-      "entities": [],
-      "technologies": [
-        "LLM"
-      ],
-      "event_type": "research",
-      "industry_area": "research",
-      "key_facts": [
-        "Language is a compressed and capacity-limited interface.",
-        "Expressivity floor: language acts as a capacity-limited channel; distinct tasks become indistinguishable if informational complexity exceeds capacity.",
-        "Objective-misalignment floor: alignment constraints induce irreducible distortion.",
-        "Prompt-conditioned LLMs are not universal problem solvers through prompting alone.",
-        "Interfaces beyond natural language may reduce limitations."
-      ],
-      "summary": "Large Language Models (LLMs) are frequently portrayed as general-purpose solvers capable of solving arbitrary tasks. We argue that this view overlooks a fundamental constraint: language is a compressed and capacity-limited interface for conveying task information. Modelling User--System interaction as a bilevel \\emph{cheap-talk} game, we analyse how latent tasks are encoded into prompts and reinterpreted under alignment and safety constraints. We introduce a conceptual decomposition separating task inference from execution and derive PAC-Bayes bounds that distinguish finite-sample estimation error from irreducible structural limitations. Our first main result establishes an \\emph{expressivity floor}: language acts as a capacity-limited communication channel, and whenever the informational complexity of a task family exceeds the capacity of that channel, distinct tasks become unavoidably indistinguishable to the Solver, inducing a strictly positive error floor that cannot be eliminated by additional data, optimisation, or model scaling alone. We then establish an \\emph{objective-misalignment floor}: when alignment constraints restrict the admissible output set, the User-ideal distribution may lie outside the feasible class, inducing an irreducible distortion. Together, these results yield a formal negative conclusion: prompt-conditioned LLMs are not universal problem solvers through prompting alone, as there exist task families for which correct behaviour is provably unattainable even in the infinite-data regime. More broadly, our analysis shows the limits of prompt-based generalisation arise from information-constrained communication and alignment-constrained objectives. This suggests that interfaces beyond natural language, including multimodal observations and, external memory, may reduce the inherent LLM limitations by increasing the task-relevant information available to the System.",
-      "sentiment": "negative",
-      "impact_scope": [
-        "research"
-      ],
-      "risk_tags": [
-        "limitations",
-        "generalization"
-      ],
-      "opportunity_tags": [
-        "multimodal",
-        "external memory"
-      ],
-      "importance_score": 4,
-      "confidence": "high",
-      "evidence": [
-        "Language is a compressed and capacity-limited interface; expressivity floor: distinct tasks become indistinguishable; objective-misalignment floor: alignment constraints induce irreducible distortion."
-      ]
-    },
-    {
-      "news_id": "news_1766a29dcfea",
-      "title": "MAS-PromptBench: When Does Prompt Optimization Improve Multi-Agent LLM Systems?",
-      "source": "arXiv",
-      "source_type": "research",
-      "published_at": "2026-06-23T01:48:40+08:00",
-      "language": "en",
-      "url": "http://arxiv.org/abs/2606.23664v1",
-      "entities": [],
-      "technologies": [
-        "LLM",
-        "multi-agent systems"
-      ],
-      "event_type": "research",
-      "industry_area": "ai_agent",
-      "key_facts": [
-        "System prompts form a critical optimization surface for MAS.",
-        "Prompt optimization for MAS faces exponentially growing search space.",
-        "Study systematically investigates prompt optimization across varied MAS setups.",
-        "Results reveal potential to unlock significant gains while exposing open challenges."
-      ],
-      "summary": "Multi-agent systems (MAS) offer a scalable path forward for agentic AI, comprising multiple LLM-based agents, each assigned a system prompt and a position within a workflow that governs inter-agent coordination and output aggregation. System prompts thus form a critical and accessible optimization surface: they specify agents' roles and behaviors, enabling system-level improvements without model finetuning. Although prompt optimization has shown substantial potential for single LLMs, extending it to MAS poses distinct challenges, notably an exponentially growing search space. It remains unclear whether, when, and by how much prompt optimization improves MAS performance, and how sensitive such gains are to system configuration. In this work, we systematically study system-prompt optimization across a broad range of MAS setups varying in task, workflow, communication protocol, and team size, benchmarking two prompt optimizers that naturally extend state-of-the-art single-agent methods. The results reveal its potential to unlock significant gains while exposing open challenges, characterizing when and how much prompt optimization helps across diverse MAS settings.",
-      "sentiment": "neutral",
-      "impact_scope": [
-        "research"
-      ],
-      "risk_tags": [
-        "none"
-      ],
-      "opportunity_tags": [
-        "prompt optimization",
-        "multi-agent systems"
-      ],
-      "importance_score": 3,
-      "confidence": "high",
-      "evidence": [
-        "System prompts form a critical optimization surface; results reveal potential to unlock significant gains while exposing open challenges."
-      ]
-    },
-    {
-      "news_id": "news_55311f31e987",
-      "title": "Action-BED: Task-Driven Bayesian Experimental Design with Singly Intractable Objectives",
-      "source": "arXiv",
-      "source_type": "research",
-      "published_at": "2026-06-23T01:48:07+08:00",
-      "language": "en",
-      "url": "http://arxiv.org/abs/2606.23662v1",
-      "entities": [],
-      "technologies": [
-        "Bayesian experimental design"
-      ],
-      "event_type": "research",
-      "industry_area": "research",
-      "key_facts": [
-        "BED can be formulated in terms of expected future loss on downstream actions.",
-        "All EFLs can be rearranged into singly intractable objectives.",
-        "Approach sidesteps need for explicit posterior or marginal likelihood estimation.",
-        "Allows design policies to be learned more effectively, efficiently, and simply."
-      ],
-      "summary": "Bayesian experimental design (BED) has traditionally been based on maximising expected uncertainty reductions from prior to posterior. A major shortfall of this approach is that it leads to doubly intractable objectives that are difficult to optimise, while customising them to particular downstream tasks of interest can also be difficult. Following first principles decision theory, we demonstrate that BED can alternatively be formulated in terms of an expected future loss (EFL) on downstream actions, providing a simple and naturally task-driven framework. Critically, we then show that all such EFLs can be rearranged into singly intractable objectives that can be jointly optimised with respect to both the design policy and a downstream action policy using stochastic gradients, an approach we refer to as ACTION-BED. This formulation further sidesteps the need for any explicit posterior or marginal likelihood estimation and is naturally implicit, requiring only the ability to sample from the joint model over model parameters and data, and evaluate the downstream loss function. It thus allows design policies to be learned more effectively, efficiently, and simply than existing methods, while providing easy customisation to different downstream tasks and losses.",
-      "sentiment": "positive",
-      "impact_scope": [
-        "research"
-      ],
-      "risk_tags": [
-        "none"
-      ],
-      "opportunity_tags": [
-        "Bayesian experimental design",
-        "task-driven"
-      ],
-      "importance_score": 3,
-      "confidence": "high",
-      "evidence": [
-        "BED can be formulated in terms of expected future loss; approach sidesteps need for explicit posterior estimation; allows design policies to be learned more effectively, efficiently, and simply."
-      ]
-    },
-    {
-      "news_id": "news_6cc9a274e196",
-      "title": "Dynamic estimation of slowly varying sequences",
-      "source": "arXiv",
-      "source_type": "research",
-      "published_at": "2026-06-23T01:40:49+08:00",
-      "language": "en",
-      "url": "http://arxiv.org/abs/2606.23655v1",
-      "entities": [],
-      "technologies": [],
-      "event_type": "research",
-      "industry_area": "research",
-      "key_facts": [
-        "We consider the problem of sequentially approximating functions of each element in a slowly-varying sequence, i.e."
-      ],
-      "summary": "We consider the problem of sequentially approximating functions of each element in a slowly-varying sequence, i.e. one where the magnitude α_i of the difference between the elements at positions i and i-1 is small. Recent work on implicit trace estimation shows that when α_t is small, reusing queries to past sequence elements can reduce the overall cost [Dharangutte \\& Musco, NeurIPS~2021; Woodruff et al., NeurIPS~2022]. We introduce a framework generalizing this to a variety of linear and nonlinear functions on diverse vector spaces, obtaining novel sequential estimation results for matrix powers, spectral densities, Monte Carlo integration, and a boundary value problem from partial differential equations~(PDEs). Furthermore, we develop a novel algorithm for use with this framework that locally scales the estimation budget with α_i, obtaining sharper path-length-style variation bounds of form \\mathcal O(\\sum_{i=1}^mα_i) on the cost of estimating a sequence of length m. This improves upon the previous implicit trace estimation bound of \\mathcal O(m\\cdot\\max_iα_i) [Dharangutte \\& Musco, NeurIPS~2021], which is achieved by fixing the query budget using the worst-case α_i and is thus inefficient for stable sequences with rare bursts. Lastly, while all past work assumes a known bound on α_i, we show in certain cases how the changes can be estimated on-the-fly with (nearly) no added cost. In summary, our framework makes the sequential approximation toolkit general-purpose and adaptive while improving upon state-of-the-art-guarantees for dynamic trace estimation.",
-      "sentiment": "neutral",
-      "impact_scope": [
-        "research"
-      ],
-      "risk_tags": [
-        "none"
-      ],
-      "opportunity_tags": [
-        "none"
-      ],
-      "importance_score": 2,
-      "confidence": "high",
-      "evidence": [
-        "The paper introduces a framework for sequential estimation of slowly varying sequences, improving upon previous bounds."
-      ]
-    },
-    {
-      "news_id": "news_341a724680ba",
-      "title": "EnterpriseClawBench: Benchmarking Agents from Real Workplace Sessions",
-      "source": "arXiv",
-      "source_type": "research",
-      "published_at": "2026-06-23T01:39:43+08:00",
-      "language": "en",
-      "url": "http://arxiv.org/abs/2606.23654v1",
-      "entities": [],
-      "technologies": [],
-      "event_type": "research",
-      "industry_area": "enterprise_ai",
-      "key_facts": [
-        "Enterprise agents increasingly operate inside workspaces: they read heterogeneous files, invoke tools, and deliver business artifacts."
-      ],
-      "summary": "Enterprise agents increasingly operate inside workspaces: they read heterogeneous files, invoke tools, and deliver business artifacts. We introduce EnterpriseClawBench, an enterprise agent benchmark constructed from proprietary, real-world agent sessions. Starting from a large archive of workplace sessions, the EnterpriseClawBench produces 852 reproducible tasks, each paired with recovered fixtures, rewritten prompts, role classes, skill subclasses, hard rules, and semantic rubrics. Because the sessions contain internal enterprise content, we do not release the benchmark data; instead, our reusable contribution is the construction and evaluation protocol. On EnterpriseClawBench, the best configuration reaches only 0.663 (Codex with GPT-5.5). These results show that enterprise agent evaluation must report harness--model combinations, artifact delivery, visual quality, cost, runtime, and skill-transfer behavior, rather than collapsing performance into a single score. Code: https://github.com/FrontisAI/EnterpriseClawBench",
-      "sentiment": "neutral",
-      "impact_scope": [
-        "research"
-      ],
-      "risk_tags": [
-        "none"
-      ],
-      "opportunity_tags": [
-        "none"
-      ],
-      "importance_score": 2,
-      "confidence": "high",
-      "evidence": [
-        "The paper introduces a benchmark for enterprise agents, with best configuration reaching 0.663."
-      ]
-    },
-    {
-      "news_id": "news_49cf97f4a3d4",
-      "title": "TailorMind: Towards Preference-Aligned Multimodal Content Generation",
-      "source": "arXiv",
-      "source_type": "research",
-      "published_at": "2026-06-23T01:31:21+08:00",
-      "language": "en",
-      "url": "http://arxiv.org/abs/2606.23643v1",
-      "entities": [],
-      "technologies": [],
-      "event_type": "research",
-      "industry_area": "multimodal_ai",
-      "key_facts": [
-        "Personalized content systems depend on available UGC and struggle when suitable content is absent, delayed, or costly to create."
-      ],
-      "summary": "Personalized content systems depend on available UGC and struggle when suitable content is absent, delayed, or costly to create. Although multimodal generators can synthesize content on demand, how to translate behavioral traces into generation-ready preferences remains underexplored. We study personalized multimodal content generation: creating user-tailored multimodal content without existing item pools or waiting for matching UGC. We propose TailorMind, linking collaborative preference modeling with controllable multimodal generation. TailorMind enriches sparse user histories via hypergraph collaborative filtering and optimizes textual profiles with ranking-error feedback and textual gradient descent. Retrieval-augmented style control grounds outputs in authentic UGC patterns, while cross-modal cohesion reflection reduces semantic drift. We construct TailorBench, a benchmark from three mainstream platforms evaluated along five dimensions: coherence, novelty, aesthetic, hallucination, profiling. Experiments show that TailorMind achieves competitive or stronger coherence, improves novelty and aesthetic quality over representative generation baselines and ground-truth UGC, demonstrating advantages over retrieving available content or comparable UGC, while achieving up to 29% Recall gains in reranking. Our code is released at: https://github.com/iLearn-Lab/TailorMind.",
-      "sentiment": "positive",
-      "impact_scope": [
-        "research"
-      ],
-      "risk_tags": [
-        "none"
-      ],
-      "opportunity_tags": [
-        "none"
-      ],
-      "importance_score": 2,
-      "confidence": "high",
-      "evidence": [
-        "The paper proposes TailorMind for personalized multimodal content generation, achieving up to 29% Recall gains."
-      ]
-    },
-    {
-      "news_id": "news_e4144d096352",
-      "title": "Learning Process Rewards via Success Visitation Matching for Efficient RL",
-      "source": "arXiv",
-      "source_type": "research",
-      "published_at": "2026-06-23T01:30:24+08:00",
-      "language": "en",
-      "url": "http://arxiv.org/abs/2606.23640v1",
-      "entities": [],
-      "technologies": [],
-      "event_type": "research",
-      "industry_area": "research",
-      "key_facts": [
-        "In many modern applications of reinforcement learning (RL), the natural reward for a task of interest is inherently sparse: a reward of 0 is given everywhere except when the task is completed, when a reward of +1 is given."
-      ],
-      "summary": "In many modern applications of reinforcement learning (RL), the natural reward for a task of interest is inherently sparse: a reward of 0 is given everywhere except when the task is completed, when a reward of +1 is given. Training a policy to maximize such a sparse reward requires solving a challenging credit assignment problem, leading to slow or ineffective RL improvement. We propose a simple approach to transform a sparse outcome reward into a dense process reward. Our approach relies on training a discriminator to distinguish between previous successful and unsuccessful episodes, and using this discriminator to incentivize the RL-learned policy to match the state-action visitations of successful episodes, while avoiding those of unsuccessful episodes. By incentivizing the policy to match the visitations over all states, not just those that correspond to task success, this reward provides dense feedback on whether progress is being made towards task completion, and, we show, provably achieves this without changing the optimal policy. Focusing on finetuning of robotic control policies, we demonstrate that our approach leads to significantly faster RL finetuning performance on both simulated and real-world manipulation tasks, as compared to simply maximizing the sparse outcome reward.",
-      "sentiment": "positive",
-      "impact_scope": [
-        "research"
-      ],
-      "risk_tags": [
-        "none"
-      ],
-      "opportunity_tags": [
-        "none"
-      ],
-      "importance_score": 2,
-      "confidence": "high",
-      "evidence": [
-        "The paper proposes a method to transform sparse rewards into dense process rewards, leading to faster RL finetuning."
-      ]
-    },
-    {
-      "news_id": "news_fbd3d7424f87",
-      "title": "Muown Implicitly Performs Angular Step-size Decay",
-      "source": "arXiv",
-      "source_type": "research",
-      "published_at": "2026-06-23T01:28:45+08:00",
-      "language": "en",
-      "url": "http://arxiv.org/abs/2606.23637v1",
-      "entities": [],
-      "technologies": [],
-      "event_type": "research",
-      "industry_area": "research",
-      "key_facts": [
-        "Matrix-aware optimizers such as Muon and Muown have recently shown strong empirical performance for pre-training Transformers."
-      ],
-      "summary": "Matrix-aware optimizers such as Muon and Muown have recently shown strong empirical performance for pre-training Transformers. In particular, Muown separates each weight matrix into row magnitudes and an un-normalized direction variable, updating the former with Adam and the latter with Muon. We show that the directional update of Muown is equivalent to a Riemannian step on the normalized directions, while the magnitude of the un-normalized parameterization only modulates the angular step size. This explains the step-size stability of Muown and suggests making the angular step size explicit. The resulting method, AngularMuown, optimizes directly over the normalized directions and uses a schedulable angular multiplier decoupled from the radial magnitude update. AngularMuown improves over Muown and, at the time of writing, a preliminary version is leading the per-optimizer category of the modded nanoGPT speedrunning competition. Further experiments on Qwen2-0.5B, and 1.1B parameter mixture-of-experts models confirm the algorithm scales beyond small models. An implementation of the algorithm is available at https://github.com/fhueb/angular-muown",
-      "sentiment": "positive",
-      "impact_scope": [
-        "research"
-      ],
-      "risk_tags": [
-        "none"
-      ],
-      "opportunity_tags": [
-        "none"
-      ],
-      "importance_score": 2,
-      "confidence": "high",
-      "evidence": [
-        "The paper introduces AngularMuown, which improves over Muown and is leading a competition."
+        "The paper presents algorithmic innovations for the NVIDIA Nemotron Model Reasoning Challenge, achieving over 96% validation accuracy on bit manipulation puzzles."
       ]
     }
   ],
   "events": [
     {
-      "event_id": "evt_001",
-      "event_name": "GPT-5 solves immunology mystery",
+      "event_id": "event_1",
+      "event_name": "AI在数学证明中的突破",
+      "related_news_ids": [
+        "news_2bee6be45637"
+      ],
+      "main_entities": [
+        "陶哲轩",
+        "OpenAI",
+        "DeepMind"
+      ],
+      "core_topic": "AI在数学证明中的应用，包括OpenAI解决开放问题和DeepMind批量攻克数学猜想",
+      "event_type": "research",
+      "industry_area": "research",
+      "technologies": [
+        "AI",
+        "形式化系统"
+      ],
+      "key_facts": [
+        "OpenAI解决开放问题",
+        "DeepMind批量攻克数学猜想",
+        "数学证明被写进形式化系统，交给计算机自动验证"
+      ],
+      "evidence": [
+        "输入摘要提到'从OpenAI解决开放问题，到DeepMind批量攻克数学猜想，越来越多数学证明被写进形式化系统，交给计算机自动验证。'"
+      ],
+      "why_it_matters": "AI在数学证明领域的突破可能加速数学研究，改变数学证明的方式",
+      "impact_scope": [
+        "global"
+      ],
+      "risk_tags": [
+        "none"
+      ],
+      "opportunity_tags": [
+        "AI数学证明",
+        "形式化验证"
+      ],
+      "confidence": "medium",
+      "published_at": "2026-06-24T02:41:18+08:00"
+    },
+    {
+      "event_id": "event_2",
+      "event_name": "浪潮信息强调AI转型中组织文化的重要性",
+      "related_news_ids": [
+        "news_abe5d0557b16"
+      ],
+      "main_entities": [
+        "彭震",
+        "浪潮信息"
+      ],
+      "core_topic": "浪潮信息高管彭震指出AI转型的最大门槛是人而非技术",
+      "event_type": "market_commentary",
+      "industry_area": "enterprise_ai",
+      "technologies": [],
+      "key_facts": [
+        "彭震用三分之二的时间讲文化、组织和流程",
+        "基础设施、算力、芯片不是重点"
+      ],
+      "evidence": [
+        "输入摘要提到'彭震没把它们当成重点，却用三分之二的时间在讲文化、组织和流程。'"
+      ],
+      "why_it_matters": "该观点挑战了普遍认为技术是AI转型主要障碍的看法，强调组织变革的重要性",
+      "impact_scope": [
+        "industry"
+      ],
+      "risk_tags": [
+        "转型阻力"
+      ],
+      "opportunity_tags": [
+        "组织变革"
+      ],
+      "confidence": "medium",
+      "published_at": "2026-06-24T02:41:18+08:00"
+    },
+    {
+      "event_id": "event_3",
+      "event_name": "正行创新完成近亿美元天使轮融资",
+      "related_news_ids": [
+        "news_ce615def00da"
+      ],
+      "main_entities": [
+        "正行创新",
+        "Striding AI",
+        "正大集团",
+        "华勤技术",
+        "九安医疗"
+      ],
+      "core_topic": "具身智能企业正行创新完成近亿美元天使轮系列融资",
+      "event_type": "funding",
+      "industry_area": "ai_agent",
+      "technologies": [
+        "具身智能",
+        "物理智能"
+      ],
+      "key_facts": [
+        "完成近亿美元天使轮系列融资",
+        "投资方包括正大集团、华勤技术、九安医疗等多家上市企业"
+      ],
+      "evidence": [
+        "输入摘要提到'正行创新（Striding AI）已完成近亿美元天使轮系列融资。投资方包括正大集团、华勤技术、九安医疗等多家上市企业'"
+      ],
+      "why_it_matters": "大额天使轮融资显示市场对具身智能领域的信心",
+      "impact_scope": [
+        "industry"
+      ],
+      "risk_tags": [
+        "none"
+      ],
+      "opportunity_tags": [
+        "具身智能",
+        "天使轮融资"
+      ],
+      "confidence": "high",
+      "published_at": "2026-06-24T02:41:18+08:00"
+    },
+    {
+      "event_id": "event_4",
+      "event_name": "华人博士Alisa开源OpenAI求职经历",
+      "related_news_ids": [
+        "news_2d5bebb6615b"
+      ],
+      "main_entities": [
+        "Alisa",
+        "OpenAI"
+      ],
+      "core_topic": "华人博士Alisa在入职OpenAI前开源其求职经历",
+      "event_type": "other",
+      "industry_area": "other",
+      "technologies": [],
+      "key_facts": [
+        "Alisa在下周入职OpenAI",
+        "她将求职经历以Blog形式开源"
+      ],
+      "evidence": [
+        "输入摘要提到'在下周入职OpenAI之前，Alisa决定将自己这一路的求职经历，全部以Blog的形式开源出来'"
+      ],
+      "why_it_matters": "为求职者提供宝贵的经验参考",
+      "impact_scope": [
+        "individual"
+      ],
+      "risk_tags": [
+        "none"
+      ],
+      "opportunity_tags": [
+        "求职经验",
+        "开源"
+      ],
+      "confidence": "medium",
+      "published_at": "2026-06-24T02:41:18+08:00"
+    },
+    {
+      "event_id": "event_5",
+      "event_name": "可口可乐推出AI世界杯互动小程序",
+      "related_news_ids": [
+        "news_e73aa3c33eb7"
+      ],
+      "main_entities": [
+        "可口可乐",
+        "范指导"
+      ],
+      "core_topic": "可口可乐中国小程序利用AI生成世界杯互动角色",
+      "event_type": "product_release",
+      "industry_area": "consumer_ai",
+      "technologies": [
+        "prompt生成"
+      ],
+      "key_facts": [
+        "可口可乐中国小程序'可口可乐吧'允许用户与范指导互动",
+        "范指导有上海口音，热梗张口就来"
+      ],
+      "evidence": [
+        "输入摘要提到'打开可口可乐中国小程序'可口可乐吧'，你可以随时跟范指导唠上两句'"
+      ],
+      "why_it_matters": "展示AI在营销和用户体验中的创新应用",
+      "impact_scope": [
+        "industry"
+      ],
+      "risk_tags": [
+        "none"
+      ],
+      "opportunity_tags": [
+        "AI营销",
+        "世界杯"
+      ],
+      "confidence": "medium",
+      "published_at": "2026-06-24T02:41:18+08:00"
+    },
+    {
+      "event_id": "event_6",
+      "event_name": "英伟达发布机器人操作系统Halos for Robotics",
+      "related_news_ids": [
+        "news_2dd6edcc3bcb"
+      ],
+      "main_entities": [
+        "英伟达"
+      ],
+      "core_topic": "英伟达在Automate 2026大会上发布机器人全栈操作系统Halos for Robotics",
+      "event_type": "product_release",
+      "industry_area": "ai_agent",
+      "technologies": [
+        "Halos for Robotics"
+      ],
+      "key_facts": [
+        "英伟达在芝加哥Automate 2026大会上发布了 Halos for Robotics"
+      ],
+      "evidence": [
+        "原文：刚刚，在芝加哥Automate 2026大会上，英伟达发布了 Halos for Robotics ——"
+      ],
+      "why_it_matters": "该操作系统被比喻为'具身版安卓'，可能推动机器人行业的标准化",
+      "impact_scope": [
+        "industry"
+      ],
+      "risk_tags": [
+        "none"
+      ],
+      "opportunity_tags": [
+        "机器人操作系统",
+        "具身智能"
+      ],
+      "confidence": "medium",
+      "published_at": "2026-06-24T02:41:18+08:00"
+    },
+    {
+      "event_id": "event_7",
+      "event_name": "特斯拉申请Megapod商标进军AI数据中心硬件",
+      "related_news_ids": [
+        "news_0d240d5e0b0e"
+      ],
+      "main_entities": [
+        "特斯拉",
+        "马斯克"
+      ],
+      "core_topic": "特斯拉提交Megapod商标申请，计划销售模块化AI数据中心硬件",
+      "event_type": "product_release",
+      "industry_area": "ai_infrastructure",
+      "technologies": [
+        "Megapod"
+      ],
+      "key_facts": [
+        "特斯拉向美国专利商标局提交了“Megapod”商标申请，计划销售模块化AI数据中心硬件"
+      ],
+      "evidence": [
+        "原文：刚刚，特斯拉向美国专利商标局(USPTO)提交了一个名叫 “Megapod” 的商标申请，计划销售模块化AI数据中心硬件。"
+      ],
+      "why_it_matters": "特斯拉进军AI基础设施领域，可能加剧市场竞争",
+      "impact_scope": [
+        "industry"
+      ],
+      "risk_tags": [
+        "none"
+      ],
+      "opportunity_tags": [
+        "AI数据中心",
+        "模块化硬件"
+      ],
+      "confidence": "medium",
+      "published_at": "2026-06-24T02:41:18+08:00"
+    },
+    {
+      "event_id": "event_8",
+      "event_name": "小鹏汽车基于亚马逊云科技搭建AI平台",
+      "related_news_ids": [
+        "news_777e9e6efd3a"
+      ],
+      "main_entities": [
+        "小鹏",
+        "Kimi",
+        "猎豹",
+        "亚马逊云科技"
+      ],
+      "core_topic": "小鹏汽车利用亚马逊云科技服务搭建企业内部AI编程与Agentic工作平台",
+      "event_type": "partnership",
+      "industry_area": "enterprise_ai",
+      "technologies": [
+        "Kiro",
+        "Amazon Bedrock",
+        "Amazon EKS"
+      ],
+      "key_facts": [
+        "小鹏基于亚马逊云科技的Kiro、Amazon Bedrock、Amazon EKS等服务搭建了企业内部AI编程与Agentic工作平台“灵犀”"
+      ],
+      "evidence": [
+        "原文：小鹏基于亚马逊云科技的 Kiro 、 Amazon Bedrock 、 Amazon EKS 等服务，搭了一套企业内部AI编程与Agentic工作平台，名字叫 灵犀 。"
+      ],
+      "why_it_matters": "展示云计算服务在企业AI转型中的关键作用",
+      "impact_scope": [
+        "company"
+      ],
+      "risk_tags": [
+        "none"
+      ],
+      "opportunity_tags": [
+        "企业AI平台",
+        "云计算服务"
+      ],
+      "confidence": "medium",
+      "published_at": "2026-06-24T02:41:17+08:00"
+    },
+    {
+      "event_id": "event_9",
+      "event_name": "豆包2.1模型发布",
+      "related_news_ids": [
+        "news_6fb8292ea943"
+      ],
+      "main_entities": [
+        "豆包"
+      ],
+      "core_topic": "豆包2.1发布，包含Pro和Turbo两个模型，API服务上线火山方舟",
+      "event_type": "model_release",
+      "industry_area": "foundation_model",
+      "technologies": [
+        "Doubao-Seed-2.1-Pro",
+        "Doubao-Seed-2.1-Turbo"
+      ],
+      "key_facts": [
+        "豆包2.1发布，包含两个模型：Doubao-Seed-2.1-Pro和Doubao-Seed-2.1-Turbo，API服务已全量上线火山方舟"
+      ],
+      "evidence": [
+        "原文：这个版本一共包含2个模型，分别是Doubao-Seed-2.1-Pro和Doubao-Seed-2.1-Turbo，并且API服务已全量上线火山方舟。"
+      ],
+      "why_it_matters": "新模型可能提升AI Agent能力，尤其在芯片设计等复杂任务中",
+      "impact_scope": [
+        "industry"
+      ],
+      "risk_tags": [
+        "none"
+      ],
+      "opportunity_tags": [
+        "AI模型",
+        "芯片设计",
+        "Agent"
+      ],
+      "confidence": "medium",
+      "published_at": "2026-06-24T02:41:17+08:00"
+    },
+    {
+      "event_id": "event_10",
+      "event_name": "2026年具身智能融资火热",
+      "related_news_ids": [
+        "news_65fac99616ac"
+      ],
+      "main_entities": [],
+      "core_topic": "2026年具身智能领域融资超过去年全年，资金主要流向机器人'大脑'技术",
+      "event_type": "market_commentary",
+      "industry_area": "ai_agent",
+      "technologies": [],
+      "key_facts": [
+        "2026年具身智能融资超过去年全年，超过一半的钱流入机器人的“大脑”"
+      ],
+      "evidence": [
+        "原文：2026年还没过半，具身智能的融资就快要超过去年全年了，超过一半的钱都流入了机器人的“大脑”。"
+      ],
+      "why_it_matters": "反映具身智能领域的投资热潮和技术发展方向",
+      "impact_scope": [
+        "industry"
+      ],
+      "risk_tags": [
+        "none"
+      ],
+      "opportunity_tags": [
+        "具身智能",
+        "融资"
+      ],
+      "confidence": "medium",
+      "published_at": "2026-06-24T02:41:17+08:00"
+    },
+    {
+      "event_id": "event_11",
+      "event_name": "GPT-5帮助解决免疫学谜题",
       "related_news_ids": [
         "news_62391ad72ce4"
       ],
@@ -990,7 +1390,7 @@
         "GPT-5",
         "Derya Unutmaz"
       ],
-      "core_topic": "GPT-5 Pro helps solve a 3-year-old immunology mystery about T cell behavior",
+      "core_topic": "GPT-5 Pro帮助免疫学家解决了一个持续3年的免疫学谜题",
       "event_type": "research",
       "industry_area": "research",
       "technologies": [
@@ -1002,9 +1402,9 @@
         "breakthrough could support cancer and autoimmune research"
       ],
       "evidence": [
-        "GPT-5 Pro helped solve a 3-year-old immunology mystery, offering insights into T cell behavior. The breakthrough could support cancer and autoimmune research."
+        "The summary states: 'GPT-5 Pro helped solve a 3-year-old immunology mystery, offering insights into T cell behavior. The breakthrough could support cancer and autoimmune research.'"
       ],
-      "why_it_matters": "Demonstrates AI's potential to accelerate biomedical discovery",
+      "why_it_matters": "展示AI在医学研究中的潜力，可能加速癌症和自身免疫疾病研究",
       "impact_scope": [
         "research"
       ],
@@ -1015,11 +1415,12 @@
         "medical research",
         "AI-assisted discovery"
       ],
-      "confidence": "medium"
+      "confidence": "medium",
+      "published_at": "2026-06-24T01:00:00+08:00"
     },
     {
-      "event_id": "evt_002",
-      "event_name": "Omio adopts OpenAI for conversational travel",
+      "event_id": "event_12",
+      "event_name": "Omio利用OpenAI构建对话式旅行体验",
       "related_news_ids": [
         "news_7538399d85da"
       ],
@@ -1027,7 +1428,7 @@
         "Omio",
         "OpenAI"
       ],
-      "core_topic": "Omio uses OpenAI to power conversational travel experiences and transform into an AI-native company",
+      "core_topic": "旅行平台Omio利用OpenAI技术构建对话式旅行体验并转型为AI原生公司",
       "event_type": "business_update",
       "industry_area": "consumer_ai",
       "technologies": [
@@ -1036,12 +1437,12 @@
       "key_facts": [
         "Omio uses OpenAI to power conversational travel experiences",
         "accelerates product development",
-        "transforms into an AI-native company"
+        "transforming into an AI-native company"
       ],
       "evidence": [
-        "Discover how Omio uses OpenAI to power conversational travel experiences, accelerate product development, and transform into an AI-native company."
+        "The summary states: 'Discover how Omio uses OpenAI to power conversational travel experiences, accelerate product development, and transform into an AI-native company.'"
       ],
-      "why_it_matters": "Shows how companies are integrating AI to enhance customer experience",
+      "why_it_matters": "展示AI在旅行行业的应用，推动行业数字化转型",
       "impact_scope": [
         "industry"
       ],
@@ -1049,21 +1450,24 @@
         "none"
       ],
       "opportunity_tags": [
-        "travel industry",
-        "conversational AI"
+        "conversational AI",
+        "travel industry"
       ],
-      "confidence": "medium"
+      "confidence": "medium",
+      "published_at": "2026-06-23T08:00:00+08:00"
     },
     {
-      "event_id": "evt_003",
-      "event_name": "AutoDex: automated dexterous grasping data collection",
+      "event_id": "event_13",
+      "event_name": "AutoDex: 自动化灵巧抓取数据收集系统",
       "related_news_ids": [
         "news_757df02a5298"
       ],
       "main_entities": [
-        "AutoDex"
+        "AutoDex",
+        "Allegro",
+        "Inspire"
       ],
-      "core_topic": "AutoDex is an automated real-world data-collection system for dexterous grasping with significant throughput improvement",
+      "core_topic": "AutoDex系统实现自动化真实世界灵巧抓取数据收集，效率提升4.8倍",
       "event_type": "research",
       "industry_area": "research",
       "technologies": [
@@ -1075,12 +1479,12 @@
         "AutoDex is an automated real-world data-collection system for dexterous grasping",
         "collects 3,593 grasp trials across Allegro and Inspire hands on 100 diverse objects",
         "4.8x throughput improvement over teleoperation",
-        "grasps retrieved from AutoDex-validated database succeed 76% versus 34% for simulation-only validation"
+        "grasps from AutoDex-validated database succeed 76% vs 34% for simulation-only validation"
       ],
       "evidence": [
-        "AutoDex requires 10.3 h versus 49.4 h for teleoperation, yielding a 4.8x throughput improvement, and grasps retrieved from the AutoDex-validated database succeed 76% versus 34% for simulation-only validation."
+        "The abstract states: 'AutoDex, an automated real-world data-collection system... collects 3,593 grasp trials... 4.8x throughput improvement... grasps retrieved from the AutoDex-validated database succeed 76% versus 34% for simulation-only validation.'"
       ],
-      "why_it_matters": "Advances robotic manipulation by enabling efficient real-world data collection",
+      "why_it_matters": "解决灵巧抓取中真实数据收集的瓶颈，推动机器人学习",
       "impact_scope": [
         "research"
       ],
@@ -1092,18 +1496,20 @@
         "data collection",
         "dexterous manipulation"
       ],
-      "confidence": "high"
+      "confidence": "high",
+      "published_at": "2026-06-23T01:59:55+08:00"
     },
     {
-      "event_id": "evt_004",
-      "event_name": "Randomized YaRN improves long-context reasoning",
+      "event_id": "event_14",
+      "event_name": "Randomized YaRN改进长上下文推理",
       "related_news_ids": [
         "news_85eaf7ab5f8c"
       ],
       "main_entities": [
-        "Randomized YaRN"
+        "Randomized YaRN",
+        "YaRN"
       ],
-      "core_topic": "Randomized YaRN combines YaRN with randomized positional encoding and length curriculum to improve long-context reasoning",
+      "core_topic": "Randomized YaRN方法通过随机位置编码和长度课程提升LLM长上下文推理能力",
       "event_type": "research",
       "industry_area": "research",
       "technologies": [
@@ -1114,12 +1520,13 @@
       "key_facts": [
         "Randomized YaRN combines YaRN-based positional extrapolation with randomized positional encoding and a length curriculum",
         "evaluated on BABILong and Multi-Round Coreference Resolution",
-        "improves reasoning performance on context lengths from 16K to 128K when trained on <8K context"
+        "improves reasoning performance on context lengths from 16K to 128K when trained on <8K context",
+        "outperforms standard fine-tuning"
       ],
       "evidence": [
-        "Randomized YaRN consistently improves reasoning performance on context lengths from 16K to 128K and outperforms standard fine-tuning, with the largest gains appearing at far out-of-distribution lengths."
+        "The abstract states: 'Randomized YaRN... improves reasoning performance on context lengths from 16K to 128K and outperforms standard fine-tuning.'"
       ],
-      "why_it_matters": "Enables LLMs to handle longer contexts without requiring long-context training data",
+      "why_it_matters": "解决LLM长上下文泛化难题，提升实际应用能力",
       "impact_scope": [
         "research"
       ],
@@ -1127,14 +1534,15 @@
         "none"
       ],
       "opportunity_tags": [
-        "long-context reasoning",
-        "LLM generalization"
+        "long-context LLMs",
+        "length generalization"
       ],
-      "confidence": "high"
+      "confidence": "high",
+      "published_at": "2026-06-23T01:59:53+08:00"
     },
     {
-      "event_id": "evt_005",
-      "event_name": "CoorDex: dexterous loco-manipulation on humanoid",
+      "event_id": "event_15",
+      "event_name": "CoorDex: 连续灵巧人形机器人操作",
       "related_news_ids": [
         "news_abae4f31f1fe"
       ],
@@ -1143,23 +1551,24 @@
         "Unitree G1",
         "WUJI hand"
       ],
-      "core_topic": "CoorDex enables a humanoid robot to perform dexterous manipulation while moving",
+      "core_topic": "CoorDex学习管线实现人形机器人在移动中的灵巧操作",
       "event_type": "research",
       "industry_area": "research",
       "technologies": [
         "CoorDex",
-        "dexterous manipulation",
-        "humanoid robotics"
+        "humanoid loco-manipulation",
+        "dexterous hand"
       ],
       "key_facts": [
-        "CoorDex enables a Unitree G1 humanoid with a 20-DoF WUJI hand to execute dexterous manipulation while in motion",
-        "includes non-stop bottle grasping and carrying, fridge door opening on the move, and cube pick-and-turn",
+        "CoorDex enables high-DoF dexterous loco-manipulation on the move",
+        "uses a Unitree G1 humanoid with a 20-DoF WUJI hand",
+        "demonstrates non-stop bottle grasping and carrying, fridge door opening on the move, and cube pick-and-turn",
         "joint-space PPO, joint-space hand control, and monolithic latent prediction all fail under the same reward budget"
       ],
       "evidence": [
-        "CoorDex enables a Unitree G1 humanoid with a 20-DoF WUJI hand to execute dexterous manipulation while in motion, including non-stop bottle grasping and carrying, fridge door opening on the move, and cube pick-and-turn."
+        "The abstract states: 'CoorDex enables a Unitree G1 humanoid with a 20-DoF WUJI hand to execute dexterous manipulation while in motion... joint-space PPO, joint-space hand control, and monolithic latent prediction all fail under the same reward budget.'"
       ],
-      "why_it_matters": "Advances humanoid robotics by combining locomotion and manipulation",
+      "why_it_matters": "突破人形机器人移动中灵巧操作的技术瓶颈",
       "impact_scope": [
         "research"
       ],
@@ -1171,16 +1580,17 @@
         "dexterous manipulation",
         "loco-manipulation"
       ],
-      "confidence": "high"
+      "confidence": "high",
+      "published_at": "2026-06-23T01:59:20+08:00"
     },
     {
-      "event_id": "evt_006",
-      "event_name": "Semantic Browsing for controlled diversity in image generation",
+      "event_id": "event_16",
+      "event_name": "Semantic Browsing: 可控多样性的图像生成",
       "related_news_ids": [
         "news_2fffbed39a42"
       ],
       "main_entities": [],
-      "core_topic": "Method for controlled diversity in text-to-image generation enabling semantic browsing",
+      "core_topic": "提出Semantic Browsing方法，通过文本级语义控制实现图像生成的可控多样性",
       "event_type": "research",
       "industry_area": "multimodal_ai",
       "technologies": [
@@ -1192,9 +1602,9 @@
         "Modern text-to-image models excel in visual fidelity and prompt adherence."
       ],
       "evidence": [
-        "The paper introduces a method for controlled diversity that enables Semantic Browsing, where users can navigate structured image galleries."
+        "The paper introduces a method for controlled diversity that enables Semantic Browsing, where users can navigate structured image galleries and experience creative exploration."
       ],
-      "why_it_matters": "Improves user control and creativity in AI image generation",
+      "why_it_matters": "提升图像生成的可控性和创造性，改善用户体验",
       "impact_scope": [
         "research"
       ],
@@ -1202,18 +1612,21 @@
         "none"
       ],
       "opportunity_tags": [
-        "none"
+        "controllable diversity",
+        "semantic browsing",
+        "creative exploration"
       ],
-      "confidence": "high"
+      "confidence": "medium",
+      "published_at": "2026-06-23T01:59:17+08:00"
     },
     {
-      "event_id": "evt_007",
-      "event_name": "AIR: Adaptive Interleaved Reasoning with Code in MLLMs",
+      "event_id": "event_17",
+      "event_name": "AIR: 自适应交错推理与代码增强",
       "related_news_ids": [
         "news_305c90ea87bd"
       ],
       "main_entities": [],
-      "core_topic": "Adaptive interleaved reasoning with code for multimodal LLMs via reinforcement learning",
+      "core_topic": "通过强化学习训练多模态大模型实现自适应交错推理能力",
       "event_type": "research",
       "industry_area": "ai_agent",
       "technologies": [
@@ -1227,7 +1640,7 @@
       "evidence": [
         "The paper empowers MLLMs with adaptive interleaved reasoning capabilities through extended reinforcement learning training on code-augmented complex numerical computation tasks."
       ],
-      "why_it_matters": "Enhances MLLMs' ability to perform numerical computation and reasoning",
+      "why_it_matters": "提升多模态大模型在复杂数值计算任务中的推理能力",
       "impact_scope": [
         "research"
       ],
@@ -1235,67 +1648,70 @@
         "none"
       ],
       "opportunity_tags": [
-        "none"
+        "adaptive interleaved reasoning",
+        "code-augmented tasks",
+        "reinforcement learning"
       ],
-      "confidence": "high"
+      "confidence": "medium",
+      "published_at": "2026-06-23T01:58:54+08:00"
     },
     {
-      "event_id": "evt_008",
-      "event_name": "Open problem: AdamW under heavy-tailed noise",
+      "event_id": "event_18",
+      "event_name": "AdamW在重尾噪声下的有效性开放问题",
       "related_news_ids": [
         "news_d047e99003e7"
       ],
       "main_entities": [],
-      "core_topic": "Open problem about AdamW's convergence under heavy-tailed noise",
+      "core_topic": "提出AdamW优化器在重尾噪声下是否有效的开放问题",
       "event_type": "research",
       "industry_area": "research",
       "technologies": [
         "AdamW",
-        "Lion",
-        "Muon",
-        "AdaGrad"
+        "large language models (LLMs)",
+        "optimizers"
       ],
       "key_facts": [
         "AdamW is the de facto optimizer for training large language models (LLMs), yet the theory behind it still lives mostly in finite-variance regimes."
       ],
       "evidence": [
-        "The paper formulates an open problem about AdamW's convergence under heavy-tailed noise."
+        "The paper formulates an open problem about AdamW's convergence under heavy-tailed noise, stating that no rigorous convergence theory for AdamW has yet been established in this regime."
       ],
-      "why_it_matters": "Highlights a gap between theory and practice in LLM optimization",
+      "why_it_matters": "挑战现有优化器理论，推动LLM训练理论发展",
       "impact_scope": [
         "research"
       ],
       "risk_tags": [
-        "none"
+        "theoretical gap"
       ],
       "opportunity_tags": [
-        "none"
+        "optimizer theory",
+        "heavy-tailed noise"
       ],
-      "confidence": "high"
+      "confidence": "medium",
+      "published_at": "2026-06-23T01:58:52+08:00"
     },
     {
-      "event_id": "evt_009",
-      "event_name": "PsyBridge: hybrid mental health assessment framework",
+      "event_id": "event_19",
+      "event_name": "PsyBridge: 多维度心理健康评估框架",
       "related_news_ids": [
         "news_8930ebe5665c"
       ],
       "main_entities": [],
-      "core_topic": "PsyBridge integrates PHQ-9, GAD-7, cognitive evaluation, and personality profiling for mental health assessment",
+      "core_topic": "提出PsyBridge混合智能框架，整合临床工具、认知评估和人格画像进行多维度心理健康评估",
       "event_type": "research",
       "industry_area": "enterprise_ai",
       "technologies": [
         "PHQ-9",
         "GAD-7",
-        "cognitive evaluation",
-        "personality profiling"
+        "hybrid intelligent framework"
       ],
       "key_facts": [
         "Mental health assessment commonly relies on isolated screening instruments or data-driven models that often lack interpretability and multi-dimensional integration."
       ],
       "evidence": [
-        "The study proposes PsyBridge, a hybrid intelligent decision-support framework for multi-dimensional mental health assessment."
+        "The study proposes PsyBridge, a hybrid intelligent decision-support framework for multi-dimensional mental health assessment, achieving an overall accuracy of 0.84."
       ],
-      "why_it_matters": "Provides a scalable and interpretable AI-assisted mental health decision support tool",
+      "why_it_matters": "提供可解释、可扩展的心理健康评估工具，适用于数字医疗",
       "impact_scope": [
         "industry"
       ],
@@ -1303,35 +1719,39 @@
         "none"
       ],
       "opportunity_tags": [
-        "none"
+        "mental health assessment",
+        "decision support",
+        "digital healthcare"
       ],
-      "confidence": "high"
+      "confidence": "medium",
+      "published_at": "2026-06-23T01:57:15+08:00"
     },
     {
-      "event_id": "evt_010",
-      "event_name": "Teaching LLMs bit manipulation puzzles via string similarity and backtracking",
+      "event_id": "event_20",
+      "event_name": "NVIDIA Nemotron挑战赛中的位操作谜题解法",
       "related_news_ids": [
         "news_db3624209c14"
       ],
       "main_entities": [
         "NVIDIA"
       ],
-      "core_topic": "Novel approach using string similarity and backtracking to solve bit manipulation puzzles with LLMs",
+      "core_topic": "提出基于字符串相似性和回溯搜索的方法解决位操作谜题，在NVIDIA Nemotron挑战赛中取得96%验证准确率",
       "event_type": "research",
       "industry_area": "developer_tools",
       "technologies": [
         "LLMs",
-        "string similarity",
-        "backtracking DFS",
+        "string matching",
+        "backtracking",
+        "error recovery",
         "bit tokenization"
       ],
       "key_facts": [
         "This paper presents our algorithmic innovations for the NVIDIA Nemotron Model Reasoning Challenge, focusing on Bit Manipulation Puzzles."
       ],
       "evidence": [
-        "The paper presents algorithmic innovations for the NVIDIA Nemotron Model Reasoning Challenge, focusing on Bit Manipulation Puzzles."
+        "The paper presents algorithmic innovations for the NVIDIA Nemotron Model Reasoning Challenge, achieving over 96% validation accuracy on bit manipulation puzzles."
       ],
-      "why_it_matters": "Improves LLM reasoning on combinatorial puzzles",
+      "why_it_matters": "提升LLM在逻辑推理和位操作任务中的表现",
       "impact_scope": [
         "research"
       ],
@@ -1339,352 +1759,19 @@
         "none"
       ],
       "opportunity_tags": [
-        "none"
-      ],
-      "confidence": "high"
-    },
-    {
-      "event_id": "evt_011",
-      "event_name": "LLMs cannot reliably self-report adversarial prefills",
-      "related_news_ids": [
-        "news_eef0dcc2e091"
-      ],
-      "main_entities": [],
-      "core_topic": "LLMs fail to reliably recognize when their responses are elicited by adversarial prefill attacks",
-      "event_type": "research",
-      "industry_area": "ai_safety",
-      "technologies": [
-        "LLM",
-        "LoRA",
-        "SFT",
-        "GRPO",
-        "DPO"
-      ],
-      "key_facts": [
-        "No model reliably recognizes its own compromised outputs.",
-        "Models claim intent on prefilled responses at an average rate of 27.3%.",
-        "Introspective signal stems largely from safety- and refusal-related reasoning.",
-        "Orthogonalizing weights against refusal direction collapses the gap.",
-        "Framing as internal intention vs external tampering elicits different responses.",
-        "LoRA finetuning methods widen intention-probe gap on models 8B to 27B.",
-        "Intervention does not transfer to tampering probe and raises attack success rate."
-      ],
-      "evidence": [
-        "No model reliably recognizes its own compromised outputs; models claiming intent on prefilled responses at an average rate of 27.3%; intervention raises attack success rate."
-      ],
-      "why_it_matters": "Highlights risks in relying on LLM self-reports for safety",
-      "impact_scope": [
-        "research"
-      ],
-      "risk_tags": [
-        "adversarial attack",
-        "safety",
-        "introspection reliability"
-      ],
-      "opportunity_tags": [
-        "none"
-      ],
-      "confidence": "high"
-    },
-    {
-      "event_id": "evt_012",
-      "event_name": "Tapered Language Models improve perplexity and downstream performance",
-      "related_news_ids": [
-        "news_936a93fd1d91"
-      ],
-      "main_entities": [],
-      "core_topic": "Tapering MLP width across layers improves language model performance at no extra cost",
-      "event_type": "research",
-      "industry_area": "foundation_model",
-      "technologies": [
-        "Transformer",
-        "Gated Attention",
-        "Hope-attention",
-        "Titans",
-        "MLP"
-      ],
-      "key_facts": [
-        "Allocating more capacity to earlier layers improves perplexity.",
-        "Tapered Language Models (TLMs) monotonically taper a parameter-bearing component across depth.",
-        "MLPs are the natural site for tapering.",
-        "Tapering MLP width via smooth cosine schedule improves perplexity and downstream performance.",
-        "No additional parameter or compute cost."
-      ],
-      "evidence": [
-        "Allocating more capacity to earlier layers improves perplexity; tapering MLP width consistently improves perplexity and downstream performance at no additional cost."
-      ],
-      "why_it_matters": "Simple architecture-agnostic improvement for language models",
-      "impact_scope": [
-        "research"
-      ],
-      "risk_tags": [
-        "none"
-      ],
-      "opportunity_tags": [
-        "architecture improvement",
-        "efficiency"
-      ],
-      "confidence": "high"
-    },
-    {
-      "event_id": "evt_013",
-      "event_name": "Limits of prompt-conditioned LLMs as general-purpose learners",
-      "related_news_ids": [
-        "news_1ecdb86d7644"
-      ],
-      "main_entities": [],
-      "core_topic": "Theoretical limits of prompt-conditioned LLMs due to language as a capacity-limited interface",
-      "event_type": "research",
-      "industry_area": "research",
-      "technologies": [
-        "LLM"
-      ],
-      "key_facts": [
-        "Language is a compressed and capacity-limited interface.",
-        "Expressivity floor: language acts as a capacity-limited channel; distinct tasks become indistinguishable if informational complexity exceeds capacity.",
-        "Objective-misalignment floor: alignment constraints induce irreducible distortion.",
-        "Prompt-conditioned LLMs are not universal problem solvers through prompting alone.",
-        "Interfaces beyond natural language may reduce limitations."
-      ],
-      "evidence": [
-        "Language is a compressed and capacity-limited interface; expressivity floor: distinct tasks become indistinguishable; objective-misalignment floor: alignment constraints induce irreducible distortion."
-      ],
-      "why_it_matters": "Formalizes fundamental limitations of prompting, guiding future research toward multimodal and external memory approaches",
-      "impact_scope": [
-        "research"
-      ],
-      "risk_tags": [
-        "limitations",
-        "generalization"
-      ],
-      "opportunity_tags": [
-        "multimodal",
-        "external memory"
-      ],
-      "confidence": "high"
-    },
-    {
-      "event_id": "evt_014",
-      "event_name": "MAS-PromptBench: prompt optimization in multi-agent LLM systems",
-      "related_news_ids": [
-        "news_1766a29dcfea"
-      ],
-      "main_entities": [],
-      "core_topic": "Systematic study of prompt optimization for multi-agent LLM systems",
-      "event_type": "research",
-      "industry_area": "ai_agent",
-      "technologies": [
-        "LLM",
-        "multi-agent systems"
-      ],
-      "key_facts": [
-        "System prompts form a critical optimization surface for MAS.",
-        "Prompt optimization for MAS faces exponentially growing search space.",
-        "Study systematically investigates prompt optimization across varied MAS setups.",
-        "Results reveal potential to unlock significant gains while exposing open challenges."
-      ],
-      "evidence": [
-        "System prompts form a critical optimization surface; results reveal potential to unlock significant gains while exposing open challenges."
-      ],
-      "why_it_matters": "Provides insights into when and how prompt optimization helps in multi-agent settings",
-      "impact_scope": [
-        "research"
-      ],
-      "risk_tags": [
-        "none"
-      ],
-      "opportunity_tags": [
-        "prompt optimization",
-        "multi-agent systems"
-      ],
-      "confidence": "high"
-    },
-    {
-      "event_id": "evt_015",
-      "event_name": "Action-BED: task-driven Bayesian experimental design",
-      "related_news_ids": [
-        "news_55311f31e987"
-      ],
-      "main_entities": [],
-      "core_topic": "Task-driven Bayesian experimental design with singly intractable objectives",
-      "event_type": "research",
-      "industry_area": "research",
-      "technologies": [
-        "Bayesian experimental design"
-      ],
-      "key_facts": [
-        "BED can be formulated in terms of expected future loss on downstream actions.",
-        "All EFLs can be rearranged into singly intractable objectives.",
-        "Approach sidesteps need for explicit posterior or marginal likelihood estimation.",
-        "Allows design policies to be learned more effectively, efficiently, and simply."
-      ],
-      "evidence": [
-        "BED can be formulated in terms of expected future loss; approach sidesteps need for explicit posterior estimation; allows design policies to be learned more effectively, efficiently, and simply."
-      ],
-      "why_it_matters": "Simplifies and improves Bayesian experimental design for downstream tasks",
-      "impact_scope": [
-        "research"
-      ],
-      "risk_tags": [
-        "none"
-      ],
-      "opportunity_tags": [
-        "Bayesian experimental design",
-        "task-driven"
-      ],
-      "confidence": "high"
-    },
-    {
-      "event_id": "evt_016",
-      "event_name": "Dynamic estimation of slowly varying sequences",
-      "related_news_ids": [
-        "news_6cc9a274e196"
-      ],
-      "main_entities": [],
-      "core_topic": "Framework for sequential estimation of slowly varying sequences with adaptive budget",
-      "event_type": "research",
-      "industry_area": "research",
-      "technologies": [],
-      "key_facts": [
-        "We consider the problem of sequentially approximating functions of each element in a slowly-varying sequence, i.e."
-      ],
-      "evidence": [
-        "The paper introduces a framework for sequential estimation of slowly varying sequences, improving upon previous bounds."
-      ],
-      "why_it_matters": "Provides general-purpose adaptive sequential estimation with improved guarantees",
-      "impact_scope": [
-        "research"
-      ],
-      "risk_tags": [
-        "none"
-      ],
-      "opportunity_tags": [
-        "none"
-      ],
-      "confidence": "high"
-    },
-    {
-      "event_id": "evt_017",
-      "event_name": "EnterpriseClawBench: benchmark for enterprise agents",
-      "related_news_ids": [
-        "news_341a724680ba"
-      ],
-      "main_entities": [],
-      "core_topic": "Enterprise agent benchmark constructed from real workplace sessions",
-      "event_type": "research",
-      "industry_area": "enterprise_ai",
-      "technologies": [],
-      "key_facts": [
-        "Enterprise agents increasingly operate inside workspaces: they read heterogeneous files, invoke tools, and deliver business artifacts."
-      ],
-      "evidence": [
-        "The paper introduces a benchmark for enterprise agents, with best configuration reaching 0.663."
-      ],
-      "why_it_matters": "Provides a realistic benchmark for evaluating enterprise AI agents",
-      "impact_scope": [
-        "research"
-      ],
-      "risk_tags": [
-        "none"
-      ],
-      "opportunity_tags": [
-        "none"
-      ],
-      "confidence": "high"
-    },
-    {
-      "event_id": "evt_018",
-      "event_name": "TailorMind: personalized multimodal content generation",
-      "related_news_ids": [
-        "news_49cf97f4a3d4"
-      ],
-      "main_entities": [],
-      "core_topic": "Personalized multimodal content generation via collaborative preference modeling and controllable generation",
-      "event_type": "research",
-      "industry_area": "multimodal_ai",
-      "technologies": [],
-      "key_facts": [
-        "Personalized content systems depend on available UGC and struggle when suitable content is absent, delayed, or costly to create."
-      ],
-      "evidence": [
-        "The paper proposes TailorMind for personalized multimodal content generation, achieving up to 29% Recall gains."
-      ],
-      "why_it_matters": "Advances personalized content generation without relying on existing user-generated content",
-      "impact_scope": [
-        "research"
-      ],
-      "risk_tags": [
-        "none"
-      ],
-      "opportunity_tags": [
-        "none"
-      ],
-      "confidence": "high"
-    },
-    {
-      "event_id": "evt_019",
-      "event_name": "Learning process rewards via success visitation matching",
-      "related_news_ids": [
-        "news_e4144d096352"
-      ],
-      "main_entities": [],
-      "core_topic": "Transforming sparse rewards into dense process rewards via discriminator for faster RL",
-      "event_type": "research",
-      "industry_area": "research",
-      "technologies": [],
-      "key_facts": [
-        "In many modern applications of reinforcement learning (RL), the natural reward for a task of interest is inherently sparse: a reward of 0 is given everywhere except when the task is completed, when a reward of +1 is given."
-      ],
-      "evidence": [
-        "The paper proposes a method to transform sparse rewards into dense process rewards, leading to faster RL finetuning."
-      ],
-      "why_it_matters": "Improves RL efficiency by providing dense feedback without changing the optimal policy",
-      "impact_scope": [
-        "research"
-      ],
-      "risk_tags": [
-        "none"
-      ],
-      "opportunity_tags": [
-        "none"
-      ],
-      "confidence": "high"
-    },
-    {
-      "event_id": "evt_020",
-      "event_name": "Muown implicitly performs angular step-size decay",
-      "related_news_ids": [
-        "news_fbd3d7424f87"
-      ],
-      "main_entities": [],
-      "core_topic": "Muown optimizer's directional update is equivalent to Riemannian step; AngularMuown improves performance",
-      "event_type": "research",
-      "industry_area": "research",
-      "technologies": [],
-      "key_facts": [
-        "Matrix-aware optimizers such as Muon and Muown have recently shown strong empirical performance for pre-training Transformers."
-      ],
-      "evidence": [
-        "The paper introduces AngularMuown, which improves over Muown and is leading a competition."
-      ],
-      "why_it_matters": "Provides a better optimizer for training Transformers",
-      "impact_scope": [
-        "research"
-      ],
-      "risk_tags": [
-        "none"
-      ],
-      "opportunity_tags": [
-        "none"
-      ],
-      "confidence": "high"
+        "bit manipulation puzzles",
+        "LLM reasoning",
+        "NVIDIA Nemotron Challenge"
+      ],
+      "confidence": "medium",
+      "published_at": "2026-06-23T01:57:08+08:00"
     }
   ],
   "ranked_events": [
     {
-      "event_id": "evt_013",
-      "event_name": "Limits of prompt-conditioned LLMs as general-purpose learners",
-      "final_importance_score": 3.67,
+      "event_id": "event_18",
+      "event_name": "AdamW在重尾噪声下的有效性开放问题",
+      "final_importance_score": 3.41,
       "rank": 1,
       "score_breakdown": {
         "impact_scope": 3,
@@ -1693,42 +1780,42 @@
         "multi_source_support": 3,
         "technical_impact": 4,
         "business_impact": 2,
-        "risk_level": 4,
-        "opportunity_level": 4,
+        "risk_level": 2.458,
+        "opportunity_level": 3.26,
         "recency": 5
       },
       "ranking_reason": "该事件来自 arXiv，影响范围评分 3，来源权威性评分 5，技术影响评分 4，商业影响评分 2。",
       "supporting_evidence": [
-        "Language is a compressed and capacity-limited interface; expressivity floor: distinct tasks become indistinguishable; objective-misalignment floor: alignment constraints induce irreducible distortion."
+        "The paper formulates an open problem about AdamW's convergence under heavy-tailed noise, stating that no rigorous convergence theory for AdamW has yet been established in this regime."
       ],
-      "confidence": "high"
+      "confidence": "medium"
     },
     {
-      "event_id": "evt_003",
-      "event_name": "AutoDex: automated dexterous grasping data collection",
-      "final_importance_score": 3.33,
+      "event_id": "event_3",
+      "event_name": "正行创新完成近亿美元天使轮融资",
+      "final_importance_score": 3.3,
       "rank": 2,
       "score_breakdown": {
         "impact_scope": 3,
-        "source_authority": 5,
-        "novelty": 3,
+        "source_authority": 3,
+        "novelty": 4,
         "multi_source_support": 3,
         "technical_impact": 4,
-        "business_impact": 2,
-        "risk_level": 0,
-        "opportunity_level": 5,
+        "business_impact": 4,
+        "risk_level": 0.3,
+        "opportunity_level": 3.406,
         "recency": 5
       },
-      "ranking_reason": "该事件来自 arXiv，影响范围评分 3，来源权威性评分 5，技术影响评分 4，商业影响评分 2。",
+      "ranking_reason": "该事件来自 量子位，影响范围评分 3，来源权威性评分 3，技术影响评分 4，商业影响评分 4。",
       "supporting_evidence": [
-        "AutoDex requires 10.3 h versus 49.4 h for teleoperation, yielding a 4.8x throughput improvement, and grasps retrieved from the AutoDex-validated database succeed 76% versus 34% for simulation-only validation."
+        "输入摘要提到'正行创新（Striding AI）已完成近亿美元天使轮系列融资。投资方包括正大集团、华勤技术、九安医疗等多家上市企业'"
       ],
       "confidence": "high"
     },
     {
-      "event_id": "evt_005",
-      "event_name": "CoorDex: dexterous loco-manipulation on humanoid",
-      "final_importance_score": 3.33,
+      "event_id": "event_15",
+      "event_name": "CoorDex: 连续灵巧人形机器人操作",
+      "final_importance_score": 3.29,
       "rank": 3,
       "score_breakdown": {
         "impact_scope": 3,
@@ -1737,42 +1824,42 @@
         "multi_source_support": 3,
         "technical_impact": 4,
         "business_impact": 2,
-        "risk_level": 0,
-        "opportunity_level": 5,
+        "risk_level": 0.36,
+        "opportunity_level": 4.248,
         "recency": 5
       },
       "ranking_reason": "该事件来自 arXiv，影响范围评分 3，来源权威性评分 5，技术影响评分 4，商业影响评分 2。",
       "supporting_evidence": [
-        "CoorDex enables a Unitree G1 humanoid with a 20-DoF WUJI hand to execute dexterous manipulation while in motion, including non-stop bottle grasping and carrying, fridge door opening on the move, and cube pick-and-turn."
+        "The abstract states: 'CoorDex enables a Unitree G1 humanoid with a 20-DoF WUJI hand to execute dexterous manipulation while in motion... joint-space PPO, joint-space hand control, and monolithic latent prediction all fail under the same reward budget.'"
       ],
       "confidence": "high"
     },
     {
-      "event_id": "evt_012",
-      "event_name": "Tapered Language Models improve perplexity and downstream performance",
-      "final_importance_score": 3.33,
+      "event_id": "event_7",
+      "event_name": "特斯拉申请Megapod商标进军AI数据中心硬件",
+      "final_importance_score": 3.27,
       "rank": 4,
       "score_breakdown": {
         "impact_scope": 4,
-        "source_authority": 5,
+        "source_authority": 3,
         "novelty": 3,
         "multi_source_support": 3,
         "technical_impact": 4,
-        "business_impact": 2,
-        "risk_level": 0,
-        "opportunity_level": 4,
+        "business_impact": 4,
+        "risk_level": 0.153,
+        "opportunity_level": 3.283,
         "recency": 5
       },
-      "ranking_reason": "该事件来自 arXiv，影响范围评分 4，来源权威性评分 5，技术影响评分 4，商业影响评分 2。",
+      "ranking_reason": "该事件来自 量子位，影响范围评分 4，来源权威性评分 3，技术影响评分 4，商业影响评分 4。",
       "supporting_evidence": [
-        "Allocating more capacity to earlier layers improves perplexity; tapering MLP width consistently improves perplexity and downstream performance at no additional cost."
+        "原文：刚刚，特斯拉向美国专利商标局(USPTO)提交了一个名叫 “Megapod” 的商标申请，计划销售模块化AI数据中心硬件。"
       ],
-      "confidence": "high"
+      "confidence": "medium"
     },
     {
-      "event_id": "evt_001",
-      "event_name": "GPT-5 solves immunology mystery",
-      "final_importance_score": 3.22,
+      "event_id": "event_13",
+      "event_name": "AutoDex: 自动化灵巧抓取数据收集系统",
+      "final_importance_score": 3.27,
       "rank": 5,
       "score_breakdown": {
         "impact_scope": 3,
@@ -1781,42 +1868,42 @@
         "multi_source_support": 3,
         "technical_impact": 4,
         "business_impact": 2,
-        "risk_level": 0,
-        "opportunity_level": 4,
+        "risk_level": 0.272,
+        "opportunity_level": 4.194,
         "recency": 5
       },
-      "ranking_reason": "该事件来自 OpenAI News，影响范围评分 3，来源权威性评分 5，技术影响评分 4，商业影响评分 2。",
+      "ranking_reason": "该事件来自 arXiv，影响范围评分 3，来源权威性评分 5，技术影响评分 4，商业影响评分 2。",
       "supporting_evidence": [
-        "GPT-5 Pro helped solve a 3-year-old immunology mystery, offering insights into T cell behavior. The breakthrough could support cancer and autoimmune research."
+        "The abstract states: 'AutoDex, an automated real-world data-collection system... collects 3,593 grasp trials... 4.8x throughput improvement... grasps retrieved from the AutoDex-validated database succeed 76% versus 34% for simulation-only validation.'"
       ],
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
-      "event_id": "evt_002",
-      "event_name": "Omio adopts OpenAI for conversational travel",
-      "final_importance_score": 3.22,
+      "event_id": "event_9",
+      "event_name": "豆包2.1模型发布",
+      "final_importance_score": 3.25,
       "rank": 6,
       "score_breakdown": {
-        "impact_scope": 3,
-        "source_authority": 5,
-        "novelty": 3,
+        "impact_scope": 4,
+        "source_authority": 3,
+        "novelty": 4,
         "multi_source_support": 3,
-        "technical_impact": 2,
-        "business_impact": 4,
-        "risk_level": 0,
-        "opportunity_level": 4,
+        "technical_impact": 4,
+        "business_impact": 2,
+        "risk_level": 0.197,
+        "opportunity_level": 4.081,
         "recency": 5
       },
-      "ranking_reason": "该事件来自 OpenAI News，影响范围评分 3，来源权威性评分 5，技术影响评分 2，商业影响评分 4。",
+      "ranking_reason": "该事件来自 量子位，影响范围评分 4，来源权威性评分 3，技术影响评分 4，商业影响评分 2。",
       "supporting_evidence": [
-        "Discover how Omio uses OpenAI to power conversational travel experiences, accelerate product development, and transform into an AI-native company."
+        "原文：这个版本一共包含2个模型，分别是Doubao-Seed-2.1-Pro和Doubao-Seed-2.1-Turbo，并且API服务已全量上线火山方舟。"
       ],
       "confidence": "medium"
     },
     {
-      "event_id": "evt_004",
-      "event_name": "Randomized YaRN improves long-context reasoning",
-      "final_importance_score": 3.22,
+      "event_id": "event_16",
+      "event_name": "Semantic Browsing: 可控多样性的图像生成",
+      "final_importance_score": 3.25,
       "rank": 7,
       "score_breakdown": {
         "impact_scope": 3,
@@ -1825,42 +1912,42 @@
         "multi_source_support": 3,
         "technical_impact": 4,
         "business_impact": 2,
-        "risk_level": 0,
-        "opportunity_level": 4,
+        "risk_level": 0.169,
+        "opportunity_level": 4.093,
         "recency": 5
       },
       "ranking_reason": "该事件来自 arXiv，影响范围评分 3，来源权威性评分 5，技术影响评分 4，商业影响评分 2。",
       "supporting_evidence": [
-        "Randomized YaRN consistently improves reasoning performance on context lengths from 16K to 128K and outperforms standard fine-tuning, with the largest gains appearing at far out-of-distribution lengths."
+        "The paper introduces a method for controlled diversity that enables Semantic Browsing, where users can navigate structured image galleries and experience creative exploration."
       ],
-      "confidence": "high"
+      "confidence": "medium"
     },
     {
-      "event_id": "evt_014",
-      "event_name": "MAS-PromptBench: prompt optimization in multi-agent LLM systems",
-      "final_importance_score": 3.22,
+      "event_id": "event_19",
+      "event_name": "PsyBridge: 多维度心理健康评估框架",
+      "final_importance_score": 3.25,
       "rank": 8,
       "score_breakdown": {
         "impact_scope": 3,
         "source_authority": 5,
         "novelty": 3,
         "multi_source_support": 3,
-        "technical_impact": 4,
-        "business_impact": 2,
-        "risk_level": 0,
-        "opportunity_level": 4,
+        "technical_impact": 2,
+        "business_impact": 4,
+        "risk_level": 0.164,
+        "opportunity_level": 4.077,
         "recency": 5
       },
-      "ranking_reason": "该事件来自 arXiv，影响范围评分 3，来源权威性评分 5，技术影响评分 4，商业影响评分 2。",
+      "ranking_reason": "该事件来自 arXiv，影响范围评分 3，来源权威性评分 5，技术影响评分 2，商业影响评分 4。",
       "supporting_evidence": [
-        "System prompts form a critical optimization surface; results reveal potential to unlock significant gains while exposing open challenges."
+        "The study proposes PsyBridge, a hybrid intelligent decision-support framework for multi-dimensional mental health assessment, achieving an overall accuracy of 0.84."
       ],
-      "confidence": "high"
+      "confidence": "medium"
     },
     {
-      "event_id": "evt_015",
-      "event_name": "Action-BED: task-driven Bayesian experimental design",
-      "final_importance_score": 3.22,
+      "event_id": "event_17",
+      "event_name": "AIR: 自适应交错推理与代码增强",
+      "final_importance_score": 3.24,
       "rank": 9,
       "score_breakdown": {
         "impact_scope": 3,
@@ -1869,42 +1956,42 @@
         "multi_source_support": 3,
         "technical_impact": 4,
         "business_impact": 2,
-        "risk_level": 0,
-        "opportunity_level": 4,
+        "risk_level": 0.143,
+        "opportunity_level": 4.03,
         "recency": 5
       },
       "ranking_reason": "该事件来自 arXiv，影响范围评分 3，来源权威性评分 5，技术影响评分 4，商业影响评分 2。",
       "supporting_evidence": [
-        "BED can be formulated in terms of expected future loss; approach sidesteps need for explicit posterior estimation; allows design policies to be learned more effectively, efficiently, and simply."
+        "The paper empowers MLLMs with adaptive interleaved reasoning capabilities through extended reinforcement learning training on code-augmented complex numerical computation tasks."
       ],
-      "confidence": "high"
+      "confidence": "medium"
     },
     {
-      "event_id": "evt_011",
-      "event_name": "LLMs cannot reliably self-report adversarial prefills",
-      "final_importance_score": 3.11,
+      "event_id": "event_14",
+      "event_name": "Randomized YaRN改进长上下文推理",
+      "final_importance_score": 3.2,
       "rank": 10,
       "score_breakdown": {
         "impact_scope": 3,
         "source_authority": 5,
         "novelty": 3,
         "multi_source_support": 3,
-        "technical_impact": 2,
+        "technical_impact": 4,
         "business_impact": 2,
-        "risk_level": 5,
-        "opportunity_level": 0,
+        "risk_level": 0.361,
+        "opportunity_level": 3.416,
         "recency": 5
       },
-      "ranking_reason": "该事件来自 arXiv，影响范围评分 3，来源权威性评分 5，技术影响评分 2，商业影响评分 2。",
+      "ranking_reason": "该事件来自 arXiv，影响范围评分 3，来源权威性评分 5，技术影响评分 4，商业影响评分 2。",
       "supporting_evidence": [
-        "No model reliably recognizes its own compromised outputs; models claiming intent on prefilled responses at an average rate of 27.3%; intervention raises attack success rate."
+        "The abstract states: 'Randomized YaRN... improves reasoning performance on context lengths from 16K to 128K and outperforms standard fine-tuning.'"
       ],
       "confidence": "high"
     },
     {
-      "event_id": "evt_006",
-      "event_name": "Semantic Browsing for controlled diversity in image generation",
-      "final_importance_score": 2.78,
+      "event_id": "event_11",
+      "event_name": "GPT-5帮助解决免疫学谜题",
+      "final_importance_score": 3.16,
       "rank": 11,
       "score_breakdown": {
         "impact_scope": 3,
@@ -1913,64 +2000,64 @@
         "multi_source_support": 3,
         "technical_impact": 4,
         "business_impact": 2,
-        "risk_level": 0,
-        "opportunity_level": 0,
+        "risk_level": 0.164,
+        "opportunity_level": 3.274,
         "recency": 5
       },
-      "ranking_reason": "该事件来自 arXiv，影响范围评分 3，来源权威性评分 5，技术影响评分 4，商业影响评分 2。",
+      "ranking_reason": "该事件来自 OpenAI News，影响范围评分 3，来源权威性评分 5，技术影响评分 4，商业影响评分 2。",
       "supporting_evidence": [
-        "The paper introduces a method for controlled diversity that enables Semantic Browsing, where users can navigate structured image galleries."
+        "The summary states: 'GPT-5 Pro helped solve a 3-year-old immunology mystery, offering insights into T cell behavior. The breakthrough could support cancer and autoimmune research.'"
       ],
-      "confidence": "high"
+      "confidence": "medium"
     },
     {
-      "event_id": "evt_007",
-      "event_name": "AIR: Adaptive Interleaved Reasoning with Code in MLLMs",
-      "final_importance_score": 2.78,
+      "event_id": "event_12",
+      "event_name": "Omio利用OpenAI构建对话式旅行体验",
+      "final_importance_score": 3.16,
       "rank": 12,
       "score_breakdown": {
         "impact_scope": 3,
         "source_authority": 5,
         "novelty": 3,
         "multi_source_support": 3,
-        "technical_impact": 4,
-        "business_impact": 2,
-        "risk_level": 0,
-        "opportunity_level": 0,
+        "technical_impact": 2,
+        "business_impact": 4,
+        "risk_level": 0.177,
+        "opportunity_level": 3.245,
         "recency": 5
       },
-      "ranking_reason": "该事件来自 arXiv，影响范围评分 3，来源权威性评分 5，技术影响评分 4，商业影响评分 2。",
+      "ranking_reason": "该事件来自 OpenAI News，影响范围评分 3，来源权威性评分 5，技术影响评分 2，商业影响评分 4。",
       "supporting_evidence": [
-        "The paper empowers MLLMs with adaptive interleaved reasoning capabilities through extended reinforcement learning training on code-augmented complex numerical computation tasks."
+        "The summary states: 'Discover how Omio uses OpenAI to power conversational travel experiences, accelerate product development, and transform into an AI-native company.'"
       ],
-      "confidence": "high"
+      "confidence": "medium"
     },
     {
-      "event_id": "evt_008",
-      "event_name": "Open problem: AdamW under heavy-tailed noise",
-      "final_importance_score": 2.78,
+      "event_id": "event_2",
+      "event_name": "浪潮信息强调AI转型中组织文化的重要性",
+      "final_importance_score": 3.1,
       "rank": 13,
       "score_breakdown": {
         "impact_scope": 3,
-        "source_authority": 5,
+        "source_authority": 3,
         "novelty": 3,
         "multi_source_support": 3,
-        "technical_impact": 4,
-        "business_impact": 2,
-        "risk_level": 0,
-        "opportunity_level": 0,
+        "technical_impact": 2,
+        "business_impact": 4,
+        "risk_level": 2.503,
+        "opportunity_level": 2.427,
         "recency": 5
       },
-      "ranking_reason": "该事件来自 arXiv，影响范围评分 3，来源权威性评分 5，技术影响评分 4，商业影响评分 2。",
+      "ranking_reason": "该事件来自 量子位，影响范围评分 3，来源权威性评分 3，技术影响评分 2，商业影响评分 4。",
       "supporting_evidence": [
-        "The paper formulates an open problem about AdamW's convergence under heavy-tailed noise."
+        "输入摘要提到'彭震没把它们当成重点，却用三分之二的时间在讲文化、组织和流程。'"
       ],
-      "confidence": "high"
+      "confidence": "medium"
     },
     {
-      "event_id": "evt_009",
-      "event_name": "PsyBridge: hybrid mental health assessment framework",
-      "final_importance_score": 2.78,
+      "event_id": "event_20",
+      "event_name": "NVIDIA Nemotron挑战赛中的位操作谜题解法",
+      "final_importance_score": 3.02,
       "rank": 14,
       "score_breakdown": {
         "impact_scope": 3,
@@ -1978,156 +2065,160 @@
         "novelty": 3,
         "multi_source_support": 3,
         "technical_impact": 2,
-        "business_impact": 4,
-        "risk_level": 0,
-        "opportunity_level": 0,
-        "recency": 5
-      },
-      "ranking_reason": "该事件来自 arXiv，影响范围评分 3，来源权威性评分 5，技术影响评分 2，商业影响评分 4。",
-      "supporting_evidence": [
-        "The study proposes PsyBridge, a hybrid intelligent decision-support framework for multi-dimensional mental health assessment."
-      ],
-      "confidence": "high"
-    },
-    {
-      "event_id": "evt_016",
-      "event_name": "Dynamic estimation of slowly varying sequences",
-      "final_importance_score": 2.78,
-      "rank": 15,
-      "score_breakdown": {
-        "impact_scope": 3,
-        "source_authority": 5,
-        "novelty": 3,
-        "multi_source_support": 3,
-        "technical_impact": 4,
         "business_impact": 2,
-        "risk_level": 0,
-        "opportunity_level": 0,
-        "recency": 5
-      },
-      "ranking_reason": "该事件来自 arXiv，影响范围评分 3，来源权威性评分 5，技术影响评分 4，商业影响评分 2。",
-      "supporting_evidence": [
-        "The paper introduces a framework for sequential estimation of slowly varying sequences, improving upon previous bounds."
-      ],
-      "confidence": "high"
-    },
-    {
-      "event_id": "evt_017",
-      "event_name": "EnterpriseClawBench: benchmark for enterprise agents",
-      "final_importance_score": 2.78,
-      "rank": 16,
-      "score_breakdown": {
-        "impact_scope": 3,
-        "source_authority": 5,
-        "novelty": 3,
-        "multi_source_support": 3,
-        "technical_impact": 2,
-        "business_impact": 4,
-        "risk_level": 0,
-        "opportunity_level": 0,
-        "recency": 5
-      },
-      "ranking_reason": "该事件来自 arXiv，影响范围评分 3，来源权威性评分 5，技术影响评分 2，商业影响评分 4。",
-      "supporting_evidence": [
-        "The paper introduces a benchmark for enterprise agents, with best configuration reaching 0.663."
-      ],
-      "confidence": "high"
-    },
-    {
-      "event_id": "evt_018",
-      "event_name": "TailorMind: personalized multimodal content generation",
-      "final_importance_score": 2.78,
-      "rank": 17,
-      "score_breakdown": {
-        "impact_scope": 3,
-        "source_authority": 5,
-        "novelty": 3,
-        "multi_source_support": 3,
-        "technical_impact": 4,
-        "business_impact": 2,
-        "risk_level": 0,
-        "opportunity_level": 0,
-        "recency": 5
-      },
-      "ranking_reason": "该事件来自 arXiv，影响范围评分 3，来源权威性评分 5，技术影响评分 4，商业影响评分 2。",
-      "supporting_evidence": [
-        "The paper proposes TailorMind for personalized multimodal content generation, achieving up to 29% Recall gains."
-      ],
-      "confidence": "high"
-    },
-    {
-      "event_id": "evt_019",
-      "event_name": "Learning process rewards via success visitation matching",
-      "final_importance_score": 2.78,
-      "rank": 18,
-      "score_breakdown": {
-        "impact_scope": 3,
-        "source_authority": 5,
-        "novelty": 3,
-        "multi_source_support": 3,
-        "technical_impact": 4,
-        "business_impact": 2,
-        "risk_level": 0,
-        "opportunity_level": 0,
-        "recency": 5
-      },
-      "ranking_reason": "该事件来自 arXiv，影响范围评分 3，来源权威性评分 5，技术影响评分 4，商业影响评分 2。",
-      "supporting_evidence": [
-        "The paper proposes a method to transform sparse rewards into dense process rewards, leading to faster RL finetuning."
-      ],
-      "confidence": "high"
-    },
-    {
-      "event_id": "evt_020",
-      "event_name": "Muown implicitly performs angular step-size decay",
-      "final_importance_score": 2.78,
-      "rank": 19,
-      "score_breakdown": {
-        "impact_scope": 3,
-        "source_authority": 5,
-        "novelty": 3,
-        "multi_source_support": 3,
-        "technical_impact": 4,
-        "business_impact": 2,
-        "risk_level": 0,
-        "opportunity_level": 0,
-        "recency": 5
-      },
-      "ranking_reason": "该事件来自 arXiv，影响范围评分 3，来源权威性评分 5，技术影响评分 4，商业影响评分 2。",
-      "supporting_evidence": [
-        "The paper introduces AngularMuown, which improves over Muown and is leading a competition."
-      ],
-      "confidence": "high"
-    },
-    {
-      "event_id": "evt_010",
-      "event_name": "Teaching LLMs bit manipulation puzzles via string similarity and backtracking",
-      "final_importance_score": 2.56,
-      "rank": 20,
-      "score_breakdown": {
-        "impact_scope": 3,
-        "source_authority": 5,
-        "novelty": 3,
-        "multi_source_support": 3,
-        "technical_impact": 2,
-        "business_impact": 2,
-        "risk_level": 0,
-        "opportunity_level": 0,
+        "risk_level": 0.14,
+        "opportunity_level": 4.078,
         "recency": 5
       },
       "ranking_reason": "该事件来自 arXiv，影响范围评分 3，来源权威性评分 5，技术影响评分 2，商业影响评分 2。",
       "supporting_evidence": [
-        "The paper presents algorithmic innovations for the NVIDIA Nemotron Model Reasoning Challenge, focusing on Bit Manipulation Puzzles."
+        "The paper presents algorithmic innovations for the NVIDIA Nemotron Model Reasoning Challenge, achieving over 96% validation accuracy on bit manipulation puzzles."
       ],
-      "confidence": "high"
+      "confidence": "medium"
+    },
+    {
+      "event_id": "event_1",
+      "event_name": "AI在数学证明中的突破",
+      "final_importance_score": 2.94,
+      "rank": 15,
+      "score_breakdown": {
+        "impact_scope": 3,
+        "source_authority": 3,
+        "novelty": 3,
+        "multi_source_support": 3,
+        "technical_impact": 4,
+        "business_impact": 2,
+        "risk_level": 0.201,
+        "opportunity_level": 3.228,
+        "recency": 5
+      },
+      "ranking_reason": "该事件来自 量子位，影响范围评分 3，来源权威性评分 3，技术影响评分 4，商业影响评分 2。",
+      "supporting_evidence": [
+        "输入摘要提到'从OpenAI解决开放问题，到DeepMind批量攻克数学猜想，越来越多数学证明被写进形式化系统，交给计算机自动验证。'"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "event_id": "event_5",
+      "event_name": "可口可乐推出AI世界杯互动小程序",
+      "final_importance_score": 2.94,
+      "rank": 16,
+      "score_breakdown": {
+        "impact_scope": 3,
+        "source_authority": 3,
+        "novelty": 3,
+        "multi_source_support": 3,
+        "technical_impact": 2,
+        "business_impact": 4,
+        "risk_level": 0.141,
+        "opportunity_level": 3.31,
+        "recency": 5
+      },
+      "ranking_reason": "该事件来自 量子位，影响范围评分 3，来源权威性评分 3，技术影响评分 2，商业影响评分 4。",
+      "supporting_evidence": [
+        "输入摘要提到'打开可口可乐中国小程序'可口可乐吧'，你可以随时跟范指导唠上两句'"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "event_id": "event_6",
+      "event_name": "英伟达发布机器人操作系统Halos for Robotics",
+      "final_importance_score": 2.94,
+      "rank": 17,
+      "score_breakdown": {
+        "impact_scope": 3,
+        "source_authority": 3,
+        "novelty": 3,
+        "multi_source_support": 3,
+        "technical_impact": 4,
+        "business_impact": 2,
+        "risk_level": 0.196,
+        "opportunity_level": 3.279,
+        "recency": 5
+      },
+      "ranking_reason": "该事件来自 量子位，影响范围评分 3，来源权威性评分 3，技术影响评分 4，商业影响评分 2。",
+      "supporting_evidence": [
+        "原文：刚刚，在芝加哥Automate 2026大会上，英伟达发布了 Halos for Robotics ——"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "event_id": "event_8",
+      "event_name": "小鹏汽车基于亚马逊云科技搭建AI平台",
+      "final_importance_score": 2.94,
+      "rank": 18,
+      "score_breakdown": {
+        "impact_scope": 3,
+        "source_authority": 3,
+        "novelty": 3,
+        "multi_source_support": 3,
+        "technical_impact": 2,
+        "business_impact": 4,
+        "risk_level": 0.184,
+        "opportunity_level": 3.306,
+        "recency": 5
+      },
+      "ranking_reason": "该事件来自 量子位，影响范围评分 3，来源权威性评分 3，技术影响评分 2，商业影响评分 4。",
+      "supporting_evidence": [
+        "原文：小鹏基于亚马逊云科技的 Kiro 、 Amazon Bedrock 、 Amazon EKS 等服务，搭了一套企业内部AI编程与Agentic工作平台，名字叫 灵犀 。"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "event_id": "event_10",
+      "event_name": "2026年具身智能融资火热",
+      "final_importance_score": 2.94,
+      "rank": 19,
+      "score_breakdown": {
+        "impact_scope": 3,
+        "source_authority": 3,
+        "novelty": 3,
+        "multi_source_support": 3,
+        "technical_impact": 4,
+        "business_impact": 2,
+        "risk_level": 0.177,
+        "opportunity_level": 3.304,
+        "recency": 5
+      },
+      "ranking_reason": "该事件来自 量子位，影响范围评分 3，来源权威性评分 3，技术影响评分 4，商业影响评分 2。",
+      "supporting_evidence": [
+        "原文：2026年还没过半，具身智能的融资就快要超过去年全年了，超过一半的钱都流入了机器人的“大脑”。"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "event_id": "event_4",
+      "event_name": "华人博士Alisa开源OpenAI求职经历",
+      "final_importance_score": 2.73,
+      "rank": 20,
+      "score_breakdown": {
+        "impact_scope": 3,
+        "source_authority": 3,
+        "novelty": 3,
+        "multi_source_support": 3,
+        "technical_impact": 2,
+        "business_impact": 2,
+        "risk_level": 0.212,
+        "opportunity_level": 3.318,
+        "recency": 5
+      },
+      "ranking_reason": "该事件来自 量子位，影响范围评分 3，来源权威性评分 3，技术影响评分 2，商业影响评分 2。",
+      "supporting_evidence": [
+        "输入摘要提到'在下周入职OpenAI之前，Alisa决定将自己这一路的求职经历，全部以Blog的形式开源出来'"
+      ],
+      "confidence": "medium"
     }
   ],
   "visualization_data": {
-    "generated_at": "2026-06-23T17:09:58Z",
+    "generated_at": "2026-06-23T18:42:51Z",
     "source_type_distribution": [
       {
+        "name": "media",
+        "count": 10
+      },
+      {
         "name": "research",
-        "count": 18
+        "count": 8
       },
       {
         "name": "official",
@@ -2137,7 +2228,31 @@
     "event_type_distribution": [
       {
         "name": "research",
-        "count": 19
+        "count": 10
+      },
+      {
+        "name": "product_release",
+        "count": 3
+      },
+      {
+        "name": "market_commentary",
+        "count": 2
+      },
+      {
+        "name": "funding",
+        "count": 1
+      },
+      {
+        "name": "other",
+        "count": 1
+      },
+      {
+        "name": "partnership",
+        "count": 1
+      },
+      {
+        "name": "model_release",
+        "count": 1
       },
       {
         "name": "business_update",
@@ -2147,264 +2262,288 @@
     "industry_area_distribution": [
       {
         "name": "research",
-        "count": 10
-      },
-      {
-        "name": "multimodal_ai",
-        "count": 2
+        "count": 6
       },
       {
         "name": "ai_agent",
-        "count": 2
+        "count": 4
       },
       {
         "name": "enterprise_ai",
-        "count": 2
+        "count": 3
       },
       {
         "name": "consumer_ai",
+        "count": 2
+      },
+      {
+        "name": "other",
         "count": 1
       },
       {
-        "name": "developer_tools",
-        "count": 1
-      },
-      {
-        "name": "ai_safety",
+        "name": "ai_infrastructure",
         "count": 1
       },
       {
         "name": "foundation_model",
         "count": 1
+      },
+      {
+        "name": "multimodal_ai",
+        "count": 1
+      },
+      {
+        "name": "developer_tools",
+        "count": 1
       }
     ],
     "technology_distribution": [
       {
-        "name": "LLM",
-        "count": 4
-      },
-      {
-        "name": "GPT-5",
+        "name": "AI",
         "count": 1
       },
       {
-        "name": "OpenAI",
+        "name": "形式化系统",
         "count": 1
       },
       {
-        "name": "AutoDex",
+        "name": "具身智能",
         "count": 1
       },
       {
-        "name": "dexterous grasping",
+        "name": "物理智能",
         "count": 1
       },
       {
-        "name": "robotics",
+        "name": "prompt生成",
         "count": 1
       },
       {
-        "name": "Randomized YaRN",
+        "name": "Halos for Robotics",
         "count": 1
       },
       {
-        "name": "positional encoding",
+        "name": "Megapod",
         "count": 1
       },
       {
-        "name": "CoorDex",
+        "name": "Kiro",
         "count": 1
       },
       {
-        "name": "dexterous manipulation",
+        "name": "Amazon Bedrock",
         "count": 1
       },
       {
-        "name": "humanoid robotics",
+        "name": "Amazon EKS",
         "count": 1
       },
       {
-        "name": "text-to-image models",
+        "name": "Doubao-Seed-2.1-Pro",
+        "count": 1
+      },
+      {
+        "name": "Doubao-Seed-2.1-Turbo",
         "count": 1
       }
     ],
     "top_event_scores": [
       {
-        "event_id": "evt_013",
-        "event_name": "Limits of prompt-conditioned LLMs as general-purpose learners",
+        "event_id": "event_18",
+        "event_name": "AdamW在重尾噪声下的有效性开放问题",
         "rank": 1,
-        "score": 3.67,
-        "confidence": "high"
-      },
-      {
-        "event_id": "evt_003",
-        "event_name": "AutoDex: automated dexterous grasping data collection",
-        "rank": 2,
-        "score": 3.33,
-        "confidence": "high"
-      },
-      {
-        "event_id": "evt_005",
-        "event_name": "CoorDex: dexterous loco-manipulation on humanoid",
-        "rank": 3,
-        "score": 3.33,
-        "confidence": "high"
-      },
-      {
-        "event_id": "evt_012",
-        "event_name": "Tapered Language Models improve perplexity and downstream performance",
-        "rank": 4,
-        "score": 3.33,
-        "confidence": "high"
-      },
-      {
-        "event_id": "evt_001",
-        "event_name": "GPT-5 solves immunology mystery",
-        "rank": 5,
-        "score": 3.22,
+        "score": 3.41,
         "confidence": "medium"
+      },
+      {
+        "event_id": "event_3",
+        "event_name": "正行创新完成近亿美元天使轮融资",
+        "rank": 2,
+        "score": 3.3,
+        "confidence": "high"
+      },
+      {
+        "event_id": "event_15",
+        "event_name": "CoorDex: 连续灵巧人形机器人操作",
+        "rank": 3,
+        "score": 3.29,
+        "confidence": "high"
+      },
+      {
+        "event_id": "event_7",
+        "event_name": "特斯拉申请Megapod商标进军AI数据中心硬件",
+        "rank": 4,
+        "score": 3.27,
+        "confidence": "medium"
+      },
+      {
+        "event_id": "event_13",
+        "event_name": "AutoDex: 自动化灵巧抓取数据收集系统",
+        "rank": 5,
+        "score": 3.27,
+        "confidence": "high"
       }
     ],
     "risk_opportunity_matrix": [
       {
-        "event_id": "evt_013",
-        "event_name": "Limits of prompt-conditioned LLMs as general-purpose learners",
-        "risk_level": 4,
-        "opportunity_level": 4,
-        "confidence": "high"
+        "event_id": "event_18",
+        "event_name": "AdamW在重尾噪声下的有效性开放问题",
+        "risk_level": 2.458,
+        "opportunity_level": 3.26,
+        "confidence": "medium",
+        "event_type": "research"
       },
       {
-        "event_id": "evt_003",
-        "event_name": "AutoDex: automated dexterous grasping data collection",
-        "risk_level": 0,
-        "opportunity_level": 5,
-        "confidence": "high"
+        "event_id": "event_3",
+        "event_name": "正行创新完成近亿美元天使轮融资",
+        "risk_level": 0.3,
+        "opportunity_level": 3.406,
+        "confidence": "high",
+        "event_type": "funding"
       },
       {
-        "event_id": "evt_005",
-        "event_name": "CoorDex: dexterous loco-manipulation on humanoid",
-        "risk_level": 0,
-        "opportunity_level": 5,
-        "confidence": "high"
+        "event_id": "event_15",
+        "event_name": "CoorDex: 连续灵巧人形机器人操作",
+        "risk_level": 0.36,
+        "opportunity_level": 4.248,
+        "confidence": "high",
+        "event_type": "research"
       },
       {
-        "event_id": "evt_012",
-        "event_name": "Tapered Language Models improve perplexity and downstream performance",
-        "risk_level": 0,
-        "opportunity_level": 4,
-        "confidence": "high"
+        "event_id": "event_7",
+        "event_name": "特斯拉申请Megapod商标进军AI数据中心硬件",
+        "risk_level": 0.153,
+        "opportunity_level": 3.283,
+        "confidence": "medium",
+        "event_type": "product_release"
       },
       {
-        "event_id": "evt_001",
-        "event_name": "GPT-5 solves immunology mystery",
-        "risk_level": 0,
-        "opportunity_level": 4,
-        "confidence": "medium"
+        "event_id": "event_13",
+        "event_name": "AutoDex: 自动化灵巧抓取数据收集系统",
+        "risk_level": 0.272,
+        "opportunity_level": 4.194,
+        "confidence": "high",
+        "event_type": "research"
       },
       {
-        "event_id": "evt_002",
-        "event_name": "Omio adopts OpenAI for conversational travel",
-        "risk_level": 0,
-        "opportunity_level": 4,
-        "confidence": "medium"
+        "event_id": "event_9",
+        "event_name": "豆包2.1模型发布",
+        "risk_level": 0.197,
+        "opportunity_level": 4.081,
+        "confidence": "medium",
+        "event_type": "model_release"
       },
       {
-        "event_id": "evt_004",
-        "event_name": "Randomized YaRN improves long-context reasoning",
-        "risk_level": 0,
-        "opportunity_level": 4,
-        "confidence": "high"
+        "event_id": "event_16",
+        "event_name": "Semantic Browsing: 可控多样性的图像生成",
+        "risk_level": 0.169,
+        "opportunity_level": 4.093,
+        "confidence": "medium",
+        "event_type": "research"
       },
       {
-        "event_id": "evt_014",
-        "event_name": "MAS-PromptBench: prompt optimization in multi-agent LLM systems",
-        "risk_level": 0,
-        "opportunity_level": 4,
-        "confidence": "high"
+        "event_id": "event_19",
+        "event_name": "PsyBridge: 多维度心理健康评估框架",
+        "risk_level": 0.164,
+        "opportunity_level": 4.077,
+        "confidence": "medium",
+        "event_type": "research"
       },
       {
-        "event_id": "evt_015",
-        "event_name": "Action-BED: task-driven Bayesian experimental design",
-        "risk_level": 0,
-        "opportunity_level": 4,
-        "confidence": "high"
+        "event_id": "event_17",
+        "event_name": "AIR: 自适应交错推理与代码增强",
+        "risk_level": 0.143,
+        "opportunity_level": 4.03,
+        "confidence": "medium",
+        "event_type": "research"
       },
       {
-        "event_id": "evt_011",
-        "event_name": "LLMs cannot reliably self-report adversarial prefills",
-        "risk_level": 5,
-        "opportunity_level": 0,
-        "confidence": "high"
+        "event_id": "event_14",
+        "event_name": "Randomized YaRN改进长上下文推理",
+        "risk_level": 0.361,
+        "opportunity_level": 3.416,
+        "confidence": "high",
+        "event_type": "research"
       },
       {
-        "event_id": "evt_006",
-        "event_name": "Semantic Browsing for controlled diversity in image generation",
-        "risk_level": 0,
-        "opportunity_level": 0,
-        "confidence": "high"
+        "event_id": "event_11",
+        "event_name": "GPT-5帮助解决免疫学谜题",
+        "risk_level": 0.164,
+        "opportunity_level": 3.274,
+        "confidence": "medium",
+        "event_type": "research"
       },
       {
-        "event_id": "evt_007",
-        "event_name": "AIR: Adaptive Interleaved Reasoning with Code in MLLMs",
-        "risk_level": 0,
-        "opportunity_level": 0,
-        "confidence": "high"
+        "event_id": "event_12",
+        "event_name": "Omio利用OpenAI构建对话式旅行体验",
+        "risk_level": 0.177,
+        "opportunity_level": 3.245,
+        "confidence": "medium",
+        "event_type": "business_update"
       },
       {
-        "event_id": "evt_008",
-        "event_name": "Open problem: AdamW under heavy-tailed noise",
-        "risk_level": 0,
-        "opportunity_level": 0,
-        "confidence": "high"
+        "event_id": "event_2",
+        "event_name": "浪潮信息强调AI转型中组织文化的重要性",
+        "risk_level": 2.503,
+        "opportunity_level": 2.427,
+        "confidence": "medium",
+        "event_type": "market_commentary"
       },
       {
-        "event_id": "evt_009",
-        "event_name": "PsyBridge: hybrid mental health assessment framework",
-        "risk_level": 0,
-        "opportunity_level": 0,
-        "confidence": "high"
+        "event_id": "event_20",
+        "event_name": "NVIDIA Nemotron挑战赛中的位操作谜题解法",
+        "risk_level": 0.14,
+        "opportunity_level": 4.078,
+        "confidence": "medium",
+        "event_type": "research"
       },
       {
-        "event_id": "evt_016",
-        "event_name": "Dynamic estimation of slowly varying sequences",
-        "risk_level": 0,
-        "opportunity_level": 0,
-        "confidence": "high"
+        "event_id": "event_1",
+        "event_name": "AI在数学证明中的突破",
+        "risk_level": 0.201,
+        "opportunity_level": 3.228,
+        "confidence": "medium",
+        "event_type": "research"
       },
       {
-        "event_id": "evt_017",
-        "event_name": "EnterpriseClawBench: benchmark for enterprise agents",
-        "risk_level": 0,
-        "opportunity_level": 0,
-        "confidence": "high"
+        "event_id": "event_5",
+        "event_name": "可口可乐推出AI世界杯互动小程序",
+        "risk_level": 0.141,
+        "opportunity_level": 3.31,
+        "confidence": "medium",
+        "event_type": "product_release"
       },
       {
-        "event_id": "evt_018",
-        "event_name": "TailorMind: personalized multimodal content generation",
-        "risk_level": 0,
-        "opportunity_level": 0,
-        "confidence": "high"
+        "event_id": "event_6",
+        "event_name": "英伟达发布机器人操作系统Halos for Robotics",
+        "risk_level": 0.196,
+        "opportunity_level": 3.279,
+        "confidence": "medium",
+        "event_type": "product_release"
       },
       {
-        "event_id": "evt_019",
-        "event_name": "Learning process rewards via success visitation matching",
-        "risk_level": 0,
-        "opportunity_level": 0,
-        "confidence": "high"
+        "event_id": "event_8",
+        "event_name": "小鹏汽车基于亚马逊云科技搭建AI平台",
+        "risk_level": 0.184,
+        "opportunity_level": 3.306,
+        "confidence": "medium",
+        "event_type": "partnership"
       },
       {
-        "event_id": "evt_020",
-        "event_name": "Muown implicitly performs angular step-size decay",
-        "risk_level": 0,
-        "opportunity_level": 0,
-        "confidence": "high"
+        "event_id": "event_10",
+        "event_name": "2026年具身智能融资火热",
+        "risk_level": 0.177,
+        "opportunity_level": 3.304,
+        "confidence": "medium",
+        "event_type": "market_commentary"
       },
       {
-        "event_id": "evt_010",
-        "event_name": "Teaching LLMs bit manipulation puzzles via string similarity and backtracking",
-        "risk_level": 0,
-        "opportunity_level": 0,
-        "confidence": "high"
+        "event_id": "event_4",
+        "event_name": "华人博士Alisa开源OpenAI求职经历",
+        "risk_level": 0.212,
+        "opportunity_level": 3.318,
+        "confidence": "medium",
+        "event_type": "other"
       }
     ]
   },

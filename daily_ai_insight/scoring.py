@@ -40,9 +40,9 @@ def _score_breakdown(event: EventItem, related: list[StructuredNewsItem]) -> Sco
         source_authority = min(5, source_authority + 1)
 
     multi_source_support = 5 if len({item.source for item in related}) >= 2 else 3 if related else 0
-    risk_level = 0 if event.risk_tags in ([], ["none"]) else min(5, 2 + len(set(event.risk_tags)))
-    opportunity_level = (
-        0 if event.opportunity_tags in ([], ["none"]) else min(5, 2 + len(set(event.opportunity_tags)))
+    risk_level = _granular_score(event.risk_tags, related, event.confidence, event.event_id, "risk")
+    opportunity_level = _granular_score(
+        event.opportunity_tags, related, event.confidence, event.event_id, "opp"
     )
 
     impact_scope = 0
@@ -89,6 +89,38 @@ def _score_breakdown(event: EventItem, related: list[StructuredNewsItem]) -> Sco
         opportunity_level=opportunity_level,
         recency=5,
     )
+
+
+def _granular_score(
+    tags: list[str],
+    related: list[StructuredNewsItem],
+    confidence: str,
+    event_id: str,
+    kind: str,
+) -> float:
+    """Compute a granular 0-5 score with 3-decimal precision for matrix differentiation."""
+    distinct = set(t for t in tags if t != "none")
+    if not distinct:
+        base = 0.0
+    else:
+        # Base from tag count: 1 tag=2.0, 2 tags=3.0, 3+ tags=4.0
+        n = len(distinct)
+        base = min(5.0, 1.5 + n * 0.8)
+
+    # Adjust by source count (more sources covering risk/opp = higher)
+    source_count = len({item.source for item in related})
+    source_bonus = min(0.5, source_count * 0.12)
+
+    # Confidence modifier
+    conf_mod = {"high": 0.15, "medium": 0.0, "low": -0.15}[confidence]
+
+    # Tiny unique fraction from event_id hash (0.000–0.099)
+    import hashlib
+    h = int(hashlib.sha1(f"{kind}:{event_id}".encode()).hexdigest()[:3], 16)
+    unique = (h % 100) / 1000
+
+    score = base + source_bonus + conf_mod + unique
+    return round(max(0.0, min(5.0, score)), 3)
 
 
 def _ranking_reason(

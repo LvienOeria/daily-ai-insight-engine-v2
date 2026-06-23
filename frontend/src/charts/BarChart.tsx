@@ -1,15 +1,20 @@
 import * as d3 from "d3";
+import { useState } from "react";
 import type { DistributionDatum } from "../types";
 
 interface BarChartProps {
   data: DistributionDatum[];
   label: string;
+  description?: string;
+  valueSuffix?: string;
+  onSelect?: (name: string) => void;
 }
 
-export function BarChart({ data, label }: BarChartProps) {
+export function BarChart({ data, label, description, valueSuffix = "", onSelect }: BarChartProps) {
+  const [hovered, setHovered] = useState<DistributionDatum | null>(null);
   const width = 520;
-  const height = 220;
-  const margin = { top: 16, right: 24, bottom: 48, left: 42 };
+  const height = 260;
+  const margin = { top: 24, right: 24, bottom: 48, left: 42 };
   const innerWidth = width - margin.left - margin.right;
   const innerHeight = height - margin.top - margin.bottom;
   const max = d3.max(data, (datum) => datum.count) ?? 1;
@@ -20,9 +25,18 @@ export function BarChart({ data, label }: BarChartProps) {
     .padding(0.22);
   const y = d3.scaleLinear().domain([0, max]).nice().range([innerHeight, 0]);
 
+  const isEmpty = data.length === 0;
+
   return (
     <figure className="chart">
-      <figcaption>{label}</figcaption>
+      <figcaption>
+        <span>{label}</span>
+        {hovered ? <em>{hovered.name}: {hovered.count}{valueSuffix}</em> : null}
+      </figcaption>
+      {description ? <p className="chart-description">{description}</p> : null}
+      {isEmpty ? (
+        <p className="muted chart-empty">No data available for this chart.</p>
+      ) : (
       <svg viewBox={`0 0 ${width} ${height}`} role="img" aria-label={label}>
         <g transform={`translate(${margin.left}, ${margin.top})`}>
           {y.ticks(4).map((tick) => (
@@ -43,7 +57,14 @@ export function BarChart({ data, label }: BarChartProps) {
                   y={barY}
                   width={x.bandwidth()}
                   height={innerHeight - barY}
-                  className="bar"
+                  className={`bar ${hovered?.name === datum.name ? "active" : ""}`}
+                  tabIndex={0}
+                  role="button"
+                  onMouseEnter={() => setHovered(datum)}
+                  onMouseLeave={() => setHovered(null)}
+                  onFocus={() => setHovered(datum)}
+                  onBlur={() => setHovered(null)}
+                  onClick={() => onSelect?.(datum.name)}
                 />
                 <text
                   x={barX + x.bandwidth() / 2}
@@ -51,7 +72,7 @@ export function BarChart({ data, label }: BarChartProps) {
                   textAnchor="middle"
                   className="bar-value"
                 >
-                  {datum.count}
+                  {datum.count}{valueSuffix}
                 </text>
                 <text
                   x={barX + x.bandwidth() / 2}
@@ -66,7 +87,7 @@ export function BarChart({ data, label }: BarChartProps) {
           })}
         </g>
       </svg>
+      )}
     </figure>
   );
 }
-

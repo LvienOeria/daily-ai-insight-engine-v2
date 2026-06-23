@@ -113,21 +113,46 @@ Evidence should quote or tightly paraphrase fragments visible in the input.
 
 def _mock_structure(item: CleanedNewsItem) -> StructuredNewsItem:
     text = f"{item.title} {item.summary}".lower()
-    event_type = _infer_event_type(text)
+    is_research = item.source_type == "research" or "arxiv" in item.source.lower()
+
+    event_type = _infer_event_type(text, is_research=is_research)
     industry_area = _infer_industry_area(text)
     technologies = _infer_technologies(text)
     entities = _infer_entities(item.title + " " + item.summary)
     facts = [_short_fact(item.summary)]
     risk_tags = _infer_risks(text)
     opportunity_tags = _infer_opportunities(text)
+
     score = 2
     if item.source_type in {"official", "research"}:
         score += 1
     if event_type in {"model_release", "regulation", "funding", "security_risk"}:
         score += 1
-    if risk_tags or opportunity_tags:
+    if risk_tags and risk_tags != ["none"]:
         score += 1
+    if opportunity_tags and opportunity_tags != ["none"]:
+        score += 1
+    if item.source_type == "official":
+        score = max(score, 3)
     score = min(5, max(1, score))
+
+    # Impact scope depends on source and event type
+    if item.source_type == "official":
+        impact_scope = ["industry"]
+    elif is_research:
+        impact_scope = ["research"]
+    elif item.source_type == "community":
+        impact_scope = ["developers"]
+    else:
+        impact_scope = ["industry"]
+
+    # Confidence: research papers with clear abstracts get higher confidence
+    if is_research and len(item.summary) >= 200:
+        confidence = "high"
+    elif len(item.summary) >= 120:
+        confidence = "medium"
+    else:
+        confidence = "low"
 
     return StructuredNewsItem(
         news_id=item.news_id,
@@ -144,11 +169,11 @@ def _mock_structure(item: CleanedNewsItem) -> StructuredNewsItem:
         key_facts=facts,
         summary=item.summary[:500],
         sentiment="neutral",
-        impact_scope=["developers"] if item.source_type in {"research", "community"} else ["industry"],
+        impact_scope=impact_scope,
         risk_tags=risk_tags or ["none"],
         opportunity_tags=opportunity_tags or ["none"],
         importance_score=score,
-        confidence="medium" if len(item.summary) >= 120 else "low",
+        confidence=confidence,  # type: ignore[arg-type]
         evidence=facts,
     )
 
@@ -223,9 +248,28 @@ def _as_list(value: object) -> list[str]:
     return [str(value)]
 
 
-def _infer_event_type(text: str) -> str:
-    if any(word in text for word in ["release", "launch", "推出", "发布", "model", "模型"]):
-        return "model_release"
+def _infer_event_type(text: str, *, is_research: bool = False) -> str:
+    # Research papers: default to "research" unless there's strong signal otherwise
+    if is_research:
+        if any(word in text for word in ["release", "launch", "推出", "发布"]):
+            if any(word in text for word in ["gpt-", "claude", "gemini", "llama", "model card"]):
+                return "model_release"
+        if any(word in text for word in ["funding", "raises", "融资", "估值"]):
+            return "funding"
+        if any(word in text for word in ["regulation", "policy", "监管", "政策", "法案"]):
+            return "regulation"
+        if any(word in text for word in ["security", "risk", "漏洞", "adversarial", "attack"]):
+            return "security_risk"
+        if any(word in text for word in ["open source", "github", "开源"]):
+            return "open_source"
+        if any(word in text for word in ["benchmark", "dataset", "corpus"]):
+            return "research"
+        return "research"
+
+    if any(word in text for word in ["release", "launch", "推出", "发布"]):
+        if any(word in text for word in ["model", "模型", "gpt", "claude", "gemini", "llama"]):
+            return "model_release"
+        return "product_release"
     if any(word in text for word in ["funding", "raises", "融资", "估值"]):
         return "funding"
     if any(word in text for word in ["regulation", "policy", "监管", "政策", "法案"]):
@@ -244,19 +288,20 @@ def _infer_event_type(text: str) -> str:
 def _infer_industry_area(text: str) -> str:
     if any(word in text for word in ["agent", "agents", "智能体"]):
         return "ai_agent"
-    if any(word in text for word in ["multimodal", "image", "video", "audio", "多模态", "视频"]):
+    if any(word in text for word in ["multimodal", "image", "video", "audio", "多模态", "视频", "vision"]):
         return "multimodal_ai"
-    if any(word in text for word in ["gpu", "chip", "compute", "inference", "芯片", "算力"]):
+    if any(word in text for word in ["gpu", "chip", "compute", "inference", "芯片", "算力", "hardware"]):
         return "chip_compute"
     if any(word in text for word in ["enterprise", "企业"]):
         return "enterprise_ai"
-    if any(word in text for word in ["safety", "alignment", "安全", "对齐"]):
+    if any(word in text for word in ["safety", "alignment", "安全", "对齐", "adversarial", "jailbreak"]):
         return "ai_safety"
     if any(word in text for word in ["policy", "regulation", "监管", "政策"]):
         return "policy_regulation"
-    if any(word in text for word in ["research", "paper", "arxiv", "研究", "论文"]):
+    if any(word in text for word in ["benchmark", "dataset", "training", "optimizer", "transformer",
+                                     "attention", "fine-tun", "pretrain", "pre-train", "arxiv"]):
         return "research"
-    if any(word in text for word in ["model", "llm", "gpt", "大模型"]):
+    if any(word in text for word in ["model", "llm", "gpt", "大模型", "language model"]):
         return "foundation_model"
     return "other"
 
@@ -274,6 +319,7 @@ def _infer_technologies(text: str) -> list[str]:
 
 
 def _infer_entities(text: str) -> list[str]:
+    # Company/institution entities - only match when capitalized in original text
     known = [
         "OpenAI",
         "Anthropic",
@@ -288,9 +334,30 @@ def _infer_entities(text: str) -> list[str]:
         "Amazon",
         "Mistral",
         "Hugging Face",
+        "Intel",
+        "AMD",
+        "Tesla",
+        "Stability AI",
+        "Cohere",
     ]
-    found = [name for name in known if name.lower() in text.lower()]
-    chinese = re.findall(r"(?:OpenAI|DeepSeek|机器之心|量子位|知乎|英伟达|谷歌|微软|阿里|腾讯|字节)", text)
+    # Only match if the entity name appears as a capitalized proper noun in the original
+    found = []
+    for name in known:
+        # Use word-boundary matching to avoid "Perplexity" matching "perplexity"
+        pattern = re.compile(rf"\b{re.escape(name)}\b", re.IGNORECASE)
+        if pattern.search(text):
+            # Check if the match is capitalized (proper noun) in the original
+            original_match = pattern.search(text)
+            if original_match:
+                matched_text = original_match.group(0)
+                # Accept if starts with uppercase (proper noun), or is a known acronym
+                if matched_text[0].isupper() or name in {"NVIDIA", "AMD", "xAI"}:
+                    found.append(name)
+
+    chinese = re.findall(
+        r"(?:OpenAI|DeepSeek|机器之心|量子位|知乎|英伟达|谷歌|微软|阿里|腾讯|字节|百度|华为|商汤|科大讯飞)",
+        text,
+    )
     return sorted(set(found + chinese))
 
 

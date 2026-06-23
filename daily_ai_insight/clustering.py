@@ -165,6 +165,15 @@ def _as_list(value: object) -> list[str]:
 
 
 def _why_it_matters(item: StructuredNewsItem) -> str:
+    parts: list[str] = []
+    if item.entities:
+        parts.append(f"涉及主体: {'、'.join(item.entities[:5])}")
+    if item.impact_scope and item.impact_scope != ["none"]:
+        parts.append(f"影响范围: {'、'.join(item.impact_scope)}")
     if item.importance_score >= 4:
-        return "该条信息在单新闻重要性评分中较高，可能影响相关技术、企业或行业议题。"
-    return "该条信息提供了当日 AI 领域的补充信号，重要性需结合其他事件判断。"
+        parts.append("该事件在单新闻评分中重要性较高，建议关注后续发展。")
+    elif item.importance_score >= 3:
+        parts.append("该事件提供了当日 AI 领域的重要信号。")
+    else:
+        parts.append("该事件为当日 AI 领域补充信息。")
+    return "。".join(parts) if parts else "重要性需结合其他事件判断。"

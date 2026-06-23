@@ -19,6 +19,7 @@ export interface RiskOpportunityDatum {
   risk_level: number;
   opportunity_level: number;
   confidence: Confidence;
+  event_type: string;
 }
 
 export interface VisualizationData {
@@ -58,6 +59,7 @@ export interface EventItem {
   risk_tags: string[];
   opportunity_tags: string[];
   confidence: Confidence;
+  published_at: string | null;
 }
 
 export interface StructuredNewsItem {
@@ -88,6 +90,7 @@ export interface RankedEvent {
   event_name: string;
   final_importance_score: number;
   rank: number;
+  score_breakdown: Record<string, number>;
   ranking_reason: string;
   supporting_evidence: string[];
   confidence: Confidence;

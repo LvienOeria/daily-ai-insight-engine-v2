@@ -177,6 +177,7 @@ class EventItem(StrictModel):
     risk_tags: list[str] = Field(default_factory=list)
     opportunity_tags: list[str] = Field(default_factory=list)
     confidence: Confidence
+    published_at: str | None = None
 
 
 class ScoreBreakdown(StrictModel):
@@ -186,8 +187,8 @@ class ScoreBreakdown(StrictModel):
     multi_source_support: int = Field(ge=0, le=5)
     technical_impact: int = Field(ge=0, le=5)
     business_impact: int = Field(ge=0, le=5)
-    risk_level: int = Field(ge=0, le=5)
-    opportunity_level: int = Field(ge=0, le=5)
+    risk_level: float = Field(ge=0, le=5)
+    opportunity_level: float = Field(ge=0, le=5)
     recency: int = Field(ge=0, le=5)
 
 

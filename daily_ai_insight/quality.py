@@ -1,5 +1,8 @@
 from __future__ import annotations
 
+from pathlib import Path
+
+from .config import PROJECT_ROOT
 from .models import (
     CleanedNewsItem,
     EventItem,
@@ -9,6 +12,14 @@ from .models import (
     StructuredNewsItem,
     VisualizationData,
 )
+
+_DOCS_DIR = PROJECT_ROOT / "docs"
+_REQUIRED_DOCS = {
+    "data-source-decisions.md",
+    "schema-design.md",
+    "ai-usage.md",
+    "process.md",
+}
 
 
 def run_quality_check(
@@ -108,21 +119,40 @@ def run_quality_check(
     if not has_core_or_aux:
         weak_points.append("no observed source was evaluated as core or auxiliary")
 
+    docs_exist = all((_DOCS_DIR / doc).exists() for doc in _REQUIRED_DOCS)
+    has_schema_doc = (_DOCS_DIR / "schema-design.md").exists()
+    has_ai_usage_doc = (_DOCS_DIR / "ai-usage.md").exists()
+    has_process_doc = (_DOCS_DIR / "process.md").exists()
+    has_data_source_doc = (_DOCS_DIR / "data-source-decisions.md").exists()
+
+    if not docs_exist:
+        missing_docs = [doc for doc in _REQUIRED_DOCS if not (_DOCS_DIR / doc).exists()]
+        missing_items.append("documentation missing: " + ", ".join(missing_docs))
+
+    if not has_schema_doc:
+        missing_items.append("schema design documentation is missing")
+    if not has_ai_usage_doc:
+        missing_items.append("AI usage / prompt design / error handling documentation is missing")
+    if not has_process_doc:
+        missing_items.append("core process documentation is missing")
+    if not has_data_source_doc:
+        missing_items.append("data source explanation documentation is missing")
+
     requirement_check = {
         "has_10_to_20_items": item_count_ok,
         "items_have_required_fields": required_ok,
-        "has_schema": True,
-        "schema_design_explained": True,
+        "has_schema": has_schema_doc,
+        "schema_design_explained": has_schema_doc,
         "not_only_summary": structured_ok,
         "has_top_events": bool(ranked_events[:5]),
         "has_deep_analysis": "重要事件深度总结" in report_markdown,
         "has_trend_judgment": "趋势判断" in report_markdown,
         "has_risk_or_opportunity": "风险与机会提示" in report_markdown,
         "has_visualization": visualization_ok,
-        "has_data_source_explanation": source_explained,
-        "has_system_design": True,
-        "has_ai_usage_prompt_error_handling": True,
-        "has_core_process": True,
+        "has_data_source_explanation": has_data_source_doc,
+        "has_system_design": docs_exist,
+        "has_ai_usage_prompt_error_handling": has_ai_usage_doc,
+        "has_core_process": has_process_doc,
     }
 
     if not evidence_ok:

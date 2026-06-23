@@ -86,8 +86,8 @@
     "coverage": "Chinese AI research, product, and industry reporting from 机器之心.",
     "update_frequency": "continuous",
     "cost_or_limit": "depends on DeepSeek websearch access path",
-    "known_constraints": ["allowlisted Chinese websearch only", "observed fields must be validated"],
-    "enabled": true,
+    "known_constraints": ["allowlisted Chinese websearch only", "observed fields must be validated", "site structure changed — direct scrape broken"],
+    "enabled": false,
     "query": "site:jiqizhixin.com AI 人工智能 大模型 最近三天"
   },
   {
@@ -103,9 +103,10 @@
     "known_constraints": [
       "community signal",
       "not primary evidence by default",
-      "observed fields must be validated"
+      "observed fields must be validated",
+      "requires login — direct scrape blocked"
     ],
-    "enabled": true,
+    "enabled": false,
     "query": "site:zhihu.com AI 人工智能 大模型 最近三天"
   }
 ]

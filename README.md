@@ -42,6 +42,7 @@ DEEPSEEK_API_KEY
 Defaults:
 
 - LLM provider: DeepSeek
+- LLM model: `deepseek-v4-flash` for both extraction and report generation
 - Reporting window: latest 3 days
 - Timezone: `Asia/Shanghai`
 - Frontend data artifact: `frontend/public/data/latest.json`
@@ -90,4 +91,3 @@ If the file is absent, those sources are marked as future/fetch issue in source 
 .venv/bin/ruff check daily_ai_insight tests
 cd frontend && PATH=/Users/chx/.nvm/versions/node/v22.22.2/bin:$PATH pnpm build
 ```
-

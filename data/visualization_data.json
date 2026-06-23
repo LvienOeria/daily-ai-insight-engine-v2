@@ -1,9 +1,13 @@
 {
-  "generated_at": "2026-06-23T17:09:58Z",
+  "generated_at": "2026-06-23T18:42:51Z",
   "source_type_distribution": [
     {
+      "name": "media",
+      "count": 10
+    },
+    {
       "name": "research",
-      "count": 18
+      "count": 8
     },
     {
       "name": "official",
@@ -13,7 +17,31 @@
   "event_type_distribution": [
     {
       "name": "research",
-      "count": 19
+      "count": 10
+    },
+    {
+      "name": "product_release",
+      "count": 3
+    },
+    {
+      "name": "market_commentary",
+      "count": 2
+    },
+    {
+      "name": "funding",
+      "count": 1
+    },
+    {
+      "name": "other",
+      "count": 1
+    },
+    {
+      "name": "partnership",
+      "count": 1
+    },
+    {
+      "name": "model_release",
+      "count": 1
     },
     {
       "name": "business_update",
@@ -23,264 +51,288 @@
   "industry_area_distribution": [
     {
       "name": "research",
-      "count": 10
-    },
-    {
-      "name": "multimodal_ai",
-      "count": 2
+      "count": 6
     },
     {
       "name": "ai_agent",
-      "count": 2
+      "count": 4
     },
     {
       "name": "enterprise_ai",
-      "count": 2
+      "count": 3
     },
     {
       "name": "consumer_ai",
+      "count": 2
+    },
+    {
+      "name": "other",
       "count": 1
     },
     {
-      "name": "developer_tools",
-      "count": 1
-    },
-    {
-      "name": "ai_safety",
+      "name": "ai_infrastructure",
       "count": 1
     },
     {
       "name": "foundation_model",
       "count": 1
+    },
+    {
+      "name": "multimodal_ai",
+      "count": 1
+    },
+    {
+      "name": "developer_tools",
+      "count": 1
     }
   ],
   "technology_distribution": [
     {
-      "name": "LLM",
-      "count": 4
-    },
-    {
-      "name": "GPT-5",
+      "name": "AI",
       "count": 1
     },
     {
-      "name": "OpenAI",
+      "name": "形式化系统",
       "count": 1
     },
     {
-      "name": "AutoDex",
+      "name": "具身智能",
       "count": 1
     },
     {
-      "name": "dexterous grasping",
+      "name": "物理智能",
       "count": 1
     },
     {
-      "name": "robotics",
+      "name": "prompt生成",
       "count": 1
     },
     {
-      "name": "Randomized YaRN",
+      "name": "Halos for Robotics",
       "count": 1
     },
     {
-      "name": "positional encoding",
+      "name": "Megapod",
       "count": 1
     },
     {
-      "name": "CoorDex",
+      "name": "Kiro",
       "count": 1
     },
     {
-      "name": "dexterous manipulation",
+      "name": "Amazon Bedrock",
       "count": 1
     },
     {
-      "name": "humanoid robotics",
+      "name": "Amazon EKS",
       "count": 1
     },
     {
-      "name": "text-to-image models",
+      "name": "Doubao-Seed-2.1-Pro",
+      "count": 1
+    },
+    {
+      "name": "Doubao-Seed-2.1-Turbo",
       "count": 1
     }
   ],
   "top_event_scores": [
     {
-      "event_id": "evt_013",
-      "event_name": "Limits of prompt-conditioned LLMs as general-purpose learners",
+      "event_id": "event_18",
+      "event_name": "AdamW在重尾噪声下的有效性开放问题",
       "rank": 1,
-      "score": 3.67,
-      "confidence": "high"
-    },
-    {
-      "event_id": "evt_003",
-      "event_name": "AutoDex: automated dexterous grasping data collection",
-      "rank": 2,
-      "score": 3.33,
-      "confidence": "high"
-    },
-    {
-      "event_id": "evt_005",
-      "event_name": "CoorDex: dexterous loco-manipulation on humanoid",
-      "rank": 3,
-      "score": 3.33,
-      "confidence": "high"
-    },
-    {
-      "event_id": "evt_012",
-      "event_name": "Tapered Language Models improve perplexity and downstream performance",
-      "rank": 4,
-      "score": 3.33,
-      "confidence": "high"
-    },
-    {
-      "event_id": "evt_001",
-      "event_name": "GPT-5 solves immunology mystery",
-      "rank": 5,
-      "score": 3.22,
+      "score": 3.41,
       "confidence": "medium"
+    },
+    {
+      "event_id": "event_3",
+      "event_name": "正行创新完成近亿美元天使轮融资",
+      "rank": 2,
+      "score": 3.3,
+      "confidence": "high"
+    },
+    {
+      "event_id": "event_15",
+      "event_name": "CoorDex: 连续灵巧人形机器人操作",
+      "rank": 3,
+      "score": 3.29,
+      "confidence": "high"
+    },
+    {
+      "event_id": "event_7",
+      "event_name": "特斯拉申请Megapod商标进军AI数据中心硬件",
+      "rank": 4,
+      "score": 3.27,
+      "confidence": "medium"
+    },
+    {
+      "event_id": "event_13",
+      "event_name": "AutoDex: 自动化灵巧抓取数据收集系统",
+      "rank": 5,
+      "score": 3.27,
+      "confidence": "high"
     }
   ],
   "risk_opportunity_matrix": [
     {
-      "event_id": "evt_013",
-      "event_name": "Limits of prompt-conditioned LLMs as general-purpose learners",
-      "risk_level": 4,
-      "opportunity_level": 4,
-      "confidence": "high"
+      "event_id": "event_18",
+      "event_name": "AdamW在重尾噪声下的有效性开放问题",
+      "risk_level": 2.458,
+      "opportunity_level": 3.26,
+      "confidence": "medium",
+      "event_type": "research"
     },
     {
-      "event_id": "evt_003",
-      "event_name": "AutoDex: automated dexterous grasping data collection",
-      "risk_level": 0,
-      "opportunity_level": 5,
-      "confidence": "high"
+      "event_id": "event_3",
+      "event_name": "正行创新完成近亿美元天使轮融资",
+      "risk_level": 0.3,
+      "opportunity_level": 3.406,
+      "confidence": "high",
+      "event_type": "funding"
     },
     {
-      "event_id": "evt_005",
-      "event_name": "CoorDex: dexterous loco-manipulation on humanoid",
-      "risk_level": 0,
-      "opportunity_level": 5,
-      "confidence": "high"
+      "event_id": "event_15",
+      "event_name": "CoorDex: 连续灵巧人形机器人操作",
+      "risk_level": 0.36,
+      "opportunity_level": 4.248,
+      "confidence": "high",
+      "event_type": "research"
     },
     {
-      "event_id": "evt_012",
-      "event_name": "Tapered Language Models improve perplexity and downstream performance",
-      "risk_level": 0,
-      "opportunity_level": 4,
-      "confidence": "high"
+      "event_id": "event_7",
+      "event_name": "特斯拉申请Megapod商标进军AI数据中心硬件",
+      "risk_level": 0.153,
+      "opportunity_level": 3.283,
+      "confidence": "medium",
+      "event_type": "product_release"
     },
     {
-      "event_id": "evt_001",
-      "event_name": "GPT-5 solves immunology mystery",
-      "risk_level": 0,
-      "opportunity_level": 4,
-      "confidence": "medium"
+      "event_id": "event_13",
+      "event_name": "AutoDex: 自动化灵巧抓取数据收集系统",
+      "risk_level": 0.272,
+      "opportunity_level": 4.194,
+      "confidence": "high",
+      "event_type": "research"
     },
     {
-      "event_id": "evt_002",
-      "event_name": "Omio adopts OpenAI for conversational travel",
-      "risk_level": 0,
-      "opportunity_level": 4,
-      "confidence": "medium"
+      "event_id": "event_9",
+      "event_name": "豆包2.1模型发布",
+      "risk_level": 0.197,
+      "opportunity_level": 4.081,
+      "confidence": "medium",
+      "event_type": "model_release"
     },
     {
-      "event_id": "evt_004",
-      "event_name": "Randomized YaRN improves long-context reasoning",
-      "risk_level": 0,
-      "opportunity_level": 4,
-      "confidence": "high"
+      "event_id": "event_16",
+      "event_name": "Semantic Browsing: 可控多样性的图像生成",
+      "risk_level": 0.169,
+      "opportunity_level": 4.093,
+      "confidence": "medium",
+      "event_type": "research"
     },
     {
-      "event_id": "evt_014",
-      "event_name": "MAS-PromptBench: prompt optimization in multi-agent LLM systems",
-      "risk_level": 0,
-      "opportunity_level": 4,
-      "confidence": "high"
+      "event_id": "event_19",
+      "event_name": "PsyBridge: 多维度心理健康评估框架",
+      "risk_level": 0.164,
+      "opportunity_level": 4.077,
+      "confidence": "medium",
+      "event_type": "research"
     },
     {
-      "event_id": "evt_015",
-      "event_name": "Action-BED: task-driven Bayesian experimental design",
-      "risk_level": 0,
-      "opportunity_level": 4,
-      "confidence": "high"
+      "event_id": "event_17",
+      "event_name": "AIR: 自适应交错推理与代码增强",
+      "risk_level": 0.143,
+      "opportunity_level": 4.03,
+      "confidence": "medium",
+      "event_type": "research"
     },
     {
-      "event_id": "evt_011",
-      "event_name": "LLMs cannot reliably self-report adversarial prefills",
-      "risk_level": 5,
-      "opportunity_level": 0,
-      "confidence": "high"
+      "event_id": "event_14",
+      "event_name": "Randomized YaRN改进长上下文推理",
+      "risk_level": 0.361,
+      "opportunity_level": 3.416,
+      "confidence": "high",
+      "event_type": "research"
     },
     {
-      "event_id": "evt_006",
-      "event_name": "Semantic Browsing for controlled diversity in image generation",
-      "risk_level": 0,
-      "opportunity_level": 0,
-      "confidence": "high"
+      "event_id": "event_11",
+      "event_name": "GPT-5帮助解决免疫学谜题",
+      "risk_level": 0.164,
+      "opportunity_level": 3.274,
+      "confidence": "medium",
+      "event_type": "research"
     },
     {
-      "event_id": "evt_007",
-      "event_name": "AIR: Adaptive Interleaved Reasoning with Code in MLLMs",
-      "risk_level": 0,
-      "opportunity_level": 0,
-      "confidence": "high"
+      "event_id": "event_12",
+      "event_name": "Omio利用OpenAI构建对话式旅行体验",
+      "risk_level": 0.177,
+      "opportunity_level": 3.245,
+      "confidence": "medium",
+      "event_type": "business_update"
     },
     {
-      "event_id": "evt_008",
-      "event_name": "Open problem: AdamW under heavy-tailed noise",
-      "risk_level": 0,
-      "opportunity_level": 0,
-      "confidence": "high"
+      "event_id": "event_2",
+      "event_name": "浪潮信息强调AI转型中组织文化的重要性",
+      "risk_level": 2.503,
+      "opportunity_level": 2.427,
+      "confidence": "medium",
+      "event_type": "market_commentary"
     },
     {
-      "event_id": "evt_009",
-      "event_name": "PsyBridge: hybrid mental health assessment framework",
-      "risk_level": 0,
-      "opportunity_level": 0,
-      "confidence": "high"
+      "event_id": "event_20",
+      "event_name": "NVIDIA Nemotron挑战赛中的位操作谜题解法",
+      "risk_level": 0.14,
+      "opportunity_level": 4.078,
+      "confidence": "medium",
+      "event_type": "research"
     },
     {
-      "event_id": "evt_016",
-      "event_name": "Dynamic estimation of slowly varying sequences",
-      "risk_level": 0,
-      "opportunity_level": 0,
-      "confidence": "high"
+      "event_id": "event_1",
+      "event_name": "AI在数学证明中的突破",
+      "risk_level": 0.201,
+      "opportunity_level": 3.228,
+      "confidence": "medium",
+      "event_type": "research"
     },
     {
-      "event_id": "evt_017",
-      "event_name": "EnterpriseClawBench: benchmark for enterprise agents",
-      "risk_level": 0,
-      "opportunity_level": 0,
-      "confidence": "high"
+      "event_id": "event_5",
+      "event_name": "可口可乐推出AI世界杯互动小程序",
+      "risk_level": 0.141,
+      "opportunity_level": 3.31,
+      "confidence": "medium",
+      "event_type": "product_release"
     },
     {
-      "event_id": "evt_018",
-      "event_name": "TailorMind: personalized multimodal content generation",
-      "risk_level": 0,
-      "opportunity_level": 0,
-      "confidence": "high"
+      "event_id": "event_6",
+      "event_name": "英伟达发布机器人操作系统Halos for Robotics",
+      "risk_level": 0.196,
+      "opportunity_level": 3.279,
+      "confidence": "medium",
+      "event_type": "product_release"
     },
     {
-      "event_id": "evt_019",
-      "event_name": "Learning process rewards via success visitation matching",
-      "risk_level": 0,
-      "opportunity_level": 0,
-      "confidence": "high"
+      "event_id": "event_8",
+      "event_name": "小鹏汽车基于亚马逊云科技搭建AI平台",
+      "risk_level": 0.184,
+      "opportunity_level": 3.306,
+      "confidence": "medium",
+      "event_type": "partnership"
     },
     {
-      "event_id": "evt_020",
-      "event_name": "Muown implicitly performs angular step-size decay",
-      "risk_level": 0,
-      "opportunity_level": 0,
-      "confidence": "high"
+      "event_id": "event_10",
+      "event_name": "2026年具身智能融资火热",
+      "risk_level": 0.177,
+      "opportunity_level": 3.304,
+      "confidence": "medium",
+      "event_type": "market_commentary"
     },
     {
-      "event_id": "evt_010",
-      "event_name": "Teaching LLMs bit manipulation puzzles via string similarity and backtracking",
-      "risk_level": 0,
-      "opportunity_level": 0,
-      "confidence": "high"
+      "event_id": "event_4",
+      "event_name": "华人博士Alisa开源OpenAI求职经历",
+      "risk_level": 0.212,
+      "opportunity_level": 3.318,
+      "confidence": "medium",
+      "event_type": "other"
     }
   ]
 }
