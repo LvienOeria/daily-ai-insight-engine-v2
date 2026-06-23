@@ -1,0 +1,56 @@
+import { AlertTriangle, CheckCircle2 } from "lucide-react";
+import type { QualityCheck } from "../types";
+
+interface QualityPanelProps {
+  quality: QualityCheck;
+}
+
+export function QualityPanel({ quality }: QualityPanelProps) {
+  const failures = Object.entries(quality.requirement_check).filter(([, passed]) => !passed);
+  const issues = [
+    ...quality.missing_items,
+    ...quality.weak_points,
+    ...quality.unsupported_claims,
+    ...quality.data_quality_issues,
+    ...quality.visualization_issues,
+  ];
+
+  return (
+    <section className="section quality-section">
+      <div className="quality-state">
+        {quality.passed ? <CheckCircle2 size={22} /> : <AlertTriangle size={22} />}
+        <div>
+          <h2>Quality Check</h2>
+          <p>{quality.passed ? "Passed" : "Needs review"}</p>
+        </div>
+      </div>
+      <div className="quality-grid">
+        <div>
+          <h3>Failed Requirements</h3>
+          {failures.length === 0 ? (
+            <p className="muted">None</p>
+          ) : (
+            <ul>
+              {failures.map(([name]) => (
+                <li key={name}>{name}</li>
+              ))}
+            </ul>
+          )}
+        </div>
+        <div>
+          <h3>Issues</h3>
+          {issues.length === 0 ? (
+            <p className="muted">None</p>
+          ) : (
+            <ul>
+              {issues.slice(0, 8).map((issue) => (
+                <li key={issue}>{issue}</li>
+              ))}
+            </ul>
+          )}
+        </div>
+      </div>
+    </section>
+  );
+}
+

@@ -167,6 +167,15 @@ Recommended charts:
 - Top event importance ranking
 - Risk/opportunity matrix
 
+For this project, visualization is implemented in a React + Vite frontend using D3.js. Python pipeline output remains the source of truth and exports dashboard data to `frontend/public/data/latest.json`.
+
+Frontend rules:
+
+- The frontend displays generated artifacts only.
+- It must not call the LLM or invent additional analysis.
+- Chart data must match `data/visualization_data.json` and ranked event artifacts.
+- Evidence links or IDs must remain visible for Top events and major conclusions.
+
 ## Step 13: Daily Report Generation
 
 Use the `daily-report-generation` skill.

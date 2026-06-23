@@ -1,0 +1,112 @@
+[
+  {
+    "source_name": "arXiv AI Search",
+    "source_type": "research",
+    "access_method": "api",
+    "documentation_url": "https://info.arxiv.org/help/api/index.html",
+    "endpoint_url": "https://export.arxiv.org/api/query",
+    "language": "en",
+    "coverage": "Recent AI, machine learning, and language model research preprints.",
+    "update_frequency": "continuous",
+    "cost_or_limit": "public API, polite rate limits required",
+    "known_constraints": ["abstracts only", "research-focused"],
+    "enabled": true,
+    "query": "cat:cs.AI OR cat:cs.CL OR cat:cs.LG",
+    "params": {
+      "max_results": 20,
+      "sortBy": "submittedDate",
+      "sortOrder": "descending"
+    }
+  },
+  {
+    "source_name": "Hacker News Algolia AI Search",
+    "source_type": "community",
+    "access_method": "api",
+    "documentation_url": "https://hn.algolia.com/api",
+    "endpoint_url": "https://hn.algolia.com/api/v1/search_by_date",
+    "language": "en",
+    "coverage": "Developer and technology community discussion around AI topics.",
+    "update_frequency": "continuous",
+    "cost_or_limit": "public API",
+    "known_constraints": ["community signal", "may link to external sources", "short text"],
+    "enabled": true,
+    "query": "AI OR LLM OR OpenAI OR Anthropic OR DeepSeek",
+    "params": {
+      "tags": "story",
+      "hitsPerPage": 30
+    }
+  },
+  {
+    "source_name": "OpenAI News RSS",
+    "source_type": "official",
+    "access_method": "rss",
+    "documentation_url": "https://openai.com/news/",
+    "endpoint_url": "https://openai.com/news/rss.xml",
+    "language": "en",
+    "coverage": "Official OpenAI product, research, safety, and company updates.",
+    "update_frequency": "irregular",
+    "cost_or_limit": "public RSS if available",
+    "known_constraints": ["official single-company perspective", "RSS availability may change"],
+    "enabled": true
+  },
+  {
+    "source_name": "Google DeepMind Blog RSS",
+    "source_type": "official",
+    "access_method": "rss",
+    "documentation_url": "https://deepmind.google/discover/blog/",
+    "endpoint_url": "https://deepmind.google/blog/rss.xml",
+    "language": "en",
+    "coverage": "Official Google DeepMind research and product updates.",
+    "update_frequency": "irregular",
+    "cost_or_limit": "public RSS if available",
+    "known_constraints": ["official single-organization perspective", "RSS availability may change"],
+    "enabled": true
+  },
+  {
+    "source_name": "量子位 DeepSeek Websearch",
+    "source_type": "media",
+    "access_method": "deepseek_websearch",
+    "documentation_url": "https://www.qbitai.com/",
+    "endpoint_url": null,
+    "language": "zh",
+    "coverage": "Chinese AI industry and technology reporting from 量子位.",
+    "update_frequency": "continuous",
+    "cost_or_limit": "depends on DeepSeek websearch access path",
+    "known_constraints": ["allowlisted Chinese websearch only", "observed fields must be validated"],
+    "enabled": true,
+    "query": "site:qbitai.com AI 人工智能 大模型 最近三天"
+  },
+  {
+    "source_name": "机器之心 DeepSeek Websearch",
+    "source_type": "media",
+    "access_method": "deepseek_websearch",
+    "documentation_url": "https://www.jiqizhixin.com/",
+    "endpoint_url": null,
+    "language": "zh",
+    "coverage": "Chinese AI research, product, and industry reporting from 机器之心.",
+    "update_frequency": "continuous",
+    "cost_or_limit": "depends on DeepSeek websearch access path",
+    "known_constraints": ["allowlisted Chinese websearch only", "observed fields must be validated"],
+    "enabled": true,
+    "query": "site:jiqizhixin.com AI 人工智能 大模型 最近三天"
+  },
+  {
+    "source_name": "知乎 DeepSeek Websearch",
+    "source_type": "community",
+    "access_method": "deepseek_websearch",
+    "documentation_url": "https://www.zhihu.com/",
+    "endpoint_url": null,
+    "language": "zh",
+    "coverage": "Chinese community discussion and sentiment around AI topics.",
+    "update_frequency": "continuous",
+    "cost_or_limit": "depends on DeepSeek websearch access path",
+    "known_constraints": [
+      "community signal",
+      "not primary evidence by default",
+      "observed fields must be validated"
+    ],
+    "enabled": true,
+    "query": "site:zhihu.com AI 人工智能 大模型 最近三天"
+  }
+]
+

@@ -1,0 +1,213 @@
+[
+  {
+    "source_name": "arXiv AI Search",
+    "source_type": "research",
+    "access_method": "api",
+    "coverage": "Recent AI, machine learning, and language model research preprints.",
+    "language": "en",
+    "field_completeness": {
+      "title": "yes",
+      "summary_or_content": "yes",
+      "source": "yes",
+      "published_at": "yes",
+      "url": "yes"
+    },
+    "strengths": [
+      "Recent AI, machine learning, and language model research preprints.",
+      "Observed 20 candidate items during fetch attempt."
+    ],
+    "weaknesses": [],
+    "risks": [
+      "abstracts only",
+      "research-focused"
+    ],
+    "observed_item_count": 20,
+    "fetch_status": "success",
+    "fetch_error": null,
+    "recommended_tier": "core",
+    "reason": "Observed results satisfy required fields and are suitable for the main dataset."
+  },
+  {
+    "source_name": "Hacker News Algolia AI Search",
+    "source_type": "community",
+    "access_method": "api",
+    "coverage": "Developer and technology community discussion around AI topics.",
+    "language": "en",
+    "field_completeness": {
+      "title": "yes",
+      "summary_or_content": "yes",
+      "source": "yes",
+      "published_at": "yes",
+      "url": "yes"
+    },
+    "strengths": [
+      "Developer and technology community discussion around AI topics.",
+      "Observed 1 candidate items during fetch attempt."
+    ],
+    "weaknesses": [
+      "Community source; use as auxiliary signal unless item is complete."
+    ],
+    "risks": [
+      "community signal",
+      "may link to external sources",
+      "short text"
+    ],
+    "observed_item_count": 1,
+    "fetch_status": "success",
+    "fetch_error": null,
+    "recommended_tier": "auxiliary",
+    "reason": "Observed results provide useful signal but should not be the sole Top-event evidence."
+  },
+  {
+    "source_name": "OpenAI News RSS",
+    "source_type": "official",
+    "access_method": "rss",
+    "coverage": "Official OpenAI product, research, safety, and company updates.",
+    "language": "en",
+    "field_completeness": {
+      "title": "yes",
+      "summary_or_content": "partial",
+      "source": "yes",
+      "published_at": "yes",
+      "url": "yes"
+    },
+    "strengths": [
+      "Official OpenAI product, research, safety, and company updates.",
+      "Observed 1017 candidate items during fetch attempt."
+    ],
+    "weaknesses": [
+      "Observed missing fields: summary_or_content=107"
+    ],
+    "risks": [
+      "official single-company perspective",
+      "RSS availability may change"
+    ],
+    "observed_item_count": 1017,
+    "fetch_status": "success",
+    "fetch_error": null,
+    "recommended_tier": "core",
+    "reason": "Observed results satisfy required fields and are suitable for the main dataset."
+  },
+  {
+    "source_name": "Google DeepMind Blog RSS",
+    "source_type": "official",
+    "access_method": "rss",
+    "coverage": "Official Google DeepMind research and product updates.",
+    "language": "en",
+    "field_completeness": {
+      "title": "yes",
+      "summary_or_content": "partial",
+      "source": "yes",
+      "published_at": "yes",
+      "url": "yes"
+    },
+    "strengths": [
+      "Official Google DeepMind research and product updates.",
+      "Observed 100 candidate items during fetch attempt."
+    ],
+    "weaknesses": [
+      "Observed missing fields: summary_or_content=14"
+    ],
+    "risks": [
+      "official single-organization perspective",
+      "RSS availability may change"
+    ],
+    "observed_item_count": 100,
+    "fetch_status": "success",
+    "fetch_error": null,
+    "recommended_tier": "core",
+    "reason": "Observed results satisfy required fields and are suitable for the main dataset."
+  },
+  {
+    "source_name": "量子位 DeepSeek Websearch",
+    "source_type": "media",
+    "access_method": "deepseek_websearch",
+    "coverage": "Chinese AI industry and technology reporting from 量子位.",
+    "language": "zh",
+    "field_completeness": {
+      "title": "no",
+      "summary_or_content": "no",
+      "source": "no",
+      "published_at": "no",
+      "url": "no"
+    },
+    "strengths": [
+      "Chinese AI industry and technology reporting from 量子位."
+    ],
+    "weaknesses": [
+      "Fetch issue: DeepSeek websearch has no standalone Chat Completions endpoint in the current implementation. Add observations to data/manual/chinese_websearch_observations.json after running allowlisted DeepSeek websearch."
+    ],
+    "risks": [
+      "allowlisted Chinese websearch only",
+      "observed fields must be validated",
+      "DeepSeek websearch observations require allowlist and field validation."
+    ],
+    "observed_item_count": 0,
+    "fetch_status": "failed",
+    "fetch_error": "DeepSeek websearch has no standalone Chat Completions endpoint in the current implementation. Add observations to data/manual/chinese_websearch_observations.json after running allowlisted DeepSeek websearch.",
+    "recommended_tier": "future",
+    "reason": "Fetch path needs implementation or access before MVP use: DeepSeek websearch has no standalone Chat Completions endpoint in the current implementation. Add observations to data/manual/chinese_websearch_observations.json after running allowlisted DeepSeek websearch."
+  },
+  {
+    "source_name": "机器之心 DeepSeek Websearch",
+    "source_type": "media",
+    "access_method": "deepseek_websearch",
+    "coverage": "Chinese AI research, product, and industry reporting from 机器之心.",
+    "language": "zh",
+    "field_completeness": {
+      "title": "no",
+      "summary_or_content": "no",
+      "source": "no",
+      "published_at": "no",
+      "url": "no"
+    },
+    "strengths": [
+      "Chinese AI research, product, and industry reporting from 机器之心."
+    ],
+    "weaknesses": [
+      "Fetch issue: DeepSeek websearch has no standalone Chat Completions endpoint in the current implementation. Add observations to data/manual/chinese_websearch_observations.json after running allowlisted DeepSeek websearch."
+    ],
+    "risks": [
+      "allowlisted Chinese websearch only",
+      "observed fields must be validated",
+      "DeepSeek websearch observations require allowlist and field validation."
+    ],
+    "observed_item_count": 0,
+    "fetch_status": "failed",
+    "fetch_error": "DeepSeek websearch has no standalone Chat Completions endpoint in the current implementation. Add observations to data/manual/chinese_websearch_observations.json after running allowlisted DeepSeek websearch.",
+    "recommended_tier": "future",
+    "reason": "Fetch path needs implementation or access before MVP use: DeepSeek websearch has no standalone Chat Completions endpoint in the current implementation. Add observations to data/manual/chinese_websearch_observations.json after running allowlisted DeepSeek websearch."
+  },
+  {
+    "source_name": "知乎 DeepSeek Websearch",
+    "source_type": "community",
+    "access_method": "deepseek_websearch",
+    "coverage": "Chinese community discussion and sentiment around AI topics.",
+    "language": "zh",
+    "field_completeness": {
+      "title": "no",
+      "summary_or_content": "no",
+      "source": "no",
+      "published_at": "no",
+      "url": "no"
+    },
+    "strengths": [
+      "Chinese community discussion and sentiment around AI topics."
+    ],
+    "weaknesses": [
+      "Community source; use as auxiliary signal unless item is complete.",
+      "Fetch issue: DeepSeek websearch has no standalone Chat Completions endpoint in the current implementation. Add observations to data/manual/chinese_websearch_observations.json after running allowlisted DeepSeek websearch."
+    ],
+    "risks": [
+      "community signal",
+      "not primary evidence by default",
+      "observed fields must be validated",
+      "DeepSeek websearch observations require allowlist and field validation."
+    ],
+    "observed_item_count": 0,
+    "fetch_status": "failed",
+    "fetch_error": "DeepSeek websearch has no standalone Chat Completions endpoint in the current implementation. Add observations to data/manual/chinese_websearch_observations.json after running allowlisted DeepSeek websearch.",
+    "recommended_tier": "future",
+    "reason": "Fetch path needs implementation or access before MVP use: DeepSeek websearch has no standalone Chat Completions endpoint in the current implementation. Add observations to data/manual/chinese_websearch_observations.json after running allowlisted DeepSeek websearch."
+  }
+]

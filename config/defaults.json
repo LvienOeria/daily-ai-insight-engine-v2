@@ -38,8 +38,18 @@
         }
       ],
       "max_results": 20,
+      "observation_file": "data/manual/chinese_websearch_observations.json",
       "selection_rule": "Fetched Chinese websearch results must be evaluated for required fields before entering the main dataset. Zhihu should be treated as community signal unless a specific item has traceable URL, source, published_at, and sufficient content."
     }
+  },
+  "frontend": {
+    "framework": "react",
+    "bundler": "vite",
+    "package_manager": "pnpm",
+    "visualization_library": "d3",
+    "app_dir": "frontend",
+    "data_output": "frontend/public/data/latest.json",
+    "role": "display_only"
   },
   "output_paths": {
     "source_evaluation": "data/source_evaluation.json",

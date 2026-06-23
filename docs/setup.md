@@ -55,6 +55,8 @@ The current default runtime settings are also captured in `config/defaults.json`
 - LLM execution mode: local scripts
 - Data source policy: attempt candidate fetching first, evaluate observed data quality, then select core sources
 - Chinese source compatibility path: DeepSeek websearch, restricted to 量子位, 机器之心, and 知乎
+- Frontend: React + Vite + pnpm
+- Visualization: D3.js
 
 ## Configuration To Decide Before Implementation
 
@@ -64,6 +66,20 @@ Before writing the workflow code, confirm or record:
 - Chinese websearch query templates and per-site result caps.
 - Output locations for raw data, cleaned data, structured data, clustered events, rankings, visualizations, reports, and quality checks.
 - Whether generated public news datasets should be committed for reproducibility.
+
+## Frontend and Visualization
+
+The MVP frontend uses React, Vite, pnpm, and D3.js.
+
+Implementation rules:
+
+- Use Node.js 20 or newer. The local system Node 18.3.0 is too old for the selected Vite toolchain; this workspace has been verified with Node 22.22.2 via nvm.
+- Python scripts own data collection, cleaning, structuring, event clustering, importance scoring, report generation, and quality checks.
+- The React app is display-only. It must not generate facts, call LLMs, or change rankings.
+- D3 charts must read from structured JSON artifacts, primarily `frontend/public/data/latest.json`.
+- The dashboard should show evidence traceability for Top events, trends, risks, and opportunities through `news_id`, `event_id`, source names, key facts, or evidence snippets.
+- Commit frontend source and `pnpm-lock.yaml`. Do not commit `node_modules/`.
+- Do not treat frontend polish as a replacement for reproducible data artifacts.
 
 ## Chinese Websearch Constraints
 

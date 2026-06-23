@@ -1,0 +1,682 @@
+[
+  {
+    "news_id": "news_7538399d85da",
+    "title": "How Omio is building the future of conversational travel",
+    "source": "OpenAI News",
+    "source_type": "official",
+    "published_at": "2026-06-23T08:00:00+08:00",
+    "language": "en",
+    "url": "https://openai.com/index/omio",
+    "entities": [
+      "OpenAI"
+    ],
+    "technologies": [],
+    "event_type": "other",
+    "industry_area": "other",
+    "key_facts": [
+      "Discover how Omio uses OpenAI to power conversational travel experiences, accelerate product development, and transform into an AI-native company."
+    ],
+    "summary": "Discover how Omio uses OpenAI to power conversational travel experiences, accelerate product development, and transform into an AI-native company.",
+    "sentiment": "neutral",
+    "impact_scope": [
+      "industry"
+    ],
+    "risk_tags": [
+      "none"
+    ],
+    "opportunity_tags": [
+      "none"
+    ],
+    "importance_score": 3,
+    "confidence": "medium",
+    "evidence": [
+      "Discover how Omio uses OpenAI to power conversational travel experiences, accelerate product development, and transform into an AI-native company."
+    ]
+  },
+  {
+    "news_id": "news_757df02a5298",
+    "title": "AutoDex: An Automated Real-World System for Dexterous Grasping Data Collection",
+    "source": "arXiv",
+    "source_type": "research",
+    "published_at": "2026-06-23T01:59:55+08:00",
+    "language": "en",
+    "url": "http://arxiv.org/abs/2606.23689v1",
+    "entities": [],
+    "technologies": [
+      "RAG"
+    ],
+    "event_type": "model_release",
+    "industry_area": "other",
+    "key_facts": [
+      "Learning robust dexterous grasping requires real-world data that records the physical outcomes of grasp attempts."
+    ],
+    "summary": "Learning robust dexterous grasping requires real-world data that records the physical outcomes of grasp attempts. Such data is hard to obtain at scale: teleoperation yields valid physical outcomes but is slow and operator-biased, while simulation-based generation is cheap and scalable but cannot certify contact validity. A natural solution is to generate candidate grasps and verify them on real hardware, but this scales only if the entire collection loop (perception, execution, labeling, and res",
+    "sentiment": "neutral",
+    "impact_scope": [
+      "developers"
+    ],
+    "risk_tags": [
+      "none"
+    ],
+    "opportunity_tags": [
+      "none"
+    ],
+    "importance_score": 4,
+    "confidence": "medium",
+    "evidence": [
+      "Learning robust dexterous grasping requires real-world data that records the physical outcomes of grasp attempts."
+    ]
+  },
+  {
+    "news_id": "news_85eaf7ab5f8c",
+    "title": "Randomized YaRN Improves Length Generalization for Long-Context Reasoning",
+    "source": "arXiv",
+    "source_type": "research",
+    "published_at": "2026-06-23T01:59:53+08:00",
+    "language": "en",
+    "url": "http://arxiv.org/abs/2606.23687v1",
+    "entities": [],
+    "technologies": [
+      "LLM"
+    ],
+    "event_type": "model_release",
+    "industry_area": "foundation_model",
+    "key_facts": [
+      "Large language models (LLMs) are typically pretrained on short sequences and then extended to work on longer sequences with additional training."
+    ],
+    "summary": "Large language models (LLMs) are typically pretrained on short sequences and then extended to work on longer sequences with additional training. However, such LLMs still struggle to further generalize to very long sequences. We propose Randomized YaRN, a training method that improves length generalization by combining YaRN-based positional extrapolation with randomized positional encoding and a length curriculum. During training on short context data, tokens are assigned YaRN positional encoding",
+    "sentiment": "neutral",
+    "impact_scope": [
+      "developers"
+    ],
+    "risk_tags": [
+      "none"
+    ],
+    "opportunity_tags": [
+      "none"
+    ],
+    "importance_score": 4,
+    "confidence": "medium",
+    "evidence": [
+      "Large language models (LLMs) are typically pretrained on short sequences and then extended to work on longer sequences with additional training."
+    ]
+  },
+  {
+    "news_id": "news_abae4f31f1fe",
+    "title": "CoorDex: Coordinating Body and Hand Priors for Continuous Dexterous Humanoid Loco-Manipulation",
+    "source": "arXiv",
+    "source_type": "research",
+    "published_at": "2026-06-23T01:59:20+08:00",
+    "language": "en",
+    "url": "http://arxiv.org/abs/2606.23680v1",
+    "entities": [],
+    "technologies": [],
+    "event_type": "regulation",
+    "industry_area": "policy_regulation",
+    "key_facts": [
+      "Humanoid loco-manipulation is often simplified into a stop-and-go process: walking to an object, stopping to manipulate it, and then resuming locomotion."
+    ],
+    "summary": "Humanoid loco-manipulation is often simplified into a stop-and-go process: walking to an object, stopping to manipulate it, and then resuming locomotion. It also commonly relies on low degree-of-freedom (DoF) end effectors that behave like an open-close grasp primitive. We introduce CoorDex, a learning pipeline that converts high-dimensional body and dexterous hand control into coordinated latent residual control, enabling high-DoF dexterous loco-manipulation on the move. Starting from simulated",
+    "sentiment": "neutral",
+    "impact_scope": [
+      "developers"
+    ],
+    "risk_tags": [
+      "none"
+    ],
+    "opportunity_tags": [
+      "developer_ecosystem"
+    ],
+    "importance_score": 5,
+    "confidence": "medium",
+    "evidence": [
+      "Humanoid loco-manipulation is often simplified into a stop-and-go process: walking to an object, stopping to manipulate it, and then resuming locomotion."
+    ]
+  },
+  {
+    "news_id": "news_2fffbed39a42",
+    "title": "Semantic Browsing: Controllable Diversity for Image Generation",
+    "source": "arXiv",
+    "source_type": "research",
+    "published_at": "2026-06-23T01:59:17+08:00",
+    "language": "en",
+    "url": "http://arxiv.org/abs/2606.23679v1",
+    "entities": [],
+    "technologies": [
+      "AI agent",
+      "RAG"
+    ],
+    "event_type": "model_release",
+    "industry_area": "ai_agent",
+    "key_facts": [
+      "Modern text-to-image models excel in visual fidelity and prompt adherence."
+    ],
+    "summary": "Modern text-to-image models excel in visual fidelity and prompt adherence. However, this strict adherence comes at the cost of diversity: generated samples tend to collapse into a single visual interpretation. Existing methods to improve diversity produce outputs driven by incidental variations rather than meaningful design choices. This motivates a new variant of the diversity task where structure is enforced on the generated samples. We introduce a method for controlled diversity that enables ",
+    "sentiment": "neutral",
+    "impact_scope": [
+      "developers"
+    ],
+    "risk_tags": [
+      "none"
+    ],
+    "opportunity_tags": [
+      "none"
+    ],
+    "importance_score": 4,
+    "confidence": "medium",
+    "evidence": [
+      "Modern text-to-image models excel in visual fidelity and prompt adherence."
+    ]
+  },
+  {
+    "news_id": "news_305c90ea87bd",
+    "title": "AIR: Adaptive Interleaved Reasoning with Code in MLLMs",
+    "source": "arXiv",
+    "source_type": "research",
+    "published_at": "2026-06-23T01:58:54+08:00",
+    "language": "en",
+    "url": "http://arxiv.org/abs/2606.23678v1",
+    "entities": [
+      "OpenAI"
+    ],
+    "technologies": [
+      "LLM",
+      "multimodal AI",
+      "RAG"
+    ],
+    "event_type": "model_release",
+    "industry_area": "multimodal_ai",
+    "key_facts": [
+      "Following the paradigm shift initiated by OpenAI o3, interleaved reasoning with code to enhance multimodal large language models (MLLMs) has become a pivotal research frontier."
+    ],
+    "summary": "Following the paradigm shift initiated by OpenAI o3, interleaved reasoning with code to enhance multimodal large language models (MLLMs) has become a pivotal research frontier. The existing literature focuses primarily on tool-use within vision-perception tasks. However, such approaches typically rely on predefined heuristics for visual manipulation and are inherently incapable of addressing numerical computation problems due to their exclusive focus on visual operations. This paper empowers MLL",
+    "sentiment": "neutral",
+    "impact_scope": [
+      "developers"
+    ],
+    "risk_tags": [
+      "none"
+    ],
+    "opportunity_tags": [
+      "developer_ecosystem"
+    ],
+    "importance_score": 5,
+    "confidence": "medium",
+    "evidence": [
+      "Following the paradigm shift initiated by OpenAI o3, interleaved reasoning with code to enhance multimodal large language models (MLLMs) has become a pivotal research frontier."
+    ]
+  },
+  {
+    "news_id": "news_d047e99003e7",
+    "title": "Open Problem: Is AdamW Effective Under Heavy-Tailed Noise?",
+    "source": "arXiv",
+    "source_type": "research",
+    "published_at": "2026-06-23T01:58:52+08:00",
+    "language": "en",
+    "url": "http://arxiv.org/abs/2606.23676v1",
+    "entities": [],
+    "technologies": [
+      "LLM"
+    ],
+    "event_type": "model_release",
+    "industry_area": "foundation_model",
+    "key_facts": [
+      "AdamW is the de facto optimizer for training large language models (LLMs), yet the theory behind it still lives mostly in finite-variance regimes."
+    ],
+    "summary": "AdamW is the de facto optimizer for training large language models (LLMs), yet the theory behind it still lives mostly in finite-variance regimes. This is increasingly unsatisfying, as empirical evidence indicates that stochastic gradient noise in LLM pretraining is typically heavy-tailed. Recent work shows that sign-based optimizers such as Lion and Muon achieve sharp heavy-tailed rates, and that AdaGrad can also converge under heavy-tailed noise. However, no rigorous convergence theory for Ada",
+    "sentiment": "neutral",
+    "impact_scope": [
+      "developers"
+    ],
+    "risk_tags": [
+      "none"
+    ],
+    "opportunity_tags": [
+      "none"
+    ],
+    "importance_score": 4,
+    "confidence": "medium",
+    "evidence": [
+      "AdamW is the de facto optimizer for training large language models (LLMs), yet the theory behind it still lives mostly in finite-variance regimes."
+    ]
+  },
+  {
+    "news_id": "news_8930ebe5665c",
+    "title": "PsyBridge: A Hybrid Intelligent Framework for Multi-Dimensional Mental Health Assessment and Decision Support",
+    "source": "arXiv",
+    "source_type": "research",
+    "published_at": "2026-06-23T01:57:15+08:00",
+    "language": "en",
+    "url": "http://arxiv.org/abs/2606.23673v1",
+    "entities": [],
+    "technologies": [],
+    "event_type": "model_release",
+    "industry_area": "foundation_model",
+    "key_facts": [
+      "Mental health assessment commonly relies on isolated screening instruments or data-driven models that often lack interpretability and multi-dimensional integration."
+    ],
+    "summary": "Mental health assessment commonly relies on isolated screening instruments or data-driven models that often lack interpretability and multi-dimensional integration. Existing approaches frequently focus on individual indicators such as depression or anxiety while providing limited support for comprehensive and explainable decision-making. To address this limitation, this study proposes PsyBridge, a hybrid intelligent decision-support framework designed for multi-dimensional mental health assessme",
+    "sentiment": "neutral",
+    "impact_scope": [
+      "developers"
+    ],
+    "risk_tags": [
+      "none"
+    ],
+    "opportunity_tags": [
+      "none"
+    ],
+    "importance_score": 4,
+    "confidence": "medium",
+    "evidence": [
+      "Mental health assessment commonly relies on isolated screening instruments or data-driven models that often lack interpretability and multi-dimensional integration."
+    ]
+  },
+  {
+    "news_id": "news_db3624209c14",
+    "title": "Teaching LLMs String Matching, Backtracking, and Error Recovery to Deduce Bases and Truth Tables for the Combinatorially Exploding Bit Manipulation Puzzles",
+    "source": "arXiv",
+    "source_type": "research",
+    "published_at": "2026-06-23T01:57:08+08:00",
+    "language": "en",
+    "url": "http://arxiv.org/abs/2606.23672v1",
+    "entities": [
+      "NVIDIA"
+    ],
+    "technologies": [
+      "LLM",
+      "RAG"
+    ],
+    "event_type": "model_release",
+    "industry_area": "research",
+    "key_facts": [
+      "This paper presents our algorithmic innovations for the NVIDIA Nemotron Model Reasoning Challenge, focusing on Bit Manipulation Puzzles."
+    ],
+    "summary": "This paper presents our algorithmic innovations for the NVIDIA Nemotron Model Reasoning Challenge, focusing on Bit Manipulation Puzzles. In this task, the objective is to discover a hidden logical rule transforming input binary strings to outputs, then apply it to unseen inputs. Large Language Models (LLMs) notoriously struggle here; traditional methods force them to simulate complex boolean logic and arithmetic, leading to hallucinations. Furthermore, the search space of bitwise operations (com",
+    "sentiment": "neutral",
+    "impact_scope": [
+      "developers"
+    ],
+    "risk_tags": [
+      "none"
+    ],
+    "opportunity_tags": [
+      "none"
+    ],
+    "importance_score": 4,
+    "confidence": "medium",
+    "evidence": [
+      "This paper presents our algorithmic innovations for the NVIDIA Nemotron Model Reasoning Challenge, focusing on Bit Manipulation Puzzles."
+    ]
+  },
+  {
+    "news_id": "news_eef0dcc2e091",
+    "title": "Can LLMs Reliably Self-Report Adversarial Prefills, and How?",
+    "source": "arXiv",
+    "source_type": "research",
+    "published_at": "2026-06-23T01:56:30+08:00",
+    "language": "en",
+    "url": "http://arxiv.org/abs/2606.23671v1",
+    "entities": [],
+    "technologies": [
+      "LLM",
+      "RAG"
+    ],
+    "event_type": "model_release",
+    "industry_area": "ai_safety",
+    "key_facts": [
+      "Prior work shows that large language models (LLMs) exhibit introspective capability on benign tasks."
+    ],
+    "summary": "Prior work shows that large language models (LLMs) exhibit introspective capability on benign tasks. We extend the question to safety contexts and examine how reliably a model can recognize that its own prior response was elicited by an adversarial prefill attack. Across ten open-weight instruction-tuned LLMs (3B to 70B) and four safety benchmarks, no model reliably recognizes its own compromised outputs, with models claiming intent on prefilled responses at an average rate of $27.3\\%$. Introspe",
+    "sentiment": "neutral",
+    "impact_scope": [
+      "developers"
+    ],
+    "risk_tags": [
+      "none"
+    ],
+    "opportunity_tags": [
+      "none"
+    ],
+    "importance_score": 4,
+    "confidence": "medium",
+    "evidence": [
+      "Prior work shows that large language models (LLMs) exhibit introspective capability on benign tasks."
+    ]
+  },
+  {
+    "news_id": "news_936a93fd1d91",
+    "title": "Tapered Language Models",
+    "source": "arXiv",
+    "source_type": "research",
+    "published_at": "2026-06-23T01:56:25+08:00",
+    "language": "en",
+    "url": "http://arxiv.org/abs/2606.23670v1",
+    "entities": [],
+    "technologies": [],
+    "event_type": "model_release",
+    "industry_area": "chip_compute",
+    "key_facts": [
+      "Modern language models, including transformer, recurrent, and memory-based variants, share a common chassis: a stack of identical layers in which parameters are allocated uniformly across depth."
+    ],
+    "summary": "Modern language models, including transformer, recurrent, and memory-based variants, share a common chassis: a stack of identical layers in which parameters are allocated uniformly across depth. This is a default inherited from the original transformer and largely unchanged since, yet a growing body of evidence suggests that layers contribute non-uniformly to the final output, with later layers refining the residual stream rather than transforming it. We ask whether parameter capacity should ref",
+    "sentiment": "neutral",
+    "impact_scope": [
+      "developers"
+    ],
+    "risk_tags": [
+      "none"
+    ],
+    "opportunity_tags": [
+      "infrastructure_growth"
+    ],
+    "importance_score": 5,
+    "confidence": "medium",
+    "evidence": [
+      "Modern language models, including transformer, recurrent, and memory-based variants, share a common chassis: a stack of identical layers in which parameters are allocated uniformly across depth."
+    ]
+  },
+  {
+    "news_id": "news_1ecdb86d7644",
+    "title": "On the Limits of Prompt-Conditioned Language Models as General-Purpose Learners",
+    "source": "arXiv",
+    "source_type": "research",
+    "published_at": "2026-06-23T01:52:59+08:00",
+    "language": "en",
+    "url": "http://arxiv.org/abs/2606.23668v1",
+    "entities": [],
+    "technologies": [
+      "LLM",
+      "multimodal AI",
+      "inference"
+    ],
+    "event_type": "model_release",
+    "industry_area": "multimodal_ai",
+    "key_facts": [
+      "Large Language Models (LLMs) are frequently portrayed as general-purpose solvers capable of solving arbitrary tasks."
+    ],
+    "summary": "Large Language Models (LLMs) are frequently portrayed as general-purpose solvers capable of solving arbitrary tasks. We argue that this view overlooks a fundamental constraint: language is a compressed and capacity-limited interface for conveying task information. Modelling User--System interaction as a bilevel \\emph{cheap-talk} game, we analyse how latent tasks are encoded into prompts and reinterpreted under alignment and safety constraints. We introduce a conceptual decomposition separating t",
+    "sentiment": "neutral",
+    "impact_scope": [
+      "developers"
+    ],
+    "risk_tags": [
+      "none"
+    ],
+    "opportunity_tags": [
+      "none"
+    ],
+    "importance_score": 4,
+    "confidence": "medium",
+    "evidence": [
+      "Large Language Models (LLMs) are frequently portrayed as general-purpose solvers capable of solving arbitrary tasks."
+    ]
+  },
+  {
+    "news_id": "news_1766a29dcfea",
+    "title": "MAS-PromptBench: When Does Prompt Optimization Improve Multi-Agent LLM Systems?",
+    "source": "arXiv",
+    "source_type": "research",
+    "published_at": "2026-06-23T01:48:40+08:00",
+    "language": "en",
+    "url": "http://arxiv.org/abs/2606.23664v1",
+    "entities": [],
+    "technologies": [
+      "LLM",
+      "AI agent"
+    ],
+    "event_type": "model_release",
+    "industry_area": "ai_agent",
+    "key_facts": [
+      "Multi-agent systems (MAS) offer a scalable path forward for agentic AI, comprising multiple LLM-based agents, each assigned a system prompt and a position within a workflow that governs inter-agent coordination and output aggregation."
+    ],
+    "summary": "Multi-agent systems (MAS) offer a scalable path forward for agentic AI, comprising multiple LLM-based agents, each assigned a system prompt and a position within a workflow that governs inter-agent coordination and output aggregation. System prompts thus form a critical and accessible optimization surface: they specify agents' roles and behaviors, enabling system-level improvements without model finetuning. Although prompt optimization has shown substantial potential for single LLMs, extending i",
+    "sentiment": "neutral",
+    "impact_scope": [
+      "developers"
+    ],
+    "risk_tags": [
+      "none"
+    ],
+    "opportunity_tags": [
+      "none"
+    ],
+    "importance_score": 4,
+    "confidence": "medium",
+    "evidence": [
+      "Multi-agent systems (MAS) offer a scalable path forward for agentic AI, comprising multiple LLM-based agents, each assigned a system prompt and a position within a workflow that governs inter-agent coordination and output aggregation."
+    ]
+  },
+  {
+    "news_id": "news_55311f31e987",
+    "title": "Action-BED: Task-Driven Bayesian Experimental Design with Singly Intractable Objectives",
+    "source": "arXiv",
+    "source_type": "research",
+    "published_at": "2026-06-23T01:48:07+08:00",
+    "language": "en",
+    "url": "http://arxiv.org/abs/2606.23662v1",
+    "entities": [],
+    "technologies": [],
+    "event_type": "model_release",
+    "industry_area": "policy_regulation",
+    "key_facts": [
+      "Bayesian experimental design (BED) has traditionally been based on maximising expected uncertainty reductions from prior to posterior."
+    ],
+    "summary": "Bayesian experimental design (BED) has traditionally been based on maximising expected uncertainty reductions from prior to posterior. A major shortfall of this approach is that it leads to doubly intractable objectives that are difficult to optimise, while customising them to particular downstream tasks of interest can also be difficult. Following first principles decision theory, we demonstrate that BED can alternatively be formulated in terms of an expected future loss (EFL) on downstream act",
+    "sentiment": "neutral",
+    "impact_scope": [
+      "developers"
+    ],
+    "risk_tags": [
+      "none"
+    ],
+    "opportunity_tags": [
+      "none"
+    ],
+    "importance_score": 4,
+    "confidence": "medium",
+    "evidence": [
+      "Bayesian experimental design (BED) has traditionally been based on maximising expected uncertainty reductions from prior to posterior."
+    ]
+  },
+  {
+    "news_id": "news_6cc9a274e196",
+    "title": "Dynamic estimation of slowly varying sequences",
+    "source": "arXiv",
+    "source_type": "research",
+    "published_at": "2026-06-23T01:40:49+08:00",
+    "language": "en",
+    "url": "http://arxiv.org/abs/2606.23655v1",
+    "entities": [],
+    "technologies": [],
+    "event_type": "other",
+    "industry_area": "other",
+    "key_facts": [
+      "We consider the problem of sequentially approximating functions of each element in a slowly-varying sequence, i.e."
+    ],
+    "summary": "We consider the problem of sequentially approximating functions of each element in a slowly-varying sequence, i.e. one where the magnitude $α_i$ of the difference between the elements at positions $i$ and $i-1$ is small. Recent work on implicit trace estimation shows that when $α_t$ is small, reusing queries to past sequence elements can reduce the overall cost [Dharangutte \\& Musco, NeurIPS~2021; Woodruff et al., NeurIPS~2022]. We introduce a framework generalizing this to a variety of linear a",
+    "sentiment": "neutral",
+    "impact_scope": [
+      "developers"
+    ],
+    "risk_tags": [
+      "none"
+    ],
+    "opportunity_tags": [
+      "none"
+    ],
+    "importance_score": 3,
+    "confidence": "medium",
+    "evidence": [
+      "We consider the problem of sequentially approximating functions of each element in a slowly-varying sequence, i.e."
+    ]
+  },
+  {
+    "news_id": "news_341a724680ba",
+    "title": "EnterpriseClawBench: Benchmarking Agents from Real Workplace Sessions",
+    "source": "arXiv",
+    "source_type": "research",
+    "published_at": "2026-06-23T01:39:43+08:00",
+    "language": "en",
+    "url": "http://arxiv.org/abs/2606.23654v1",
+    "entities": [],
+    "technologies": [
+      "AI agent"
+    ],
+    "event_type": "model_release",
+    "industry_area": "ai_agent",
+    "key_facts": [
+      "Enterprise agents increasingly operate inside workspaces: they read heterogeneous files, invoke tools, and deliver business artifacts."
+    ],
+    "summary": "Enterprise agents increasingly operate inside workspaces: they read heterogeneous files, invoke tools, and deliver business artifacts. We introduce EnterpriseClawBench, an enterprise agent benchmark constructed from proprietary, real-world agent sessions. Starting from a large archive of workplace sessions, the EnterpriseClawBench produces 852 reproducible tasks, each paired with recovered fixtures, rewritten prompts, role classes, skill subclasses, hard rules, and semantic rubrics. Because the ",
+    "sentiment": "neutral",
+    "impact_scope": [
+      "developers"
+    ],
+    "risk_tags": [
+      "none"
+    ],
+    "opportunity_tags": [
+      "enterprise_adoption",
+      "developer_ecosystem"
+    ],
+    "importance_score": 5,
+    "confidence": "medium",
+    "evidence": [
+      "Enterprise agents increasingly operate inside workspaces: they read heterogeneous files, invoke tools, and deliver business artifacts."
+    ]
+  },
+  {
+    "news_id": "news_49cf97f4a3d4",
+    "title": "TailorMind: Towards Preference-Aligned Multimodal Content Generation",
+    "source": "arXiv",
+    "source_type": "research",
+    "published_at": "2026-06-23T01:31:21+08:00",
+    "language": "en",
+    "url": "http://arxiv.org/abs/2606.23643v1",
+    "entities": [],
+    "technologies": [
+      "multimodal AI",
+      "RAG"
+    ],
+    "event_type": "model_release",
+    "industry_area": "multimodal_ai",
+    "key_facts": [
+      "Personalized content systems depend on available UGC and struggle when suitable content is absent, delayed, or costly to create."
+    ],
+    "summary": "Personalized content systems depend on available UGC and struggle when suitable content is absent, delayed, or costly to create. Although multimodal generators can synthesize content on demand, how to translate behavioral traces into generation-ready preferences remains underexplored. We study personalized multimodal content generation: creating user-tailored multimodal content without existing item pools or waiting for matching UGC. We propose TailorMind, linking collaborative preference modeli",
+    "sentiment": "neutral",
+    "impact_scope": [
+      "developers"
+    ],
+    "risk_tags": [
+      "none"
+    ],
+    "opportunity_tags": [
+      "developer_ecosystem"
+    ],
+    "importance_score": 5,
+    "confidence": "medium",
+    "evidence": [
+      "Personalized content systems depend on available UGC and struggle when suitable content is absent, delayed, or costly to create."
+    ]
+  },
+  {
+    "news_id": "news_e4144d096352",
+    "title": "Learning Process Rewards via Success Visitation Matching for Efficient RL",
+    "source": "arXiv",
+    "source_type": "research",
+    "published_at": "2026-06-23T01:30:24+08:00",
+    "language": "en",
+    "url": "http://arxiv.org/abs/2606.23640v1",
+    "entities": [],
+    "technologies": [],
+    "event_type": "regulation",
+    "industry_area": "policy_regulation",
+    "key_facts": [
+      "In many modern applications of reinforcement learning (RL), the natural reward for a task of interest is inherently sparse: a reward of 0 is given everywhere except when the task is completed, when a reward of +1 is given."
+    ],
+    "summary": "In many modern applications of reinforcement learning (RL), the natural reward for a task of interest is inherently sparse: a reward of 0 is given everywhere except when the task is completed, when a reward of +1 is given. Training a policy to maximize such a sparse reward requires solving a challenging credit assignment problem, leading to slow or ineffective RL improvement. We propose a simple approach to transform a sparse outcome reward into a dense process reward. Our approach relies on tra",
+    "sentiment": "neutral",
+    "impact_scope": [
+      "developers"
+    ],
+    "risk_tags": [
+      "none"
+    ],
+    "opportunity_tags": [
+      "none"
+    ],
+    "importance_score": 4,
+    "confidence": "medium",
+    "evidence": [
+      "In many modern applications of reinforcement learning (RL), the natural reward for a task of interest is inherently sparse: a reward of 0 is given everywhere except when the task is completed, when a reward of +1 is given."
+    ]
+  },
+  {
+    "news_id": "news_fbd3d7424f87",
+    "title": "Muown Implicitly Performs Angular Step-size Decay",
+    "source": "arXiv",
+    "source_type": "research",
+    "published_at": "2026-06-23T01:28:45+08:00",
+    "language": "en",
+    "url": "http://arxiv.org/abs/2606.23637v1",
+    "entities": [],
+    "technologies": [],
+    "event_type": "model_release",
+    "industry_area": "foundation_model",
+    "key_facts": [
+      "Matrix-aware optimizers such as Muon and Muown have recently shown strong empirical performance for pre-training Transformers."
+    ],
+    "summary": "Matrix-aware optimizers such as Muon and Muown have recently shown strong empirical performance for pre-training Transformers. In particular, Muown separates each weight matrix into row magnitudes and an un-normalized direction variable, updating the former with Adam and the latter with Muon. We show that the directional update of Muown is equivalent to a Riemannian step on the normalized directions, while the magnitude of the un-normalized parameterization only modulates the angular step size. ",
+    "sentiment": "neutral",
+    "impact_scope": [
+      "developers"
+    ],
+    "risk_tags": [
+      "none"
+    ],
+    "opportunity_tags": [
+      "developer_ecosystem"
+    ],
+    "importance_score": 5,
+    "confidence": "medium",
+    "evidence": [
+      "Matrix-aware optimizers such as Muon and Muown have recently shown strong empirical performance for pre-training Transformers."
+    ]
+  },
+  {
+    "news_id": "news_17bdfee7fc81",
+    "title": "AI Exposure Scores: what they measure, what they miss, and what comes next",
+    "source": "arXiv",
+    "source_type": "research",
+    "published_at": "2026-06-23T01:23:33+08:00",
+    "language": "en",
+    "url": "http://arxiv.org/abs/2606.23633v1",
+    "entities": [],
+    "technologies": [
+      "LLM"
+    ],
+    "event_type": "model_release",
+    "industry_area": "policy_regulation",
+    "key_facts": [
+      "A set of exposure scores calculated in 2023 has become a central empirical input to the future of work debate."
+    ],
+    "summary": "A set of exposure scores calculated in 2023 has become a central empirical input to the future of work debate. Produced by Eloundou et al. (2023) and referred to here as the GPTs are GPTs scores, they define exposure as the share of occupational tasks a large language model can assist with. This work is a genuine methodological contribution, but as the scores travel from the time and place they were produced, the limitations the authors named do not always travel with them. Two gaps have widened",
+    "sentiment": "neutral",
+    "impact_scope": [
+      "developers"
+    ],
+    "risk_tags": [
+      "none"
+    ],
+    "opportunity_tags": [
+      "infrastructure_growth"
+    ],
+    "importance_score": 5,
+    "confidence": "medium",
+    "evidence": [
+      "A set of exposure scores calculated in 2023 has become a central empirical input to the future of work debate."
+    ]
+  }
+]
