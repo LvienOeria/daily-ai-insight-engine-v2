@@ -30,6 +30,8 @@ Configured defaults:
 - `DEEPSEEK_BASE_URL=https://api.deepseek.com`
 - `DEEPSEEK_MODEL=deepseek-v4-flash`
 - `DEEPSEEK_REPORT_MODEL=deepseek-v4-pro`
+- `DEEPSEEK_WEBSEARCH_ENABLED=true`
+- `DEEPSEEK_WEBSEARCH_ALLOWED_SITES=qbitai.com,jiqizhixin.com,zhihu.com`
 - `REPORT_TIMEZONE=Asia/Shanghai`
 - `REPORT_WINDOW_DAYS=3`
 
@@ -52,14 +54,28 @@ The current default runtime settings are also captured in `config/defaults.json`
 - LLM provider: DeepSeek API
 - LLM execution mode: local scripts
 - Data source policy: attempt candidate fetching first, evaluate observed data quality, then select core sources
+- Chinese source compatibility path: DeepSeek websearch, restricted to 量子位, 机器之心, and 知乎
 
 ## Configuration To Decide Before Implementation
 
 Before writing the workflow code, confirm or record:
 
 - Data source mix after attempted fetches. Example: official AI company blogs, arXiv, Hacker News, selected RSS feeds, and optional manual static samples.
+- Chinese websearch query templates and per-site result caps.
 - Output locations for raw data, cleaned data, structured data, clustered events, rankings, visualizations, reports, and quality checks.
 - Whether generated public news datasets should be committed for reproducibility.
+
+## Chinese Websearch Constraints
+
+Chinese websearch is a compatibility path, not a shortcut around source evaluation.
+
+Implementation rules:
+
+- Use DeepSeek websearch only for allowlisted pages from 量子位 (`qbitai.com`), 机器之心 (`jiqizhixin.com`), and 知乎 (`zhihu.com`).
+- Store websearch observations separately before cleaning and validation.
+- Accept a result into the main dataset only after it has title, source/site, published_at or traceable visible date, URL, and summary/content.
+- Treat 知乎 as community signal by default. It should not become primary evidence for Top events unless the specific item is complete, traceable, and factually grounded.
+- Record rejected or quarantined websearch results in source evaluation notes when they explain source-selection tradeoffs.
 
 ## Secret Handling Rules
 

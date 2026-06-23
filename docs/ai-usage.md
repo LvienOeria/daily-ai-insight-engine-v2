@@ -13,16 +13,21 @@ LLMs are used for:
 1. Structured extraction
    - Extract entities, technologies, event types, key facts, risks, opportunities, and confidence from news text.
 
-2. Semantic event clustering
+2. Constrained Chinese websearch compatibility
+   - Use DeepSeek websearch only for allowlisted Chinese webpages from 量子位, 机器之心, and 知乎 when API/RSS coverage is insufficient.
+   - Preserve query text, returned URLs, snippets/content, visible dates, and collection timestamps for reproducibility.
+   - Treat websearch as data collection assistance, not as evidence validation.
+
+3. Semantic event clustering
    - Determine whether multiple news items describe the same event.
 
-3. Importance explanation
+4. Importance explanation
    - Explain why ranked events matter based on structured evidence.
 
-4. Daily report generation
+5. Daily report generation
    - Convert structured event data into a readable Chinese analysis report.
 
-5. Quality review
+6. Quality review
    - Detect unsupported claims, missing sections, weak logic, and possible hallucinations.
 
 LLMs are not used to:
@@ -32,6 +37,7 @@ LLMs are not used to:
 - Replace field validation
 - Directly generate reports from uncleaned raw data
 - Make unsupported investment or policy claims
+- Use non-allowlisted Chinese webpages through websearch for the MVP Chinese source path
 
 ## Prompt Design Principles
 
@@ -57,6 +63,17 @@ The MVP uses these reusable skill modules:
 - `importance-scoring`
 - `daily-report-generation`
 - `report-quality-check`
+
+## Chinese Websearch Prompt Pattern
+
+Key constraints:
+
+- Use DeepSeek websearch only with site restrictions for `qbitai.com`, `jiqizhixin.com`, or `zhihu.com`.
+- Return structured search observations, not final analysis.
+- Required fields per returned item: query, title, url, source/site, snippet_or_content, visible_published_at, collected_at, and missing_fields.
+- If a date, URL, source, funding amount, policy detail, company name, or technical claim is not visible in the result/page text, mark it missing instead of inferring it.
+- Keep 知乎 results marked as `community` source type unless a more specific source type is justified by the item itself.
+- Do not merge websearch observations into the main dataset until deterministic field validation passes.
 
 ## Structured Extraction Prompt Pattern
 
@@ -92,6 +109,8 @@ Examples:
 - Inconsistent date format
 - Duplicate news
 - Weak AI relevance
+- Websearch result from a non-allowlisted Chinese site
+- Search snippet without a traceable visible date
 
 Handling:
 
@@ -99,6 +118,7 @@ Handling:
 - Mark missing fields.
 - Remove or down-rank low-quality data.
 - Keep traceable raw payloads where possible.
+- Reject or quarantine Chinese websearch results outside the allowlist.
 
 ### LLM Output Errors
 
