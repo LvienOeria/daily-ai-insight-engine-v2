@@ -1,0 +1,26 @@
+.DS_Store
+
+# Local secrets and machine-specific environment.
+.env
+.env.*
+!.env.example
+
+# Python local runtime/cache files.
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# JavaScript local runtime/cache files, if a frontend or scripts are added later.
+node_modules/
+.npm/
+.pnpm-store/
+
+# Local logs and scratch files.
+*.log
+tmp/
+.cache/
+
