@@ -10,13 +10,15 @@ The goal is to make source selection explainable and reproducible.
 
 MVP data collection prioritizes API, RSS, and manually curated static data.
 
-For Chinese-language compatibility, the MVP may also use DeepSeek websearch as a constrained collection path. This path is limited to webpages from:
+For Chinese-language compatibility, three candidate sources were evaluated:
 
-- 量子位 (`qbitai.com`)
-- 机器之心 (`jiqizhixin.com`)
-- 知乎 (`zhihu.com`)
+- **量子位** (`qbitai.com`) — ✅ accessible via direct HTTP scraping
+- **机器之心** (`jiqizhixin.com`) — ❌ SSL handshake timeout from non-China IPs
+- **知乎** (`zhihu.com`) — ❌ redirects to login wall, cannot scrape
 
-DeepSeek websearch results are not automatically accepted as core data. The workflow must first attempt retrieval, inspect observed fields, and then evaluate each source/result against the same required-field and credibility rules as APIs or RSS feeds.
+DeepSeek API's `enable_search` parameter was tested as an alternative path (using DeepSeek's China-based servers as a proxy), but the API does not actually trigger web search — the feature is only available on DeepSeek's web chat interface, not through the Chat Completions API.
+
+**Result**: only 量子位 provides usable Chinese data for the MVP. Machine之心 and 知乎 are disabled and documented as "future" sources pending either a China-side proxy or DeepSeek API web search support.
 
 Crawler-first collection is not prioritized because:
 
@@ -38,15 +40,15 @@ A main analysis item should contain:
 
 Items missing title, source, or published_at should not enter the main analysis set unless manually repaired with traceable evidence.
 
-## Candidate Source Pool
+## Chinese Source Evaluation Results
 
-Record candidate sources here before final selection.
+Three Chinese sources were evaluated for MVP inclusion:
 
-| Source | Type | Access Method | Language | Expected Fields | Strengths | Risks | Tier |
-|---|---|---|---|---|---|---|---|
-| 量子位 | media | DeepSeek websearch allowlisted webpage | zh | title, snippet/content, source, URL, published_at if visible | Chinese AI industry coverage, useful local-market perspective | Date/content completeness must be verified from fetched result; search snippets may be incomplete | Pending observed evaluation |
-| 机器之心 | media | DeepSeek websearch allowlisted webpage | zh | title, snippet/content, source, URL, published_at if visible | Chinese AI research/product coverage, strong technical orientation | Date/content completeness must be verified from fetched result; article structure may vary | Pending observed evaluation |
-| 知乎 | community | DeepSeek websearch allowlisted webpage | zh | title, answer/post excerpt, source, URL, published_at if visible | Community signal and discussion context | Not a primary evidence source by default; author credibility, date, and factuality vary | Auxiliary pending observed evaluation |
+| Source | Type | Access Method | Result | Tier | Reason |
+|---|---|---|---|---|---|
+| 量子位 | media | Direct HTTP scraping (fallback) | ✅ 10 items fetched, fields complete, dates from URL | core | Accessible from non-China IP; article pages return 200; title/summary/date extractable |
+| 机器之心 | media | Direct HTTP / DeepSeek API | ❌ SSL handshake timeout; DS API web search unavailable | future | Geo-blocked from non-China IPs; DeepSeek API `enable_search` does not trigger actual web requests |
+| 知乎 | community | Direct HTTP / DeepSeek API | ❌ Redirects to sign-in page; DS API web search unavailable | future | Requires authentication; not suitable for automated collection |
 
 ## Source Tiers
 
@@ -71,11 +73,13 @@ Rejected sources:
 
 ## Final Selected Sources
 
-Fill this section after source evaluation.
-
-| Selected Source | Reason | Fields Available | Data Characteristics | Limitations |
-|---|---|---|---|---|
-| TBD | TBD | TBD | TBD | TBD |
+| Source | Type | Language | Items (typical) | Fields | Limitations |
+|---|---|---|---|---|---|
+| arXiv cs.AI | research | en | ~20 | title, summary, source, published_at, URL | Abstracts only; research-focused |
+| OpenAI News RSS | official | en | ~2 (in 3-day window) | title, summary, source, published_at, URL | Single-company perspective; irregular posting |
+| Hacker News Algolia | community | en | ~1 (in 3-day window) | title, summary, source, published_at, URL | Short text; community signal |
+| Google DeepMind RSS | official | en | ~0 (in 3-day window) | title, summary, source, published_at, URL | Infrequent updates within 3-day window |
+| 量子位 | media | zh | ~10 | title, summary, source, published_at (from URL), URL | Dates inferred from URL year/month; article structure varies |
 
 ## Chinese Websearch Rules
 
