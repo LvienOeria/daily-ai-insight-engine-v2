@@ -73,7 +73,7 @@
     },
     "strengths": [
       "Official OpenAI product, research, safety, and company updates.",
-      "Observed 1018 candidate items during fetch attempt."
+      "Observed 1019 candidate items during fetch attempt."
     ],
     "weaknesses": [
       "Observed missing fields: summary_or_content=107"
@@ -82,7 +82,7 @@
       "official single-company perspective",
       "RSS availability may change"
     ],
-    "observed_item_count": 1018,
+    "observed_item_count": 1019,
     "fetch_status": "success",
     "fetch_error": null,
     "recommended_tier": "core",
@@ -125,27 +125,28 @@
     "coverage": "Chinese AI industry and technology reporting from 量子位.",
     "language": "zh",
     "field_completeness": {
-      "title": "yes",
-      "summary_or_content": "yes",
-      "source": "yes",
-      "published_at": "yes",
-      "url": "yes"
+      "title": "no",
+      "summary_or_content": "no",
+      "source": "no",
+      "published_at": "no",
+      "url": "no"
     },
     "strengths": [
-      "Chinese AI industry and technology reporting from 量子位.",
-      "Observed 10 candidate items during fetch attempt."
+      "Chinese AI industry and technology reporting from 量子位."
     ],
-    "weaknesses": [],
+    "weaknesses": [
+      "Fetch issue: MCP websearch unavailable (MCP search returned no results for qbitai.com). Add observations to data/manual/chinese_websearch_observations.json after running allowlisted DeepSeek websearch, or fix MCP connectivity."
+    ],
     "risks": [
       "allowlisted Chinese websearch only",
       "observed fields must be validated",
       "DeepSeek websearch observations require allowlist and field validation."
     ],
-    "observed_item_count": 10,
-    "fetch_status": "success",
-    "fetch_error": null,
-    "recommended_tier": "core",
-    "reason": "Observed results satisfy required fields and are suitable for the main dataset."
+    "observed_item_count": 0,
+    "fetch_status": "failed",
+    "fetch_error": "MCP websearch unavailable (MCP search returned no results for qbitai.com). Add observations to data/manual/chinese_websearch_observations.json after running allowlisted DeepSeek websearch, or fix MCP connectivity.",
+    "recommended_tier": "future",
+    "reason": "Fetch path needs implementation or access before MVP use: MCP websearch unavailable (MCP search returned no results for qbitai.com). Add observations to data/manual/chinese_websearch_observations.json after running allowlisted DeepSeek websearch, or fix MCP connectivity."
   },
   {
     "source_name": "机器之心 DeepSeek Websearch",

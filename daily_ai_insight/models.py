@@ -159,6 +159,7 @@ class StructuredNewsItem(StrictModel):
     importance_score: int = Field(ge=1, le=5)
     confidence: Confidence = "medium"
     evidence: list[str] = Field(default_factory=list)
+    suspected_hallucinations: list[str] = Field(default_factory=list)
 
 
 class EventItem(StrictModel):

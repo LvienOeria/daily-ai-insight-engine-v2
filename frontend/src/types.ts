@@ -83,6 +83,7 @@ export interface StructuredNewsItem {
   importance_score: number;
   confidence: Confidence;
   evidence: string[];
+  suspected_hallucinations: string[];
 }
 
 export interface RankedEvent {

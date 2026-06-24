@@ -1,84 +1,36 @@
 {
-  "generated_at": "2026-06-23T18:42:51Z",
+  "generated_at": "2026-06-24T03:43:13Z",
   "source_type_distribution": [
     {
-      "name": "media",
-      "count": 10
-    },
-    {
       "name": "research",
-      "count": 8
+      "count": 19
     },
     {
       "name": "official",
-      "count": 2
+      "count": 1
     }
   ],
   "event_type_distribution": [
     {
       "name": "research",
-      "count": 10
-    },
-    {
-      "name": "product_release",
-      "count": 3
-    },
-    {
-      "name": "market_commentary",
-      "count": 2
-    },
-    {
-      "name": "funding",
-      "count": 1
-    },
-    {
-      "name": "other",
-      "count": 1
-    },
-    {
-      "name": "partnership",
-      "count": 1
-    },
-    {
-      "name": "model_release",
-      "count": 1
-    },
-    {
-      "name": "business_update",
-      "count": 1
+      "count": 20
     }
   ],
   "industry_area_distribution": [
     {
       "name": "research",
-      "count": 6
-    },
-    {
-      "name": "ai_agent",
-      "count": 4
-    },
-    {
-      "name": "enterprise_ai",
-      "count": 3
-    },
-    {
-      "name": "consumer_ai",
-      "count": 2
-    },
-    {
-      "name": "other",
-      "count": 1
-    },
-    {
-      "name": "ai_infrastructure",
-      "count": 1
-    },
-    {
-      "name": "foundation_model",
-      "count": 1
+      "count": 13
     },
     {
       "name": "multimodal_ai",
+      "count": 3
+    },
+    {
+      "name": "ai_agent",
+      "count": 2
+    },
+    {
+      "name": "consumer_ai",
       "count": 1
     },
     {
@@ -88,251 +40,251 @@
   ],
   "technology_distribution": [
     {
-      "name": "AI",
+      "name": "LLM",
+      "count": 3
+    },
+    {
+      "name": "Vision-Language-Action (VLA) models",
       "count": 1
     },
     {
-      "name": "形式化系统",
+      "name": "VLM",
       "count": 1
     },
     {
-      "name": "具身智能",
+      "name": "InSight",
       "count": 1
     },
     {
-      "name": "物理智能",
+      "name": "stochastic subgradient method",
       "count": 1
     },
     {
-      "name": "prompt生成",
+      "name": "3D Gaussian Splatting",
       "count": 1
     },
     {
-      "name": "Halos for Robotics",
+      "name": "diffusion transformers",
       "count": 1
     },
     {
-      "name": "Megapod",
+      "name": "FLUX3D",
       "count": 1
     },
     {
-      "name": "Kiro",
+      "name": "DA-SLAT",
       "count": 1
     },
     {
-      "name": "Amazon Bedrock",
+      "name": "SMDiT",
       "count": 1
     },
     {
-      "name": "Amazon EKS",
+      "name": "MARoPE",
       "count": 1
     },
     {
-      "name": "Doubao-Seed-2.1-Pro",
-      "count": 1
-    },
-    {
-      "name": "Doubao-Seed-2.1-Turbo",
+      "name": "OpenThoughts-Agent",
       "count": 1
     }
   ],
   "top_event_scores": [
     {
-      "event_id": "event_18",
-      "event_name": "AdamW在重尾噪声下的有效性开放问题",
+      "event_id": "evt_020",
+      "event_name": "EG-VQA: Benchmarking Verifiable Video Question Answering with Grounded Temporal Evidence",
       "rank": 1,
-      "score": 3.41,
-      "confidence": "medium"
-    },
-    {
-      "event_id": "event_3",
-      "event_name": "正行创新完成近亿美元天使轮融资",
-      "rank": 2,
-      "score": 3.3,
-      "confidence": "high"
-    },
-    {
-      "event_id": "event_15",
-      "event_name": "CoorDex: 连续灵巧人形机器人操作",
-      "rank": 3,
       "score": 3.29,
       "confidence": "high"
     },
     {
-      "event_id": "event_7",
-      "event_name": "特斯拉申请Megapod商标进军AI数据中心硬件",
-      "rank": 4,
-      "score": 3.27,
-      "confidence": "medium"
+      "event_id": "evt_001",
+      "event_name": "InSight: Self-Guided Skill Acquisition via Steerable VLAs",
+      "rank": 2,
+      "score": 3.28,
+      "confidence": "high"
     },
     {
-      "event_id": "event_13",
-      "event_name": "AutoDex: 自动化灵巧抓取数据收集系统",
+      "event_id": "evt_003",
+      "event_name": "FLUX3D: High-Fidelity 3D Gaussian Generation with Diffusion-Aligned Sparse Representation",
+      "rank": 3,
+      "score": 3.28,
+      "confidence": "high"
+    },
+    {
+      "event_id": "evt_004",
+      "event_name": "OpenThoughts-Agent: Data Recipes for Agentic Models",
+      "rank": 4,
+      "score": 3.28,
+      "confidence": "high"
+    },
+    {
+      "event_id": "evt_018",
+      "event_name": "Large-Language-Model Discovery of Quantum LDPC Codes through Structured Concept Evolution",
       "rank": 5,
-      "score": 3.27,
+      "score": 3.28,
       "confidence": "high"
     }
   ],
   "risk_opportunity_matrix": [
     {
-      "event_id": "event_18",
-      "event_name": "AdamW在重尾噪声下的有效性开放问题",
-      "risk_level": 2.458,
-      "opportunity_level": 3.26,
+      "event_id": "evt_020",
+      "event_name": "EG-VQA: Benchmarking Verifiable Video Question Answering with Grounded Temporal Evidence",
+      "risk_level": 0.352,
+      "opportunity_level": 4.224,
+      "confidence": "high",
+      "event_type": "research"
+    },
+    {
+      "event_id": "evt_001",
+      "event_name": "InSight: Self-Guided Skill Acquisition via Steerable VLAs",
+      "risk_level": 0.343,
+      "opportunity_level": 4.21,
+      "confidence": "high",
+      "event_type": "research"
+    },
+    {
+      "event_id": "evt_003",
+      "event_name": "FLUX3D: High-Fidelity 3D Gaussian Generation with Diffusion-Aligned Sparse Representation",
+      "risk_level": 0.313,
+      "opportunity_level": 4.218,
+      "confidence": "high",
+      "event_type": "research"
+    },
+    {
+      "event_id": "evt_004",
+      "event_name": "OpenThoughts-Agent: Data Recipes for Agentic Models",
+      "risk_level": 0.313,
+      "opportunity_level": 4.201,
+      "confidence": "high",
+      "event_type": "research"
+    },
+    {
+      "event_id": "evt_018",
+      "event_name": "Large-Language-Model Discovery of Quantum LDPC Codes through Structured Concept Evolution",
+      "risk_level": 0.302,
+      "opportunity_level": 4.221,
+      "confidence": "high",
+      "event_type": "research"
+    },
+    {
+      "event_id": "evt_019",
+      "event_name": "OrbitForge: Text-to-3D Scene Generation via Reconstruction-Anchored Video Synthesis",
+      "risk_level": 0.277,
+      "opportunity_level": 4.181,
+      "confidence": "high",
+      "event_type": "research"
+    },
+    {
+      "event_id": "evt_017",
+      "event_name": "GPT-5 Helps Solve Immunology Mystery",
+      "risk_level": 0.136,
+      "opportunity_level": 4.06,
       "confidence": "medium",
       "event_type": "research"
     },
     {
-      "event_id": "event_3",
-      "event_name": "正行创新完成近亿美元天使轮融资",
-      "risk_level": 0.3,
+      "event_id": "evt_015",
+      "event_name": "Solving Inverse Problems of Chaotic Systems with Bidirectional Conditional Flow Matching",
+      "risk_level": 0.348,
+      "opportunity_level": 3.456,
+      "confidence": "high",
+      "event_type": "research"
+    },
+    {
+      "event_id": "evt_002",
+      "event_name": "New Bounds for the Last Iterate of the Stochastic subGradient Method",
+      "risk_level": 0.354,
+      "opportunity_level": 3.383,
+      "confidence": "high",
+      "event_type": "research"
+    },
+    {
+      "event_id": "evt_005",
+      "event_name": "It's Complicated: On the Design and Evaluation of AI-Powered AAC Interfaces",
+      "risk_level": 0.336,
       "opportunity_level": 3.406,
       "confidence": "high",
-      "event_type": "funding"
+      "event_type": "research"
     },
     {
-      "event_id": "event_15",
-      "event_name": "CoorDex: 连续灵巧人形机器人操作",
-      "risk_level": 0.36,
-      "opportunity_level": 4.248,
+      "event_id": "evt_013",
+      "event_name": "Less is More: Quality-Aware Training Data Selection for Scientific Summarization",
+      "risk_level": 0.318,
+      "opportunity_level": 3.427,
       "confidence": "high",
       "event_type": "research"
     },
     {
-      "event_id": "event_7",
-      "event_name": "特斯拉申请Megapod商标进军AI数据中心硬件",
-      "risk_level": 0.153,
-      "opportunity_level": 3.283,
-      "confidence": "medium",
-      "event_type": "product_release"
-    },
-    {
-      "event_id": "event_13",
-      "event_name": "AutoDex: 自动化灵巧抓取数据收集系统",
-      "risk_level": 0.272,
-      "opportunity_level": 4.194,
+      "event_id": "evt_014",
+      "event_name": "L3Cube-MahaPOS: A Marathi Part-of-Speech Tagging Dataset and BERT Models",
+      "risk_level": 0.351,
+      "opportunity_level": 3.381,
       "confidence": "high",
       "event_type": "research"
     },
     {
-      "event_id": "event_9",
-      "event_name": "豆包2.1模型发布",
-      "risk_level": 0.197,
-      "opportunity_level": 4.081,
-      "confidence": "medium",
-      "event_type": "model_release"
-    },
-    {
-      "event_id": "event_16",
-      "event_name": "Semantic Browsing: 可控多样性的图像生成",
-      "risk_level": 0.169,
-      "opportunity_level": 4.093,
-      "confidence": "medium",
-      "event_type": "research"
-    },
-    {
-      "event_id": "event_19",
-      "event_name": "PsyBridge: 多维度心理健康评估框架",
-      "risk_level": 0.164,
-      "opportunity_level": 4.077,
-      "confidence": "medium",
-      "event_type": "research"
-    },
-    {
-      "event_id": "event_17",
-      "event_name": "AIR: 自适应交错推理与代码增强",
-      "risk_level": 0.143,
-      "opportunity_level": 4.03,
-      "confidence": "medium",
-      "event_type": "research"
-    },
-    {
-      "event_id": "event_14",
-      "event_name": "Randomized YaRN改进长上下文推理",
-      "risk_level": 0.361,
-      "opportunity_level": 3.416,
+      "event_id": "evt_009",
+      "event_name": "Matching Tasks to Objectives: Fine-Tuning and Prompt-Tuning Strategies for Encoder-Decoder Pre-trained Language Models",
+      "risk_level": 0.356,
+      "opportunity_level": 2.627,
       "confidence": "high",
       "event_type": "research"
     },
     {
-      "event_id": "event_11",
-      "event_name": "GPT-5帮助解决免疫学谜题",
-      "risk_level": 0.164,
-      "opportunity_level": 3.274,
-      "confidence": "medium",
+      "event_id": "evt_006",
+      "event_name": "Real vs. Complex Spectral Bases for Neural Operators: The Role of Green's Function Alignment",
+      "risk_level": 0.283,
+      "opportunity_level": 2.6,
+      "confidence": "high",
       "event_type": "research"
     },
     {
-      "event_id": "event_12",
-      "event_name": "Omio利用OpenAI构建对话式旅行体验",
-      "risk_level": 0.177,
-      "opportunity_level": 3.245,
-      "confidence": "medium",
-      "event_type": "business_update"
-    },
-    {
-      "event_id": "event_2",
-      "event_name": "浪潮信息强调AI转型中组织文化的重要性",
-      "risk_level": 2.503,
-      "opportunity_level": 2.427,
-      "confidence": "medium",
-      "event_type": "market_commentary"
-    },
-    {
-      "event_id": "event_20",
-      "event_name": "NVIDIA Nemotron挑战赛中的位操作谜题解法",
-      "risk_level": 0.14,
-      "opportunity_level": 4.078,
-      "confidence": "medium",
+      "event_id": "evt_007",
+      "event_name": "IV-CoT: Implicit Visual Chain-of-Thought for Structure-Aware Text-to-Image Generation",
+      "risk_level": 0.276,
+      "opportunity_level": 2.58,
+      "confidence": "high",
       "event_type": "research"
     },
     {
-      "event_id": "event_1",
-      "event_name": "AI在数学证明中的突破",
-      "risk_level": 0.201,
-      "opportunity_level": 3.228,
-      "confidence": "medium",
+      "event_id": "evt_008",
+      "event_name": "World Models in Pieces: Structural Certification for General Agents",
+      "risk_level": 0.345,
+      "opportunity_level": 2.573,
+      "confidence": "high",
       "event_type": "research"
     },
     {
-      "event_id": "event_5",
-      "event_name": "可口可乐推出AI世界杯互动小程序",
-      "risk_level": 0.141,
-      "opportunity_level": 3.31,
-      "confidence": "medium",
-      "event_type": "product_release"
+      "event_id": "evt_010",
+      "event_name": "Grading the Grader: Lessons from Evaluating an Agentic Data Analysis System",
+      "risk_level": 0.314,
+      "opportunity_level": 2.616,
+      "confidence": "high",
+      "event_type": "research"
     },
     {
-      "event_id": "event_6",
-      "event_name": "英伟达发布机器人操作系统Halos for Robotics",
-      "risk_level": 0.196,
-      "opportunity_level": 3.279,
-      "confidence": "medium",
-      "event_type": "product_release"
+      "event_id": "evt_016",
+      "event_name": "SHERLOC: Structured Diagnostic Localization for Code Repair Agents",
+      "risk_level": 0.278,
+      "opportunity_level": 4.211,
+      "confidence": "high",
+      "event_type": "research"
     },
     {
-      "event_id": "event_8",
-      "event_name": "小鹏汽车基于亚马逊云科技搭建AI平台",
-      "risk_level": 0.184,
-      "opportunity_level": 3.306,
-      "confidence": "medium",
-      "event_type": "partnership"
+      "event_id": "evt_011",
+      "event_name": "Accuracy and Satisfaction in Multi-Turn LLM Dialogues for NFR Assessment",
+      "risk_level": 0.346,
+      "opportunity_level": 0.359,
+      "confidence": "high",
+      "event_type": "research"
     },
     {
-      "event_id": "event_10",
-      "event_name": "2026年具身智能融资火热",
-      "risk_level": 0.177,
-      "opportunity_level": 3.304,
-      "confidence": "medium",
-      "event_type": "market_commentary"
-    },
-    {
-      "event_id": "event_4",
-      "event_name": "华人博士Alisa开源OpenAI求职经历",
-      "risk_level": 0.212,
-      "opportunity_level": 3.318,
-      "confidence": "medium",
-      "event_type": "other"
+      "event_id": "evt_012",
+      "event_name": "Difference-Making without Making a Difference",
+      "risk_level": 0.311,
+      "opportunity_level": 0.31,
+      "confidence": "high",
+      "event_type": "research"
     }
   ]
 }

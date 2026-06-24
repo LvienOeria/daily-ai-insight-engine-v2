@@ -62,7 +62,7 @@ The current default runtime settings are also captured in `config/defaults.json`
 
 Before writing the workflow code, confirm or record:
 
-- Data source mix after attempted fetches. Example: official AI company blogs, arXiv, Hacker News, selected RSS feeds, and optional manual static samples.
+- Data source mix after attempted fetches. Example: official AI company blogs, arXiv, Hacker News, and selected RSS feeds.
 - Chinese websearch query templates and per-site result caps.
 - Output locations for raw data, cleaned data, structured data, clustered events, rankings, visualizations, reports, and quality checks.
 - Whether generated public news datasets should be committed for reproducibility.

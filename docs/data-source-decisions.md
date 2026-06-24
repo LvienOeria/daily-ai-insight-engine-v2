@@ -8,7 +8,7 @@ The goal is to make source selection explainable and reproducible.
 
 ## Source Selection Strategy
 
-MVP data collection prioritizes API, RSS, and manually curated static data.
+MVP data collection uses API and RSS feeds.
 
 For Chinese-language compatibility, three candidate sources were evaluated:
 
@@ -22,7 +22,6 @@ DeepSeek API's `enable_search` parameter was tested as an alternative path (usin
 
 Crawler-first collection is not prioritized because:
 
-- The task allows manually curated static data.
 - The main evaluation focus is structured processing, analysis logic, and validation.
 - News website HTML structures vary heavily.
 - Crawlers add maintenance, access, anti-bot, and compliance complexity.
