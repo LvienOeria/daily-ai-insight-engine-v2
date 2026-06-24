@@ -1,22 +1,27 @@
 {
-  "passed": true,
+  "passed": false,
   "requirement_check": {
     "has_10_to_20_items": true,
     "items_have_required_fields": true,
-    "has_schema": true,
-    "schema_design_explained": true,
+    "has_schema": false,
+    "schema_design_explained": false,
     "not_only_summary": true,
     "has_top_events": true,
     "has_deep_analysis": true,
     "has_trend_judgment": true,
     "has_risk_or_opportunity": true,
     "has_visualization": true,
-    "has_data_source_explanation": true,
+    "has_data_source_explanation": false,
     "has_system_design": true,
-    "has_ai_usage_prompt_error_handling": true,
-    "has_core_process": true
+    "has_ai_usage_prompt_error_handling": false,
+    "has_core_process": false
   },
-  "missing_items": [],
+  "missing_items": [
+    "schema design documentation is missing",
+    "AI usage / prompt design / error handling documentation is missing",
+    "core process documentation is missing",
+    "data source explanation documentation is missing"
+  ],
   "weak_points": [],
   "unsupported_claims": [],
   "suspected_hallucinations": [],

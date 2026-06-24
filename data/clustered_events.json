@@ -1,10 +1,10 @@
 {
   "events": [
     {
-      "event_id": "event_1",
-      "event_name": "360发布AI安全核心能力并启动磐石之盾计划",
+      "event_id": "evt_001",
+      "event_name": "360发布AI安全能力并联合信创伙伴发起安全协作计划",
       "related_news_ids": [
-        "news_773dfaa0d1f8"
+        "news_2987315f9bcc"
       ],
       "main_entities": [
         "360集团",
@@ -12,7 +12,7 @@
         "飞腾",
         "麒麟"
       ],
-      "core_topic": "360在ISC.AI 2026上发布AI安全核心能力并联合产业伙伴发起安全协作计划",
+      "core_topic": "360在ISC.AI 2026上发布AI安全核心能力并联合信创伙伴发起安全协作计划",
       "event_type": "partnership",
       "industry_area": "ai_safety",
       "technologies": [
@@ -20,13 +20,13 @@
         "网络安全自动化防御系统"
       ],
       "key_facts": [
-        "360发布AI安全两大核心能力：图龙锋和仪天阵",
-        "联合飞腾、麒麟等发起磐石之盾安全协作计划"
+        "360发布AI安全能力：漏洞自动化挖掘智能体“图龙锋”和网络安全自动化防御系统“仪天阵”",
+        "360联合飞腾、麒麟等发起“磐石之盾”安全协作计划"
       ],
       "evidence": [
         "周鸿祎正式发布360 AI安全“倚天屠龙”两大核心能力：漏洞自动化挖掘智能体“图龙锋”和网络安全自动化防御系统“仪天阵”。同时，360联合飞腾、麒麟等信创、安全、云计算、大模型和算力等产业伙伴，共同发起“磐石之盾”安全协作计划。"
       ],
-      "why_it_matters": "该事件标志着360在AI安全领域的重要布局，通过产业协作推动AI安全生态发展。",
+      "why_it_matters": "360联合信创伙伴发起安全协作计划，有助于构建国产化安全生态，提升行业整体安全防护能力。",
       "impact_scope": [
         "industry"
       ],
@@ -35,32 +35,30 @@
       ],
       "opportunity_tags": [
         "AI安全",
-        "产业协作"
+        "信创合作"
       ],
       "confidence": "high",
-      "published_at": "2026-06-24T13:14:32+08:00"
+      "published_at": "2026-06-24T13:30:27+08:00"
     },
     {
-      "event_id": "event_2",
+      "event_id": "evt_002",
       "event_name": "2026世界人工智能大会SAIL奖TOP30及青年优秀论文奖TOP20发布",
       "related_news_ids": [
-        "news_26ac0485131a"
+        "news_2f57d72c08bb"
       ],
-      "main_entities": [
-        "世界人工智能大会"
-      ],
-      "core_topic": "世界人工智能大会发布SAIL奖TOP30及青年优秀论文奖TOP20",
+      "main_entities": [],
+      "core_topic": "2026世界人工智能大会发布SAIL奖TOP30及青年优秀论文奖TOP20",
       "event_type": "other",
       "industry_area": "research",
       "technologies": [],
       "key_facts": [
-        "SAIL奖TOP30发布",
-        "青年优秀论文奖TOP20发布"
+        "SAIL奖是世界人工智能大会最高荣誉奖项",
+        "发布了SAIL奖TOP30及青年优秀论文奖TOP20"
       ],
       "evidence": [
         "卓越人工智能引领者奖（SAIL），是世界人工智能大会最高荣誉奖项，也是全球人工智能领域极具影响力的高规格国际化奖项。"
       ],
-      "why_it_matters": "该奖项是对AI领域优秀成果的认可，有助于推动学术研究和产业发展。",
+      "why_it_matters": "SAIL奖的发布有助于激励AI领域的创新研究，推动学术进步。",
       "impact_scope": [
         "industry"
       ],
@@ -71,35 +69,71 @@
         "AI奖项",
         "学术认可"
       ],
-      "confidence": "high",
-      "published_at": "2026-06-24T13:14:32+08:00"
+      "confidence": "medium",
+      "published_at": "2026-06-24T13:30:27+08:00"
     },
     {
-      "event_id": "event_3",
-      "event_name": "高通转型物理AI及行业动态评论",
+      "event_id": "evt_003",
+      "event_name": "港大MaRS Lab团队获IEEE TRO傅京孙纪念最佳论文奖",
       "related_news_ids": [
-        "news_2abf622c2e3e"
+        "news_dc8e9062e351"
       ],
       "main_entities": [
-        "高通",
-        "英伟达",
-        "小鹏"
+        "香港大学",
+        "MaRS Lab",
+        "张富"
       ],
-      "core_topic": "文章讨论高通在物理AI领域的转型，提及英伟达开源Cosmos3模型和小鹏的世界模型技术",
-      "event_type": "market_commentary",
+      "core_topic": "香港大学MaRS Lab团队研发的FAST-LIVO2获得机器人领域顶级期刊IEEE TRO最佳论文奖",
+      "event_type": "research",
+      "industry_area": "research",
+      "technologies": [
+        "FAST-LIVO2"
+      ],
+      "key_facts": [
+        "港大MaRS Lab团队研发的FAST-LIVO2获得IEEE TRO傅京孙纪念最佳论文奖"
+      ],
+      "evidence": [
+        "香港大学机械与机器人系统实验室（MaRS Lab）张富副教授团队研发的 FAST-LIVO2 ，获得机器人领域顶级期刊IEEE Transactions on Robotics（TRO） 傅京孙纪念最佳论文奖。"
+      ],
+      "why_it_matters": "该奖项体现了中国在机器人领域的研究实力，FAST-LIVO2技术有望推动机器人感知与导航的发展。",
+      "impact_scope": [
+        "academic"
+      ],
+      "risk_tags": [
+        "none"
+      ],
+      "opportunity_tags": [
+        "机器人",
+        "学术荣誉"
+      ],
+      "confidence": "high",
+      "published_at": "2026-06-24T13:30:26+08:00"
+    },
+    {
+      "event_id": "evt_004",
+      "event_name": "阿里QoderWork推出“峰谷Token”夜间优惠",
+      "related_news_ids": [
+        "news_a0034b248673"
+      ],
+      "main_entities": [
+        "阿里",
+        "QoderWork"
+      ],
+      "core_topic": "阿里QoderWork推出“峰谷Token”，夜间使用Qwen3.7-Max低至2折",
+      "event_type": "product_release",
       "industry_area": "ai_infrastructure",
       "technologies": [
-        "Cosmos3推理模型",
-        "世界模型"
+        "Qwen3.7-Max"
       ],
       "key_facts": [
-        "英伟达开源Cosmos3最新推理模型",
-        "小鹏公布世界模型全栈技术"
+        "阿里QoderWork推出“峰谷Token”",
+        "夜间22:00到次日08:00使用Qwen3.7-Max低至2折",
+        "国内首个上线“峰谷Token”的Agent产品"
       ],
       "evidence": [
-        "AI算力一哥 英伟达 ，开源了Cosmos3最新推理模型，车企自研AI最强的 小鹏 ，也公布了世界模型全栈技术……"
+        "6月23日晚，阿里QoderWork推出“峰谷Token”，Agent在每晚 22:00到次日08:00运行可自动享受优惠，其中Qwen3.7-Max模型低至2折。这是国内首个上线“峰谷Token”的Agent产品，将大幅降低用户的使用成本。"
       ],
-      "why_it_matters": "反映了物理AI领域的技术进展和竞争格局。",
+      "why_it_matters": "该举措降低了用户使用大模型Agent的成本，可能推动Agent产品的普及。",
       "impact_scope": [
         "industry"
       ],
@@ -107,79 +141,37 @@
         "none"
       ],
       "opportunity_tags": [
-        "物理AI",
-        "智能座舱"
-      ],
-      "confidence": "medium",
-      "published_at": "2026-06-24T13:14:32+08:00"
-    },
-    {
-      "event_id": "event_4",
-      "event_name": "小鹏基于亚马逊云科技搭建AI编程平台灵犀",
-      "related_news_ids": [
-        "news_99ff2eaeae27"
-      ],
-      "main_entities": [
-        "小鹏",
-        "Kimi",
-        "猎豹",
-        "亚马逊云科技"
-      ],
-      "core_topic": "小鹏基于亚马逊云科技的服务搭建企业内部AI编程与Agentic工作平台灵犀",
-      "event_type": "partnership",
-      "industry_area": "enterprise_ai",
-      "technologies": [
-        "Kiro",
-        "Amazon Bedrock",
-        "Amazon EKS",
-        "灵犀"
-      ],
-      "key_facts": [
-        "小鹏基于亚马逊云科技服务搭建企业内部AI编程与Agentic工作平台灵犀"
-      ],
-      "evidence": [
-        "小鹏基于亚马逊云科技的 Kiro 、 Amazon Bedrock 、 Amazon EKS 等服务，搭了一套企业内部AI编程与Agentic工作平台，名字叫 灵犀 。"
-      ],
-      "why_it_matters": "展示了企业如何利用云服务构建内部AI平台，提升开发效率。",
-      "impact_scope": [
-        "company"
-      ],
-      "risk_tags": [
-        "none"
-      ],
-      "opportunity_tags": [
-        "企业AI平台",
-        "云计算"
+        "成本优化",
+        "Agent产品"
       ],
       "confidence": "high",
-      "published_at": "2026-06-24T13:14:31+08:00"
+      "published_at": "2026-06-24T13:30:26+08:00"
     },
     {
-      "event_id": "event_5",
-      "event_name": "豆包2.1大模型发布",
+      "event_id": "evt_005",
+      "event_name": "Claude Code大升级，卡帕西称其为LLM第三次变革",
       "related_news_ids": [
-        "news_902c7dfe46a7"
+        "news_e875c0623c3d"
       ],
       "main_entities": [
-        "豆包"
+        "Claude",
+        "卡帕西"
       ],
-      "core_topic": "豆包2.1发布，包含Pro和Turbo两个模型，API服务上线火山方舟",
-      "event_type": "model_release",
-      "industry_area": "foundation_model",
+      "core_topic": "Claude Code大升级，卡帕西认为这是LLM用户界面的第三次重大变革",
+      "event_type": "product_release",
+      "industry_area": "developer_tools",
       "technologies": [
-        "Doubao-Seed-2.1-Pro",
-        "Doubao-Seed-2.1-Turbo",
-        "火山方舟"
+        "Claude Code"
       ],
       "key_facts": [
-        "豆包2.1发布",
-        "包含两个模型：Pro和Turbo",
-        "API服务已全量上线火山方舟"
+        "Claude Code大升级",
+        "卡帕西称这是LLM用户界面的第三次重大变革",
+        "LLM变成独立、持续运行的系统，能与人类团队协同工作"
       ],
       "evidence": [
-        "这个版本一共包含2个模型，分别是Doubao-Seed-2.1-Pro和Doubao-Seed-2.1-Turbo，并且API服务已全量上线火山方舟。"
+        "这是LLM用户界面的第三次重大变革。第一次是网页版聊天，第二次是桌面应用，而这一次，LLM变成了一个独立、持续运行的系统，拥有组织内的工具和上下文，能与人类团队协同工作。"
       ],
-      "why_it_matters": "豆包2.1的发布进一步丰富了国产大模型生态，其芯片设计代码生成能力展示了AI在专业领域的应用潜力。",
+      "why_it_matters": "Claude Code的升级可能改变开发者与LLM的交互方式，提升开发效率。",
       "impact_scope": [
         "industry"
       ],
@@ -187,24 +179,25 @@
         "none"
       ],
       "opportunity_tags": [
-        "大模型",
-        "芯片设计"
+        "LLM",
+        "开发者工具"
       ],
       "confidence": "high",
-      "published_at": "2026-06-24T13:14:31+08:00"
+      "published_at": "2026-06-24T13:30:26+08:00"
     },
     {
-      "event_id": "event_6",
-      "event_name": "具身智能融资活跃趋势评论",
+      "event_id": "evt_006",
+      "event_name": "具身智能赛道融资火热，超半数资金流向机器人“大脑”",
       "related_news_ids": [
-        "news_2541e7288228"
+        "news_c3f9c63a456c"
       ],
       "main_entities": [],
-      "core_topic": "2026年具身智能融资活跃，超过一半资金流入机器人“大脑”",
+      "core_topic": "2026年具身智能融资接近去年全年水平，超半数资金流向机器人“大脑”",
       "event_type": "market_commentary",
       "industry_area": "ai_agent",
       "technologies": [
-        "具身智能"
+        "具身智能",
+        "机器人"
       ],
       "key_facts": [
         "2026年还没过半，具身智能的融资就快要超过去年全年了",
@@ -213,7 +206,7 @@
       "evidence": [
         "原文：'2026年还没过半，具身智能的融资就快要超过去年全年了，超过一半的钱都流入了机器人的“大脑”。'"
       ],
-      "why_it_matters": "反映了具身智能领域的投资热度和发展趋势。",
+      "why_it_matters": "具身智能融资火热表明市场对机器人智能化的高度关注，可能加速相关技术落地。",
       "impact_scope": [
         "industry"
       ],
@@ -221,29 +214,30 @@
         "none"
       ],
       "opportunity_tags": [
-        "融资活跃",
-        "具身智能"
+        "具身智能",
+        "融资增长"
       ],
       "confidence": "medium",
-      "published_at": "2026-06-24T13:14:31+08:00"
+      "published_at": "2026-06-24T13:30:25+08:00"
     },
     {
-      "event_id": "event_7",
-      "event_name": "AI在数学证明领域取得进展",
+      "event_id": "evt_007",
+      "event_name": "AI在数学证明领域取得进展，形式化验证受关注",
       "related_news_ids": [
-        "news_588e883f576a"
+        "news_937b36436b76"
       ],
       "main_entities": [
         "陶哲轩",
         "OpenAI",
         "DeepMind"
       ],
-      "core_topic": "从OpenAI解决开放问题到DeepMind批量攻克数学猜想，AI在数学证明领域取得进展",
+      "core_topic": "从OpenAI到DeepMind，AI在数学证明领域取得进展，形式化验证成为趋势",
       "event_type": "research",
       "industry_area": "research",
       "technologies": [
         "AI",
-        "形式化系统"
+        "形式化系统",
+        "自动验证"
       ],
       "key_facts": [
         "从OpenAI解决开放问题，到DeepMind批量攻克数学猜想",
@@ -252,7 +246,7 @@
       "evidence": [
         "原文：'从OpenAI解决开放问题，到DeepMind批量攻克数学猜想，越来越多数学证明被写进形式化系统，交给计算机自动验证。'"
       ],
-      "why_it_matters": "AI在数学证明领域的进展有望加速数学研究，并推动形式化验证技术的发展。",
+      "why_it_matters": "AI在数学证明中的应用可能加速数学研究，并推动形式化验证技术的发展。",
       "impact_scope": [
         "industry"
       ],
@@ -264,30 +258,30 @@
         "形式化验证"
       ],
       "confidence": "medium",
-      "published_at": "2026-06-24T13:14:31+08:00"
+      "published_at": "2026-06-24T13:30:25+08:00"
     },
     {
-      "event_id": "event_8",
+      "event_id": "evt_008",
       "event_name": "浪潮信息彭震强调AI转型中文化、组织和流程的重要性",
       "related_news_ids": [
-        "news_0719bba47dbe"
+        "news_ab332c0a987c"
       ],
       "main_entities": [
         "浪潮信息",
         "彭震"
       ],
-      "core_topic": "浪潮信息彭震在演讲中强调AI转型的最大门槛不是技术，而是文化、组织和流程",
+      "core_topic": "浪潮信息彭震指出AI转型的最大门槛不是技术，而是文化、组织和流程",
       "event_type": "market_commentary",
       "industry_area": "enterprise_ai",
       "technologies": [],
       "key_facts": [
-        "彭震没把基础设施、算力、芯片当成重点",
+        "基础设施、算力、芯片，这些浪潮信息最擅长的领域，彭震没把它们当成重点",
         "用三分之二的时间在讲文化、组织和流程"
       ],
       "evidence": [
-        "原文：'彭震没把它们当成重点，却用三分之二的时间在讲文化、组织和流程。'"
+        "原文：'基础设施、算力、芯片，这些浪潮信息最擅长的领域，彭震没把它们当成重点，却用三分之二的时间在讲文化、组织和流程。'"
       ],
-      "why_it_matters": "指出了企业AI转型中常被忽视的软性因素，对行业有启示意义。",
+      "why_it_matters": "该观点提醒企业在AI转型中需重视组织变革，而不仅仅是技术投入。",
       "impact_scope": [
         "industry"
       ],
@@ -298,110 +292,115 @@
         "组织变革"
       ],
       "confidence": "medium",
-      "published_at": "2026-06-24T13:14:31+08:00"
+      "published_at": "2026-06-24T13:30:25+08:00"
     },
     {
-      "event_id": "event_9",
-      "event_name": "阿里QoderWork推出峰谷Token优惠",
+      "event_id": "evt_009",
+      "event_name": "小鹏基于亚马逊云科技搭建AI编程与Agentic工作平台",
       "related_news_ids": [
-        "news_d1e91759fa4d"
+        "news_324885060252"
       ],
       "main_entities": [
-        "阿里",
-        "QoderWork",
-        "Qwen3.7"
+        "小鹏",
+        "Kimi",
+        "猎豹",
+        "亚马逊云科技"
       ],
-      "core_topic": "阿里QoderWork推出峰谷Token，夜间使用Qwen3.7低至2折",
-      "event_type": "product_release",
-      "industry_area": "ai_infrastructure",
+      "core_topic": "小鹏基于亚马逊云科技服务搭建企业内部AI编程与Agentic工作平台“灵犀”",
+      "event_type": "partnership",
+      "industry_area": "enterprise_ai",
       "technologies": [
-        "Qwen3.7-Max",
+        "Kiro",
+        "Amazon Bedrock",
+        "Amazon EKS",
+        "AI编程",
+        "Agentic工作平台"
+      ],
+      "key_facts": [
+        "小鹏基于亚马逊云科技的Kiro、Amazon Bedrock、Amazon EKS等服务",
+        "搭了一套企业内部AI编程与Agentic工作平台，名字叫灵犀"
+      ],
+      "evidence": [
+        "原文：'小鹏基于亚马逊云科技的Kiro、Amazon Bedrock、Amazon EKS等服务，搭了一套企业内部AI编程与Agentic工作平台，名字叫灵犀。'"
+      ],
+      "why_it_matters": "小鹏利用云服务构建AI平台，展示了云计算在赋能企业AI转型中的作用。",
+      "impact_scope": [
+        "company"
+      ],
+      "risk_tags": [
+        "none"
+      ],
+      "opportunity_tags": [
+        "云计算",
+        "AI平台"
+      ],
+      "confidence": "medium",
+      "published_at": "2026-06-24T13:30:24+08:00"
+    },
+    {
+      "event_id": "evt_010",
+      "event_name": "豆包2.1发布，Agent自主完成芯片设计代码",
+      "related_news_ids": [
+        "news_a5f80feea984"
+      ],
+      "main_entities": [
+        "豆包",
+        "火山方舟"
+      ],
+      "core_topic": "豆包2.1发布，包含两个模型，API上线火山方舟，Agent自主运行18小时完成芯片设计代码",
+      "event_type": "model_release",
+      "industry_area": "foundation_model",
+      "technologies": [
+        "Doubao-Seed-2.1-Pro",
+        "Doubao-Seed-2.1-Turbo",
+        "Agent",
+        "芯片设计"
+      ],
+      "key_facts": [
+        "这个版本一共包含2个模型，分别是Doubao-Seed-2.1-Pro和Doubao-Seed-2.1-Turbo",
+        "API服务已全量上线火山方舟"
+      ],
+      "evidence": [
+        "原文：'这个版本一共包含2个模型，分别是Doubao-Seed-2.1-Pro和Doubao-Seed-2.1-Turbo，并且API服务已全量上线火山方舟。'"
+      ],
+      "why_it_matters": "豆包2.1的发布和Agent在芯片设计中的应用，展示了AI在复杂工程任务中的潜力。",
+      "impact_scope": [
+        "industry"
+      ],
+      "risk_tags": [
+        "none"
+      ],
+      "opportunity_tags": [
+        "豆包2.1",
+        "芯片设计",
         "Agent"
       ],
-      "key_facts": [
-        "6月23日晚，阿里QoderWork推出“峰谷Token”",
-        "Agent在每晚22:00到次日08:00运行可自动享受优惠",
-        "Qwen3.7-Max模型低至2折",
-        "国内首个上线“峰谷Token”的Agent产品"
-      ],
-      "evidence": [
-        "原文：'6月23日晚，阿里QoderWork推出“峰谷Token”...其中Qwen3.7-Max模型低至2折。这是国内首个上线“峰谷Token”的Agent产品'"
-      ],
-      "why_it_matters": "峰谷Token模式降低了Agent使用成本，可能推动Agent应用的普及。",
-      "impact_scope": [
-        "industry"
-      ],
-      "risk_tags": [
-        "none"
-      ],
-      "opportunity_tags": [
-        "成本降低",
-        "峰谷Token"
-      ],
-      "confidence": "high",
-      "published_at": "2026-06-24T13:14:31+08:00"
+      "confidence": "medium",
+      "published_at": "2026-06-24T13:30:24+08:00"
     },
     {
-      "event_id": "event_10",
-      "event_name": "Claude Code大升级，卡帕西称LLM第三次变革",
-      "related_news_ids": [
-        "news_0a760c3e0a69"
-      ],
-      "main_entities": [
-        "Claude Code",
-        "卡帕西"
-      ],
-      "core_topic": "Claude Code大升级，卡帕西称这是LLM用户界面的第三次重大变革",
-      "event_type": "product_release",
-      "industry_area": "developer_tools",
-      "technologies": [
-        "LLM",
-        "Claude Code"
-      ],
-      "key_facts": [
-        "这是LLM用户界面的第三次重大变革",
-        "第一次是网页版聊天，第二次是桌面应用",
-        "第三次LLM变成了一个独立、持续运行的系统，拥有组织内的工具和上下文，能与人类团队协同工作"
-      ],
-      "evidence": [
-        "原文：'这是LLM用户界面的第三次重大变革...LLM变成了一个独立、持续运行的系统，拥有组织内的工具和上下文，能与人类团队协同工作。'"
-      ],
-      "why_it_matters": "Claude Code的升级代表了LLM应用模式的重大转变，从对话工具进化为自主系统。",
-      "impact_scope": [
-        "industry"
-      ],
-      "risk_tags": [
-        "none"
-      ],
-      "opportunity_tags": [
-        "LLM变革",
-        "Claude Code"
-      ],
-      "confidence": "high",
-      "published_at": "2026-06-24T13:14:31+08:00"
-    },
-    {
-      "event_id": "event_11",
-      "event_name": "MoEngage收购AI代理技术用于个性化营销",
+      "event_id": "evt_011",
+      "event_name": "MoEngage押注AI Agent在营销领域的未来",
       "related_news_ids": [
         "news_c72876eec0ae"
       ],
       "main_entities": [
         "MoEngage"
       ],
-      "core_topic": "MoEngage收购技术，部署数百万AI代理用于个性化营销",
+      "core_topic": "MoEngage通过全现金交易获得为每个客户分配AI Agent的技术，押注营销未来",
       "event_type": "business_update",
       "industry_area": "enterprise_ai",
       "technologies": [
         "AI agents"
       ],
       "key_facts": [
-        "The all-cash deal gives MoEngage access to technology that assigns AI agents to individual customers."
+        "MoEngage bets on millions of AI agents for marketing future",
+        "all-cash deal gives MoEngage access to technology that assigns AI agents to individual customers"
       ],
       "evidence": [
-        "The summary states: 'The all-cash deal gives MoEngage access to technology that assigns AI agents to individual customers.'"
+        "The all-cash deal gives MoEngage access to technology that assigns AI agents to individual customers."
       ],
-      "why_it_matters": "该收购表明营销领域正转向AI代理驱动的个性化策略。",
+      "why_it_matters": "MoEngage的举措可能引领营销行业向个性化AI Agent驱动的方向发展。",
       "impact_scope": [
         "industry"
       ],
@@ -409,48 +408,48 @@
         "none"
       ],
       "opportunity_tags": [
-        "AI agents",
-        "marketing automation"
+        "AI agents in marketing"
       ],
       "confidence": "medium",
       "published_at": "2026-06-24T07:30:00+08:00"
     },
     {
-      "event_id": "event_12",
-      "event_name": "好莱坞对OpenAI电影发行态度分化",
+      "event_id": "evt_012",
+      "event_name": "好莱坞对OpenAI传记电影《Artificial》态度分化",
       "related_news_ids": [
         "news_2224e8f2e900"
       ],
       "main_entities": [
         "OpenAI",
-        "Sam Altman",
         "Netflix",
         "A24",
         "Focus Features",
         "Warner Bros.",
         "Clockwork",
         "Neon",
-        "Mubi"
+        "Mubi",
+        "Luca Guadagnino",
+        "Sam Altman"
       ],
-      "core_topic": "好莱坞主要制片厂拒绝发行关于OpenAI Sam Altman的电影，而独立发行商仍感兴趣",
+      "core_topic": "Netflix、A24等放弃发行OpenAI传记电影《Artificial》，Neon和Mubi仍感兴趣",
       "event_type": "market_commentary",
-      "industry_area": "consumer_ai",
+      "industry_area": "other",
       "technologies": [
         "ChatGPT"
       ],
       "key_facts": [
-        "Netflix, A24, Focus Features, and Warner Bros.' Clockwork have passed on picking up 'Artificial' for distribution.",
-        "Neon and Mubi are still interested."
+        "Netflix, A24, Focus Features, and Warner Bros.' Clockwork have passed on picking up 'Artificial'",
+        "Neon and Mubi are still interested"
       ],
       "evidence": [
-        "The summary lists studios that passed and those still interested."
+        "Netflix, A24, Focus Features, and Warner Bros.' Clockwork have all reportedly decided to pass on picking up Artificial ... Neon and Mubi are still said to be interested"
       ],
-      "why_it_matters": "反映了公众对OpenAI的复杂看法，以及好莱坞对AI相关内容的谨慎态度。",
+      "why_it_matters": "好莱坞对OpenAI题材电影的分化态度反映了业界对AI话题的复杂看法。",
       "impact_scope": [
         "industry"
       ],
       "risk_tags": [
-        "public perception"
+        "none"
       ],
       "opportunity_tags": [
         "none"
@@ -459,27 +458,28 @@
       "published_at": "2026-06-24T06:03:18+08:00"
     },
     {
-      "event_id": "event_13",
+      "event_id": "evt_013",
       "event_name": "InSight框架实现自主技能获取",
       "related_news_ids": [
         "news_de8af1478e75"
       ],
       "main_entities": [],
-      "core_topic": "InSight框架使VLA模型能够自主获取操作技能",
+      "core_topic": "InSight框架通过可操纵的VLA模型实现自主技能获取，无需人类演示",
       "event_type": "research",
       "industry_area": "research",
       "technologies": [
         "Vision-language-action (VLA) models",
-        "VLM"
+        "VLM",
+        "InSight"
       ],
       "key_facts": [
-        "InSight enables autonomous skill acquisition by making VLAs steerable at primitive-action level.",
-        "Evaluated on block flipping, drawer closing, sweeping, twisting, pouring without human demonstrations."
+        "InSight framework unlocks autonomous skill acquisition by rendering VLAs steerable at primitive-action level",
+        "evaluated across simulation and real-world manipulation tasks without human demonstrations of target skills"
       ],
       "evidence": [
-        "The summary describes the framework and its evaluation on manipulation tasks without human demonstrations."
+        "We present InSight, a framework that unlocks autonomous skill acquisition by rendering VLAs steerable at the primitive-action level ... evaluated across simulation and real-world manipulation tasks ... without any human demonstrations of these target skills."
       ],
-      "why_it_matters": "该研究推动了机器人自主技能学习的发展，减少了对人类演示的依赖。",
+      "why_it_matters": "InSight框架使机器人能够自主获取新技能，减少对人类演示的依赖，推动机器人自主性发展。",
       "impact_scope": [
         "research"
       ],
@@ -487,33 +487,34 @@
         "none"
       ],
       "opportunity_tags": [
-        "robotics",
-        "skill acquisition"
+        "autonomous skill acquisition",
+        "robotics"
       ],
       "confidence": "high",
       "published_at": "2026-06-24T01:59:01+08:00"
     },
     {
-      "event_id": "event_14",
-      "event_name": "随机次梯度方法最后迭代的新界",
+      "event_id": "evt_014",
+      "event_name": "随机次梯度方法最后迭代优化误差新界",
       "related_news_ids": [
         "news_4a4008ebbd38"
       ],
       "main_entities": [],
-      "core_topic": "论文建立了随机次梯度方法最后迭代的新界，解决了开放问题",
+      "core_topic": "研究证明随机次梯度方法最后迭代的优化误差在i.i.d.噪声下为1/√n，非i.i.d.下为(log n)/√n",
       "event_type": "research",
       "industry_area": "research",
       "technologies": [
         "stochastic subgradient method"
       ],
       "key_facts": [
-        "Proves last iterate optimization error of order 1/√n under i.i.d. noise.",
-        "Without i.i.d. assumption, error can be (log n)/√n, resolving an open problem."
+        "Proves last iterate optimization error of order 1/√n for i.i.d. noise",
+        "Without i.i.d. assumption, error can be (log n)/√n",
+        "Resolves open problem from Koren and Segal, COLT, 2020"
       ],
       "evidence": [
-        "The summary states the results and that it resolves an open problem."
+        "We prove that ... the last iterate features an optimization error of order 1/√n ... resolving negatively an open problem posed in Koren and Segal, COLT, 2020."
       ],
-      "why_it_matters": "该结果对优化理论有重要贡献，为算法设计提供了理论指导。",
+      "why_it_matters": "该结果解决了优化理论中的一个开放问题，对理解随机优化算法的行为有重要意义。",
       "impact_scope": [
         "research"
       ],
@@ -521,33 +522,37 @@
         "none"
       ],
       "opportunity_tags": [
-        "none"
+        "optimization theory"
       ],
       "confidence": "high",
       "published_at": "2026-06-24T01:55:18+08:00"
     },
     {
-      "event_id": "event_15",
-      "event_name": "FLUX3D框架提升3D高斯生成质量",
+      "event_id": "evt_015",
+      "event_name": "FLUX3D实现高保真3D高斯生成",
       "related_news_ids": [
         "news_42adf9bfa22c"
       ],
       "main_entities": [],
-      "core_topic": "FLUX3D框架通过扩散对齐稀疏表示提升图像到3D高斯生成的质量",
+      "core_topic": "FLUX3D框架通过扩散对齐稀疏表示提升3D高斯生成保真度，超越现有方法",
       "event_type": "research",
       "industry_area": "research",
       "technologies": [
         "3D Gaussian Splatting",
-        "diffusion transformers"
+        "diffusion transformers",
+        "FLUX3D",
+        "DA-SLAT",
+        "SMDiT",
+        "MARoPE"
       ],
       "key_facts": [
-        "FLUX3D improves image-to-3DGS generation by addressing representation and cross-modal alignment bottlenecks.",
-        "Outperforms state-of-the-art methods in appearance fidelity."
+        "FLUX3D improves appearance fidelity and outperforms SOTA in generating high-quality 3DGS assets",
+        "Proposes Diffusion-Aligned Structured Latents (DA-SLAT) and Sparse-structure Multimodal Diffusion Transformer (SMDiT)"
       ],
       "evidence": [
-        "The summary states it 'yields substantial improvements in appearance fidelity and significantly outperforms all state-of-the-art methods'."
+        "FLUX3D yields substantial improvements in appearance fidelity and significantly outperforms all state-of-the-art (SOTA) methods in generating high-quality 3DGS assets."
       ],
-      "why_it_matters": "该研究提升了3D内容生成的逼真度，对计算机视觉和图形学有重要影响。",
+      "why_it_matters": "FLUX3D在3D生成领域取得显著进展，有望应用于游戏、影视等行业的3D内容创作。",
       "impact_scope": [
         "research"
       ],
@@ -562,151 +567,182 @@
       "published_at": "2026-06-24T01:52:21+08:00"
     },
     {
-      "event_id": "event_16",
-      "event_name": "OpenThoughts-Agent项目发布数据配方",
+      "event_id": "evt_016",
+      "event_name": "OpenThoughts-Agent开源数据管线提升Agent模型性能",
       "related_news_ids": [
         "news_96d08d992c0a"
       ],
       "main_entities": [],
-      "core_topic": "OpenThoughts-Agent项目发布用于训练智能体模型的开放数据配方",
+      "core_topic": "OpenThoughts-Agent项目通过开源数据管线训练Agent模型，在多个基准上取得领先性能",
       "event_type": "research",
       "industry_area": "research",
-      "technologies": [],
+      "technologies": [
+        "agentic language models",
+        "data curation pipeline",
+        "Qwen3-32B"
+      ],
       "key_facts": [
-        "Agentic language models dramatically expand the applications of AI yet little is publicly known about how to curate training data for broadly capable agents."
+        "conducted more than 100 controlled ablation experiments",
+        "assembled a training set of 100K examples",
+        "fine-tuned Qwen3-32B on this dataset",
+        "yields an average accuracy of 44.8% across seven agentic benchmarks",
+        "3.9 percentage point improvement over Nemotron-Terminal-32B (40.9%)"
       ],
       "evidence": [
-        "The paper reports a 3.9 percentage point improvement over the strongest existing open data agentic model and strong scaling properties."
+        "The paper states 'We conduct more than 100 controlled ablation experiments' and 'fine-tune Qwen3-32B on this dataset, which yields an average accuracy of 44.8%'."
       ],
-      "why_it_matters": "该项目填补了智能体模型训练数据配方的空白，推动了开放研究。",
+      "why_it_matters": "该工作为训练通用Agent模型提供了开源数据管线，有助于推动Agent领域的研究进展。",
       "impact_scope": [
-        "research"
+        "research community"
       ],
       "risk_tags": [
         "none"
       ],
       "opportunity_tags": [
-        "none"
+        "open data pipeline",
+        "improved agentic model training"
       ],
       "confidence": "high",
       "published_at": "2026-06-24T01:34:29+08:00"
     },
     {
-      "event_id": "event_17",
-      "event_name": "AI增强辅助沟通接口的设计与评估研究",
+      "event_id": "evt_017",
+      "event_name": "AI增强AAC接口的设计与评估研究",
       "related_news_ids": [
         "news_0a0005a57333"
       ],
       "main_entities": [],
-      "core_topic": "论文探讨AI增强辅助沟通接口的设计与评估挑战",
+      "core_topic": "研究探讨AI增强AAC接口的复杂性，并提出更鲁棒的评估方法",
       "event_type": "research",
       "industry_area": "research",
-      "technologies": [],
+      "technologies": [
+        "AI",
+        "AAC interfaces"
+      ],
       "key_facts": [
-        "Artificial intelligence (AI) can enhance what people who use augmentative and alternative communication (AAC) are able to do with their systems."
+        "explores the complicated nature of six AAC problem spaces",
+        "suggests more robust methods of evaluation"
       ],
       "evidence": [
-        "The paper discusses challenges and proposes evaluation methods for AI-powered AAC interfaces."
+        "The paper states 'evaluating AI-powered AAC interfaces can be difficult' and 'suggest more robust methods of evaluation'."
       ],
-      "why_it_matters": "该研究关注AI在辅助沟通中的应用，具有社会意义。",
+      "why_it_matters": "该研究有助于改进AAC系统的设计，使其更好地满足用户的多样化需求。",
       "impact_scope": [
-        "research"
+        "AAC users and developers"
       ],
       "risk_tags": [
-        "none"
+        "evaluation challenges"
       ],
       "opportunity_tags": [
-        "none"
+        "improved AAC design"
       ],
-      "confidence": "high",
+      "confidence": "medium",
       "published_at": "2026-06-24T01:34:18+08:00"
     },
     {
-      "event_id": "event_18",
+      "event_id": "evt_018",
       "event_name": "Hartley神经算子与傅里叶神经算子的比较研究",
       "related_news_ids": [
         "news_c452fb5440cb"
       ],
       "main_entities": [],
-      "core_topic": "论文引入Hartley神经算子，并与傅里叶神经算子进行比较，提出预测性规则",
+      "core_topic": "研究引入Hartley神经算子，发现其与傅里叶神经算子在不同PDE类型上各有优势",
       "event_type": "research",
       "industry_area": "research",
-      "technologies": [],
+      "technologies": [
+        "Fourier Neural Operators",
+        "Hartley Neural Operator",
+        "spectral bases"
+      ],
       "key_facts": [
-        "Fourier Neural Operators (FNO) learn solution operators of partial differential equations by parameterizing global convolutions in the complex Fourier domain."
+        "introduces the Hartley Neural Operator (HNO)",
+        "HNO is the exact real-valued mirror of FNO",
+        "finds an elliptic-versus-time-dependent split that is monotone in operator phase content"
       ],
       "evidence": [
-        "The paper introduces Hartley Neural Operator and provides a predictive rule for choosing spectral basis."
+        "The paper states 'We introduce the Hartley Neural Operator (HNO)' and 'find an elliptic-versus-time-dependent split'."
       ],
-      "why_it_matters": "该研究为神经算子设计提供了理论指导，有助于提高PDE求解效率。",
+      "why_it_matters": "该研究为神经算子的基函数选择提供了理论指导，有助于提升PDE求解效率。",
       "impact_scope": [
-        "research"
+        "scientific computing community"
       ],
       "risk_tags": [
         "none"
       ],
       "opportunity_tags": [
-        "none"
+        "improved neural operators for PDEs"
       ],
       "confidence": "high",
       "published_at": "2026-06-24T01:29:15+08:00"
     },
     {
-      "event_id": "event_19",
-      "event_name": "IV-CoT框架提升文本到图像生成的结构感知能力",
+      "event_id": "evt_019",
+      "event_name": "隐式视觉思维链提升文本到图像生成的结构感知能力",
       "related_news_ids": [
         "news_079c12d32bb2"
       ],
       "main_entities": [],
-      "core_topic": "IV-CoT框架通过隐式视觉思维链提升文本到图像生成的结构感知能力",
+      "core_topic": "提出隐式视觉思维链框架，通过结构到语义的级联提升文本到图像生成的结构感知能力",
       "event_type": "research",
       "industry_area": "research",
-      "technologies": [],
+      "technologies": [
+        "multi-modal large language models",
+        "Implicit Visual Chain-of-Thought",
+        "text-to-image generation"
+      ],
       "key_facts": [
-        "Unified multi-modal large language models (MLLMs) have achieved strong text-to-image generation quality, but still struggle with structure-aware prompt following."
+        "proposes Implicit Visual Chain-of-Thought (IV-CoT)",
+        "IV-CoT decomposes visual conditioning queries into structural-to-semantic cascade",
+        "achieves superior results on GenEval and T2I-CompBench"
       ],
       "evidence": [
-        "The paper reports superior results on GenEval and T2I-CompBench."
+        "The paper states 'propose Implicit Visual Chain-of-Thought (IV-CoT)' and 'achieves superior results on GenEval and T2I-CompBench'."
       ],
-      "why_it_matters": "该研究改进了文本到图像生成中对复杂指令的遵循能力，具有应用价值。",
+      "why_it_matters": "IV-CoT改善了文本到图像生成中的结构遵循能力，有助于生成更符合用户意图的图像。",
       "impact_scope": [
-        "research"
+        "text-to-image generation research"
       ],
       "risk_tags": [
         "none"
       ],
       "opportunity_tags": [
-        "none"
+        "improved structure-aware generation"
       ],
       "confidence": "high",
       "published_at": "2026-06-24T01:28:00+08:00"
     },
     {
-      "event_id": "event_20",
-      "event_name": "世界模型碎片化与结构认证研究",
+      "event_id": "evt_020",
+      "event_name": "世界模型的结构化认证框架",
       "related_news_ids": [
         "news_968ddca63a3a"
       ],
       "main_entities": [],
-      "core_topic": "论文提出结构认证框架，用于通用智能体的世界模型认证",
+      "core_topic": "研究证明通用智能体并非万能，并提出结构化认证框架以定位可靠规划的具体转换",
       "event_type": "research",
       "industry_area": "research",
-      "technologies": [],
+      "technologies": [
+        "world models",
+        "structural certification",
+        "general agents"
+      ],
       "key_facts": [
-        "In the big-world regime, agents cannot be universally capable and their ability is inevitably specialized across a world model in pieces."
+        "proves that general agents are not universal",
+        "introduces structural certification",
+        "provides algorithms that filter specific transitions using deep compositional goals"
       ],
       "evidence": [
-        "The paper introduces structural certification and provides algorithms with error bounds."
+        "The paper states 'proving that general agents are not universal' and 'introduce structural certification'."
       ],
-      "why_it_matters": "该研究为通用智能体的安全部署提供了理论框架。",
+      "why_it_matters": "该工作为通用智能体的可靠部署提供了理论基础，有助于提升AI系统的安全性。",
       "impact_scope": [
-        "research"
+        "AI safety and agent deployment"
       ],
       "risk_tags": [
-        "none"
+        "agent non-universality"
       ],
       "opportunity_tags": [
-        "none"
+        "certifiable deployment"
       ],
       "confidence": "high",
       "published_at": "2026-06-24T01:21:09+08:00"

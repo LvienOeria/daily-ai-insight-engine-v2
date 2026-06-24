@@ -1,54 +1,10 @@
 {
   "ranked_events": [
     {
-      "event_id": "event_9",
-      "event_name": "阿里QoderWork推出峰谷Token优惠",
-      "final_importance_score": 3.31,
+      "event_id": "evt_020",
+      "event_name": "世界模型的结构化认证框架",
+      "final_importance_score": 3.36,
       "rank": 1,
-      "score_breakdown": {
-        "impact_scope": 4,
-        "source_authority": 3,
-        "novelty": 3,
-        "multi_source_support": 3,
-        "technical_impact": 4,
-        "business_impact": 4,
-        "risk_level": 0.347,
-        "opportunity_level": 3.431,
-        "recency": 5
-      },
-      "ranking_reason": "该事件来自 量子位，影响范围评分 4，来源权威性评分 3，技术影响评分 4，商业影响评分 4。",
-      "supporting_evidence": [
-        "原文：'6月23日晚，阿里QoderWork推出“峰谷Token”...其中Qwen3.7-Max模型低至2折。这是国内首个上线“峰谷Token”的Agent产品'"
-      ],
-      "confidence": "high"
-    },
-    {
-      "event_id": "event_3",
-      "event_name": "高通转型物理AI及行业动态评论",
-      "final_importance_score": 3.27,
-      "rank": 2,
-      "score_breakdown": {
-        "impact_scope": 4,
-        "source_authority": 3,
-        "novelty": 3,
-        "multi_source_support": 3,
-        "technical_impact": 4,
-        "business_impact": 4,
-        "risk_level": 0.15,
-        "opportunity_level": 3.256,
-        "recency": 5
-      },
-      "ranking_reason": "该事件来自 量子位，影响范围评分 4，来源权威性评分 3，技术影响评分 4，商业影响评分 4。",
-      "supporting_evidence": [
-        "AI算力一哥 英伟达 ，开源了Cosmos3最新推理模型，车企自研AI最强的 小鹏 ，也公布了世界模型全栈技术……"
-      ],
-      "confidence": "medium"
-    },
-    {
-      "event_id": "event_15",
-      "event_name": "FLUX3D框架提升3D高斯生成质量",
-      "final_importance_score": 3.2,
-      "rank": 3,
       "score_breakdown": {
         "impact_scope": 3,
         "source_authority": 5,
@@ -56,20 +12,64 @@
         "multi_source_support": 3,
         "technical_impact": 4,
         "business_impact": 2,
-        "risk_level": 0.36,
-        "opportunity_level": 3.448,
+        "risk_level": 2.652,
+        "opportunity_level": 2.624,
         "recency": 5
       },
       "ranking_reason": "该事件来自 arXiv，影响范围评分 3，来源权威性评分 5，技术影响评分 4，商业影响评分 2。",
       "supporting_evidence": [
-        "The summary states it 'yields substantial improvements in appearance fidelity and significantly outperforms all state-of-the-art methods'."
+        "The paper states 'proving that general agents are not universal' and 'introduce structural certification'."
       ],
       "confidence": "high"
     },
     {
-      "event_id": "event_5",
-      "event_name": "豆包2.1大模型发布",
-      "final_importance_score": 3.19,
+      "event_id": "evt_017",
+      "event_name": "AI增强AAC接口的设计与评估研究",
+      "final_importance_score": 3.32,
+      "rank": 2,
+      "score_breakdown": {
+        "impact_scope": 3,
+        "source_authority": 5,
+        "novelty": 3,
+        "multi_source_support": 3,
+        "technical_impact": 4,
+        "business_impact": 2,
+        "risk_level": 2.436,
+        "opportunity_level": 2.46,
+        "recency": 5
+      },
+      "ranking_reason": "该事件来自 arXiv，影响范围评分 3，来源权威性评分 5，技术影响评分 4，商业影响评分 2。",
+      "supporting_evidence": [
+        "The paper states 'evaluating AI-powered AAC interfaces can be difficult' and 'suggest more robust methods of evaluation'."
+      ],
+      "confidence": "medium"
+    },
+    {
+      "event_id": "evt_004",
+      "event_name": "阿里QoderWork推出“峰谷Token”夜间优惠",
+      "final_importance_score": 3.3,
+      "rank": 3,
+      "score_breakdown": {
+        "impact_scope": 4,
+        "source_authority": 3,
+        "novelty": 3,
+        "multi_source_support": 3,
+        "technical_impact": 4,
+        "business_impact": 4,
+        "risk_level": 0.313,
+        "opportunity_level": 3.401,
+        "recency": 5
+      },
+      "ranking_reason": "该事件来自 量子位，影响范围评分 4，来源权威性评分 3，技术影响评分 4，商业影响评分 4。",
+      "supporting_evidence": [
+        "6月23日晚，阿里QoderWork推出“峰谷Token”，Agent在每晚 22:00到次日08:00运行可自动享受优惠，其中Qwen3.7-Max模型低至2折。这是国内首个上线“峰谷Token”的Agent产品，将大幅降低用户的使用成本。"
+      ],
+      "confidence": "high"
+    },
+    {
+      "event_id": "evt_010",
+      "event_name": "豆包2.1发布，Agent自主完成芯片设计代码",
+      "final_importance_score": 3.25,
       "rank": 4,
       "score_breakdown": {
         "impact_scope": 4,
@@ -78,20 +78,20 @@
         "multi_source_support": 3,
         "technical_impact": 4,
         "business_impact": 2,
-        "risk_level": 0.291,
-        "opportunity_level": 3.46,
+        "risk_level": 0.164,
+        "opportunity_level": 4.066,
         "recency": 5
       },
       "ranking_reason": "该事件来自 量子位，影响范围评分 4，来源权威性评分 3，技术影响评分 4，商业影响评分 2。",
       "supporting_evidence": [
-        "这个版本一共包含2个模型，分别是Doubao-Seed-2.1-Pro和Doubao-Seed-2.1-Turbo，并且API服务已全量上线火山方舟。"
+        "原文：'这个版本一共包含2个模型，分别是Doubao-Seed-2.1-Pro和Doubao-Seed-2.1-Turbo，并且API服务已全量上线火山方舟。'"
       ],
-      "confidence": "high"
+      "confidence": "medium"
     },
     {
-      "event_id": "event_13",
-      "event_name": "InSight框架实现自主技能获取",
-      "final_importance_score": 3.19,
+      "event_id": "evt_015",
+      "event_name": "FLUX3D实现高保真3D高斯生成",
+      "final_importance_score": 3.2,
       "rank": 5,
       "score_breakdown": {
         "impact_scope": 3,
@@ -100,64 +100,64 @@
         "multi_source_support": 3,
         "technical_impact": 4,
         "business_impact": 2,
-        "risk_level": 0.272,
-        "opportunity_level": 3.394,
+        "risk_level": 0.348,
+        "opportunity_level": 3.456,
         "recency": 5
       },
       "ranking_reason": "该事件来自 arXiv，影响范围评分 3，来源权威性评分 5，技术影响评分 4，商业影响评分 2。",
       "supporting_evidence": [
-        "The summary describes the framework and its evaluation on manipulation tasks without human demonstrations."
+        "FLUX3D yields substantial improvements in appearance fidelity and significantly outperforms all state-of-the-art (SOTA) methods in generating high-quality 3DGS assets."
       ],
       "confidence": "high"
     },
     {
-      "event_id": "event_8",
-      "event_name": "浪潮信息彭震强调AI转型中文化、组织和流程的重要性",
-      "final_importance_score": 3.11,
+      "event_id": "evt_013",
+      "event_name": "InSight框架实现自主技能获取",
+      "final_importance_score": 3.19,
       "rank": 6,
       "score_breakdown": {
         "impact_scope": 3,
-        "source_authority": 3,
+        "source_authority": 5,
         "novelty": 3,
         "multi_source_support": 3,
-        "technical_impact": 2,
-        "business_impact": 4,
-        "risk_level": 2.484,
-        "opportunity_level": 2.506,
+        "technical_impact": 4,
+        "business_impact": 2,
+        "risk_level": 0.318,
+        "opportunity_level": 3.427,
         "recency": 5
       },
-      "ranking_reason": "该事件来自 量子位，影响范围评分 3，来源权威性评分 3，技术影响评分 2，商业影响评分 4。",
+      "ranking_reason": "该事件来自 arXiv，影响范围评分 3，来源权威性评分 5，技术影响评分 4，商业影响评分 2。",
       "supporting_evidence": [
-        "原文：'彭震没把它们当成重点，却用三分之二的时间在讲文化、组织和流程。'"
-      ],
-      "confidence": "medium"
-    },
-    {
-      "event_id": "event_4",
-      "event_name": "小鹏基于亚马逊云科技搭建AI编程平台灵犀",
-      "final_importance_score": 2.98,
-      "rank": 7,
-      "score_breakdown": {
-        "impact_scope": 3,
-        "source_authority": 3,
-        "novelty": 3,
-        "multi_source_support": 3,
-        "technical_impact": 2,
-        "business_impact": 4,
-        "risk_level": 0.362,
-        "opportunity_level": 3.468,
-        "recency": 5
-      },
-      "ranking_reason": "该事件来自 量子位，影响范围评分 3，来源权威性评分 3，技术影响评分 2，商业影响评分 4。",
-      "supporting_evidence": [
-        "小鹏基于亚马逊云科技的 Kiro 、 Amazon Bedrock 、 Amazon EKS 等服务，搭了一套企业内部AI编程与Agentic工作平台，名字叫 灵犀 。"
+        "We present InSight, a framework that unlocks autonomous skill acquisition by rendering VLAs steerable at the primitive-action level ... evaluated across simulation and real-world manipulation tasks ... without any human demonstrations of these target skills."
       ],
       "confidence": "high"
     },
     {
-      "event_id": "event_1",
-      "event_name": "360发布AI安全核心能力并启动磐石之盾计划",
-      "final_importance_score": 2.97,
+      "event_id": "evt_016",
+      "event_name": "OpenThoughts-Agent开源数据管线提升Agent模型性能",
+      "final_importance_score": 3.19,
+      "rank": 7,
+      "score_breakdown": {
+        "impact_scope": 3,
+        "source_authority": 5,
+        "novelty": 3,
+        "multi_source_support": 3,
+        "technical_impact": 4,
+        "business_impact": 2,
+        "risk_level": 0.278,
+        "opportunity_level": 3.411,
+        "recency": 5
+      },
+      "ranking_reason": "该事件来自 arXiv，影响范围评分 3，来源权威性评分 5，技术影响评分 4，商业影响评分 2。",
+      "supporting_evidence": [
+        "The paper states 'We conduct more than 100 controlled ablation experiments' and 'fine-tune Qwen3-32B on this dataset, which yields an average accuracy of 44.8%'."
+      ],
+      "confidence": "high"
+    },
+    {
+      "event_id": "evt_008",
+      "event_name": "浪潮信息彭震强调AI转型中文化、组织和流程的重要性",
+      "final_importance_score": 3.1,
       "rank": 8,
       "score_breakdown": {
         "impact_scope": 3,
@@ -166,8 +166,96 @@
         "multi_source_support": 3,
         "technical_impact": 2,
         "business_impact": 4,
+        "risk_level": 2.495,
+        "opportunity_level": 2.423,
+        "recency": 5
+      },
+      "ranking_reason": "该事件来自 量子位，影响范围评分 3，来源权威性评分 3，技术影响评分 2，商业影响评分 4。",
+      "supporting_evidence": [
+        "原文：'基础设施、算力、芯片，这些浪潮信息最擅长的领域，彭震没把它们当成重点，却用三分之二的时间在讲文化、组织和流程。'"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "event_id": "evt_014",
+      "event_name": "随机次梯度方法最后迭代优化误差新界",
+      "final_importance_score": 3.1,
+      "rank": 9,
+      "score_breakdown": {
+        "impact_scope": 3,
+        "source_authority": 5,
+        "novelty": 3,
+        "multi_source_support": 3,
+        "technical_impact": 4,
+        "business_impact": 2,
         "risk_level": 0.351,
-        "opportunity_level": 3.378,
+        "opportunity_level": 2.581,
+        "recency": 5
+      },
+      "ranking_reason": "该事件来自 arXiv，影响范围评分 3，来源权威性评分 5，技术影响评分 4，商业影响评分 2。",
+      "supporting_evidence": [
+        "We prove that ... the last iterate features an optimization error of order 1/√n ... resolving negatively an open problem posed in Koren and Segal, COLT, 2020."
+      ],
+      "confidence": "high"
+    },
+    {
+      "event_id": "evt_018",
+      "event_name": "Hartley神经算子与傅里叶神经算子的比较研究",
+      "final_importance_score": 3.1,
+      "rank": 10,
+      "score_breakdown": {
+        "impact_scope": 3,
+        "source_authority": 5,
+        "novelty": 3,
+        "multi_source_support": 3,
+        "technical_impact": 4,
+        "business_impact": 2,
+        "risk_level": 0.302,
+        "opportunity_level": 2.621,
+        "recency": 5
+      },
+      "ranking_reason": "该事件来自 arXiv，影响范围评分 3，来源权威性评分 5，技术影响评分 4，商业影响评分 2。",
+      "supporting_evidence": [
+        "The paper states 'We introduce the Hartley Neural Operator (HNO)' and 'find an elliptic-versus-time-dependent split'."
+      ],
+      "confidence": "high"
+    },
+    {
+      "event_id": "evt_019",
+      "event_name": "隐式视觉思维链提升文本到图像生成的结构感知能力",
+      "final_importance_score": 3.1,
+      "rank": 11,
+      "score_breakdown": {
+        "impact_scope": 3,
+        "source_authority": 5,
+        "novelty": 3,
+        "multi_source_support": 3,
+        "technical_impact": 4,
+        "business_impact": 2,
+        "risk_level": 0.277,
+        "opportunity_level": 2.581,
+        "recency": 5
+      },
+      "ranking_reason": "该事件来自 arXiv，影响范围评分 3，来源权威性评分 5，技术影响评分 4，商业影响评分 2。",
+      "supporting_evidence": [
+        "The paper states 'propose Implicit Visual Chain-of-Thought (IV-CoT)' and 'achieves superior results on GenEval and T2I-CompBench'."
+      ],
+      "confidence": "high"
+    },
+    {
+      "event_id": "evt_001",
+      "event_name": "360发布AI安全能力并联合信创伙伴发起安全协作计划",
+      "final_importance_score": 2.97,
+      "rank": 12,
+      "score_breakdown": {
+        "impact_scope": 3,
+        "source_authority": 3,
+        "novelty": 3,
+        "multi_source_support": 3,
+        "technical_impact": 2,
+        "business_impact": 4,
+        "risk_level": 0.343,
+        "opportunity_level": 3.41,
         "recency": 5
       },
       "ranking_reason": "该事件来自 量子位，影响范围评分 3，来源权威性评分 3，技术影响评分 2，商业影响评分 4。",
@@ -177,10 +265,10 @@
       "confidence": "high"
     },
     {
-      "event_id": "event_2",
-      "event_name": "2026世界人工智能大会SAIL奖TOP30及青年优秀论文奖TOP20发布",
+      "event_id": "evt_003",
+      "event_name": "港大MaRS Lab团队获IEEE TRO傅京孙纪念最佳论文奖",
       "final_importance_score": 2.97,
-      "rank": 9,
+      "rank": 13,
       "score_breakdown": {
         "impact_scope": 3,
         "source_authority": 3,
@@ -188,21 +276,65 @@
         "multi_source_support": 3,
         "technical_impact": 4,
         "business_impact": 2,
-        "risk_level": 0.353,
-        "opportunity_level": 3.377,
+        "risk_level": 0.313,
+        "opportunity_level": 3.418,
+        "recency": 5
+      },
+      "ranking_reason": "该事件来自 量子位，影响范围评分 3，来源权威性评分 3，技术影响评分 4，商业影响评分 2。",
+      "supporting_evidence": [
+        "香港大学机械与机器人系统实验室（MaRS Lab）张富副教授团队研发的 FAST-LIVO2 ，获得机器人领域顶级期刊IEEE Transactions on Robotics（TRO） 傅京孙纪念最佳论文奖。"
+      ],
+      "confidence": "high"
+    },
+    {
+      "event_id": "evt_002",
+      "event_name": "2026世界人工智能大会SAIL奖TOP30及青年优秀论文奖TOP20发布",
+      "final_importance_score": 2.94,
+      "rank": 14,
+      "score_breakdown": {
+        "impact_scope": 3,
+        "source_authority": 3,
+        "novelty": 3,
+        "multi_source_support": 3,
+        "technical_impact": 4,
+        "business_impact": 2,
+        "risk_level": 0.204,
+        "opportunity_level": 3.233,
         "recency": 5
       },
       "ranking_reason": "该事件来自 量子位，影响范围评分 3，来源权威性评分 3，技术影响评分 4，商业影响评分 2。",
       "supporting_evidence": [
         "卓越人工智能引领者奖（SAIL），是世界人工智能大会最高荣誉奖项，也是全球人工智能领域极具影响力的高规格国际化奖项。"
       ],
-      "confidence": "high"
+      "confidence": "medium"
     },
     {
-      "event_id": "event_6",
-      "event_name": "具身智能融资活跃趋势评论",
+      "event_id": "evt_009",
+      "event_name": "小鹏基于亚马逊云科技搭建AI编程与Agentic工作平台",
       "final_importance_score": 2.94,
-      "rank": 10,
+      "rank": 15,
+      "score_breakdown": {
+        "impact_scope": 3,
+        "source_authority": 3,
+        "novelty": 3,
+        "multi_source_support": 3,
+        "technical_impact": 2,
+        "business_impact": 4,
+        "risk_level": 0.206,
+        "opportunity_level": 3.277,
+        "recency": 5
+      },
+      "ranking_reason": "该事件来自 量子位，影响范围评分 3，来源权威性评分 3，技术影响评分 2，商业影响评分 4。",
+      "supporting_evidence": [
+        "原文：'小鹏基于亚马逊云科技的Kiro、Amazon Bedrock、Amazon EKS等服务，搭了一套企业内部AI编程与Agentic工作平台，名字叫灵犀。'"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "event_id": "evt_006",
+      "event_name": "具身智能赛道融资火热，超半数资金流向机器人“大脑”",
+      "final_importance_score": 2.93,
+      "rank": 16,
       "score_breakdown": {
         "impact_scope": 3,
         "source_authority": 3,
@@ -210,8 +342,8 @@
         "multi_source_support": 3,
         "technical_impact": 4,
         "business_impact": 2,
-        "risk_level": 0.196,
-        "opportunity_level": 3.279,
+        "risk_level": 0.133,
+        "opportunity_level": 3.25,
         "recency": 5
       },
       "ranking_reason": "该事件来自 量子位，影响范围评分 3，来源权威性评分 3，技术影响评分 4，商业影响评分 2。",
@@ -221,10 +353,10 @@
       "confidence": "medium"
     },
     {
-      "event_id": "event_7",
-      "event_name": "AI在数学证明领域取得进展",
-      "final_importance_score": 2.94,
-      "rank": 11,
+      "event_id": "evt_007",
+      "event_name": "AI在数学证明领域取得进展，形式化验证受关注",
+      "final_importance_score": 2.93,
+      "rank": 17,
       "score_breakdown": {
         "impact_scope": 3,
         "source_authority": 3,
@@ -232,8 +364,8 @@
         "multi_source_support": 3,
         "technical_impact": 4,
         "business_impact": 2,
-        "risk_level": 0.153,
-        "opportunity_level": 3.283,
+        "risk_level": 0.126,
+        "opportunity_level": 3.23,
         "recency": 5
       },
       "ranking_reason": "该事件来自 量子位，影响范围评分 3，来源权威性评分 3，技术影响评分 4，商业影响评分 2。",
@@ -243,10 +375,10 @@
       "confidence": "medium"
     },
     {
-      "event_id": "event_11",
-      "event_name": "MoEngage收购AI代理技术用于个性化营销",
-      "final_importance_score": 2.94,
-      "rank": 12,
+      "event_id": "evt_011",
+      "event_name": "MoEngage押注AI Agent在营销领域的未来",
+      "final_importance_score": 2.86,
+      "rank": 18,
       "score_breakdown": {
         "impact_scope": 3,
         "source_authority": 3,
@@ -254,174 +386,42 @@
         "multi_source_support": 3,
         "technical_impact": 2,
         "business_impact": 4,
-        "risk_level": 0.164,
-        "opportunity_level": 3.274,
+        "risk_level": 0.196,
+        "opportunity_level": 2.509,
         "recency": 5
       },
       "ranking_reason": "该事件来自 TechCrunch AI，影响范围评分 3，来源权威性评分 3，技术影响评分 2，商业影响评分 4。",
       "supporting_evidence": [
-        "The summary states: 'The all-cash deal gives MoEngage access to technology that assigns AI agents to individual customers.'"
+        "The all-cash deal gives MoEngage access to technology that assigns AI agents to individual customers."
       ],
       "confidence": "medium"
     },
     {
-      "event_id": "event_12",
-      "event_name": "好莱坞对OpenAI电影发行态度分化",
-      "final_importance_score": 2.85,
-      "rank": 13,
+      "event_id": "evt_005",
+      "event_name": "Claude Code大升级，卡帕西称其为LLM第三次变革",
+      "final_importance_score": 2.75,
+      "rank": 19,
       "score_breakdown": {
         "impact_scope": 3,
         "source_authority": 3,
         "novelty": 3,
         "multi_source_support": 3,
         "technical_impact": 2,
-        "business_impact": 4,
-        "risk_level": 2.477,
-        "opportunity_level": 0.145,
-        "recency": 5
-      },
-      "ranking_reason": "该事件来自 The Verge，影响范围评分 3，来源权威性评分 3，技术影响评分 2，商业影响评分 4。",
-      "supporting_evidence": [
-        "The summary lists studios that passed and those still interested."
-      ],
-      "confidence": "medium"
-    },
-    {
-      "event_id": "event_14",
-      "event_name": "随机次梯度方法最后迭代的新界",
-      "final_importance_score": 2.85,
-      "rank": 14,
-      "score_breakdown": {
-        "impact_scope": 3,
-        "source_authority": 5,
-        "novelty": 3,
-        "multi_source_support": 3,
-        "technical_impact": 4,
         "business_impact": 2,
-        "risk_level": 0.361,
-        "opportunity_level": 0.316,
+        "risk_level": 0.336,
+        "opportunity_level": 3.406,
         "recency": 5
       },
-      "ranking_reason": "该事件来自 arXiv，影响范围评分 3，来源权威性评分 5，技术影响评分 4，商业影响评分 2。",
+      "ranking_reason": "该事件来自 量子位，影响范围评分 3，来源权威性评分 3，技术影响评分 2，商业影响评分 2。",
       "supporting_evidence": [
-        "The summary states the results and that it resolves an open problem."
+        "这是LLM用户界面的第三次重大变革。第一次是网页版聊天，第二次是桌面应用，而这一次，LLM变成了一个独立、持续运行的系统，拥有组织内的工具和上下文，能与人类团队协同工作。"
       ],
       "confidence": "high"
     },
     {
-      "event_id": "event_16",
-      "event_name": "OpenThoughts-Agent项目发布数据配方",
-      "final_importance_score": 2.85,
-      "rank": 15,
-      "score_breakdown": {
-        "impact_scope": 3,
-        "source_authority": 5,
-        "novelty": 3,
-        "multi_source_support": 3,
-        "technical_impact": 4,
-        "business_impact": 2,
-        "risk_level": 0.319,
-        "opportunity_level": 0.343,
-        "recency": 5
-      },
-      "ranking_reason": "该事件来自 arXiv，影响范围评分 3，来源权威性评分 5，技术影响评分 4，商业影响评分 2。",
-      "supporting_evidence": [
-        "The paper reports a 3.9 percentage point improvement over the strongest existing open data agentic model and strong scaling properties."
-      ],
-      "confidence": "high"
-    },
-    {
-      "event_id": "event_18",
-      "event_name": "Hartley神经算子与傅里叶神经算子的比较研究",
-      "final_importance_score": 2.85,
-      "rank": 16,
-      "score_breakdown": {
-        "impact_scope": 3,
-        "source_authority": 5,
-        "novelty": 3,
-        "multi_source_support": 3,
-        "technical_impact": 4,
-        "business_impact": 2,
-        "risk_level": 0.308,
-        "opportunity_level": 0.31,
-        "recency": 5
-      },
-      "ranking_reason": "该事件来自 arXiv，影响范围评分 3，来源权威性评分 5，技术影响评分 4，商业影响评分 2。",
-      "supporting_evidence": [
-        "The paper introduces Hartley Neural Operator and provides a predictive rule for choosing spectral basis."
-      ],
-      "confidence": "high"
-    },
-    {
-      "event_id": "event_19",
-      "event_name": "IV-CoT框架提升文本到图像生成的结构感知能力",
-      "final_importance_score": 2.85,
-      "rank": 17,
-      "score_breakdown": {
-        "impact_scope": 3,
-        "source_authority": 5,
-        "novelty": 3,
-        "multi_source_support": 3,
-        "technical_impact": 4,
-        "business_impact": 2,
-        "risk_level": 0.314,
-        "opportunity_level": 0.327,
-        "recency": 5
-      },
-      "ranking_reason": "该事件来自 arXiv，影响范围评分 3，来源权威性评分 5，技术影响评分 4，商业影响评分 2。",
-      "supporting_evidence": [
-        "The paper reports superior results on GenEval and T2I-CompBench."
-      ],
-      "confidence": "high"
-    },
-    {
-      "event_id": "event_20",
-      "event_name": "世界模型碎片化与结构认证研究",
-      "final_importance_score": 2.85,
-      "rank": 18,
-      "score_breakdown": {
-        "impact_scope": 3,
-        "source_authority": 5,
-        "novelty": 3,
-        "multi_source_support": 3,
-        "technical_impact": 4,
-        "business_impact": 2,
-        "risk_level": 0.29,
-        "opportunity_level": 0.328,
-        "recency": 5
-      },
-      "ranking_reason": "该事件来自 arXiv，影响范围评分 3，来源权威性评分 5，技术影响评分 4，商业影响评分 2。",
-      "supporting_evidence": [
-        "The paper introduces structural certification and provides algorithms with error bounds."
-      ],
-      "confidence": "high"
-    },
-    {
-      "event_id": "event_17",
-      "event_name": "AI增强辅助沟通接口的设计与评估研究",
-      "final_importance_score": 2.84,
-      "rank": 19,
-      "score_breakdown": {
-        "impact_scope": 3,
-        "source_authority": 5,
-        "novelty": 3,
-        "multi_source_support": 3,
-        "technical_impact": 4,
-        "business_impact": 2,
-        "risk_level": 0.293,
-        "opportunity_level": 0.28,
-        "recency": 5
-      },
-      "ranking_reason": "该事件来自 arXiv，影响范围评分 3，来源权威性评分 5，技术影响评分 4，商业影响评分 2。",
-      "supporting_evidence": [
-        "The paper discusses challenges and proposes evaluation methods for AI-powered AAC interfaces."
-      ],
-      "confidence": "high"
-    },
-    {
-      "event_id": "event_10",
-      "event_name": "Claude Code大升级，卡帕西称LLM第三次变革",
-      "final_importance_score": 2.75,
+      "event_id": "evt_012",
+      "event_name": "好莱坞对OpenAI传记电影《Artificial》态度分化",
+      "final_importance_score": 2.37,
       "rank": 20,
       "score_breakdown": {
         "impact_scope": 3,
@@ -430,15 +430,15 @@
         "multi_source_support": 3,
         "technical_impact": 2,
         "business_impact": 2,
-        "risk_level": 0.327,
-        "opportunity_level": 3.454,
+        "risk_level": 0.161,
+        "opportunity_level": 0.16,
         "recency": 5
       },
-      "ranking_reason": "该事件来自 量子位，影响范围评分 3，来源权威性评分 3，技术影响评分 2，商业影响评分 2。",
+      "ranking_reason": "该事件来自 The Verge，影响范围评分 3，来源权威性评分 3，技术影响评分 2，商业影响评分 2。",
       "supporting_evidence": [
-        "原文：'这是LLM用户界面的第三次重大变革...LLM变成了一个独立、持续运行的系统，拥有组织内的工具和上下文，能与人类团队协同工作。'"
+        "Netflix, A24, Focus Features, and Warner Bros.' Clockwork have all reportedly decided to pass on picking up Artificial ... Neon and Mubi are still said to be interested"
       ],
-      "confidence": "high"
+      "confidence": "medium"
     }
   ]
 }
