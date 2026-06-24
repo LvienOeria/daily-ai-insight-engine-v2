@@ -16,7 +16,7 @@ SourceType = Literal[
     "media",
     "other",
 ]
-AccessMethod = Literal["api", "rss", "manual", "crawler", "deepseek_websearch", "other"]
+AccessMethod = Literal["api", "rss", "direct_http", "other"]
 Tier = Literal["core", "auxiliary", "future", "reject", "pending"]
 
 EventType = Literal[

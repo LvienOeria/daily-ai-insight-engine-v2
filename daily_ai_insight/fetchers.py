@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import json
 import re
 import time
 import xml.etree.ElementTree as ET
@@ -43,8 +44,8 @@ def fetch_candidate(candidate: CandidateSource, config: AppConfig) -> FetchResul
             return FetchResult(candidate, _fetch_arxiv(candidate, config))
         if candidate.source_name == "Hacker News Algolia AI Search":
             return FetchResult(candidate, _fetch_hacker_news(candidate, config))
-        if candidate.access_method == "deepseek_websearch":
-            return FetchResult(candidate, _fetch_websearch_observations(candidate, config))
+        if candidate.access_method == "direct_http":
+            return FetchResult(candidate, _fetch_direct_http(candidate, config))
     except Exception as exc:  # Fetch failures are recorded for source evaluation.
         return FetchResult(candidate=candidate, items=[], error=str(exc))
     return FetchResult(candidate=candidate, items=[], error="unsupported source configuration")
@@ -53,10 +54,19 @@ def fetch_candidate(candidate: CandidateSource, config: AppConfig) -> FetchResul
 def _fetch_rss(candidate: CandidateSource, config: AppConfig) -> list[RawNewsItem]:
     if not candidate.endpoint_url:
         raise SourceFetchError("missing RSS endpoint_url")
-    parsed = feedparser.parse(candidate.endpoint_url)
+    raw_xml = _http_get_cached(candidate.endpoint_url, cache_dir=config.root / "data" / "cache")
+    parsed = feedparser.parse(raw_xml)
     if parsed.bozo and not parsed.entries:
         raise SourceFetchError(f"RSS parse failed: {parsed.bozo_exception}")
 
+    keyword_filter = candidate.params.get("keyword_filter", False)
+    ai_keywords = [
+        "artificial intelligence", "large language model", "machine learning",
+        "deep learning", "open source", "fine-tune",
+        "llm", "agent", "openai", "chatgpt", "claude", "gemini", "deepmind",
+        "anthropic", "llama", "gpt", "copilot", "automation", "github",
+        "gpu", "neural", "transformer", "diffusion", "benchmark",
+    ]
     items: list[RawNewsItem] = []
     for entry in parsed.entries:
         published = (
@@ -68,6 +78,11 @@ def _fetch_rss(candidate: CandidateSource, config: AppConfig) -> list[RawNewsIte
         summary = _clean_text(getattr(entry, "summary", None) or getattr(entry, "description", None))
         title = _clean_text(getattr(entry, "title", None))
         url = getattr(entry, "link", None)
+        if keyword_filter:
+            # Require at least one AI keyword in the title — body-only matches are too noisy
+            title_lower = (title or "").lower()
+            if not any(kw in title_lower for kw in ai_keywords):
+                continue
         items.append(
             _raw_item(
                 candidate=candidate,
@@ -164,92 +179,44 @@ def _fetch_hacker_news(candidate: CandidateSource, config: AppConfig) -> list[Ra
     return items
 
 
-def _fetch_websearch_observations(candidate: CandidateSource, config: AppConfig) -> list[RawNewsItem]:
-    """Fetch from Chinese websearch sources via MCP, with static file fallback."""
-    websearch_config = config.defaults["source_selection"]["chinese_websearch"]
+def _fetch_direct_http(candidate: CandidateSource, config: AppConfig) -> list[RawNewsItem]:
+    """Fetch news by scraping a website homepage and article pages."""
+    from .scraper import fetch_articles
 
-    # --- Primary: MCP-based web search ---
-    try:
-        return _fetch_via_mcp(candidate, config, websearch_config)
-    except Exception as mcp_exc:
-        mcp_error = str(mcp_exc)
+    if not candidate.endpoint_url:
+        raise SourceFetchError("missing endpoint_url for direct HTTP fetch")
 
-    # --- Fallback: static observation file ---
-    observation_file = Path(
-        config.root
-        / (
-            websearch_config.get("observation_file")
-            or "data/manual/chinese_websearch_observations.json"
-        )
+    max_results = candidate.params.get("max_results", 10)
+    results = fetch_articles(
+        site=urlparse(candidate.endpoint_url).hostname or "",
+        homepage=candidate.endpoint_url,
+        source_name=candidate.source_name,
+        source_type=candidate.source_type,
+        language=candidate.language,
+        max_results=max_results,
     )
-    if not observation_file.exists():
-        raise SourceFetchError(
-            f"MCP websearch unavailable ({mcp_error}). "
-            "Add observations to "
-            f"{observation_file.relative_to(config.root)} after running allowlisted DeepSeek websearch, "
-            "or fix MCP connectivity."
-        )
 
-    observations = read_json(observation_file)
-    if not isinstance(observations, list):
-        raise SourceFetchError("websearch observation file must contain a JSON array")
-
-    allowed_domains = {
-        domain
-        for source in websearch_config["allowed_sources"]
-        for domain in source["domains"]
-    }
     items: list[RawNewsItem] = []
-    for obs in observations:
-        url = obs.get("url")
-        if not _is_allowed_url(url, allowed_domains):
+    for result in results:
+        if not isinstance(result, dict):
             continue
-        source_name = obs.get("source") or obs.get("site") or candidate.source_name
-        if not _observation_matches_candidate(candidate, source_name, url):
-            continue
-        summary = _clean_text(obs.get("snippet_or_content") or obs.get("summary") or obs.get("content"))
-        published_at = normalize_datetime(
-            obs.get("visible_published_at") or obs.get("published_at"),
-            config.report.timezone,
-        )
+        url = result.get("url") or ""
         items.append(
             _raw_item(
                 candidate=candidate,
-                title=_clean_text(obs.get("title")),
+                title=_clean_text(result.get("title")),
                 url=url,
-                source=source_name,
-                published_at=published_at,
-                summary=summary,
-                content=_clean_text(obs.get("content")),
-                raw_payload=obs,
-                collected_at=obs.get("collected_at"),
+                source=result.get("source") or candidate.source_name,
+                published_at=normalize_datetime(
+                    result.get("published_at"), config.report.timezone
+                ),
+                summary=_clean_text(result.get("summary")),
+                content=_clean_text(result.get("content")),
+                raw_payload=result,
+                collected_at=utc_now_iso(),
             )
         )
     return items
-
-
-def _fetch_via_mcp(
-    candidate: CandidateSource,
-    config: AppConfig,
-    websearch_config: dict[str, Any],
-) -> list[RawNewsItem]:
-    """Fetch Chinese AI news via direct HTTP scraping.
-
-    The MCP server (daily_ai_insight.mcp_search) is reserved for DeepSeek tool-calling:
-    when a real DeepSeek API key is configured, the LLM can use MCP tools to search
-    the web.  For the deterministic pipeline path we call the scraping backend inline.
-    """
-    from .mcp_search import SITE_CONFIG, _direct_fetch
-
-    domain = _candidate_domain(candidate)
-    if not domain:
-        raise SourceFetchError(f"no domain mapped for candidate: {candidate.source_name}")
-
-    site_config = SITE_CONFIG.get(domain)
-    if not site_config:
-        raise SourceFetchError(f"unsupported domain: {domain}")
-
-    results = _direct_fetch(domain, site_config, max_results=10)
 
     if not results:
         raise SourceFetchError(f"MCP search returned no results for {domain}")
@@ -290,6 +257,26 @@ def _candidate_domain(candidate: CandidateSource) -> str | None:
     if "知乎" in name:
         return "zhihu.com"
     return None
+
+
+def _http_get_cached(url: str, cache_dir: Path, ttl_seconds: int = 3600) -> str:
+    """Fetch URL with file-based caching. Reuses cached response within TTL."""
+    import hashlib
+
+    cache_dir.mkdir(parents=True, exist_ok=True)
+    cache_key = hashlib.sha1(url.encode()).hexdigest()[:16]
+    cache_path = cache_dir / f"{cache_key}.xml"
+
+    if cache_path.exists():
+        age = time.time() - cache_path.stat().st_mtime
+        if age < ttl_seconds:
+            return cache_path.read_text(encoding="utf-8")
+
+    resp = httpx.get(url, timeout=30, follow_redirects=True,
+                     headers={"User-Agent": "DailyAIInsight/0.1"})
+    resp.raise_for_status()
+    cache_path.write_text(resp.text, encoding="utf-8")
+    return resp.text
 
 
 def _raw_item(

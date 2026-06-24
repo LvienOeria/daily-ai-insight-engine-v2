@@ -18,29 +18,7 @@
   "source_selection": {
     "mode": "fetch_then_evaluate",
     "candidate_fetch_required_before_selection": true,
-    "select_core_sources_after_field_completeness_check": true,
-    "chinese_websearch": {
-      "enabled": true,
-      "provider": "deepseek_websearch",
-      "role": "compatibility_path",
-      "allowed_sources": [
-        {
-          "name": "量子位",
-          "domains": ["qbitai.com"]
-        },
-        {
-          "name": "机器之心",
-          "domains": ["jiqizhixin.com"]
-        },
-        {
-          "name": "知乎",
-          "domains": ["zhihu.com"]
-        }
-      ],
-      "max_results": 20,
-      "observation_file": "data/manual/chinese_websearch_observations.json",
-      "selection_rule": "Fetched Chinese websearch results must be evaluated for required fields before entering the main dataset. Zhihu should be treated as community signal unless a specific item has traceable URL, source, published_at, and sufficient content."
-    }
+    "select_core_sources_after_field_completeness_check": true
   },
   "frontend": {
     "framework": "react",

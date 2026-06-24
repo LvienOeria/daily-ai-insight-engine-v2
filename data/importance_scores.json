@@ -1,74 +1,74 @@
 {
   "ranked_events": [
     {
-      "event_id": "evt_020",
-      "event_name": "EG-VQA: Benchmarking Verifiable Video Question Answering with Grounded Temporal Evidence",
-      "final_importance_score": 3.29,
+      "event_id": "evt_013",
+      "event_name": "小鹏基于亚马逊云科技搭建AI平台",
+      "final_importance_score": 3.36,
       "rank": 1,
       "score_breakdown": {
-        "impact_scope": 3,
-        "source_authority": 5,
+        "impact_scope": 4,
+        "source_authority": 3,
         "novelty": 3,
         "multi_source_support": 3,
         "technical_impact": 4,
-        "business_impact": 2,
-        "risk_level": 0.352,
-        "opportunity_level": 4.224,
+        "business_impact": 4,
+        "risk_level": 0.168,
+        "opportunity_level": 4.077,
         "recency": 5
       },
-      "ranking_reason": "该事件来自 arXiv，影响范围评分 3，来源权威性评分 5，技术影响评分 4，商业影响评分 2。",
+      "ranking_reason": "该事件来自 量子位，影响范围评分 4，来源权威性评分 3，技术影响评分 4，商业影响评分 4。",
       "supporting_evidence": [
-        "The paper introduces a new benchmark and model, reporting state-of-the-art results."
+        "摘要明确提及小鹏使用亚马逊云科技服务搭建灵犀平台"
       ],
-      "confidence": "high"
-    },
-    {
-      "event_id": "evt_001",
-      "event_name": "InSight: Self-Guided Skill Acquisition via Steerable VLAs",
-      "final_importance_score": 3.28,
-      "rank": 2,
-      "score_breakdown": {
-        "impact_scope": 3,
-        "source_authority": 5,
-        "novelty": 3,
-        "multi_source_support": 3,
-        "technical_impact": 4,
-        "business_impact": 2,
-        "risk_level": 0.343,
-        "opportunity_level": 4.21,
-        "recency": 5
-      },
-      "ranking_reason": "该事件来自 arXiv，影响范围评分 3，来源权威性评分 5，技术影响评分 4，商业影响评分 2。",
-      "supporting_evidence": [
-        "The paper states: 'InSight, a framework that unlocks autonomous skill acquisition by rendering VLAs steerable at the primitive-action level' and 'evaluate InSight across simulation and real-world manipulation tasks... without any human demonstrations of these target skills.'"
-      ],
-      "confidence": "high"
+      "confidence": "medium"
     },
     {
       "event_id": "evt_003",
-      "event_name": "FLUX3D: High-Fidelity 3D Gaussian Generation with Diffusion-Aligned Sparse Representation",
-      "final_importance_score": 3.28,
-      "rank": 3,
+      "event_name": "正行创新完成近亿美元天使轮融资",
+      "final_importance_score": 3.3,
+      "rank": 2,
       "score_breakdown": {
         "impact_scope": 3,
-        "source_authority": 5,
-        "novelty": 3,
+        "source_authority": 3,
+        "novelty": 4,
         "multi_source_support": 3,
         "technical_impact": 4,
-        "business_impact": 2,
+        "business_impact": 4,
         "risk_level": 0.313,
-        "opportunity_level": 4.218,
+        "opportunity_level": 3.418,
         "recency": 5
       },
-      "ranking_reason": "该事件来自 arXiv，影响范围评分 3，来源权威性评分 5，技术影响评分 4，商业影响评分 2。",
+      "ranking_reason": "该事件来自 量子位，影响范围评分 3，来源权威性评分 3，技术影响评分 4，商业影响评分 4。",
       "supporting_evidence": [
-        "The paper claims: 'FLUX3D yields substantial improvements in appearance fidelity and significantly outperforms all state-of-the-art (SOTA) methods in generating high-quality 3DGS assets.'"
+        "标题和摘要明确提到融资额近亿美元，投资方包括多家上市企业"
       ],
       "confidence": "high"
     },
     {
       "event_id": "evt_004",
-      "event_name": "OpenThoughts-Agent: Data Recipes for Agentic Models",
+      "event_name": "豆包2.1发布",
+      "final_importance_score": 3.28,
+      "rank": 3,
+      "score_breakdown": {
+        "impact_scope": 4,
+        "source_authority": 3,
+        "novelty": 4,
+        "multi_source_support": 3,
+        "technical_impact": 4,
+        "business_impact": 2,
+        "risk_level": 0.313,
+        "opportunity_level": 4.201,
+        "recency": 5
+      },
+      "ranking_reason": "该事件来自 量子位，影响范围评分 4，来源权威性评分 3，技术影响评分 4，商业影响评分 2。",
+      "supporting_evidence": [
+        "标题和摘要明确提到豆包2.1发布，Agent完成芯片设计代码，模型名称和API上线信息"
+      ],
+      "confidence": "high"
+    },
+    {
+      "event_id": "evt_005",
+      "event_name": "InSight: 自主技能获取框架",
       "final_importance_score": 3.28,
       "rank": 4,
       "score_breakdown": {
@@ -78,42 +78,42 @@
         "multi_source_support": 3,
         "technical_impact": 4,
         "business_impact": 2,
-        "risk_level": 0.313,
-        "opportunity_level": 4.201,
+        "risk_level": 0.336,
+        "opportunity_level": 4.206,
         "recency": 5
       },
       "ranking_reason": "该事件来自 arXiv，影响范围评分 3，来源权威性评分 5，技术影响评分 4，商业影响评分 2。",
       "supporting_evidence": [
-        "The abstract states: 'fine-tune Qwen3-32B on this dataset, which yields an average accuracy of 44.8% across seven agentic benchmarks and a 3.9 percentage point improvement over the strongest existing open data agentic model.'"
+        "The abstract states: 'We present InSight, a framework that unlocks autonomous skill acquisition by rendering VLAs steerable at the primitive-action level...' and 'without any human demonstrations of these target skills.'"
       ],
       "confidence": "high"
     },
     {
-      "event_id": "evt_018",
-      "event_name": "Large-Language-Model Discovery of Quantum LDPC Codes through Structured Concept Evolution",
-      "final_importance_score": 3.28,
+      "event_id": "evt_015",
+      "event_name": "AI转型门槛在于人而非技术",
+      "final_importance_score": 3.2,
       "rank": 5,
       "score_breakdown": {
         "impact_scope": 3,
-        "source_authority": 5,
+        "source_authority": 3,
         "novelty": 3,
         "multi_source_support": 3,
-        "technical_impact": 4,
-        "business_impact": 2,
-        "risk_level": 0.302,
-        "opportunity_level": 4.221,
+        "technical_impact": 2,
+        "business_impact": 4,
+        "risk_level": 2.498,
+        "opportunity_level": 3.306,
         "recency": 5
       },
-      "ranking_reason": "该事件来自 arXiv，影响范围评分 3，来源权威性评分 5，技术影响评分 4，商业影响评分 2。",
+      "ranking_reason": "该事件来自 量子位，影响范围评分 3，来源权威性评分 3，技术影响评分 2，商业影响评分 4。",
       "supporting_evidence": [
-        "The paper reports discovery of competitive code families using LLMs."
+        "输入摘要：'值得注意的是，基础设施、算力、芯片，这些浪潮信息最擅长的领域，彭震没把它们当成重点，却用三分之二的时间在讲文化、组织和流程。'"
       ],
-      "confidence": "high"
+      "confidence": "medium"
     },
     {
-      "event_id": "evt_019",
-      "event_name": "OrbitForge: Text-to-3D Scene Generation via Reconstruction-Anchored Video Synthesis",
-      "final_importance_score": 3.27,
+      "event_id": "evt_006",
+      "event_name": "FLUX3D: 高保真3D高斯生成",
+      "final_importance_score": 3.19,
       "rank": 6,
       "score_breakdown": {
         "impact_scope": 3,
@@ -122,241 +122,21 @@
         "multi_source_support": 3,
         "technical_impact": 4,
         "business_impact": 2,
-        "risk_level": 0.277,
-        "opportunity_level": 4.181,
-        "recency": 5
-      },
-      "ranking_reason": "该事件来自 arXiv，影响范围评分 3，来源权威性评分 5，技术影响评分 4，商业影响评分 2。",
-      "supporting_evidence": [
-        "The paper describes OrbitForge's design and reports quantitative results."
-      ],
-      "confidence": "high"
-    },
-    {
-      "event_id": "evt_017",
-      "event_name": "GPT-5 Helps Solve Immunology Mystery",
-      "final_importance_score": 3.24,
-      "rank": 7,
-      "score_breakdown": {
-        "impact_scope": 3,
-        "source_authority": 5,
-        "novelty": 3,
-        "multi_source_support": 3,
-        "technical_impact": 4,
-        "business_impact": 2,
-        "risk_level": 0.136,
-        "opportunity_level": 4.06,
-        "recency": 5
-      },
-      "ranking_reason": "该事件来自 OpenAI News，影响范围评分 3，来源权威性评分 5，技术影响评分 4，商业影响评分 2。",
-      "supporting_evidence": [
-        "The summary states GPT-5 Pro helped solve a 3-year-old immunology mystery."
-      ],
-      "confidence": "medium"
-    },
-    {
-      "event_id": "evt_015",
-      "event_name": "Solving Inverse Problems of Chaotic Systems with Bidirectional Conditional Flow Matching",
-      "final_importance_score": 3.2,
-      "rank": 8,
-      "score_breakdown": {
-        "impact_scope": 3,
-        "source_authority": 5,
-        "novelty": 3,
-        "multi_source_support": 3,
-        "technical_impact": 4,
-        "business_impact": 2,
-        "risk_level": 0.348,
-        "opportunity_level": 3.456,
-        "recency": 5
-      },
-      "ranking_reason": "该事件来自 arXiv，影响范围评分 3，来源权威性评分 5，技术影响评分 4，商业影响评分 2。",
-      "supporting_evidence": [
-        "The paper reports that Bi-CFM improves five distribution-level metrics over baselines with a speedup of more than two orders of magnitude, and CBi-CFM has conservation errors comparable to ground truth."
-      ],
-      "confidence": "high"
-    },
-    {
-      "event_id": "evt_002",
-      "event_name": "New Bounds for the Last Iterate of the Stochastic subGradient Method",
-      "final_importance_score": 3.19,
-      "rank": 9,
-      "score_breakdown": {
-        "impact_scope": 3,
-        "source_authority": 5,
-        "novelty": 3,
-        "multi_source_support": 3,
-        "technical_impact": 4,
-        "business_impact": 2,
-        "risk_level": 0.354,
-        "opportunity_level": 3.383,
-        "recency": 5
-      },
-      "ranking_reason": "该事件来自 arXiv，影响范围评分 3，来源权威性评分 5，技术影响评分 4，商业影响评分 2。",
-      "supporting_evidence": [
-        "The abstract states: 'We prove that... the last iterate features an optimization error of order 1/√n' and 'without the i.i.d. assumption, the optimization error can be of order (log n)/√n'."
-      ],
-      "confidence": "high"
-    },
-    {
-      "event_id": "evt_005",
-      "event_name": "It's Complicated: On the Design and Evaluation of AI-Powered AAC Interfaces",
-      "final_importance_score": 3.19,
-      "rank": 10,
-      "score_breakdown": {
-        "impact_scope": 3,
-        "source_authority": 5,
-        "novelty": 3,
-        "multi_source_support": 3,
-        "technical_impact": 2,
-        "business_impact": 4,
-        "risk_level": 0.336,
-        "opportunity_level": 3.406,
-        "recency": 5
-      },
-      "ranking_reason": "该事件来自 arXiv，影响范围评分 3，来源权威性评分 5，技术影响评分 2，商业影响评分 4。",
-      "supporting_evidence": [
-        "The abstract says: 'We explore the complicated nature of six AAC problem spaces, explore how AI might be used in these spaces, and suggest more robust methods of evaluation that take the intersectional nuances of people into account.'"
-      ],
-      "confidence": "high"
-    },
-    {
-      "event_id": "evt_013",
-      "event_name": "Less is More: Quality-Aware Training Data Selection for Scientific Summarization",
-      "final_importance_score": 3.19,
-      "rank": 11,
-      "score_breakdown": {
-        "impact_scope": 3,
-        "source_authority": 5,
-        "novelty": 3,
-        "multi_source_support": 3,
-        "technical_impact": 4,
-        "business_impact": 2,
-        "risk_level": 0.318,
-        "opportunity_level": 3.427,
-        "recency": 5
-      },
-      "ranking_reason": "该事件来自 arXiv，影响范围评分 3，来源权威性评分 5，技术影响评分 4，商业影响评分 2。",
-      "supporting_evidence": [
-        "The paper reports constructing a dataset of 1.88 million PMC articles and that training on high-quality subsets outperforms random sampling."
-      ],
-      "confidence": "high"
-    },
-    {
-      "event_id": "evt_014",
-      "event_name": "L3Cube-MahaPOS: A Marathi Part-of-Speech Tagging Dataset and BERT Models",
-      "final_importance_score": 3.19,
-      "rank": 12,
-      "score_breakdown": {
-        "impact_scope": 3,
-        "source_authority": 5,
-        "novelty": 3,
-        "multi_source_support": 3,
-        "technical_impact": 4,
-        "business_impact": 2,
-        "risk_level": 0.351,
-        "opportunity_level": 3.381,
-        "recency": 5
-      },
-      "ranking_reason": "该事件来自 arXiv，影响范围评分 3，来源权威性评分 5，技术影响评分 4，商业影响评分 2。",
-      "supporting_evidence": [
-        "The paper introduces a dataset of 32,354 manually annotated sentences and reports best accuracy of 88.67%."
-      ],
-      "confidence": "high"
-    },
-    {
-      "event_id": "evt_009",
-      "event_name": "Matching Tasks to Objectives: Fine-Tuning and Prompt-Tuning Strategies for Encoder-Decoder Pre-trained Language Models",
-      "final_importance_score": 3.11,
-      "rank": 13,
-      "score_breakdown": {
-        "impact_scope": 3,
-        "source_authority": 5,
-        "novelty": 3,
-        "multi_source_support": 3,
-        "technical_impact": 4,
-        "business_impact": 2,
-        "risk_level": 0.356,
-        "opportunity_level": 2.627,
-        "recency": 5
-      },
-      "ranking_reason": "该事件来自 arXiv，影响范围评分 3，来源权威性评分 5，技术影响评分 4，商业影响评分 2。",
-      "supporting_evidence": [
-        "The paper claims over 120% performance gain in few-shot settings."
-      ],
-      "confidence": "high"
-    },
-    {
-      "event_id": "evt_006",
-      "event_name": "Real vs. Complex Spectral Bases for Neural Operators: The Role of Green's Function Alignment",
-      "final_importance_score": 3.1,
-      "rank": 14,
-      "score_breakdown": {
-        "impact_scope": 3,
-        "source_authority": 5,
-        "novelty": 3,
-        "multi_source_support": 3,
-        "technical_impact": 4,
-        "business_impact": 2,
         "risk_level": 0.283,
-        "opportunity_level": 2.6,
+        "opportunity_level": 3.4,
         "recency": 5
       },
       "ranking_reason": "该事件来自 arXiv，影响范围评分 3，来源权威性评分 5，技术影响评分 4，商业影响评分 2。",
       "supporting_evidence": [
-        "The paper introduces HNO and compares it to FNO, concluding that the best basis depends on the operator's symmetry."
-      ],
-      "confidence": "high"
-    },
-    {
-      "event_id": "evt_007",
-      "event_name": "IV-CoT: Implicit Visual Chain-of-Thought for Structure-Aware Text-to-Image Generation",
-      "final_importance_score": 3.1,
-      "rank": 15,
-      "score_breakdown": {
-        "impact_scope": 3,
-        "source_authority": 5,
-        "novelty": 3,
-        "multi_source_support": 3,
-        "technical_impact": 4,
-        "business_impact": 2,
-        "risk_level": 0.276,
-        "opportunity_level": 2.58,
-        "recency": 5
-      },
-      "ranking_reason": "该事件来自 arXiv，影响范围评分 3，来源权威性评分 5，技术影响评分 4，商业影响评分 2。",
-      "supporting_evidence": [
-        "The paper claims superior results on GenEval and T2I-CompBench."
-      ],
-      "confidence": "high"
-    },
-    {
-      "event_id": "evt_008",
-      "event_name": "World Models in Pieces: Structural Certification for General Agents",
-      "final_importance_score": 3.1,
-      "rank": 16,
-      "score_breakdown": {
-        "impact_scope": 3,
-        "source_authority": 5,
-        "novelty": 3,
-        "multi_source_support": 3,
-        "technical_impact": 4,
-        "business_impact": 2,
-        "risk_level": 0.345,
-        "opportunity_level": 2.573,
-        "recency": 5
-      },
-      "ranking_reason": "该事件来自 arXiv，影响范围评分 3，来源权威性评分 5，技术影响评分 4，商业影响评分 2。",
-      "supporting_evidence": [
-        "The paper introduces structural certification and provides algorithms with error bounds."
+        "The abstract states: 'FLUX3D... significantly outperforms all state-of-the-art (SOTA) methods in generating high-quality 3DGS assets.'"
       ],
       "confidence": "high"
     },
     {
       "event_id": "evt_010",
-      "event_name": "Grading the Grader: Lessons from Evaluating an Agentic Data Analysis System",
+      "event_name": "随机次梯度方法最后迭代的新界",
       "final_importance_score": 3.1,
-      "rank": 17,
+      "rank": 7,
       "score_breakdown": {
         "impact_scope": 3,
         "source_authority": 5,
@@ -370,37 +150,103 @@
       },
       "ranking_reason": "该事件来自 arXiv，影响范围评分 3，来源权威性评分 5，技术影响评分 4，商业影响评分 2。",
       "supporting_evidence": [
-        "The paper reports 100% precision and 97% recall for automated graders."
+        "The abstract states: 'We prove that... the last iterate features an optimization error of order 1/√n... resolving negatively an open problem posed in Koren and Segal, COLT, 2020.'"
       ],
       "confidence": "high"
     },
     {
-      "event_id": "evt_016",
-      "event_name": "SHERLOC: Structured Diagnostic Localization for Code Repair Agents",
-      "final_importance_score": 3.05,
-      "rank": 18,
+      "event_id": "evt_014",
+      "event_name": "具身智能融资热潮",
+      "final_importance_score": 3.03,
+      "rank": 8,
       "score_breakdown": {
         "impact_scope": 3,
-        "source_authority": 5,
+        "source_authority": 3,
         "novelty": 3,
         "multi_source_support": 3,
-        "technical_impact": 2,
+        "technical_impact": 4,
         "business_impact": 2,
-        "risk_level": 0.278,
-        "opportunity_level": 4.211,
+        "risk_level": 0.201,
+        "opportunity_level": 4.031,
         "recency": 5
       },
-      "ranking_reason": "该事件来自 arXiv，影响范围评分 3，来源权威性评分 5，技术影响评分 2，商业影响评分 2。",
+      "ranking_reason": "该事件来自 量子位，影响范围评分 3，来源权威性评分 3，技术影响评分 4，商业影响评分 2。",
       "supporting_evidence": [
-        "The paper reports state-of-the-art results and significant efficiency improvements."
+        "摘要提及具身智能融资接近去年全年，资金流向机器人“大脑”"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "event_id": "evt_001",
+      "event_name": "阿里QoderWork推出峰谷Token",
+      "final_importance_score": 2.97,
+      "rank": 9,
+      "score_breakdown": {
+        "impact_scope": 3,
+        "source_authority": 3,
+        "novelty": 3,
+        "multi_source_support": 3,
+        "technical_impact": 4,
+        "business_impact": 2,
+        "risk_level": 0.343,
+        "opportunity_level": 3.41,
+        "recency": 5
+      },
+      "ranking_reason": "该事件来自 量子位，影响范围评分 3，来源权威性评分 3，技术影响评分 4，商业影响评分 2。",
+      "supporting_evidence": [
+        "输入摘要：'6月23日晚，阿里QoderWork推出“峰谷Token”，Agent在每晚22:00到次日08:00运行可自动享受优惠，其中Qwen3.7-Max模型低至2折。这是国内首个上线“峰谷Token”的Agent产品，将大幅降低用户的使用成本。'"
       ],
       "confidence": "high"
     },
     {
       "event_id": "evt_011",
-      "event_name": "Accuracy and Satisfaction in Multi-Turn LLM Dialogues for NFR Assessment",
-      "final_importance_score": 2.86,
-      "rank": 19,
+      "event_name": "MoEngage收购AI代理技术",
+      "final_importance_score": 2.94,
+      "rank": 10,
+      "score_breakdown": {
+        "impact_scope": 3,
+        "source_authority": 3,
+        "novelty": 3,
+        "multi_source_support": 3,
+        "technical_impact": 2,
+        "business_impact": 4,
+        "risk_level": 0.196,
+        "opportunity_level": 3.309,
+        "recency": 5
+      },
+      "ranking_reason": "该事件来自 TechCrunch，影响范围评分 3，来源权威性评分 3，技术影响评分 2，商业影响评分 4。",
+      "supporting_evidence": [
+        "The summary states: 'The all-cash deal gives MoEngage access to technology that assigns AI agents to individual customers.'"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "event_id": "evt_016",
+      "event_name": "数学证明自动化进展",
+      "final_importance_score": 2.93,
+      "rank": 11,
+      "score_breakdown": {
+        "impact_scope": 3,
+        "source_authority": 3,
+        "novelty": 3,
+        "multi_source_support": 3,
+        "technical_impact": 4,
+        "business_impact": 2,
+        "risk_level": 0.128,
+        "opportunity_level": 3.261,
+        "recency": 5
+      },
+      "ranking_reason": "该事件来自 量子位，影响范围评分 3，来源权威性评分 3，技术影响评分 4，商业影响评分 2。",
+      "supporting_evidence": [
+        "输入摘要：'从OpenAI解决开放问题，到DeepMind批量攻克数学猜想，越来越多数学证明被写进形式化系统，交给计算机自动验证。'"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "event_id": "evt_008",
+      "event_name": "IV-CoT: 隐式视觉思维链用于结构感知文本到图像生成",
+      "final_importance_score": 2.85,
+      "rank": 12,
       "score_breakdown": {
         "impact_scope": 3,
         "source_authority": 5,
@@ -408,21 +254,65 @@
         "multi_source_support": 3,
         "technical_impact": 4,
         "business_impact": 2,
-        "risk_level": 0.346,
-        "opportunity_level": 0.359,
+        "risk_level": 0.345,
+        "opportunity_level": 0.273,
         "recency": 5
       },
       "ranking_reason": "该事件来自 arXiv，影响范围评分 3，来源权威性评分 5，技术影响评分 4，商业影响评分 2。",
       "supporting_evidence": [
-        "The paper describes an experiment with 49 programmers and 148 HIPAA-derived NFRs, finding low accuracy against expert ground truth and that longer responses negatively affect satisfaction."
+        "The paper reports superior results on GenEval and T2I-CompBench, and demonstrates complementary roles of structural and semantic queries."
+      ],
+      "confidence": "high"
+    },
+    {
+      "event_id": "evt_009",
+      "event_name": "World Models in Pieces: 通用智能体的结构认证",
+      "final_importance_score": 2.85,
+      "rank": 13,
+      "score_breakdown": {
+        "impact_scope": 3,
+        "source_authority": 5,
+        "novelty": 3,
+        "multi_source_support": 3,
+        "technical_impact": 4,
+        "business_impact": 2,
+        "risk_level": 0.356,
+        "opportunity_level": 0.327,
+        "recency": 5
+      },
+      "ranking_reason": "该事件来自 arXiv，影响范围评分 3，来源权威性评分 5，技术影响评分 4，商业影响评分 2。",
+      "supporting_evidence": [
+        "The paper introduces structural certification and provides algorithms with error bounds, enabling certifiable deployment of general agents."
       ],
       "confidence": "high"
     },
     {
       "event_id": "evt_012",
-      "event_name": "Difference-Making without Making a Difference",
+      "event_name": "好莱坞拒绝发行OpenAI传记片",
       "final_importance_score": 2.85,
-      "rank": 20,
+      "rank": 14,
+      "score_breakdown": {
+        "impact_scope": 3,
+        "source_authority": 3,
+        "novelty": 3,
+        "multi_source_support": 3,
+        "technical_impact": 2,
+        "business_impact": 4,
+        "risk_level": 2.461,
+        "opportunity_level": 0.16,
+        "recency": 5
+      },
+      "ranking_reason": "该事件来自 The Verge，影响范围评分 3，来源权威性评分 3，技术影响评分 2，商业影响评分 4。",
+      "supporting_evidence": [
+        "The summary states: 'Netflix, A24, Focus Features, and Warner Bros.' Clockwork have all reportedly decided to pass on picking up Artificial...'"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "event_id": "evt_007",
+      "event_name": "OpenThoughts-Agent: 智能体模型数据配方",
+      "final_importance_score": 2.84,
+      "rank": 15,
       "score_breakdown": {
         "impact_scope": 3,
         "source_authority": 5,
@@ -430,15 +320,125 @@
         "multi_source_support": 3,
         "technical_impact": 4,
         "business_impact": 2,
-        "risk_level": 0.311,
-        "opportunity_level": 0.31,
+        "risk_level": 0.276,
+        "opportunity_level": 0.28,
         "recency": 5
       },
       "ranking_reason": "该事件来自 arXiv，影响范围评分 3，来源权威性评分 5，技术影响评分 4，商业影响评分 2。",
       "supporting_evidence": [
-        "The paper states that the most recent definition instantiates all three types, proving they are distinctions without a difference, and that this undermines all seven accounts."
+        "The paper reports a 3.9 percentage point improvement over the strongest existing open data agentic model and strong scaling properties."
       ],
       "confidence": "high"
+    },
+    {
+      "event_id": "evt_019",
+      "event_name": "Real vs. Complex Spectral Bases for Neural Operators",
+      "final_importance_score": 2.84,
+      "rank": 16,
+      "score_breakdown": {
+        "impact_scope": 3,
+        "source_authority": 5,
+        "novelty": 3,
+        "multi_source_support": 3,
+        "technical_impact": 4,
+        "business_impact": 2,
+        "risk_level": 0.277,
+        "opportunity_level": 0.281,
+        "recency": 5
+      },
+      "ranking_reason": "该事件来自 arXiv，影响范围评分 3，来源权威性评分 5，技术影响评分 4，商业影响评分 2。",
+      "supporting_evidence": [
+        "The paper introduces a new operator (HNO) and provides a predictive rule for choosing spectral basis based on operator symmetry."
+      ],
+      "confidence": "high"
+    },
+    {
+      "event_id": "evt_020",
+      "event_name": "It's Complicated: AI辅助增强与替代沟通界面设计",
+      "final_importance_score": 2.82,
+      "rank": 17,
+      "score_breakdown": {
+        "impact_scope": 3,
+        "source_authority": 5,
+        "novelty": 3,
+        "multi_source_support": 3,
+        "technical_impact": 4,
+        "business_impact": 2,
+        "risk_level": 0.202,
+        "opportunity_level": 0.174,
+        "recency": 5
+      },
+      "ranking_reason": "该事件来自 arXiv，影响范围评分 3，来源权威性评分 5，技术影响评分 4，商业影响评分 2。",
+      "supporting_evidence": [
+        "The paper discusses challenges and proposes evaluation methods for AI-powered AAC interfaces."
+      ],
+      "confidence": "medium"
+    },
+    {
+      "event_id": "evt_002",
+      "event_name": "Claude Code大升级",
+      "final_importance_score": 2.75,
+      "rank": 18,
+      "score_breakdown": {
+        "impact_scope": 3,
+        "source_authority": 3,
+        "novelty": 3,
+        "multi_source_support": 3,
+        "technical_impact": 2,
+        "business_impact": 2,
+        "risk_level": 0.354,
+        "opportunity_level": 3.383,
+        "recency": 5
+      },
+      "ranking_reason": "该事件来自 量子位，影响范围评分 3，来源权威性评分 3，技术影响评分 2，商业影响评分 2。",
+      "supporting_evidence": [
+        "输入摘要：'这是LLM用户界面的第三次重大变革。第一次是网页版聊天，第二次是桌面应用，而这一次，LLM变成了一个独立、持续运行的系统，拥有组织内的工具和上下文，能与人类团队协同工作。'"
+      ],
+      "confidence": "high"
+    },
+    {
+      "event_id": "evt_017",
+      "event_name": "2026世界人工智能大会SAIL奖TOP30发布",
+      "final_importance_score": 2.71,
+      "rank": 19,
+      "score_breakdown": {
+        "impact_scope": 3,
+        "source_authority": 3,
+        "novelty": 3,
+        "multi_source_support": 3,
+        "technical_impact": 2,
+        "business_impact": 2,
+        "risk_level": 0.136,
+        "opportunity_level": 3.26,
+        "recency": 5
+      },
+      "ranking_reason": "该事件来自 量子位，影响范围评分 3，来源权威性评分 3，技术影响评分 2，商业影响评分 2。",
+      "supporting_evidence": [
+        "输入摘要：'卓越人工智能引领者奖（SAIL），是世界人工智能大会最高荣誉奖项，也是全球人工智能领域极具影响力的高规格国际化奖项。'"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "event_id": "evt_018",
+      "event_name": "高通转向物理AI",
+      "final_importance_score": 2.01,
+      "rank": 20,
+      "score_breakdown": {
+        "impact_scope": 2,
+        "source_authority": 2,
+        "novelty": 2,
+        "multi_source_support": 2,
+        "technical_impact": 1,
+        "business_impact": 1,
+        "risk_level": 0.002,
+        "opportunity_level": 3.121,
+        "recency": 5
+      },
+      "ranking_reason": "该事件来自 量子位，影响范围评分 2，来源权威性评分 2，技术影响评分 1，商业影响评分 1。",
+      "supporting_evidence": [
+        "标题提及高通转向物理AI，摘要提及英伟达开源Cosmos3和小鹏公布世界模型"
+      ],
+      "confidence": "low"
     }
   ]
 }

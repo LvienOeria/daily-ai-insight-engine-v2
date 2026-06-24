@@ -28,3 +28,4 @@ frontend/tsconfig.tsbuildinfo
 tmp/
 .cache/
 frontend/.vite
+data/cache/

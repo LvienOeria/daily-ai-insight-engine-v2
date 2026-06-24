@@ -2,29 +2,183 @@
   "events": [
     {
       "event_id": "evt_001",
-      "event_name": "InSight: Self-Guided Skill Acquisition via Steerable VLAs",
+      "event_name": "阿里QoderWork推出峰谷Token",
+      "related_news_ids": [
+        "news_3feb9c6d1d8b"
+      ],
+      "main_entities": [
+        "阿里",
+        "QoderWork",
+        "Qwen3.7"
+      ],
+      "core_topic": "阿里QoderWork推出峰谷Token，夜间使用Qwen3.7低至2折",
+      "event_type": "product_release",
+      "industry_area": "ai_agent",
+      "technologies": [
+        "Agent",
+        "峰谷Token"
+      ],
+      "key_facts": [
+        "6月23日晚，阿里QoderWork推出“峰谷Token”",
+        "Agent在每晚22:00到次日08:00运行可自动享受优惠",
+        "Qwen3.7-Max模型低至2折",
+        "国内首个上线“峰谷Token”的Agent产品"
+      ],
+      "evidence": [
+        "输入摘要：'6月23日晚，阿里QoderWork推出“峰谷Token”，Agent在每晚22:00到次日08:00运行可自动享受优惠，其中Qwen3.7-Max模型低至2折。这是国内首个上线“峰谷Token”的Agent产品，将大幅降低用户的使用成本。'"
+      ],
+      "why_it_matters": "峰谷Token模式降低了Agent使用成本，可能推动Agent产品普及",
+      "impact_scope": [
+        "industry"
+      ],
+      "risk_tags": [
+        "none"
+      ],
+      "opportunity_tags": [
+        "成本降低",
+        "Agent产品创新"
+      ],
+      "confidence": "high",
+      "published_at": "2026-06-24T12:49:31+08:00"
+    },
+    {
+      "event_id": "evt_002",
+      "event_name": "Claude Code大升级",
+      "related_news_ids": [
+        "news_097071fb4cc9"
+      ],
+      "main_entities": [
+        "Claude",
+        "卡帕西"
+      ],
+      "core_topic": "Claude Code大升级，LLM用户界面第三次变革",
+      "event_type": "product_release",
+      "industry_area": "developer_tools",
+      "technologies": [
+        "LLM",
+        "Claude Code"
+      ],
+      "key_facts": [
+        "这是LLM用户界面的第三次重大变革",
+        "第一次是网页版聊天，第二次是桌面应用",
+        "这一次，LLM变成了一个独立、持续运行的系统，拥有组织内的工具和上下文，能与人类团队协同工作"
+      ],
+      "evidence": [
+        "输入摘要：'这是LLM用户界面的第三次重大变革。第一次是网页版聊天，第二次是桌面应用，而这一次，LLM变成了一个独立、持续运行的系统，拥有组织内的工具和上下文，能与人类团队协同工作。'"
+      ],
+      "why_it_matters": "LLM从对话工具演变为协同系统，可能改变软件开发模式",
+      "impact_scope": [
+        "industry"
+      ],
+      "risk_tags": [
+        "none"
+      ],
+      "opportunity_tags": [
+        "LLM应用变革",
+        "协同工作"
+      ],
+      "confidence": "high",
+      "published_at": "2026-06-24T12:49:31+08:00"
+    },
+    {
+      "event_id": "evt_003",
+      "event_name": "正行创新完成近亿美元天使轮融资",
+      "related_news_ids": [
+        "news_84f90d3ab2a5"
+      ],
+      "main_entities": [
+        "正行创新",
+        "正大集团",
+        "华勤技术",
+        "九安医疗"
+      ],
+      "core_topic": "正行创新完成近亿美元天使轮融资，多家上市企业联合加持",
+      "event_type": "funding",
+      "industry_area": "ai_agent",
+      "technologies": [],
+      "key_facts": [
+        "正行创新完成近亿美元天使轮融资",
+        "投资方包括正大集团、华勤技术、九安医疗等"
+      ],
+      "evidence": [
+        "标题和摘要明确提到融资额近亿美元，投资方包括多家上市企业"
+      ],
+      "why_it_matters": "大额天使轮融资显示市场对具身智能领域的信心",
+      "impact_scope": [
+        "company"
+      ],
+      "risk_tags": [
+        "none"
+      ],
+      "opportunity_tags": [
+        "具身智能",
+        "天使轮融资"
+      ],
+      "confidence": "high",
+      "published_at": "2026-06-24T12:49:31+08:00"
+    },
+    {
+      "event_id": "evt_004",
+      "event_name": "豆包2.1发布",
+      "related_news_ids": [
+        "news_5817dfb9ceba"
+      ],
+      "main_entities": [
+        "豆包"
+      ],
+      "core_topic": "豆包2.1发布，Agent完成芯片设计代码",
+      "event_type": "model_release",
+      "industry_area": "foundation_model",
+      "technologies": [
+        "Doubao-Seed-2.1-Pro",
+        "Doubao-Seed-2.1-Turbo",
+        "火山方舟"
+      ],
+      "key_facts": [
+        "豆包2.1发布，包含两个模型：Doubao-Seed-2.1-Pro和Doubao-Seed-2.1-Turbo",
+        "API服务已全量上线火山方舟"
+      ],
+      "evidence": [
+        "标题和摘要明确提到豆包2.1发布，Agent完成芯片设计代码，模型名称和API上线信息"
+      ],
+      "why_it_matters": "豆包2.1展示了AI Agent在复杂工程任务中的能力",
+      "impact_scope": [
+        "industry"
+      ],
+      "risk_tags": [
+        "none"
+      ],
+      "opportunity_tags": [
+        "AI Agent",
+        "芯片设计",
+        "豆包2.1"
+      ],
+      "confidence": "high",
+      "published_at": "2026-06-24T12:49:30+08:00"
+    },
+    {
+      "event_id": "evt_005",
+      "event_name": "InSight: 自主技能获取框架",
       "related_news_ids": [
         "news_de8af1478e75"
       ],
       "main_entities": [],
-      "core_topic": "Autonomous skill acquisition for vision-language-action models using steerable primitives and VLM-guided data flywheel.",
+      "core_topic": "InSight框架实现自主技能获取，无需人类演示",
       "event_type": "research",
-      "industry_area": "ai_agent",
+      "industry_area": "research",
       "technologies": [
-        "Vision-Language-Action (VLA) models",
+        "Vision-language-action (VLA) models",
         "VLM",
         "InSight"
       ],
       "key_facts": [
-        "InSight framework unlocks autonomous skill acquisition by rendering VLAs steerable at primitive-action level.",
-        "Automated segmentation pipeline partitions demonstrations into labeled primitives.",
-        "VLM-guided data flywheel identifies missing primitives and autonomously attempts demonstrations.",
-        "Evaluated on block flipping, drawer closing, sweeping, twisting, pouring without human demonstrations of target skills."
+        "InSight framework unlocks autonomous skill acquisition by rendering VLAs steerable at the primitive-action level.",
+        "Evaluated across simulation and real-world manipulation tasks without any human demonstrations of target skills."
       ],
       "evidence": [
-        "The paper states: 'InSight, a framework that unlocks autonomous skill acquisition by rendering VLAs steerable at the primitive-action level' and 'evaluate InSight across simulation and real-world manipulation tasks... without any human demonstrations of these target skills.'"
+        "The abstract states: 'We present InSight, a framework that unlocks autonomous skill acquisition by rendering VLAs steerable at the primitive-action level...' and 'without any human demonstrations of these target skills.'"
       ],
-      "why_it_matters": "Enables robots to learn new skills autonomously without human demonstrations, advancing continual learning in robotics.",
+      "why_it_matters": "该框架可能推动机器人自主学习和技能获取的进展",
       "impact_scope": [
         "research"
       ],
@@ -32,34 +186,166 @@
         "none"
       ],
       "opportunity_tags": [
-        "skill acquisition",
         "robotics",
-        "continual learning"
+        "skill acquisition",
+        "VLA"
       ],
       "confidence": "high",
       "published_at": "2026-06-24T01:59:01+08:00"
     },
     {
-      "event_id": "evt_002",
-      "event_name": "New Bounds for the Last Iterate of the Stochastic subGradient Method",
+      "event_id": "evt_006",
+      "event_name": "FLUX3D: 高保真3D高斯生成",
+      "related_news_ids": [
+        "news_42adf9bfa22c"
+      ],
+      "main_entities": [],
+      "core_topic": "FLUX3D框架实现高保真3D高斯生成，超越现有方法",
+      "event_type": "research",
+      "industry_area": "research",
+      "technologies": [
+        "3D Gaussian Splatting",
+        "diffusion transformers",
+        "FLUX3D"
+      ],
+      "key_facts": [
+        "FLUX3D proposes Diffusion-Aligned Structured Latents (DA-SLAT) and Sparse-structure Multimodal Diffusion Transformer (SMDiT).",
+        "Outperforms all state-of-the-art methods in generating high-quality 3DGS assets."
+      ],
+      "evidence": [
+        "The abstract states: 'FLUX3D... significantly outperforms all state-of-the-art (SOTA) methods in generating high-quality 3DGS assets.'"
+      ],
+      "why_it_matters": "3D生成技术的进步对计算机视觉和图形学有重要影响",
+      "impact_scope": [
+        "research"
+      ],
+      "risk_tags": [
+        "none"
+      ],
+      "opportunity_tags": [
+        "3D generation",
+        "computer vision"
+      ],
+      "confidence": "high",
+      "published_at": "2026-06-24T01:52:21+08:00"
+    },
+    {
+      "event_id": "evt_007",
+      "event_name": "OpenThoughts-Agent: 智能体模型数据配方",
+      "related_news_ids": [
+        "news_96d08d992c0a"
+      ],
+      "main_entities": [],
+      "core_topic": "OpenThoughts-Agent项目发布开源数据流水线，提升智能体模型性能",
+      "event_type": "research",
+      "industry_area": "research",
+      "technologies": [],
+      "key_facts": [
+        "Agentic language models dramatically expand the applications of AI yet little is publicly known about how to curate training data for broadly capable agents.",
+        "The OpenThoughts-Agent (OT-Agent) project addresses this gap with a fully open data curation pipeline for training agentic models.",
+        "Fine-tune Qwen3-32B on this dataset yields an average accuracy of 44.8% across seven agentic benchmarks and a 3.9 percentage point improvement over the strongest existing open data agentic model."
+      ],
+      "evidence": [
+        "The paper reports a 3.9 percentage point improvement over the strongest existing open data agentic model and strong scaling properties."
+      ],
+      "why_it_matters": "开源数据流水线有助于推动智能体模型研究的开放性和可复现性",
+      "impact_scope": [
+        "research"
+      ],
+      "risk_tags": [
+        "none"
+      ],
+      "opportunity_tags": [
+        "none"
+      ],
+      "confidence": "high",
+      "published_at": "2026-06-24T01:34:29+08:00"
+    },
+    {
+      "event_id": "evt_008",
+      "event_name": "IV-CoT: 隐式视觉思维链用于结构感知文本到图像生成",
+      "related_news_ids": [
+        "news_079c12d32bb2"
+      ],
+      "main_entities": [],
+      "core_topic": "IV-CoT框架通过隐式视觉思维链提升文本到图像生成的结构感知能力",
+      "event_type": "research",
+      "industry_area": "research",
+      "technologies": [],
+      "key_facts": [
+        "Unified multi-modal large language models (MLLMs) have achieved strong text-to-image generation quality, but still struggle with structure-aware prompt following.",
+        "IV-CoT decomposes the visual conditioning queries into a structural-to-semantic cascade.",
+        "IV-CoT performs implicit CoT reasoning in a single forward pass and achieves superior results on GenEval and T2I-CompBench."
+      ],
+      "evidence": [
+        "The paper reports superior results on GenEval and T2I-CompBench, and demonstrates complementary roles of structural and semantic queries."
+      ],
+      "why_it_matters": "改进文本到图像生成的结构遵循能力，对创意应用和内容生成有重要意义",
+      "impact_scope": [
+        "research"
+      ],
+      "risk_tags": [
+        "none"
+      ],
+      "opportunity_tags": [
+        "none"
+      ],
+      "confidence": "high",
+      "published_at": "2026-06-24T01:28:00+08:00"
+    },
+    {
+      "event_id": "evt_009",
+      "event_name": "World Models in Pieces: 通用智能体的结构认证",
+      "related_news_ids": [
+        "news_968ddca63a3a"
+      ],
+      "main_entities": [],
+      "core_topic": "提出结构认证框架，实现通用智能体的可认证部署",
+      "event_type": "research",
+      "industry_area": "research",
+      "technologies": [],
+      "key_facts": [
+        "In the big-world regime, agents cannot be universally capable and their ability is inevitably specialized across a world model in pieces.",
+        "We introduce structural certification, a transition-local framework that maps bounded goal-conditioned performance to entry-wise guarantees on the agent's internal world model.",
+        "We provide algorithms that filter specific transitions using deep compositional goals and prove that a general agent on these goals has a structural world model with a O(1/n) + O(δ) error bound."
+      ],
+      "evidence": [
+        "The paper introduces structural certification and provides algorithms with error bounds, enabling certifiable deployment of general agents."
+      ],
+      "why_it_matters": "为通用智能体的安全部署提供了理论保证",
+      "impact_scope": [
+        "research"
+      ],
+      "risk_tags": [
+        "none"
+      ],
+      "opportunity_tags": [
+        "none"
+      ],
+      "confidence": "high",
+      "published_at": "2026-06-24T01:21:09+08:00"
+    },
+    {
+      "event_id": "evt_010",
+      "event_name": "随机次梯度方法最后迭代的新界",
       "related_news_ids": [
         "news_4a4008ebbd38"
       ],
       "main_entities": [],
-      "core_topic": "Theoretical bounds for last iterate of stochastic subgradient method for one-dimensional convex Lipschitz objectives.",
+      "core_topic": "随机次梯度方法最后迭代的优化误差界",
       "event_type": "research",
       "industry_area": "research",
       "technologies": [
         "stochastic subgradient method"
       ],
       "key_facts": [
-        "Proves that for fixed stepsizes η=Θ(1/√n) under i.i.d. noise, last iterate optimization error is O(1/√n), removing log factor.",
-        "Without i.i.d. assumption, error can be O(log n/√n), showing suboptimality even in dimension one."
+        "Proves that for fixed stepsizes η=Θ(1/√n) under i.i.d. noise, last iterate optimization error is order 1/√n.",
+        "Without i.i.d. assumption, error can be order (log n)/√n, resolving an open problem."
       ],
       "evidence": [
-        "The abstract states: 'We prove that... the last iterate features an optimization error of order 1/√n' and 'without the i.i.d. assumption, the optimization error can be of order (log n)/√n'."
+        "The abstract states: 'We prove that... the last iterate features an optimization error of order 1/√n... resolving negatively an open problem posed in Koren and Segal, COLT, 2020.'"
       ],
-      "why_it_matters": "Resolves an open problem in optimization theory, providing tight bounds for last-iterate convergence.",
+      "why_it_matters": "解决了优化理论中的一个开放问题，对理解随机优化算法有重要意义",
       "impact_scope": [
         "research"
       ],
@@ -67,116 +353,220 @@
         "none"
       ],
       "opportunity_tags": [
-        "optimization theory",
-        "convex optimization"
+        "optimization theory"
       ],
       "confidence": "high",
       "published_at": "2026-06-24T01:55:18+08:00"
     },
     {
-      "event_id": "evt_003",
-      "event_name": "FLUX3D: High-Fidelity 3D Gaussian Generation with Diffusion-Aligned Sparse Representation",
+      "event_id": "evt_011",
+      "event_name": "MoEngage收购AI代理技术",
       "related_news_ids": [
-        "news_42adf9bfa22c"
-      ],
-      "main_entities": [],
-      "core_topic": "Image-to-3D Gaussian Splatting generation framework achieving state-of-the-art appearance fidelity.",
-      "event_type": "research",
-      "industry_area": "multimodal_ai",
-      "technologies": [
-        "3D Gaussian Splatting",
-        "diffusion transformers",
-        "FLUX3D",
-        "DA-SLAT",
-        "SMDiT",
-        "MARoPE"
-      ],
-      "key_facts": [
-        "FLUX3D is a scalable image-to-3DGS framework that improves representation learning and cross-modal alignment.",
-        "Introduces Diffusion-Aligned Structured Latents (DA-SLAT) and a decoder-only architecture.",
-        "Designs Sparse-structure Multimodal Diffusion Transformer (SMDiT) and Modal-Aware Rotary Positional Embedding (MARoPE).",
-        "Outperforms all state-of-the-art methods in generating high-quality 3DGS assets."
-      ],
-      "evidence": [
-        "The paper claims: 'FLUX3D yields substantial improvements in appearance fidelity and significantly outperforms all state-of-the-art (SOTA) methods in generating high-quality 3DGS assets.'"
-      ],
-      "why_it_matters": "Advances 3D content generation with high fidelity, benefiting computer vision and graphics applications.",
-      "impact_scope": [
-        "research"
-      ],
-      "risk_tags": [
-        "none"
-      ],
-      "opportunity_tags": [
-        "3D generation",
-        "computer vision",
-        "diffusion models"
-      ],
-      "confidence": "high",
-      "published_at": "2026-06-24T01:52:21+08:00"
-    },
-    {
-      "event_id": "evt_004",
-      "event_name": "OpenThoughts-Agent: Data Recipes for Agentic Models",
-      "related_news_ids": [
-        "news_96d08d992c0a"
+        "news_1cd2a916ddf0"
       ],
       "main_entities": [
-        "Qwen3-32B"
+        "MoEngage"
       ],
-      "core_topic": "Open data curation pipeline for training agentic language models, demonstrating strong performance with 100K examples.",
-      "event_type": "research",
-      "industry_area": "ai_agent",
+      "core_topic": "MoEngage收购技术，为每个客户分配AI代理",
+      "event_type": "business_update",
+      "industry_area": "enterprise_ai",
       "technologies": [
-        "OpenThoughts-Agent",
-        "agentic language models"
+        "AI agents"
       ],
       "key_facts": [
-        "OpenThoughts-Agent project provides a fully open data curation pipeline for training agentic models.",
-        "Conducted over 100 controlled ablation experiments.",
-        "Fine-tuned Qwen3-32B on 100K examples, achieving 44.8% average accuracy across seven benchmarks, 3.9% improvement over Nemotron-Terminal-32B.",
-        "Training data exhibits strong scaling properties."
+        "The all-cash deal gives MoEngage access to technology that assigns AI agents to individual customers."
       ],
       "evidence": [
-        "The abstract states: 'fine-tune Qwen3-32B on this dataset, which yields an average accuracy of 44.8% across seven agentic benchmarks and a 3.9 percentage point improvement over the strongest existing open data agentic model.'"
+        "The summary states: 'The all-cash deal gives MoEngage access to technology that assigns AI agents to individual customers.'"
       ],
-      "why_it_matters": "Provides an open-source recipe for training competitive agentic models, promoting transparency and reproducibility.",
+      "why_it_matters": "AI代理在营销自动化中的应用可能改变客户互动方式",
       "impact_scope": [
-        "research"
+        "industry"
       ],
       "risk_tags": [
         "none"
       ],
       "opportunity_tags": [
-        "agentic AI",
-        "open source",
-        "training data"
+        "AI agents",
+        "marketing automation"
       ],
-      "confidence": "high",
-      "published_at": "2026-06-24T01:34:29+08:00"
+      "confidence": "medium",
+      "published_at": "2026-06-24T07:30:00+08:00"
     },
     {
-      "event_id": "evt_005",
-      "event_name": "It's Complicated: On the Design and Evaluation of AI-Powered AAC Interfaces",
+      "event_id": "evt_012",
+      "event_name": "好莱坞拒绝发行OpenAI传记片",
       "related_news_ids": [
-        "news_0a0005a57333"
+        "news_2224e8f2e900"
+      ],
+      "main_entities": [
+        "OpenAI",
+        "Netflix",
+        "A24",
+        "Focus Features",
+        "Warner Bros.' Clockwork",
+        "Luca Guadagnino",
+        "Sam Altman"
+      ],
+      "core_topic": "多家好莱坞制片厂拒绝发行关于OpenAI CEO Sam Altman的传记片",
+      "event_type": "market_commentary",
+      "industry_area": "consumer_ai",
+      "technologies": [],
+      "key_facts": [
+        "Netflix, A24, Focus Features, and Warner Bros.' Clockwork have all reportedly decided to pass on picking up Artificial - director Luca Guadagnino's new biographical drama about OpenAI cofounder / CEO Sam Altman - for distribution deals."
+      ],
+      "evidence": [
+        "The summary states: 'Netflix, A24, Focus Features, and Warner Bros.' Clockwork have all reportedly decided to pass on picking up Artificial...'"
+      ],
+      "why_it_matters": "反映好莱坞对AI行业领袖的复杂态度",
+      "impact_scope": [
+        "industry"
+      ],
+      "risk_tags": [
+        "industry resistance"
+      ],
+      "opportunity_tags": [
+        "none"
+      ],
+      "confidence": "medium",
+      "published_at": "2026-06-24T06:03:18+08:00"
+    },
+    {
+      "event_id": "evt_013",
+      "event_name": "小鹏基于亚马逊云科技搭建AI平台",
+      "related_news_ids": [
+        "news_756da7f48776"
+      ],
+      "main_entities": [
+        "小鹏",
+        "Kimi",
+        "猎豹",
+        "亚马逊云科技"
+      ],
+      "core_topic": "小鹏基于亚马逊云科技服务搭建企业内部AI编程与Agentic工作平台灵犀",
+      "event_type": "partnership",
+      "industry_area": "ai_infrastructure",
+      "technologies": [
+        "Kiro",
+        "Amazon Bedrock",
+        "Amazon EKS",
+        "灵犀"
+      ],
+      "key_facts": [
+        "小鹏基于亚马逊云科技的Kiro、Amazon Bedrock、Amazon EKS等服务搭建了企业内部AI编程与Agentic工作平台灵犀"
+      ],
+      "evidence": [
+        "摘要明确提及小鹏使用亚马逊云科技服务搭建灵犀平台"
+      ],
+      "why_it_matters": "展示云计算在AI企业应用中的关键作用",
+      "impact_scope": [
+        "industry"
+      ],
+      "risk_tags": [
+        "none"
+      ],
+      "opportunity_tags": [
+        "云计算",
+        "AI编程",
+        "Agentic工作平台"
+      ],
+      "confidence": "medium",
+      "published_at": "2026-06-24T12:49:30+08:00"
+    },
+    {
+      "event_id": "evt_014",
+      "event_name": "具身智能融资热潮",
+      "related_news_ids": [
+        "news_a709447ce138"
       ],
       "main_entities": [],
-      "core_topic": "Challenges and evaluation methods for AI-powered augmentative and alternative communication (AAC) interfaces.",
-      "event_type": "research",
-      "industry_area": "consumer_ai",
-      "technologies": [
-        "AI",
-        "AAC"
-      ],
+      "core_topic": "2026年具身智能融资接近去年全年，资金流向机器人大脑",
+      "event_type": "market_commentary",
+      "industry_area": "ai_agent",
+      "technologies": [],
       "key_facts": [
-        "Explores six AAC problem spaces and how AI might be used.",
-        "Suggests more robust evaluation methods that consider intersectional nuances."
+        "2026年还没过半，具身智能的融资就快要超过去年全年了",
+        "超过一半的钱都流入了机器人的“大脑”"
       ],
       "evidence": [
-        "The abstract says: 'We explore the complicated nature of six AAC problem spaces, explore how AI might be used in these spaces, and suggest more robust methods of evaluation that take the intersectional nuances of people into account.'"
+        "摘要提及具身智能融资接近去年全年，资金流向机器人“大脑”"
       ],
-      "why_it_matters": "Highlights the need for nuanced evaluation in assistive technology, improving AI design for diverse users.",
+      "why_it_matters": "反映资本市场对具身智能领域的高度关注",
+      "impact_scope": [
+        "industry"
+      ],
+      "risk_tags": [
+        "none"
+      ],
+      "opportunity_tags": [
+        "具身智能",
+        "融资",
+        "机器人"
+      ],
+      "confidence": "medium",
+      "published_at": "2026-06-24T12:49:30+08:00"
+    },
+    {
+      "event_id": "evt_015",
+      "event_name": "AI转型门槛在于人而非技术",
+      "related_news_ids": [
+        "news_e0445fbfbc46"
+      ],
+      "main_entities": [
+        "彭震",
+        "浪潮信息"
+      ],
+      "core_topic": "浪潮信息彭震强调AI转型最大门槛是文化、组织和流程",
+      "event_type": "market_commentary",
+      "industry_area": "enterprise_ai",
+      "technologies": [],
+      "key_facts": [
+        "彭震没把基础设施、算力、芯片当成重点，却用三分之二的时间在讲文化、组织和流程"
+      ],
+      "evidence": [
+        "输入摘要：'值得注意的是，基础设施、算力、芯片，这些浪潮信息最擅长的领域，彭震没把它们当成重点，却用三分之二的时间在讲文化、组织和流程。'"
+      ],
+      "why_it_matters": "指出企业AI转型中人的因素比技术更重要",
+      "impact_scope": [
+        "industry"
+      ],
+      "risk_tags": [
+        "转型阻力"
+      ],
+      "opportunity_tags": [
+        "组织变革",
+        "文化转型"
+      ],
+      "confidence": "medium",
+      "published_at": "2026-06-24T12:49:31+08:00"
+    },
+    {
+      "event_id": "evt_016",
+      "event_name": "数学证明自动化进展",
+      "related_news_ids": [
+        "news_b176f0b31e46"
+      ],
+      "main_entities": [
+        "陶哲轩",
+        "OpenAI",
+        "DeepMind"
+      ],
+      "core_topic": "AI在数学证明自动化方面取得进展，从OpenAI到DeepMind",
+      "event_type": "research",
+      "industry_area": "research",
+      "technologies": [
+        "AI",
+        "形式化系统",
+        "自动验证"
+      ],
+      "key_facts": [
+        "从OpenAI解决开放问题，到DeepMind批量攻克数学猜想",
+        "越来越多数学证明被写进形式化系统，交给计算机自动验证"
+      ],
+      "evidence": [
+        "输入摘要：'从OpenAI解决开放问题，到DeepMind批量攻克数学猜想，越来越多数学证明被写进形式化系统，交给计算机自动验证。'"
+      ],
+      "why_it_matters": "AI在数学领域的应用可能改变数学研究方式",
       "impact_scope": [
         "research"
       ],
@@ -184,37 +574,106 @@
         "none"
       ],
       "opportunity_tags": [
-        "assistive technology",
-        "human-AI interaction"
+        "数学证明自动化",
+        "形式化验证"
       ],
-      "confidence": "high",
-      "published_at": "2026-06-24T01:34:18+08:00"
+      "confidence": "medium",
+      "published_at": "2026-06-24T12:49:31+08:00"
     },
     {
-      "event_id": "evt_006",
-      "event_name": "Real vs. Complex Spectral Bases for Neural Operators: The Role of Green's Function Alignment",
+      "event_id": "evt_017",
+      "event_name": "2026世界人工智能大会SAIL奖TOP30发布",
+      "related_news_ids": [
+        "news_096f302e4a81"
+      ],
+      "main_entities": [
+        "世界人工智能大会",
+        "SAIL奖"
+      ],
+      "core_topic": "2026世界人工智能大会SAIL奖TOP30及青年优秀论文奖TOP20发布",
+      "event_type": "other",
+      "industry_area": "other",
+      "technologies": [],
+      "key_facts": [
+        "卓越人工智能引领者奖（SAIL），是世界人工智能大会最高荣誉奖项",
+        "全球人工智能领域极具影响力的高规格国际化奖项"
+      ],
+      "evidence": [
+        "输入摘要：'卓越人工智能引领者奖（SAIL），是世界人工智能大会最高荣誉奖项，也是全球人工智能领域极具影响力的高规格国际化奖项。'"
+      ],
+      "why_it_matters": "行业奖项发布有助于识别和表彰AI领域的杰出贡献",
+      "impact_scope": [
+        "industry"
+      ],
+      "risk_tags": [
+        "none"
+      ],
+      "opportunity_tags": [
+        "行业认可",
+        "学术荣誉"
+      ],
+      "confidence": "medium",
+      "published_at": "2026-06-24T12:49:31+08:00"
+    },
+    {
+      "event_id": "evt_018",
+      "event_name": "高通转向物理AI",
+      "related_news_ids": [
+        "news_3cd29aa18fbc"
+      ],
+      "main_entities": [
+        "高通",
+        "英伟达",
+        "小鹏"
+      ],
+      "core_topic": "高通从智能座舱转向物理AI，英伟达开源Cosmos3，小鹏公布世界模型",
+      "event_type": "other",
+      "industry_area": "other",
+      "technologies": [
+        "Cosmos3",
+        "世界模型"
+      ],
+      "key_facts": [
+        "英伟达开源了Cosmos3最新推理模型",
+        "小鹏公布了世界模型全栈技术"
+      ],
+      "evidence": [
+        "标题提及高通转向物理AI，摘要提及英伟达开源Cosmos3和小鹏公布世界模型"
+      ],
+      "why_it_matters": "物理AI和世界模型成为行业新趋势",
+      "impact_scope": [
+        "industry"
+      ],
+      "risk_tags": [
+        "none"
+      ],
+      "opportunity_tags": [
+        "物理AI",
+        "智能座舱"
+      ],
+      "confidence": "low",
+      "published_at": "2026-06-24T12:49:31+08:00"
+    },
+    {
+      "event_id": "evt_019",
+      "event_name": "Real vs. Complex Spectral Bases for Neural Operators",
       "related_news_ids": [
         "news_c452fb5440cb"
       ],
       "main_entities": [],
-      "core_topic": "Comparison of real (Hartley) and complex (Fourier) spectral bases for neural operators, with predictive rule for operator type.",
+      "core_topic": "比较实数和复数谱基在神经算子中的表现，提出Hartley神经算子",
       "event_type": "research",
       "industry_area": "research",
-      "technologies": [
-        "Fourier Neural Operators",
-        "Hartley Neural Operator",
-        "FFT",
-        "Discrete Hartley Transform"
-      ],
+      "technologies": [],
       "key_facts": [
-        "Introduces Hartley Neural Operator (HNO), a real-valued mirror of FNO.",
-        "HNO uses Discrete Hartley Transform instead of FFT.",
-        "Finds elliptic operators favor HNO, time-dependent operators favor FNO."
+        "Fourier Neural Operators (FNO) learn solution operators of partial differential equations by parameterizing global convolutions in the complex Fourier domain.",
+        "We introduce the Hartley Neural Operator (HNO), the exact real-valued mirror of FNO.",
+        "Our central thesis is that the best basis is a property of the operator."
       ],
       "evidence": [
-        "The paper introduces HNO and compares it to FNO, concluding that the best basis depends on the operator's symmetry."
+        "The paper introduces a new operator (HNO) and provides a predictive rule for choosing spectral basis based on operator symmetry."
       ],
-      "why_it_matters": "Provides a principled rule for choosing spectral bases in neural operators, improving PDE solving efficiency.",
+      "why_it_matters": "为神经算子选择谱基提供理论指导",
       "impact_scope": [
         "research"
       ],
@@ -222,520 +681,41 @@
         "none"
       ],
       "opportunity_tags": [
-        "improved neural operators for PDEs"
+        "none"
       ],
       "confidence": "high",
       "published_at": "2026-06-24T01:29:15+08:00"
     },
     {
-      "event_id": "evt_007",
-      "event_name": "IV-CoT: Implicit Visual Chain-of-Thought for Structure-Aware Text-to-Image Generation",
+      "event_id": "evt_020",
+      "event_name": "It's Complicated: AI辅助增强与替代沟通界面设计",
       "related_news_ids": [
-        "news_079c12d32bb2"
+        "news_0a0005a57333"
       ],
       "main_entities": [],
-      "core_topic": "Latent visual reasoning framework for structure-aware text-to-image generation using implicit chain-of-thought.",
-      "event_type": "research",
-      "industry_area": "research",
-      "technologies": [
-        "Implicit Visual Chain-of-Thought",
-        "multi-modal large language models",
-        "text-to-image generation"
-      ],
-      "key_facts": [
-        "Proposes IV-CoT, a latent visual reasoning framework.",
-        "Decomposes visual conditioning into structural-to-semantic cascade.",
-        "Achieves superior results on GenEval and T2I-CompBench."
-      ],
-      "evidence": [
-        "The paper claims superior results on GenEval and T2I-CompBench."
-      ],
-      "why_it_matters": "Improves structure-aware generation in text-to-image models, addressing object counts, spatial relations, and attribute bindings.",
-      "impact_scope": [
-        "research"
-      ],
-      "risk_tags": [
-        "none"
-      ],
-      "opportunity_tags": [
-        "improved text-to-image generation"
-      ],
-      "confidence": "high",
-      "published_at": "2026-06-24T01:28:00+08:00"
-    },
-    {
-      "event_id": "evt_008",
-      "event_name": "World Models in Pieces: Structural Certification for General Agents",
-      "related_news_ids": [
-        "news_968ddca63a3a"
-      ],
-      "main_entities": [],
-      "core_topic": "Structural certification framework for general agents, proving non-universality and providing error bounds.",
-      "event_type": "research",
-      "industry_area": "research",
-      "technologies": [
-        "structural certification",
-        "world models",
-        "general agents"
-      ],
-      "key_facts": [
-        "Proves that general agents are not universal.",
-        "Introduces structural certification framework.",
-        "Provides algorithms with error bounds."
-      ],
-      "evidence": [
-        "The paper introduces structural certification and provides algorithms with error bounds."
-      ],
-      "why_it_matters": "Enables certifiable deployment of agents by localizing reliable transitions for long-horizon planning.",
-      "impact_scope": [
-        "research"
-      ],
-      "risk_tags": [
-        "none"
-      ],
-      "opportunity_tags": [
-        "certifiable deployment of agents"
-      ],
-      "confidence": "high",
-      "published_at": "2026-06-24T01:21:09+08:00"
-    },
-    {
-      "event_id": "evt_009",
-      "event_name": "Matching Tasks to Objectives: Fine-Tuning and Prompt-Tuning Strategies for Encoder-Decoder Pre-trained Language Models",
-      "related_news_ids": [
-        "news_d70ee6d6bd33"
-      ],
-      "main_entities": [],
-      "core_topic": "Framework for selecting pre-training objectives to improve fine-tuning and prompt-tuning performance.",
-      "event_type": "research",
-      "industry_area": "research",
-      "technologies": [
-        "Match Task to Objective (MTO) framework",
-        "prompt-based learning",
-        "encoder-decoder pre-trained language models"
-      ],
-      "key_facts": [
-        "Introduces MTO framework for selecting objectives.",
-        "Achieves over 120% performance gain in few-shot settings.",
-        "Code available at https://github.com/puraminy/MTO/"
-      ],
-      "evidence": [
-        "The paper claims over 120% performance gain in few-shot settings."
-      ],
-      "why_it_matters": "Provides practical guidance for model selection and optimization in NLP tasks.",
-      "impact_scope": [
-        "research"
-      ],
-      "risk_tags": [
-        "none"
-      ],
-      "opportunity_tags": [
-        "improved fine-tuning and prompt-tuning strategies"
-      ],
-      "confidence": "high",
-      "published_at": "2026-06-24T01:21:03+08:00"
-    },
-    {
-      "event_id": "evt_010",
-      "event_name": "Grading the Grader: Lessons from Evaluating an Agentic Data Analysis System",
-      "related_news_ids": [
-        "news_efc129f28b6d"
-      ],
-      "main_entities": [],
-      "core_topic": "Evaluation of automated grading for agentic data analysis systems using a three-layer human-AI cascade.",
-      "event_type": "research",
-      "industry_area": "research",
-      "technologies": [
-        "LAMBDA",
-        "automated grading",
-        "agentic data analysis"
-      ],
-      "key_facts": [
-        "Develops three-layer human-AI grading cascade.",
-        "Automated graders achieve 100% observed precision.",
-        "Lenient grader's recall is 97% against human labels."
-      ],
-      "evidence": [
-        "The paper reports 100% precision and 97% recall for automated graders."
-      ],
-      "why_it_matters": "Improves evaluation reliability for complex agentic outputs, reducing grading artifacts.",
-      "impact_scope": [
-        "research"
-      ],
-      "risk_tags": [
-        "none"
-      ],
-      "opportunity_tags": [
-        "improved evaluation of agentic systems"
-      ],
-      "confidence": "high",
-      "published_at": "2026-06-24T01:18:28+08:00"
-    },
-    {
-      "event_id": "evt_011",
-      "event_name": "Accuracy and Satisfaction in Multi-Turn LLM Dialogues for NFR Assessment",
-      "related_news_ids": [
-        "news_dc7fe24b7ca5"
-      ],
-      "main_entities": [],
-      "core_topic": "Study of multi-turn LLM dialogues for assessing non-functional requirements, finding low accuracy and user satisfaction factors.",
-      "event_type": "research",
-      "industry_area": "research",
-      "technologies": [
-        "LLM",
-        "GitHub Copilot"
-      ],
-      "key_facts": [
-        "49 programmers interacted with GitHub Copilot to assess 148 HIPAA-derived NFRs against the iTrust codebase.",
-        "Developers tend to agree with LLM assessments, but accuracy against expert ground truth is low.",
-        "Longer system responses and more information-providing turns negatively affect user satisfaction, whereas proactive interactions positively affect it."
-      ],
-      "evidence": [
-        "The paper describes an experiment with 49 programmers and 148 HIPAA-derived NFRs, finding low accuracy against expert ground truth and that longer responses negatively affect satisfaction."
-      ],
-      "why_it_matters": "Highlights limitations of LLMs in NFR assessment and provides design insights for dialogue systems.",
-      "impact_scope": [
-        "academic"
-      ],
-      "risk_tags": [
-        "none"
-      ],
-      "opportunity_tags": [
-        "none"
-      ],
-      "confidence": "high",
-      "published_at": "2026-06-24T01:15:40+08:00"
-    },
-    {
-      "event_id": "evt_012",
-      "event_name": "Difference-Making without Making a Difference",
-      "related_news_ids": [
-        "news_ef83e272d144"
-      ],
-      "main_entities": [],
-      "core_topic": "Philosophical critique of Andreas & Günther's definitions of actual causation, showing they collapse into each other.",
+      "core_topic": "探讨AI增强AAC界面的设计和评估复杂性",
       "event_type": "research",
       "industry_area": "research",
       "technologies": [],
       "key_facts": [
-        "Andreas & Günther introduced seven definitions of actual causation, classified into three types: factual difference-making, counterfactual difference-making, and regularity-based.",
-        "The author shows that their most recent factual difference-making definition instantiates all three types, proving they are distinctions without a difference.",
-        "The author compares the novel account to the other six accounts on several crucial examples, revealing that this undermines all seven accounts."
+        "Artificial intelligence (AI) can enhance what people who use augmentative and alternative communication (AAC) are able to do with their systems.",
+        "However, evaluating AI-powered AAC interfaces can be difficult."
       ],
       "evidence": [
-        "The paper states that the most recent definition instantiates all three types, proving they are distinctions without a difference, and that this undermines all seven accounts."
+        "The paper discusses challenges and proposes evaluation methods for AI-powered AAC interfaces."
       ],
-      "why_it_matters": "Challenges existing philosophical accounts of causation, potentially reshaping the field.",
+      "why_it_matters": "关注AI在辅助技术中的应用，具有社会意义",
       "impact_scope": [
-        "academic"
+        "research"
       ],
       "risk_tags": [
         "none"
       ],
       "opportunity_tags": [
         "none"
-      ],
-      "confidence": "high",
-      "published_at": "2026-06-24T01:15:26+08:00"
-    },
-    {
-      "event_id": "evt_013",
-      "event_name": "Less is More: Quality-Aware Training Data Selection for Scientific Summarization",
-      "related_news_ids": [
-        "news_098965fb910e"
-      ],
-      "main_entities": [],
-      "core_topic": "Quality-aware data selection for scientific summarization using a large biomedical dataset.",
-      "event_type": "research",
-      "industry_area": "research",
-      "technologies": [],
-      "key_facts": [
-        "Constructed and released one of the largest biomedical and life science datasets for long-document summarization, containing 1.88 million PMC articles.",
-        "Analyzed reference quality of author-written abstracts with source-grounded and model-based metrics.",
-        "Training on selected high-quality subsets outperforms random sampling at matched training sizes and can match or exceed larger random subsets on factuality-oriented metrics."
-      ],
-      "evidence": [
-        "The paper reports constructing a dataset of 1.88 million PMC articles and that training on high-quality subsets outperforms random sampling."
-      ],
-      "why_it_matters": "Demonstrates that data quality can improve training efficiency and factuality in scientific summarization.",
-      "impact_scope": [
-        "academic"
-      ],
-      "risk_tags": [
-        "none"
-      ],
-      "opportunity_tags": [
-        "data efficiency",
-        "scientific summarization"
-      ],
-      "confidence": "high",
-      "published_at": "2026-06-24T01:12:06+08:00"
-    },
-    {
-      "event_id": "evt_014",
-      "event_name": "L3Cube-MahaPOS: A Marathi Part-of-Speech Tagging Dataset and BERT Models",
-      "related_news_ids": [
-        "news_8d8dedd96f4a"
-      ],
-      "main_entities": [],
-      "core_topic": "Creation of a gold-standard Marathi POS tagging dataset and benchmarking of models.",
-      "event_type": "research",
-      "industry_area": "research",
-      "technologies": [
-        "BERT",
-        "MuRIL",
-        "MahaBERT-v2"
-      ],
-      "key_facts": [
-        "Introduced L3Cube-MahaPOS, a gold-standard POS tagging dataset for Marathi comprising 32,354 manually annotated sentences from news text.",
-        "Annotation followed a 16-tag Universal Dependencies-aligned scheme.",
-        "Best system achieves 88.67% token-level accuracy and macro-F1 of 81.67% over 15 evaluated tag classes."
-      ],
-      "evidence": [
-        "The paper introduces a dataset of 32,354 manually annotated sentences and reports best accuracy of 88.67%."
-      ],
-      "why_it_matters": "Addresses resource scarcity for Marathi NLP, enabling further research in low-resource languages.",
-      "impact_scope": [
-        "academic"
-      ],
-      "risk_tags": [
-        "none"
-      ],
-      "opportunity_tags": [
-        "Marathi NLP",
-        "low-resource languages"
-      ],
-      "confidence": "high",
-      "published_at": "2026-06-24T01:10:46+08:00"
-    },
-    {
-      "event_id": "evt_015",
-      "event_name": "Solving Inverse Problems of Chaotic Systems with Bidirectional Conditional Flow Matching",
-      "related_news_ids": [
-        "news_491641cdd9c6"
-      ],
-      "main_entities": [],
-      "core_topic": "Bidirectional conditional flow matching for solving inverse problems in chaotic systems.",
-      "event_type": "research",
-      "industry_area": "research",
-      "technologies": [
-        "Bidirectional Conditional Flow Matching",
-        "Conservation-constrained Bi-CFM"
-      ],
-      "key_facts": [
-        "Bi-CFM improves five distribution-level metrics over baselines while achieving a speedup of more than two orders of magnitude.",
-        "CBi-CFM better respects conservation laws, with conservation errors comparable to those of the ground truth.",
-        "On real observations of globular clusters, the method represents an advance in accuracy."
-      ],
-      "evidence": [
-        "The paper reports that Bi-CFM improves five distribution-level metrics over baselines with a speedup of more than two orders of magnitude, and CBi-CFM has conservation errors comparable to ground truth."
-      ],
-      "why_it_matters": "Provides a scalable method for inferring initial conditions from final states in chaotic dynamics, with applications in astrophysics.",
-      "impact_scope": [
-        "academic"
-      ],
-      "risk_tags": [
-        "none"
-      ],
-      "opportunity_tags": [
-        "chaotic systems",
-        "inverse problems"
-      ],
-      "confidence": "high",
-      "published_at": "2026-06-24T01:07:47+08:00"
-    },
-    {
-      "event_id": "evt_016",
-      "event_name": "SHERLOC: Structured Diagnostic Localization for Code Repair Agents",
-      "related_news_ids": [
-        "news_45e309eb6bd3"
-      ],
-      "main_entities": [],
-      "core_topic": "Training-free framework for code repair localization that improves repair agent efficiency and accuracy.",
-      "event_type": "research",
-      "industry_area": "developer_tools",
-      "technologies": [
-        "LLM",
-        "SHERLOC"
-      ],
-      "key_facts": [
-        "SHERLOC is a training-free framework for code repair localization.",
-        "Achieves 84.33% accuracy@1 on SWE-Bench Lite and 81.27% recall@1 on SWE-Bench Verified.",
-        "Injects locations and diagnostic findings into repair agents, yielding +5.95 pp resolve rate on SWE-Bench Verified.",
-        "Cuts localization and total tokens by 36.7% and 23.1%."
-      ],
-      "evidence": [
-        "The paper reports state-of-the-art results and significant efficiency improvements."
-      ],
-      "why_it_matters": "Enhances code repair agents by providing precise localization and diagnostic context, reducing token usage.",
-      "impact_scope": [
-        "industry"
-      ],
-      "risk_tags": [
-        "none"
-      ],
-      "opportunity_tags": [
-        "code repair",
-        "LLM agents",
-        "localization"
-      ],
-      "confidence": "high",
-      "published_at": "2026-06-24T01:05:50+08:00"
-    },
-    {
-      "event_id": "evt_017",
-      "event_name": "GPT-5 Helps Solve Immunology Mystery",
-      "related_news_ids": [
-        "news_62391ad72ce4"
-      ],
-      "main_entities": [
-        "Derya Unutmaz"
-      ],
-      "core_topic": "GPT-5 Pro assists in solving a 3-year-old immunology mystery about T cell behavior.",
-      "event_type": "research",
-      "industry_area": "research",
-      "technologies": [
-        "GPT-5 Pro"
-      ],
-      "key_facts": [
-        "GPT-5 Pro helped solve a 3-year-old immunology mystery.",
-        "Offered insights into T cell behavior.",
-        "Breakthrough could support cancer and autoimmune research."
-      ],
-      "evidence": [
-        "The summary states GPT-5 Pro helped solve a 3-year-old immunology mystery."
-      ],
-      "why_it_matters": "Demonstrates the potential of large language models in scientific discovery, particularly in immunology.",
-      "impact_scope": [
-        "industry"
-      ],
-      "risk_tags": [
-        "none"
-      ],
-      "opportunity_tags": [
-        "AI in science",
-        "immunology",
-        "GPT-5"
       ],
       "confidence": "medium",
-      "published_at": "2026-06-24T01:00:00+08:00"
-    },
-    {
-      "event_id": "evt_018",
-      "event_name": "Large-Language-Model Discovery of Quantum LDPC Codes through Structured Concept Evolution",
-      "related_news_ids": [
-        "news_3e87e791c263"
-      ],
-      "main_entities": [],
-      "core_topic": "Using LLMs with structured concept evolution to discover quantum LDPC code families.",
-      "event_type": "research",
-      "industry_area": "research",
-      "technologies": [
-        "LLM",
-        "SCE",
-        "GPT-5.4-mini",
-        "GPT-5.4-nano"
-      ],
-      "key_facts": [
-        "Introduces structured concept evolution (SCE) for quantum LDPC code discovery.",
-        "Discovers competitive code families using lightweight models (GPT-5.4-mini and GPT-5.4-nano).",
-        "Codes characterized under code-capacity depolarizing noise with BP+OSD decoding."
-      ],
-      "evidence": [
-        "The paper reports discovery of competitive code families using LLMs."
-      ],
-      "why_it_matters": "Shows potential of LLMs in designing quantum error-correcting codes, advancing quantum computing.",
-      "impact_scope": [
-        "industry"
-      ],
-      "risk_tags": [
-        "none"
-      ],
-      "opportunity_tags": [
-        "quantum computing",
-        "error correction",
-        "LLM discovery"
-      ],
-      "confidence": "high",
-      "published_at": "2026-06-24T00:56:24+08:00"
-    },
-    {
-      "event_id": "evt_019",
-      "event_name": "OrbitForge: Text-to-3D Scene Generation via Reconstruction-Anchored Video Synthesis",
-      "related_news_ids": [
-        "news_5d68be18e155"
-      ],
-      "main_entities": [],
-      "core_topic": "Text-to-3D scene generation using video priors and Gaussian Splatting reconstruction.",
-      "event_type": "research",
-      "industry_area": "multimodal_ai",
-      "technologies": [
-        "OrbitForge",
-        "Gaussian Splatting",
-        "text-to-video"
-      ],
-      "key_facts": [
-        "OrbitForge converts a single text-generated video into a canonical closed-orbit 3D Gaussian Splatting scene.",
-        "Uses 3D reconstruction as an anchor to improve 3D consistency.",
-        "Requires no task-specific fine-tuning or score-distillation optimization.",
-        "Attains 359.0-degree measured median span on a 300-prompt audit."
-      ],
-      "evidence": [
-        "The paper describes OrbitForge's design and reports quantitative results."
-      ],
-      "why_it_matters": "Enables high-quality 3D scene generation from text without specialized training, advancing 3D content creation.",
-      "impact_scope": [
-        "industry"
-      ],
-      "risk_tags": [
-        "none"
-      ],
-      "opportunity_tags": [
-        "3D generation",
-        "text-to-3D",
-        "video priors"
-      ],
-      "confidence": "high",
-      "published_at": "2026-06-24T00:50:47+08:00"
-    },
-    {
-      "event_id": "evt_020",
-      "event_name": "EG-VQA: Benchmarking Verifiable Video Question Answering with Grounded Temporal Evidence",
-      "related_news_ids": [
-        "news_08b5cc561e26"
-      ],
-      "main_entities": [],
-      "core_topic": "Benchmark and model for evidence-grounded video question answering with temporal localization.",
-      "event_type": "research",
-      "industry_area": "multimodal_ai",
-      "technologies": [
-        "Video-LLM",
-        "EG-VQA",
-        "EG-Reasoner"
-      ],
-      "key_facts": [
-        "EG-VQA includes 2,067 videos and 11,838 QA pairs with fine-grained evidence annotations.",
-        "Introduces EG-F1 metric for evaluating temporal alignment and semantic consistency.",
-        "Proposes EG-Reasoner, an evidence-grounded reasoning model trained with explicit supervision.",
-        "EG-Reasoner achieves state-of-the-art among open-source models, competitive with proprietary systems."
-      ],
-      "evidence": [
-        "The paper introduces a new benchmark and model, reporting state-of-the-art results."
-      ],
-      "why_it_matters": "Addresses the gap between answer correctness and evidence grounding in VideoQA, promoting interpretable video understanding.",
-      "impact_scope": [
-        "industry"
-      ],
-      "risk_tags": [
-        "none"
-      ],
-      "opportunity_tags": [
-        "video understanding",
-        "VideoQA",
-        "evidence grounding"
-      ],
-      "confidence": "high",
-      "published_at": "2026-06-24T00:49:28+08:00"
+      "published_at": "2026-06-24T01:34:18+08:00"
     }
   ]
 }

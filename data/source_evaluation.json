@@ -28,11 +28,11 @@
     "reason": "Observed results satisfy required fields and are suitable for the main dataset."
   },
   {
-    "source_name": "Hacker News Algolia AI Search",
-    "source_type": "community",
-    "access_method": "api",
-    "coverage": "Developer and technology community discussion around AI topics.",
-    "language": "en",
+    "source_name": "MCP Multi-Site Web Search",
+    "source_type": "media",
+    "access_method": "mcp_websearch",
+    "coverage": "AI news from 量子位, TechCrunch, The Verge, and 澎湃新闻 via DeepSeek function calling with websearch tool.",
+    "language": "mixed",
     "field_completeness": {
       "title": "yes",
       "summary_or_content": "yes",
@@ -41,175 +41,20 @@
       "url": "yes"
     },
     "strengths": [
-      "Developer and technology community discussion around AI topics.",
-      "Observed 1 candidate items during fetch attempt."
+      "AI news from 量子位, TechCrunch, The Verge, and 澎湃新闻 via DeepSeek function calling with websearch tool.",
+      "Observed 22 candidate items during fetch attempt."
     ],
     "weaknesses": [
-      "Community source; use as auxiliary signal unless item is complete."
+      "Observed missing fields: published_at=1"
     ],
     "risks": [
-      "community signal",
-      "may link to external sources",
-      "short text"
+      "requires DEEPSEEK_API_KEY",
+      "site availability varies by geo-location"
     ],
-    "observed_item_count": 1,
-    "fetch_status": "success",
-    "fetch_error": null,
-    "recommended_tier": "auxiliary",
-    "reason": "Observed results provide useful signal but should not be the sole Top-event evidence."
-  },
-  {
-    "source_name": "OpenAI News RSS",
-    "source_type": "official",
-    "access_method": "rss",
-    "coverage": "Official OpenAI product, research, safety, and company updates.",
-    "language": "en",
-    "field_completeness": {
-      "title": "yes",
-      "summary_or_content": "partial",
-      "source": "yes",
-      "published_at": "yes",
-      "url": "yes"
-    },
-    "strengths": [
-      "Official OpenAI product, research, safety, and company updates.",
-      "Observed 1019 candidate items during fetch attempt."
-    ],
-    "weaknesses": [
-      "Observed missing fields: summary_or_content=107"
-    ],
-    "risks": [
-      "official single-company perspective",
-      "RSS availability may change"
-    ],
-    "observed_item_count": 1019,
+    "observed_item_count": 22,
     "fetch_status": "success",
     "fetch_error": null,
     "recommended_tier": "core",
     "reason": "Observed results satisfy required fields and are suitable for the main dataset."
-  },
-  {
-    "source_name": "Google DeepMind Blog RSS",
-    "source_type": "official",
-    "access_method": "rss",
-    "coverage": "Official Google DeepMind research and product updates.",
-    "language": "en",
-    "field_completeness": {
-      "title": "yes",
-      "summary_or_content": "partial",
-      "source": "yes",
-      "published_at": "yes",
-      "url": "yes"
-    },
-    "strengths": [
-      "Official Google DeepMind research and product updates.",
-      "Observed 100 candidate items during fetch attempt."
-    ],
-    "weaknesses": [
-      "Observed missing fields: summary_or_content=14"
-    ],
-    "risks": [
-      "official single-organization perspective",
-      "RSS availability may change"
-    ],
-    "observed_item_count": 100,
-    "fetch_status": "success",
-    "fetch_error": null,
-    "recommended_tier": "core",
-    "reason": "Observed results satisfy required fields and are suitable for the main dataset."
-  },
-  {
-    "source_name": "量子位 DeepSeek Websearch",
-    "source_type": "media",
-    "access_method": "deepseek_websearch",
-    "coverage": "Chinese AI industry and technology reporting from 量子位.",
-    "language": "zh",
-    "field_completeness": {
-      "title": "no",
-      "summary_or_content": "no",
-      "source": "no",
-      "published_at": "no",
-      "url": "no"
-    },
-    "strengths": [
-      "Chinese AI industry and technology reporting from 量子位."
-    ],
-    "weaknesses": [
-      "Fetch issue: MCP websearch unavailable (MCP search returned no results for qbitai.com). Add observations to data/manual/chinese_websearch_observations.json after running allowlisted DeepSeek websearch, or fix MCP connectivity."
-    ],
-    "risks": [
-      "allowlisted Chinese websearch only",
-      "observed fields must be validated",
-      "DeepSeek websearch observations require allowlist and field validation."
-    ],
-    "observed_item_count": 0,
-    "fetch_status": "failed",
-    "fetch_error": "MCP websearch unavailable (MCP search returned no results for qbitai.com). Add observations to data/manual/chinese_websearch_observations.json after running allowlisted DeepSeek websearch, or fix MCP connectivity.",
-    "recommended_tier": "future",
-    "reason": "Fetch path needs implementation or access before MVP use: MCP websearch unavailable (MCP search returned no results for qbitai.com). Add observations to data/manual/chinese_websearch_observations.json after running allowlisted DeepSeek websearch, or fix MCP connectivity."
-  },
-  {
-    "source_name": "机器之心 DeepSeek Websearch",
-    "source_type": "media",
-    "access_method": "deepseek_websearch",
-    "coverage": "Chinese AI research, product, and industry reporting from 机器之心.",
-    "language": "zh",
-    "field_completeness": {
-      "title": "no",
-      "summary_or_content": "no",
-      "source": "no",
-      "published_at": "no",
-      "url": "no"
-    },
-    "strengths": [
-      "Chinese AI research, product, and industry reporting from 机器之心."
-    ],
-    "weaknesses": [
-      "Fetch issue: source disabled"
-    ],
-    "risks": [
-      "allowlisted Chinese websearch only",
-      "observed fields must be validated",
-      "site structure changed — direct scrape broken",
-      "DeepSeek websearch observations require allowlist and field validation."
-    ],
-    "observed_item_count": 0,
-    "fetch_status": "failed",
-    "fetch_error": "source disabled",
-    "recommended_tier": "future",
-    "reason": "Fetch path needs implementation or access before MVP use: source disabled"
-  },
-  {
-    "source_name": "知乎 DeepSeek Websearch",
-    "source_type": "community",
-    "access_method": "deepseek_websearch",
-    "coverage": "Chinese community discussion and sentiment around AI topics.",
-    "language": "zh",
-    "field_completeness": {
-      "title": "no",
-      "summary_or_content": "no",
-      "source": "no",
-      "published_at": "no",
-      "url": "no"
-    },
-    "strengths": [
-      "Chinese community discussion and sentiment around AI topics."
-    ],
-    "weaknesses": [
-      "Community source; use as auxiliary signal unless item is complete.",
-      "Fetch issue: source disabled"
-    ],
-    "risks": [
-      "community signal",
-      "not primary evidence by default",
-      "observed fields must be validated",
-      "requires login — direct scrape blocked",
-      "DeepSeek websearch observations require allowlist and field validation."
-    ],
-    "observed_item_count": 0,
-    "fetch_status": "failed",
-    "fetch_error": "source disabled",
-    "recommended_tier": "future",
-    "reason": "Fetch path needs implementation or access before MVP use: source disabled"
   }
 ]

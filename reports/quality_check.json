@@ -1,5 +1,5 @@
 {
-  "passed": false,
+  "passed": true,
   "requirement_check": {
     "has_10_to_20_items": true,
     "items_have_required_fields": true,
@@ -20,9 +20,7 @@
   "weak_points": [],
   "unsupported_claims": [],
   "suspected_hallucinations": [],
-  "data_quality_issues": [
-    "news_efc129f28b6d: technology_not_in_source: automated grading"
-  ],
+  "data_quality_issues": [],
   "visualization_issues": [],
   "recommended_fixes": []
 }
