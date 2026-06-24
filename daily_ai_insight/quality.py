@@ -15,10 +15,10 @@ from .models import (
 
 _DOCS_DIR = PROJECT_ROOT / "docs"
 _REQUIRED_DOCS = {
-    "data-source-decisions.md",
-    "schema-design.md",
-    "ai-usage.md",
-    "process.md",
+    "数据源决策.md",
+    "结构化设计.md",
+    "AI使用方式.md",
+    "核心流程.md",
 }
 
 
