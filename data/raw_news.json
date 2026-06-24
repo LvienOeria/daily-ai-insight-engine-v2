@@ -9,7 +9,7 @@
     "language": "en",
     "summary": "Vision-language-action (VLA) models can learn manipulation skills from demonstrations, but their capabilities are bounded by the skills in the training data. We present InSight, a framework that unlocks autonomous skill acquisition by rendering VLAs steerable at the primitive-action level (e.g., \"move gripper to the bowl\", \"lift upward\", \"pour the bottle\"). InSight consists of two primary stages: (1) an automated segmentation pipeline that partitions demonstrations into labeled primitives via VLM plan decomposition and end-effector poses to enable VLA primitive steerability, and (2) a VLM-guided data flywheel that identifies missing primitives required to accomplish a novel task, autonomously attempts demonstrations of the missing primitives with VLM-proposed low-level control, and automatically labels, stores, and integrates successful demonstrations into the VLA training set. We evaluate InSight across simulation and real-world manipulation tasks, including block flipping, drawer closing, sweeping, twisting, and pouring, without any human demonstrations of these target skills. Once learned, these primitives can be composed to execute novel, long-horizon tasks without additional human demonstrations. Our findings demonstrate that primitive steerability provides a practical foundation for continual skill acquisition in VLA policies. Project website: https://insight-vla.github.io.",
     "content": null,
-    "collected_at": "2026-06-24T05:30:20Z",
+    "collected_at": "2026-06-24T05:47:41Z",
     "raw_provider": "arXiv AI Search",
     "raw_payload": {
       "id": "http://arxiv.org/abs/2606.24884v1",
@@ -39,7 +39,7 @@
     "language": "en",
     "summary": "We study the last iterate of the stochastic subgradient method for one-dimensional convex Lipschitz objectives. For a fixed horizon $n$, we consider the standard fixed stepsizes $η=Θ(1/\\sqrt n)$. We prove that, for such stepsize policies, under additive i.i.d. subgradient noise with uniformly bounded variance, the last iterate features an optimization error of order $1/\\sqrt n$, thereby removing the extra $(\\log n)$ factor present in existing generic bounds. On the other hand, we show that without the i.i.d. assumption, the optimization error can be of order $(\\log n)/\\sqrt n$. Thus, under the uniformly bounded variance assumption alone, the last iterate of SsGM is suboptimal even in dimension one, resolving negatively an open problem posed in Koren and Segal, COLT, 2020.",
     "content": null,
-    "collected_at": "2026-06-24T05:30:20Z",
+    "collected_at": "2026-06-24T05:47:41Z",
     "raw_provider": "arXiv AI Search",
     "raw_payload": {
       "id": "http://arxiv.org/abs/2606.24879v1",
@@ -67,7 +67,7 @@
     "language": "en",
     "summary": "Sparse voxel representation has emerged as a scalable foundation for image-to-3D Gaussian Splatting (3DGS) generation, yet current methods struggle to preserve high-frequency visual details of input images due to two structural bottlenecks. First, they adopt discriminative 2D features optimized for semantic abstraction to construct sparse voxel latents, which suppress reconstructive cues and induce a representation bottleneck. Second, in the generation stage, standard diffusion transformers lack effective mechanisms to align dense 2D image tokens with sparse 3D voxel latents, resulting in a cross-modal correspondence bottleneck. To address these issues, we propose FLUX3D, a scalable image-to-3DGS framework that boosts both representation learning and cross-modal alignment during generation. We first revisit 2D feature selection for sparse-voxel-based 3D representation learning, propose Diffusion-Aligned Structured Latents (DA-SLAT) and couple it with a decoder-only architecture to improve 3DGS reconstruction fidelity. We also design a sparse-structure-aware diffusion framework, which integrates the Sparse-structure Multimodal Diffusion Transformer (SMDiT) and Modal-Aware Rotary Positional Embedding (MARoPE) to achieve geometry-agnostic 2D-3D alignment. Extensive benchmark experiments demonstrate that FLUX3D yields substantial improvements in appearance fidelity and significantly outperforms all state-of-the-art (SOTA) methods in generating high-quality 3DGS assets.",
     "content": null,
-    "collected_at": "2026-06-24T05:30:20Z",
+    "collected_at": "2026-06-24T05:47:41Z",
     "raw_provider": "arXiv AI Search",
     "raw_payload": {
       "id": "http://arxiv.org/abs/2606.24874v1",
@@ -95,7 +95,7 @@
     "language": "en",
     "summary": "Agentic language models dramatically expand the applications of AI yet little is publicly known about how to curate training data for broadly capable agents. Existing open efforts such as SWE-Smith, SERA, and Nemotron-Terminal typically target a single benchmark, leaving open the question of how to train models that generalize across diverse agentic tasks. The OpenThoughts-Agent (OT-Agent) project addresses this gap with a fully open data curation pipeline for training agentic models. We conduct more than 100 controlled ablation experiments to systematically investigate each stage of the pipeline, yielding insights on the importance of task sources and diversity. We then assemble a training set of 100K examples from our pipeline and fine-tune Qwen3-32B on this dataset, which yields an average accuracy of 44.8% across seven agentic benchmarks and a 3.9 percentage point improvement over the strongest existing open data agentic model (Nemotron-Terminal-32B, 40.9%). Moreover, our training data exhibits strong scaling properties, outperforming alternative open datasets at every training set size in compute-controlled comparisons. We publicly release our training sets, data pipeline, experimental data, and models at openthoughts.ai to support future open research on agentic model training.",
     "content": null,
-    "collected_at": "2026-06-24T05:30:20Z",
+    "collected_at": "2026-06-24T05:47:41Z",
     "raw_provider": "arXiv AI Search",
     "raw_payload": {
       "id": "http://arxiv.org/abs/2606.24855v1",
@@ -169,7 +169,7 @@
     "language": "en",
     "summary": "Artificial intelligence (AI) can enhance what people who use augmentative and alternative communication (AAC) are able to do with their systems. However, evaluating AI-powered AAC interfaces can be difficult. People are intersectional beings and current evaluation metrics can struggle to capture the multifaceted and nuanced desires people may have for their AAC. We explore the complicated nature of six AAC problem spaces, explore how AI might be used in these spaces, and suggest more robust methods of evaluation that take the intersectional nuances of people into account. We also discuss broader issues that arise across these problem spaces and how they could be addressed using our proposed evaluation methods.",
     "content": null,
-    "collected_at": "2026-06-24T05:30:21Z",
+    "collected_at": "2026-06-24T05:47:41Z",
     "raw_provider": "arXiv AI Search",
     "raw_payload": {
       "id": "http://arxiv.org/abs/2606.24854v1",
@@ -200,7 +200,7 @@
     "language": "en",
     "summary": "Fourier Neural Operators (FNO) learn solution operators of partial differential equations by parameterizing global convolutions in the complex Fourier domain. For real-valued PDE solutions, the complex FFT carries representational redundancy through conjugate symmetry. We introduce the Hartley Neural Operator (HNO), the exact real-valued mirror of FNO: it replaces the FFT with the purely real Discrete Hartley Transform and learns a single real multiplier per retained spectral mode, with no complex arithmetic. Because the real Hartley spectrum is not halved by conjugate symmetry, HNO retains twice as many frequency corners as FNO but one real weight where FNO carries a complex pair, so the two operators are iso-parametric at equal width and differ only in spectral basis. Our central thesis is that the best basis is a property of the operator. Self-adjoint elliptic operators (Poisson, biharmonic) have real, symmetric Green's functions that the real Hartley multiplier diagonalizes exactly, and HNO is favored there. Time-dependent operators carry phase, from oscillation in the wave equation to transport in advection, Burgers, and Navier-Stokes, which a real diagonal multiplier cannot represent, so FNO is favored there, and increasingly so with the operator's phase content, leaving the phaseless heat equation as the borderline case. Training both operators identically and benchmarking across PDE classes, initial-condition families, and boundary conditions, we find an elliptic-versus-time-dependent split that is monotone in operator phase content and matches the Green's-function theory we develop. Rather than a universal winner, our findings give a predictive rule: match the spectral basis to the symmetry of the solution operator.",
     "content": null,
-    "collected_at": "2026-06-24T05:30:21Z",
+    "collected_at": "2026-06-24T05:47:41Z",
     "raw_provider": "arXiv AI Search",
     "raw_payload": {
       "id": "http://arxiv.org/abs/2606.24851v1",
@@ -226,7 +226,7 @@
     "language": "en",
     "summary": "Unified multi-modal large language models (MLLMs) have achieved strong text-to-image generation quality, but still struggle with structure-aware prompt following, where object counts, spatial relations, attribute bindings, and coarse layouts must be preserved. We attribute this limitation in part to the entanglement of structural planning and appearance rendering within a single conditioning stream. To address this issue, we propose Implicit Visual Chain-of-Thought (IV-CoT), a latent visual reasoning framework for query-conditioned image generation. IV-CoT decomposes the visual conditioning queries into a structural-to-semantic cascade, where structural queries first form a latent visual plan and semantic queries then render appearance conditioned on this plan. To guide the structural queries, we introduce training-only sketch supervision, which encourages them to capture structure from sketches without requiring sketch extraction or intermediate decoding at inference time. IV-CoT performs implicit CoT reasoning in a single forward pass and achieves superior results on GenEval and T2I-CompBench. Visualizations and analyses demonstrate that the learned structural and semantic queries play complementary roles in structure-aware generation.",
     "content": null,
-    "collected_at": "2026-06-24T05:30:21Z",
+    "collected_at": "2026-06-24T05:47:41Z",
     "raw_provider": "arXiv AI Search",
     "raw_payload": {
       "id": "http://arxiv.org/abs/2606.24849v1",
@@ -263,7 +263,7 @@
     "language": "en",
     "summary": "In the big-world regime, agents cannot be universally capable and their ability is inevitably specialized across a world model in pieces. Consequently, standard uniform guarantees fail to distinguish between the understanding of critical bottlenecks and irrelevant failures. We first formalize this limitation by proving that general agents are not universal, rendering standard worst-case analysis uninformative. To overcome this, we introduce structural certification, a transition-local framework that maps bounded goal-conditioned performance to entry-wise guarantees on the agent's internal world model. Our main contribution is constructive. We provide algorithms that filter specific transitions using deep compositional goals and prove that a general agent on these goals has a structural world model with a $\\mathcal{O}(1/n) + \\mathcal{O}(δ)$ error bound. Conversely, this bound is tight in the small-$δ$ regime, whose existence is explicitly guaranteed by our certification. These results enable the certifiable deployment of general agents by localizing the specific transitions where long-horizon planning is reliable.",
     "content": null,
-    "collected_at": "2026-06-24T05:30:21Z",
+    "collected_at": "2026-06-24T05:47:41Z",
     "raw_provider": "arXiv AI Search",
     "raw_payload": {
       "id": "http://arxiv.org/abs/2606.24842v1",
@@ -291,7 +291,7 @@
     "language": "en",
     "summary": "Prompt-based learning has emerged as a dominant paradigm in natural language processing. This study explores the impact of diverse pre-training objectives on the performance of encoder-decoder pre-trained language models across generation and question answering tasks, with a focus on commonsense knowledge retrieval and completion. We highlight the benefits of incorporating multiple objectives during both pre-training and fine-tuning stages. We introduce the Match Task to Objective (MTO) framework and methods for determining the appropriate objective for a given task. This framework offers automated methods to prepare task-related data for adaptation through unsupervised training, based on the identified objective. In the fine-tuning stage, we design novel templates that align with the objectives of the pre-training and adaptation stages. When aligned with task requirements, these strategies can achieve a performance gain of over 120\\% compared to conventional methods in few-shot settings. They significantly outperform related works in few-shot settings and exceed the baseline even in full-dataset scenarios. Furthermore, we extend this approach to include prompt-tuning methodologies, providing guidance for more effective soft prompt engineering and optimization. Our strategies significantly enhance prompt-tuning performance as well. These insights hold substantial value, precisely guiding the selection and optimization of models customized for specific tasks. Code is available at https://github.com/puraminy/MTO/",
     "content": null,
-    "collected_at": "2026-06-24T05:30:21Z",
+    "collected_at": "2026-06-24T05:47:41Z",
     "raw_provider": "arXiv AI Search",
     "raw_payload": {
       "id": "http://arxiv.org/abs/2606.24841v1",
@@ -317,7 +317,7 @@
     "language": "en",
     "summary": "Agentic data analysis systems produce rich outputs, including code, numerical results, and verbal diagnostics. This makes them more challenging to evaluate than single-turn LLM responses. It is therefore necessary to distinguish genuine disagreement between an agent's output and a ground-truth answer from grading artifacts. We investigate how reliably automated graders assess such a system and what strategies improve grading quality by applying LAMBDA, a multi-agent data-analysis system, on 153 numerical QRData tasks from DSGym. We develop and evaluate a three-layer human-AI grading cascade: strict regex matching, LLM-based lenient grading, and snippet-based human inspection, which combines non-GenAI and GenAI strategies with different failure profiles. Both automated graders achieve 100% observed precision (0/70 false positives). The lenient grader's recall is 97% against human labels. A keyword-anchored extraction pipeline raises the strict grader's recall by 60 percentage points over a last-number heuristic; the lenient grader is architecturally parser-independent. An iterative nudge mechanism raises grading run success from 36% to 97% and lenient-pass rates from 16% to 46%; comparing nudging with and without original-question re-injection shows that re-injection offers no benefit, confirming the nudge as an answer template cue. We further observe in this case study that variable type is the task metadata field most consistently associated with grading pipeline dynamics and observed outcome grades.",
     "content": null,
-    "collected_at": "2026-06-24T05:30:21Z",
+    "collected_at": "2026-06-24T05:47:42Z",
     "raw_provider": "arXiv AI Search",
     "raw_payload": {
       "id": "http://arxiv.org/abs/2606.24839v1",
@@ -343,7 +343,7 @@
     "language": "en",
     "summary": "LLM-based dialogue assistants have become mainstream tools for software developers, yet current evaluation benchmarks focus exclusively on functional correctness. This leaves a critical gap in assessing the quality and accuracy of these conversations when handling Non-Functional Requirements (NFRs), which are inherently vague, context-dependent, and involve many parts of a program. Evaluating how well these systems support collaborative reasoning about NFRs requires methods that go beyond single-turn accuracy to capture both the correctness of the system's outputs and the quality of the multi-turn interaction. In this paper, we investigate the accuracy and quality of multi-turn conversations between developers and an LLM-based agent in the domain of Health Insurance Portability and Accountability Act (HIPAA) regulatory compliance. We hired 49 programmers to interact with GitHub Copilot to assess 148 HIPAA-derived NFRs against the iTrust codebase, a system designed to comply with HIPAA regulations, across three dimensions: requirement satisfaction level, reasoning, and code localization. We find that developers tend to agree with LLM assessments, but accuracy against expert ground truth is low. We model user satisfaction and find that longer system responses and more information-providing turns negatively affect user satisfaction, whereas proactive interactions positively affect it. Our findings provide insights for designing LLM-based dialogue systems that support NFR assessment.",
     "content": null,
-    "collected_at": "2026-06-24T05:30:21Z",
+    "collected_at": "2026-06-24T05:47:42Z",
     "raw_provider": "arXiv AI Search",
     "raw_payload": {
       "id": "http://arxiv.org/abs/2606.24834v1",
@@ -372,7 +372,7 @@
     "language": "en",
     "summary": "Over a series of seven papers, Andreas & Günther have introduced seven definitions of actual causation and have classified them as belonging to three different, competing, types of accounts: factual difference-making, counterfactual difference-making, and regularity-based. I show that their most recent - factual difference-making - definition instantiates all three types, thereby proving that these are distinctions without a difference. I further compare their novel account to the other six accounts on several crucial examples, revealing that this undermines all seven of their accounts.",
     "content": null,
-    "collected_at": "2026-06-24T05:30:21Z",
+    "collected_at": "2026-06-24T05:47:42Z",
     "raw_provider": "arXiv AI Search",
     "raw_payload": {
       "id": "http://arxiv.org/abs/2606.24832v1",
@@ -397,7 +397,7 @@
     "language": "en",
     "summary": "Scientific long-document summarization datasets commonly treat author-written abstracts as gold reference summaries, although their quality and alignment with the source article vary. At the same time, publicly available scientific summarization datasets remain limited in scale and structure for modern long-context models. In this work, we address both challenges by a) constructing and releasing one of the largest biomedical and life science datasets for long-document summarization, containing 1.88 million PMC articles, and b) analyzing the reference quality of author-written abstracts with source-grounded and model-based metrics. We show that author-written abstracts vary in their alignment with the full article and that these quality signals can guide training-data selection. Training on selected high-quality subsets outperforms random sampling at matched training sizes and can match or exceed larger random subsets on factuality-oriented metrics. Our findings suggest that reference quality is an important factor in scientific summarization and that quality-aware data selection can improve training efficiency.",
     "content": null,
-    "collected_at": "2026-06-24T05:30:21Z",
+    "collected_at": "2026-06-24T05:47:42Z",
     "raw_provider": "arXiv AI Search",
     "raw_payload": {
       "id": "http://arxiv.org/abs/2606.24828v1",
@@ -424,7 +424,7 @@
     "language": "en",
     "summary": "Part-of-Speech (POS) tagging is a foundational NLP task underpinning machine translation, information extraction, and syntactic parsing. Despite Marathi being spoken by over 83 million people and ranking among the top twenty most spoken languages worldwide, it remains severely under-resourced in annotated corpora and standardised evaluation benchmarks. Marathi presents unique challenges for computational modelling owing to its rich morphology, relatively free word order, lack of capitalisation conventions, and pervasive code-mixing with Hindi and English. We introduce L3Cube-MahaPOS, a gold-standard POS tagging dataset for Marathi comprising 32,354 manually annotated sentences drawn from news text. Annotation was performed entirely manually by a team of Marathi-proficient annotators following a 16-tag Universal Dependencies-aligned scheme. A structured preprocessing pipeline covering Unicode normalisation, Devanagari-aware tokenisation, and noise filtering ensures label consistency across all splits. We benchmark the dataset across six model families spanning HMM, CRF, BiLSTM, BiLSTM+CharCNN, MuRIL, and the Marathi-specific transformer MahaBERT-v2. The best system achieves 88.67\\% token-level accuracy and a macro-F1 of 81.67% over 15 evaluated tag classes. We release the dataset, annotation guidelines, and trained model checkpoints to foster further research in Marathi NLP.",
     "content": null,
-    "collected_at": "2026-06-24T05:30:22Z",
+    "collected_at": "2026-06-24T05:47:42Z",
     "raw_provider": "arXiv AI Search",
     "raw_payload": {
       "id": "http://arxiv.org/abs/2606.24825v1",
@@ -453,7 +453,7 @@
     "language": "en",
     "summary": "Modeling chaotic systems is crucial yet challenging. Inverse problems in chaotic dynamics, namely inferring initial conditions from final states, remain largely unsolved because of ill-posedness, non-uniqueness, instability, and potentially chaotic time-reverse dynamics. We address this open problem with Bidirectional Conditional Flow Matching (Bi-CFM), which learns bidirectional mappings between distributions of initial and final states to capture the stochasticity of chaotic evolution and mitigate exponential error accumulation over time. Furthermore, for systems with conservation laws, we extend it to Conservation-constrained Bi-CFM (CBi-CFM). Across the classic Lorenz, Circuit, and high-dimensional Lorenz 96 systems, Bi-CFM improves five distribution-level metrics over baselines while achieving a speedup of more than two orders of magnitude. In the three-body planet-planet scattering problem in planetary dynamics, CBi-CFM better respects conservation laws, with conservation errors comparable to those of the ground truth. Finally, on real observations of globular clusters, collisional million-body systems shaped by $\\sim 10^{10}$ years (10 Gyr) of evolution, our method represents an advance in accuracy, establishing a scalable route to solving inverse problems of long-timescale real-world chaotic dynamics.",
     "content": null,
-    "collected_at": "2026-06-24T05:30:22Z",
+    "collected_at": "2026-06-24T05:47:42Z",
     "raw_provider": "arXiv AI Search",
     "raw_payload": {
       "id": "http://arxiv.org/abs/2606.24824v1",
@@ -486,7 +486,7 @@
     "language": "en",
     "summary": "LLM agents solve repository-level coding tasks through multi-turn tool use, but utilize half their budget on locating faults before editing. Dedicated localization frameworks have emerged, yet are still evaluated as file retrieval rather than actionable diagnosis, producing locations without the diagnostic context a repair agent needs. We introduce SHERLOC (Structured Hypothesis-driven Exploration and Reasoning for Localization), a training-free framework pairing a reasoning LLM with compact repository tools and self-recovery, without fine-tuning or multi-agent orchestration. SHERLOC reaches state-of-the-art localization across model scales: 84.33% accuracy@1 on SWE-Bench Lite and 81.27% recall@1 on SWE-Bench Verified; at ~30B parameters, it matches or outperforms other agentic methods. Injecting our locations and diagnostic findings into repair agents yields, on average, +5.95 pp resolve rate on SWE-Bench Verified while cutting localization and total tokens by 36.7% and 23.1%.",
     "content": null,
-    "collected_at": "2026-06-24T05:30:22Z",
+    "collected_at": "2026-06-24T05:47:42Z",
     "raw_provider": "arXiv AI Search",
     "raw_payload": {
       "id": "http://arxiv.org/abs/2606.24820v1",
@@ -515,7 +515,7 @@
     "language": "en",
     "summary": "Quantum computers could outperform classical machines on important problems, but only if the errors that pervade quantum hardware can be corrected at scale. Quantum low-density parity-check (qLDPC) codes offer a promising route to this goal by combining sparse parity checks with finite encoding rate and growing distance, but their construction remains a challenging discrete design problem. Here we introduce structured concept evolution (SCE), a search framework that pairs a large language model with a structured algebraic mutation grammar to discover lifted-product code families, a class of CSS qLDPC codes. Instead of asking the LLM to design codes from first principles, SCE evolves structured concepts consisting of algebraic specifications paired with executable programs that realize them, using hierarchical mutations that modify the group algebra, protograph geometry, or base space. Running SCE, we discover a diverse set of competitive code families, ranging from abelian constructions to families over non-abelian groups beyond those underlying standard designs such as bivariate-bicycle codes, and characterize them under code-capacity depolarizing noise with BP+OSD decoding. These results are obtained with lightweight models (GPT-5.4-mini and GPT-5.4-nano).",
     "content": null,
-    "collected_at": "2026-06-24T05:30:22Z",
+    "collected_at": "2026-06-24T05:47:42Z",
     "raw_provider": "arXiv AI Search",
     "raw_payload": {
       "id": "http://arxiv.org/abs/2606.24808v1",
@@ -541,7 +541,7 @@
     "language": "en",
     "summary": "Generic text-to-video models can be used as rich open-world scene priors. Despite the high quality of today's generated videos, they do not directly yield reliable 3D assets: camera motion is difficult to control, view coverage is partial, and frames often contain inconsistencies across time. We introduce OrbitForge, an adapter built from frozen video priors and per-prompt Gaussian Splatting reconstruction optimization that converts a single text-generated video into a canonical closed-orbit 3D Gaussian Splatting scene. We use 3D reconstruction as an anchor to improve the 3D consistency of the generated video. We obtain a preliminary 3D reconstruction from a first generated video via Deformable Gaussian Splatting with a robust MedianGS proxy. We render views from a prescribed orbit to detect missing viewpoints. OrbitForge uses the text-to-video model to complete only the missing views, and reconstructs the completed orbit into a final Gaussian Splatting scene. This design requires no task-specific video or multiview fine-tuning, avoids per-prompt score-distillation optimization, and does not progressively generate views one step at a time. We further argue that this setting demands coverage-aware evaluation: local smoothness alone rewards methods that never attempt a full orbit. On a frozen 300-prompt T3Bench-derived audit, OrbitForge reconstruction attains a 359.0-degree measured median span, raises originally unsupported-bin Q10 ImageReward from 8.07 to 16.36 relative to MedianGS-only reconstruction, while remaining competitive with VideoMV on the coverage-quality.",
     "content": null,
-    "collected_at": "2026-06-24T05:30:22Z",
+    "collected_at": "2026-06-24T05:47:42Z",
     "raw_provider": "arXiv AI Search",
     "raw_payload": {
       "id": "http://arxiv.org/abs/2606.24799v1",
@@ -567,7 +567,7 @@
     "language": "en",
     "summary": "Recent advances in Video Large Language Models (Video-LLMs) have yielded promising performance on video question answering (VideoQA). Nevertheless, existing benchmarks are predominantly evaluated through answer correctness, while the grounding of predictions in relevant video evidence remains largely unexamined. This disconnect between answer generation and evidence understanding motivates the construction of the Evidence-Grounded Video Question Answering Benchmark (EG-VQA), an open-ended evaluation protocol in which each QA pair is explicitly annotated with supporting temporal evidence, thereby requiring joint reasoning and precise evidence localization. EG-VQA is comprised of 2,067 videos and 11,838 QA pairs with fine-grained evidence annotations. To evaluate predicted evidence, Evidence-Grounded F1 (EG-F1) is introduced as a unified metric in which temporal alignment and semantic consistency against ground-truth evidence are jointly measured. Experimental evaluation reveals that even strong proprietary models struggle to accurately ground their predictions, exposing a fundamental discrepancy between answer correctness and faithful evidence localization. To bridge this gap, EG-Reasoner, an evidence-grounded reasoning model trained with explicit supervision, is proposed. State-of-the-art performance is achieved among open-source models, with results competitive against proprietary systems, particularly pronounced gains are observed on reasoning-intensive tasks such as counterfactual questions. These findings demonstrate that scaling alone is insufficient for robust video understanding and that structured evidence supervision is essential for the development of more reliable and interpretable VideoQA systems.",
     "content": null,
-    "collected_at": "2026-06-24T05:30:22Z",
+    "collected_at": "2026-06-24T05:47:42Z",
     "raw_provider": "arXiv AI Search",
     "raw_payload": {
       "id": "http://arxiv.org/abs/2606.24797v1",
@@ -596,7 +596,7 @@
     "language": "en",
     "summary": "Large Language Models (LLMs) have demonstrated remarkable capabilities across diverse tasks, yet they remain prone to generating hallucinations. Detecting these hallucinations is critical for deploying LLMs reliably in high-stakes applications. We present Grad Detect, a gradient-based approach for predicting hallucinations by analyzing layer-wise gradient patterns from a single forward-backward pass during inference. Our method shows that the internal gradient structure of a model carries rich information about the correctness of its output. This information is not accessible through output-level signals alone. We evaluate Grad Detect on several Q&A benchmarks across both hallucination detection and model abstention prediction, where it consistently outperforms confidence-based and sampling-based baselines. Through comprehensive layer ablation studies across all eleven models from four architectural families, we find that the final five layers concentrate over 97% of the discriminative gradient signal, enabling efficient deployment with minimal performance loss. Grad Detect provides a unified framework for predicting multiple dimensions of LLM reliability, offering strong predictive performance alongside interpretable insights into where and how model failures originate.",
     "content": null,
-    "collected_at": "2026-06-24T05:30:22Z",
+    "collected_at": "2026-06-24T05:47:43Z",
     "raw_provider": "arXiv AI Search",
     "raw_payload": {
       "id": "http://arxiv.org/abs/2606.24790v1",
@@ -614,16 +614,16 @@
     "quality_score": 1.0
   },
   {
-    "news_id": "news_324885060252",
+    "news_id": "news_1901b013c951",
     "title": "云计算一哥，让小鹏、Kimi和猎豹都爽了一把 – 量子位",
     "url": "https://www.qbitai.com/2026/06/437672.html",
     "source": "量子位",
     "source_type": "media",
-    "published_at": "2026-06-24T13:30:24+08:00",
+    "published_at": "2026-06-24T13:47:43+08:00",
     "language": "zh",
     "summary": "更准确地说，小鹏基于亚马逊云科技的 Kiro 、 Amazon Bedrock 、 Amazon EKS 等服务，搭了一套企业内部AI编程与Agentic工作平台，名字叫 灵犀 。",
     "content": null,
-    "collected_at": "2026-06-24T05:30:27Z",
+    "collected_at": "2026-06-24T05:47:46Z",
     "raw_provider": "量子位",
     "raw_payload": {
       "title": "云计算一哥，让小鹏、Kimi和猎豹都爽了一把 – 量子位",
@@ -631,23 +631,23 @@
       "source": "量子位",
       "source_type": "media",
       "summary": "更准确地说，小鹏基于亚马逊云科技的 Kiro 、 Amazon Bedrock 、 Amazon EKS 等服务，搭了一套企业内部AI编程与Agentic工作平台，名字叫 灵犀 。",
-      "published_at": "2026-06-24T13:30:24+08:00",
+      "published_at": "2026-06-24T13:47:43+08:00",
       "language": "zh"
     },
     "missing_fields": [],
     "quality_score": 1.0
   },
   {
-    "news_id": "news_a5f80feea984",
+    "news_id": "news_056419dbed3d",
     "title": "刚刚，豆包2.1发布！Agent自己跑18个小时搞定芯片设计代码 – 量子位",
     "url": "https://www.qbitai.com/2026/06/437503.html",
     "source": "量子位",
     "source_type": "media",
-    "published_at": "2026-06-24T13:30:24+08:00",
+    "published_at": "2026-06-24T13:47:44+08:00",
     "language": "zh",
     "summary": "这个版本一共包含2个模型，分别是Doubao-Seed-2.1-Pro和Doubao-Seed-2.1-Turbo，并且API服务已全量上线火山方舟。",
     "content": null,
-    "collected_at": "2026-06-24T05:30:27Z",
+    "collected_at": "2026-06-24T05:47:46Z",
     "raw_provider": "量子位",
     "raw_payload": {
       "title": "刚刚，豆包2.1发布！Agent自己跑18个小时搞定芯片设计代码 – 量子位",
@@ -655,23 +655,23 @@
       "source": "量子位",
       "source_type": "media",
       "summary": "这个版本一共包含2个模型，分别是Doubao-Seed-2.1-Pro和Doubao-Seed-2.1-Turbo，并且API服务已全量上线火山方舟。",
-      "published_at": "2026-06-24T13:30:24+08:00",
+      "published_at": "2026-06-24T13:47:44+08:00",
       "language": "zh"
     },
     "missing_fields": [],
     "quality_score": 1.0
   },
   {
-    "news_id": "news_c3f9c63a456c",
+    "news_id": "news_cb7cbe1f2754",
     "title": "具身赛道现状素描：脑子灵，模型好，不是百亿，就是独角 – 量子位",
     "url": "https://www.qbitai.com/2026/06/437198.html",
     "source": "量子位",
     "source_type": "media",
-    "published_at": "2026-06-24T13:30:25+08:00",
+    "published_at": "2026-06-24T13:47:44+08:00",
     "language": "zh",
     "summary": "2026年还没过半，具身智能的融资就快要超过去年全年了，超过一半的钱都流入了机器人的“大脑”。",
     "content": null,
-    "collected_at": "2026-06-24T05:30:27Z",
+    "collected_at": "2026-06-24T05:47:46Z",
     "raw_provider": "量子位",
     "raw_payload": {
       "title": "具身赛道现状素描：脑子灵，模型好，不是百亿，就是独角 – 量子位",
@@ -679,23 +679,23 @@
       "source": "量子位",
       "source_type": "media",
       "summary": "2026年还没过半，具身智能的融资就快要超过去年全年了，超过一半的钱都流入了机器人的“大脑”。",
-      "published_at": "2026-06-24T13:30:25+08:00",
+      "published_at": "2026-06-24T13:47:44+08:00",
       "language": "zh"
     },
     "missing_fields": [],
     "quality_score": 1.0
   },
   {
-    "news_id": "news_937b36436b76",
+    "news_id": "news_19ef0297f759",
     "title": "陶哲轩12年前的预言，现在AI帮他兑现了 – 量子位",
     "url": "https://www.qbitai.com/2026/06/437023.html",
     "source": "量子位",
     "source_type": "media",
-    "published_at": "2026-06-24T13:30:25+08:00",
+    "published_at": "2026-06-24T13:47:44+08:00",
     "language": "zh",
     "summary": "从OpenAI解决开放问题，到DeepMind批量攻克数学猜想，越来越多数学证明被写进形式化系统，交给计算机自动验证。",
     "content": null,
-    "collected_at": "2026-06-24T05:30:27Z",
+    "collected_at": "2026-06-24T05:47:46Z",
     "raw_provider": "量子位",
     "raw_payload": {
       "title": "陶哲轩12年前的预言，现在AI帮他兑现了 – 量子位",
@@ -703,23 +703,23 @@
       "source": "量子位",
       "source_type": "media",
       "summary": "从OpenAI解决开放问题，到DeepMind批量攻克数学猜想，越来越多数学证明被写进形式化系统，交给计算机自动验证。",
-      "published_at": "2026-06-24T13:30:25+08:00",
+      "published_at": "2026-06-24T13:47:44+08:00",
       "language": "zh"
     },
     "missing_fields": [],
     "quality_score": 1.0
   },
   {
-    "news_id": "news_ab332c0a987c",
+    "news_id": "news_a72cf9fd3725",
     "title": "AI转型最大的门槛，不是技术，是人 – 量子位",
     "url": "https://www.qbitai.com/2026/06/436435.html",
     "source": "量子位",
     "source_type": "media",
-    "published_at": "2026-06-24T13:30:25+08:00",
+    "published_at": "2026-06-24T13:47:44+08:00",
     "language": "zh",
     "summary": "值得注意的是，基础设施、算力、芯片，这些浪潮信息最擅长的领域，彭震没把它们当成重点，却用三分之二的时间在讲 文化、组织和流程 。",
     "content": null,
-    "collected_at": "2026-06-24T05:30:27Z",
+    "collected_at": "2026-06-24T05:47:46Z",
     "raw_provider": "量子位",
     "raw_payload": {
       "title": "AI转型最大的门槛，不是技术，是人 – 量子位",
@@ -727,23 +727,23 @@
       "source": "量子位",
       "source_type": "media",
       "summary": "值得注意的是，基础设施、算力、芯片，这些浪潮信息最擅长的领域，彭震没把它们当成重点，却用三分之二的时间在讲 文化、组织和流程 。",
-      "published_at": "2026-06-24T13:30:25+08:00",
+      "published_at": "2026-06-24T13:47:44+08:00",
       "language": "zh"
     },
     "missing_fields": [],
     "quality_score": 1.0
   },
   {
-    "news_id": "news_dc8e9062e351",
+    "news_id": "news_9b81f740c3ae",
     "title": "华为天才少年一作，港大MaRS Lab拿下IEEE TRO傅京孙纪念最佳论文奖 – 量子位",
     "url": "https://www.qbitai.com/2026/06/437833.html",
     "source": "量子位",
     "source_type": "media",
-    "published_at": "2026-06-24T13:30:26+08:00",
+    "published_at": "2026-06-24T13:47:45+08:00",
     "language": "zh",
     "summary": "近日，香港大学机械与机器人系统实验室（MaRS Lab）张富副教授团队研发的 FAST-LIVO2 ，获得机器人领域顶级期刊IEEE Transactions on Robotics（TRO） 傅京孙纪念最佳论文奖。",
     "content": null,
-    "collected_at": "2026-06-24T05:30:27Z",
+    "collected_at": "2026-06-24T05:47:46Z",
     "raw_provider": "量子位",
     "raw_payload": {
       "title": "华为天才少年一作，港大MaRS Lab拿下IEEE TRO傅京孙纪念最佳论文奖 – 量子位",
@@ -751,23 +751,23 @@
       "source": "量子位",
       "source_type": "media",
       "summary": "近日，香港大学机械与机器人系统实验室（MaRS Lab）张富副教授团队研发的 FAST-LIVO2 ，获得机器人领域顶级期刊IEEE Transactions on Robotics（TRO） 傅京孙纪念最佳论文奖。",
-      "published_at": "2026-06-24T13:30:26+08:00",
+      "published_at": "2026-06-24T13:47:45+08:00",
       "language": "zh"
     },
     "missing_fields": [],
     "quality_score": 1.0
   },
   {
-    "news_id": "news_a0034b248673",
+    "news_id": "news_e127437fcae1",
     "title": "阿里QoderWork推“峰谷Token”，夜间使用Qwen3.7低至2折 – 量子位",
     "url": "https://www.qbitai.com/2026/06/437834.html",
     "source": "量子位",
     "source_type": "media",
-    "published_at": "2026-06-24T13:30:26+08:00",
+    "published_at": "2026-06-24T13:47:45+08:00",
     "language": "zh",
     "summary": "6月23日晚，阿里QoderWork推出“峰谷Token”，Agent在每晚 22:00到次日08:00运行可自动享受优惠，其中Qwen3.7-Max模型低至2折。这是国内首个上线“峰谷Token”的Agent产品，将大幅降低用户的使用成本。",
     "content": null,
-    "collected_at": "2026-06-24T05:30:27Z",
+    "collected_at": "2026-06-24T05:47:46Z",
     "raw_provider": "量子位",
     "raw_payload": {
       "title": "阿里QoderWork推“峰谷Token”，夜间使用Qwen3.7低至2折 – 量子位",
@@ -775,23 +775,23 @@
       "source": "量子位",
       "source_type": "media",
       "summary": "6月23日晚，阿里QoderWork推出“峰谷Token”，Agent在每晚 22:00到次日08:00运行可自动享受优惠，其中Qwen3.7-Max模型低至2折。这是国内首个上线“峰谷Token”的Agent产品，将大幅降低用户的使用成本。",
-      "published_at": "2026-06-24T13:30:26+08:00",
+      "published_at": "2026-06-24T13:47:45+08:00",
       "language": "zh"
     },
     "missing_fields": [],
     "quality_score": 1.0
   },
   {
-    "news_id": "news_e875c0623c3d",
+    "news_id": "news_8f789c3700e9",
     "title": "刚刚，Claude Code大升级！卡帕西：LLM第三次变革 – 量子位",
     "url": "https://www.qbitai.com/2026/06/437734.html",
     "source": "量子位",
     "source_type": "media",
-    "published_at": "2026-06-24T13:30:26+08:00",
+    "published_at": "2026-06-24T13:47:45+08:00",
     "language": "zh",
     "summary": "这是LLM用户界面的第三次重大变革。第一次是网页版聊天，第二次是桌面应用，而这一次，LLM变成了一个独立、持续运行的系统，拥有组织内的工具和上下文，能与人类团队协同工作。",
     "content": null,
-    "collected_at": "2026-06-24T05:30:27Z",
+    "collected_at": "2026-06-24T05:47:46Z",
     "raw_provider": "量子位",
     "raw_payload": {
       "title": "刚刚，Claude Code大升级！卡帕西：LLM第三次变革 – 量子位",
@@ -799,23 +799,23 @@
       "source": "量子位",
       "source_type": "media",
       "summary": "这是LLM用户界面的第三次重大变革。第一次是网页版聊天，第二次是桌面应用，而这一次，LLM变成了一个独立、持续运行的系统，拥有组织内的工具和上下文，能与人类团队协同工作。",
-      "published_at": "2026-06-24T13:30:26+08:00",
+      "published_at": "2026-06-24T13:47:45+08:00",
       "language": "zh"
     },
     "missing_fields": [],
     "quality_score": 1.0
   },
   {
-    "news_id": "news_2987315f9bcc",
+    "news_id": "news_c73a505e3282",
     "title": "周鸿祎ISC宣布打造中国版Mythos，360联手信创巨头发起“磐石之盾”安全协作计划 – 量子位",
     "url": "https://www.qbitai.com/2026/06/437838.html",
     "source": "量子位",
     "source_type": "media",
-    "published_at": "2026-06-24T13:30:27+08:00",
+    "published_at": "2026-06-24T13:47:46+08:00",
     "language": "zh",
     "summary": "在今日开幕的ISC.AI 2026（第十四届互联网安全大会）上，360集团创始人周鸿祎正式发布360 AI安全“倚天屠龙”两大核心能力：漏洞自动化挖掘智能体“图龙锋”和网络安全自动化防御系统“仪天阵”。同时，360联合飞腾、麒麟等信创、安全、云计算、大模型和算力等产业伙伴，共同发起“磐石之盾”安全协作计划。",
     "content": null,
-    "collected_at": "2026-06-24T05:30:27Z",
+    "collected_at": "2026-06-24T05:47:46Z",
     "raw_provider": "量子位",
     "raw_payload": {
       "title": "周鸿祎ISC宣布打造中国版Mythos，360联手信创巨头发起“磐石之盾”安全协作计划 – 量子位",
@@ -823,23 +823,23 @@
       "source": "量子位",
       "source_type": "media",
       "summary": "在今日开幕的ISC.AI 2026（第十四届互联网安全大会）上，360集团创始人周鸿祎正式发布360 AI安全“倚天屠龙”两大核心能力：漏洞自动化挖掘智能体“图龙锋”和网络安全自动化防御系统“仪天阵”。同时，360联合飞腾、麒麟等信创、安全、云计算、大模型和算力等产业伙伴，共同发起“磐石之盾”安全协作计划。",
-      "published_at": "2026-06-24T13:30:27+08:00",
+      "published_at": "2026-06-24T13:47:46+08:00",
       "language": "zh"
     },
     "missing_fields": [],
     "quality_score": 1.0
   },
   {
-    "news_id": "news_2f57d72c08bb",
+    "news_id": "news_cd2e24ba417f",
     "title": "2026世界人工智能大会SAIL奖TOP30及青年优秀论文奖TOP20发布 – 量子位",
     "url": "https://www.qbitai.com/2026/06/437698.html",
     "source": "量子位",
     "source_type": "media",
-    "published_at": "2026-06-24T13:30:27+08:00",
+    "published_at": "2026-06-24T13:47:46+08:00",
     "language": "zh",
     "summary": "卓越人工智能引领者奖（SAIL），是世界人工智能大会最高荣誉奖项，也是全球人工智能领域极具影响力的高规格国际化奖项。",
     "content": null,
-    "collected_at": "2026-06-24T05:30:27Z",
+    "collected_at": "2026-06-24T05:47:46Z",
     "raw_provider": "量子位",
     "raw_payload": {
       "title": "2026世界人工智能大会SAIL奖TOP30及青年优秀论文奖TOP20发布 – 量子位",
@@ -847,7 +847,7 @@
       "source": "量子位",
       "source_type": "media",
       "summary": "卓越人工智能引领者奖（SAIL），是世界人工智能大会最高荣誉奖项，也是全球人工智能领域极具影响力的高规格国际化奖项。",
-      "published_at": "2026-06-24T13:30:27+08:00",
+      "published_at": "2026-06-24T13:47:46+08:00",
       "language": "zh"
     },
     "missing_fields": [],
@@ -863,7 +863,7 @@
     "language": "en",
     "summary": "The all-cash deal gives MoEngage access to technology that assigns AI agents to individual customers.",
     "content": null,
-    "collected_at": "2026-06-24T05:30:28Z",
+    "collected_at": "2026-06-24T05:47:46Z",
     "raw_provider": "TechCrunch AI",
     "raw_payload": {
       "title": "India’s MoEngage bets that the future of marketing is millions of AI agents",
@@ -894,7 +894,7 @@
     "language": "en",
     "summary": "Anthropic’s new Claude Tag brings an always-on AI teammate to Slack. But beyond productivity, the feature is a strategic play to capture organizational context, institutional knowledge, and enterprise workflows.",
     "content": null,
-    "collected_at": "2026-06-24T05:30:28Z",
+    "collected_at": "2026-06-24T05:47:46Z",
     "raw_provider": "TechCrunch AI",
     "raw_payload": {
       "title": "Anthropic’s Claude Tag is learning your company, one Slack message at a time",
@@ -925,7 +925,7 @@
     "language": "en",
     "summary": "Four days left to save up to $190 on your pass to TechCrunch Founder Summit 2026 — the ultimate founder bootcamp — before Early Bird rates end on June 26 at 11:59 p.m. PT. Register today.",
     "content": null,
-    "collected_at": "2026-06-24T05:30:28Z",
+    "collected_at": "2026-06-24T05:47:46Z",
     "raw_provider": "TechCrunch AI",
     "raw_payload": {
       "title": "4 days left to save up to $190 on TechCrunch Founder Summit 2026",
@@ -956,7 +956,7 @@
     "language": "en",
     "summary": "Stockholm-based startup Fika Jobs is building a video-first hiring platform that combines AI interview agents with short-form video profiles, creating something that feels like a cross between LinkedIn and TikTok.",
     "content": null,
-    "collected_at": "2026-06-24T05:30:28Z",
+    "collected_at": "2026-06-24T05:47:46Z",
     "raw_provider": "TechCrunch AI",
     "raw_payload": {
       "title": "Fika Jobs raises $4M to build a video-first hiring platform where AI agents interview candidates",
@@ -987,7 +987,7 @@
     "language": "en",
     "summary": "A running look — in reverse chronological order — at the bigger tech companies that have announced significant layoffs this year with AI as a stated factor.",
     "content": null,
-    "collected_at": "2026-06-24T05:30:28Z",
+    "collected_at": "2026-06-24T05:47:46Z",
     "raw_provider": "TechCrunch AI",
     "raw_payload": {
       "title": "The running list: major tech layoffs in 2026 where employers cited AI",
@@ -1018,7 +1018,7 @@
     "language": "en",
     "summary": "OpenAI is using AI to help the open source community better protect itself.",
     "content": null,
-    "collected_at": "2026-06-24T05:30:28Z",
+    "collected_at": "2026-06-24T05:47:46Z",
     "raw_provider": "TechCrunch AI",
     "raw_payload": {
       "title": "OpenAI launches new initiative to help find and patch open source bugs",
@@ -1049,7 +1049,7 @@
     "language": "en",
     "summary": "The loop takes agentic AI a step further by authorizing a swarm of agents to work continuously in the background, endlessly.",
     "content": null,
-    "collected_at": "2026-06-24T05:30:28Z",
+    "collected_at": "2026-06-24T05:47:46Z",
     "raw_provider": "TechCrunch AI",
     "raw_payload": {
       "title": "The AI world is getting ‘loopy’",
@@ -1080,7 +1080,7 @@
     "language": "en",
     "summary": "What does an AI company do after one of those not-acqui-hire deals? Groq raised money, is leaning into its neocloud business, and is hiring new execs.",
     "content": null,
-    "collected_at": "2026-06-24T05:30:28Z",
+    "collected_at": "2026-06-24T05:47:46Z",
     "raw_provider": "TechCrunch AI",
     "raw_payload": {
       "title": "AI chipmaker Groq confirms $650M raise, re-staffs after Nvidia’s $20B not-acqui-hire deal",
@@ -1111,7 +1111,7 @@
     "language": "en",
     "summary": "Nvidia announced a new cooling system that cuts water use inside the data center. But it does nothing to address AI's biggest water use — fossil fuel power plants.",
     "content": null,
-    "collected_at": "2026-06-24T05:30:28Z",
+    "collected_at": "2026-06-24T05:47:46Z",
     "raw_provider": "TechCrunch AI",
     "raw_payload": {
       "title": "Nvidia wants to cut data center water use, but that’s not the same as fixing AI’s water problem",
@@ -1142,7 +1142,7 @@
     "language": "en",
     "summary": "Google DeepMind and A24 are teaming up to build AI filmmaking tools.",
     "content": null,
-    "collected_at": "2026-06-24T05:30:28Z",
+    "collected_at": "2026-06-24T05:47:46Z",
     "raw_provider": "TechCrunch AI",
     "raw_payload": {
       "title": "Google DeepMind bets $75M on AI’s future in Hollywood with A24 deal",
@@ -1173,7 +1173,7 @@
     "language": "en",
     "summary": "Amazon is planning to increase the footprint of its new conversational AI assistant Alexa+ to India and is inviting users in the country to test out a Hindi-language version.",
     "content": null,
-    "collected_at": "2026-06-24T05:30:28Z",
+    "collected_at": "2026-06-24T05:47:46Z",
     "raw_provider": "TechCrunch AI",
     "raw_payload": {
       "title": "Amazon is testing Alexa+ in India with Hindi support",
@@ -1204,7 +1204,7 @@
     "language": "en",
     "summary": "Reflection AI will pay $150 million a month beginning July 1, 2026 through 2029 for immediate access to Nvidia's latest GB300 AI chips and supporting hardware across SpaceX's Colossus 2 data center near Memphis, Tennessee.",
     "content": null,
-    "collected_at": "2026-06-24T05:30:28Z",
+    "collected_at": "2026-06-24T05:47:46Z",
     "raw_provider": "TechCrunch AI",
     "raw_payload": {
       "title": "SpaceX inks compute deal with Reflection AI, an open source AI lab",
@@ -1235,7 +1235,7 @@
     "language": "en",
     "summary": "Save up to $190 on your pass to TechCrunch Founder Summit 2026 by June 26, 11:59 p.m. PT. Designed for founders first on November 4 in Boston. Register today.",
     "content": null,
-    "collected_at": "2026-06-24T05:30:28Z",
+    "collected_at": "2026-06-24T05:47:46Z",
     "raw_provider": "TechCrunch AI",
     "raw_payload": {
       "title": "The founder conference built for growth: TechCrunch Founder Summit pass rates increase June 26",
@@ -1266,7 +1266,7 @@
     "language": "en",
     "summary": "On the new episode of Equity, we discussed what actually prompted the administration's latest moves against Anthropic, and what this might mean for the AI ecosystem.",
     "content": null,
-    "collected_at": "2026-06-24T05:30:28Z",
+    "collected_at": "2026-06-24T05:47:46Z",
     "raw_provider": "TechCrunch AI",
     "raw_payload": {
       "title": "When the Trump administration cracks down on Anthropic, who benefits?",
@@ -1297,7 +1297,7 @@
     "language": "en",
     "summary": "Siri’s AI overhaul may have grabbed the headlines at WWDC, but some of Apple’s most useful AI features are arriving elsewhere in iOS 27.",
     "content": null,
-    "collected_at": "2026-06-24T05:30:28Z",
+    "collected_at": "2026-06-24T05:47:46Z",
     "raw_provider": "TechCrunch AI",
     "raw_payload": {
       "title": "Beyond Siri: Here are the practical AI features coming to your iPhone in iOS 27",
@@ -1328,7 +1328,7 @@
     "language": "en",
     "summary": "\"These are not your friends. These are not conscious beings. These are not sentient interlocutors.”",
     "content": null,
-    "collected_at": "2026-06-24T05:30:28Z",
+    "collected_at": "2026-06-24T05:47:46Z",
     "raw_provider": "TechCrunch AI",
     "raw_payload": {
       "title": "Signal’s Meredith Whittaker wants you to remember that AI chatbots ‘are not your friends’",
@@ -1359,7 +1359,7 @@
     "language": "en",
     "summary": "So ... what's your In the Weights score?",
     "content": null,
-    "collected_at": "2026-06-24T05:30:28Z",
+    "collected_at": "2026-06-24T05:47:46Z",
     "raw_provider": "TechCrunch AI",
     "raw_payload": {
       "title": "In the Weights is your new AI-centric vanity search",
@@ -1390,7 +1390,7 @@
     "language": "en",
     "summary": "Jumper isn't the only big name leaving Google DeepMind.",
     "content": null,
-    "collected_at": "2026-06-24T05:30:28Z",
+    "collected_at": "2026-06-24T05:47:46Z",
     "raw_provider": "TechCrunch AI",
     "raw_payload": {
       "title": "Nobel laureate John Jumper is leaving DeepMind for rival Anthropic",
@@ -1421,7 +1421,7 @@
     "language": "en",
     "summary": "For the last 30 years, stopping the flow of cybersecurity-related software has proven to be ineffective. It's unclear why it would work now with Anthropic’s cybersecurity model Mythos.",
     "content": null,
-    "collected_at": "2026-06-24T05:30:28Z",
+    "collected_at": "2026-06-24T05:47:46Z",
     "raw_provider": "TechCrunch AI",
     "raw_payload": {
       "title": "From PGP to Mythos: a brief history of export controls that didn’t stop anyone",
@@ -1452,7 +1452,7 @@
     "language": "en",
     "summary": "Netflix, A24, Focus Features, and Warner Bros.' Clockwork have all reportedly decided to pass on picking up Artificial - director Luca Guadagnino's new biographical drama about OpenAI cofounder / CEO Sam Altman - for distribution deals. And while Neon and Mubi are still said to be interested in the film, this situation makes it seem [&#8230;]",
     "content": null,
-    "collected_at": "2026-06-24T05:30:30Z",
+    "collected_at": "2026-06-24T05:47:46Z",
     "raw_provider": "The Verge",
     "raw_payload": {
       "authors": [],

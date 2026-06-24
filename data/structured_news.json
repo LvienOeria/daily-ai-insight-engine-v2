@@ -1,10 +1,10 @@
 [
   {
-    "news_id": "news_2987315f9bcc",
+    "news_id": "news_c73a505e3282",
     "title": "周鸿祎ISC宣布打造中国版Mythos，360联手信创巨头发起“磐石之盾”安全协作计划 – 量子位",
     "source": "量子位",
     "source_type": "media",
-    "published_at": "2026-06-24T13:30:27+08:00",
+    "published_at": "2026-06-24T13:47:46+08:00",
     "language": "zh",
     "url": "https://www.qbitai.com/2026/06/437838.html",
     "entities": [
@@ -20,10 +20,10 @@
     "event_type": "partnership",
     "industry_area": "ai_safety",
     "key_facts": [
-      "360发布AI安全能力：漏洞自动化挖掘智能体“图龙锋”和网络安全自动化防御系统“仪天阵”",
-      "360联合飞腾、麒麟等发起“磐石之盾”安全协作计划"
+      "360发布AI安全'倚天屠龙'两大核心能力：'图龙锋'和'仪天阵'",
+      "360联合飞腾、麒麟等发起'磐石之盾'安全协作计划"
     ],
-    "summary": "在ISC.AI 2026上，360集团创始人周鸿祎发布360 AI安全两大核心能力，并联合信创伙伴发起安全协作计划。",
+    "summary": "在ISC.AI 2026上，360集团创始人周鸿祎发布360 AI安全两大核心能力，并联合信创等产业伙伴发起安全协作计划。",
     "sentiment": "positive",
     "impact_scope": [
       "industry"
@@ -38,27 +38,30 @@
     "importance_score": 4,
     "confidence": "high",
     "evidence": [
-      "周鸿祎正式发布360 AI安全“倚天屠龙”两大核心能力：漏洞自动化挖掘智能体“图龙锋”和网络安全自动化防御系统“仪天阵”。同时，360联合飞腾、麒麟等信创、安全、云计算、大模型和算力等产业伙伴，共同发起“磐石之盾”安全协作计划。"
+      "周鸿祎正式发布360 AI安全'倚天屠龙'两大核心能力：漏洞自动化挖掘智能体'图龙锋'和网络安全自动化防御系统'仪天阵'。同时，360联合飞腾、麒麟等信创、安全、云计算、大模型和算力等产业伙伴，共同发起'磐石之盾'安全协作计划。"
     ],
     "suspected_hallucinations": []
   },
   {
-    "news_id": "news_2f57d72c08bb",
+    "news_id": "news_cd2e24ba417f",
     "title": "2026世界人工智能大会SAIL奖TOP30及青年优秀论文奖TOP20发布 – 量子位",
     "source": "量子位",
     "source_type": "media",
-    "published_at": "2026-06-24T13:30:27+08:00",
+    "published_at": "2026-06-24T13:47:46+08:00",
     "language": "zh",
     "url": "https://www.qbitai.com/2026/06/437698.html",
-    "entities": [],
+    "entities": [
+      "世界人工智能大会",
+      "SAIL奖"
+    ],
     "technologies": [],
     "event_type": "other",
     "industry_area": "research",
     "key_facts": [
       "SAIL奖是世界人工智能大会最高荣誉奖项",
-      "发布了SAIL奖TOP30及青年优秀论文奖TOP20"
+      "发布TOP30及青年优秀论文奖TOP20"
     ],
-    "summary": "2026世界人工智能大会发布了SAIL奖TOP30及青年优秀论文奖TOP20。",
+    "summary": "2026世界人工智能大会发布SAIL奖TOP30及青年优秀论文奖TOP20。",
     "sentiment": "positive",
     "impact_scope": [
       "industry"
@@ -78,17 +81,18 @@
     "suspected_hallucinations": []
   },
   {
-    "news_id": "news_dc8e9062e351",
+    "news_id": "news_9b81f740c3ae",
     "title": "华为天才少年一作，港大MaRS Lab拿下IEEE TRO傅京孙纪念最佳论文奖 – 量子位",
     "source": "量子位",
     "source_type": "media",
-    "published_at": "2026-06-24T13:30:26+08:00",
+    "published_at": "2026-06-24T13:47:45+08:00",
     "language": "zh",
     "url": "https://www.qbitai.com/2026/06/437833.html",
     "entities": [
       "香港大学",
       "MaRS Lab",
-      "张富"
+      "张富",
+      "华为"
     ],
     "technologies": [
       "FAST-LIVO2"
@@ -98,7 +102,7 @@
     "key_facts": [
       "港大MaRS Lab团队研发的FAST-LIVO2获得IEEE TRO傅京孙纪念最佳论文奖"
     ],
-    "summary": "香港大学MaRS Lab张富副教授团队研发的FAST-LIVO2获得机器人领域顶级期刊IEEE TRO最佳论文奖。",
+    "summary": "香港大学MaRS Lab团队研发的FAST-LIVO2获得机器人领域顶级期刊IEEE TRO傅京孙纪念最佳论文奖。",
     "sentiment": "positive",
     "impact_scope": [
       "academic"
@@ -118,11 +122,11 @@
     "suspected_hallucinations": []
   },
   {
-    "news_id": "news_a0034b248673",
+    "news_id": "news_e127437fcae1",
     "title": "阿里QoderWork推“峰谷Token”，夜间使用Qwen3.7低至2折 – 量子位",
     "source": "量子位",
     "source_type": "media",
-    "published_at": "2026-06-24T13:30:26+08:00",
+    "published_at": "2026-06-24T13:47:45+08:00",
     "language": "zh",
     "url": "https://www.qbitai.com/2026/06/437834.html",
     "entities": [
@@ -135,11 +139,11 @@
     "event_type": "product_release",
     "industry_area": "ai_infrastructure",
     "key_facts": [
-      "阿里QoderWork推出“峰谷Token”",
-      "夜间22:00到次日08:00使用Qwen3.7-Max低至2折",
-      "国内首个上线“峰谷Token”的Agent产品"
+      "阿里QoderWork推出'峰谷Token'",
+      "夜间使用Qwen3.7-Max低至2折",
+      "国内首个上线'峰谷Token'的Agent产品"
     ],
-    "summary": "阿里QoderWork推出“峰谷Token”，夜间使用Qwen3.7-Max模型低至2折，降低用户成本。",
+    "summary": "阿里QoderWork推出'峰谷Token'，夜间使用Qwen3.7-Max模型低至2折，降低用户成本。",
     "sentiment": "positive",
     "impact_scope": [
       "industry"
@@ -154,16 +158,16 @@
     "importance_score": 4,
     "confidence": "high",
     "evidence": [
-      "6月23日晚，阿里QoderWork推出“峰谷Token”，Agent在每晚 22:00到次日08:00运行可自动享受优惠，其中Qwen3.7-Max模型低至2折。这是国内首个上线“峰谷Token”的Agent产品，将大幅降低用户的使用成本。"
+      "6月23日晚，阿里QoderWork推出'峰谷Token'，Agent在每晚 22:00到次日08:00运行可自动享受优惠，其中Qwen3.7-Max模型低至2折。这是国内首个上线'峰谷Token'的Agent产品，将大幅降低用户的使用成本。"
     ],
     "suspected_hallucinations": []
   },
   {
-    "news_id": "news_e875c0623c3d",
+    "news_id": "news_8f789c3700e9",
     "title": "刚刚，Claude Code大升级！卡帕西：LLM第三次变革 – 量子位",
     "source": "量子位",
     "source_type": "media",
-    "published_at": "2026-06-24T13:30:26+08:00",
+    "published_at": "2026-06-24T13:47:45+08:00",
     "language": "zh",
     "url": "https://www.qbitai.com/2026/06/437734.html",
     "entities": [
@@ -171,16 +175,16 @@
       "卡帕西"
     ],
     "technologies": [
-      "Claude Code"
+      "Claude Code",
+      "LLM"
     ],
     "event_type": "product_release",
     "industry_area": "developer_tools",
     "key_facts": [
       "Claude Code大升级",
-      "卡帕西称这是LLM用户界面的第三次重大变革",
-      "LLM变成独立、持续运行的系统，能与人类团队协同工作"
+      "卡帕西称这是LLM用户界面的第三次重大变革"
     ],
-    "summary": "Claude Code大升级，卡帕西认为这是LLM用户界面的第三次重大变革。",
+    "summary": "Claude Code大升级，卡帕西称这是LLM用户界面的第三次重大变革，LLM变成独立、持续运行的系统。",
     "sentiment": "positive",
     "impact_scope": [
       "industry"
@@ -200,23 +204,64 @@
     "suspected_hallucinations": []
   },
   {
-    "news_id": "news_c3f9c63a456c",
+    "news_id": "news_056419dbed3d",
+    "title": "刚刚，豆包2.1发布！Agent自己跑18个小时搞定芯片设计代码 – 量子位",
+    "source": "量子位",
+    "source_type": "media",
+    "published_at": "2026-06-24T13:47:44+08:00",
+    "language": "zh",
+    "url": "https://www.qbitai.com/2026/06/437503.html",
+    "entities": [
+      "豆包",
+      "火山方舟"
+    ],
+    "technologies": [
+      "Doubao-Seed-2.1-Pro",
+      "Doubao-Seed-2.1-Turbo",
+      "Agent"
+    ],
+    "event_type": "model_release",
+    "industry_area": "foundation_model",
+    "key_facts": [
+      "豆包2.1发布，包含两个模型：Doubao-Seed-2.1-Pro和Doubao-Seed-2.1-Turbo",
+      "API服务已全量上线火山方舟"
+    ],
+    "summary": "这个版本一共包含2个模型，分别是Doubao-Seed-2.1-Pro和Doubao-Seed-2.1-Turbo，并且API服务已全量上线火山方舟。",
+    "sentiment": "positive",
+    "impact_scope": [
+      "industry"
+    ],
+    "risk_tags": [
+      "none"
+    ],
+    "opportunity_tags": [
+      "模型发布",
+      "API服务"
+    ],
+    "importance_score": 4,
+    "confidence": "high",
+    "evidence": [
+      "标题提到'豆包2.1发布'，摘要说明'包含2个模型'和'API服务已全量上线火山方舟'"
+    ],
+    "suspected_hallucinations": []
+  },
+  {
+    "news_id": "news_cb7cbe1f2754",
     "title": "具身赛道现状素描：脑子灵，模型好，不是百亿，就是独角 – 量子位",
     "source": "量子位",
     "source_type": "media",
-    "published_at": "2026-06-24T13:30:25+08:00",
+    "published_at": "2026-06-24T13:47:44+08:00",
     "language": "zh",
     "url": "https://www.qbitai.com/2026/06/437198.html",
     "entities": [],
     "technologies": [
-      "具身智能",
-      "机器人"
+      "具身智能"
     ],
     "event_type": "market_commentary",
     "industry_area": "ai_agent",
     "key_facts": [
-      "2026年还没过半，具身智能的融资就快要超过去年全年了",
-      "超过一半的钱都流入了机器人的“大脑”"
+      "2026年具身智能融资超过去年全年",
+      "超过一半的钱流入机器人'大脑'"
     ],
     "summary": "2026年还没过半，具身智能的融资就快要超过去年全年了，超过一半的钱都流入了机器人的“大脑”。",
     "sentiment": "positive",
@@ -227,22 +272,22 @@
       "none"
     ],
     "opportunity_tags": [
-      "具身智能",
-      "融资增长"
+      "融资增长",
+      "具身智能"
     ],
-    "importance_score": 4,
-    "confidence": "medium",
+    "importance_score": 3,
+    "confidence": "high",
     "evidence": [
-      "原文：'2026年还没过半，具身智能的融资就快要超过去年全年了，超过一半的钱都流入了机器人的“大脑”。'"
+      "摘要提到'融资就快要超过去年全年'和'超过一半的钱都流入了机器人的“大脑”'"
     ],
     "suspected_hallucinations": []
   },
   {
-    "news_id": "news_937b36436b76",
+    "news_id": "news_19ef0297f759",
     "title": "陶哲轩12年前的预言，现在AI帮他兑现了 – 量子位",
     "source": "量子位",
     "source_type": "media",
-    "published_at": "2026-06-24T13:30:25+08:00",
+    "published_at": "2026-06-24T13:47:44+08:00",
     "language": "zh",
     "url": "https://www.qbitai.com/2026/06/437023.html",
     "entities": [
@@ -252,14 +297,14 @@
     ],
     "technologies": [
       "AI",
-      "形式化系统",
-      "自动验证"
+      "形式化系统"
     ],
     "event_type": "research",
     "industry_area": "research",
     "key_facts": [
-      "从OpenAI解决开放问题，到DeepMind批量攻克数学猜想",
-      "越来越多数学证明被写进形式化系统，交给计算机自动验证"
+      "OpenAI解决开放问题",
+      "DeepMind批量攻克数学猜想",
+      "数学证明被写进形式化系统"
     ],
     "summary": "从OpenAI解决开放问题，到DeepMind批量攻克数学猜想，越来越多数学证明被写进形式化系统，交给计算机自动验证。",
     "sentiment": "positive",
@@ -270,22 +315,22 @@
       "none"
     ],
     "opportunity_tags": [
-      "AI数学证明",
+      "数学证明",
       "形式化验证"
     ],
     "importance_score": 3,
-    "confidence": "medium",
+    "confidence": "high",
     "evidence": [
-      "原文：'从OpenAI解决开放问题，到DeepMind批量攻克数学猜想，越来越多数学证明被写进形式化系统，交给计算机自动验证。'"
+      "摘要提到'OpenAI解决开放问题'和'DeepMind批量攻克数学猜想'"
     ],
     "suspected_hallucinations": []
   },
   {
-    "news_id": "news_ab332c0a987c",
+    "news_id": "news_a72cf9fd3725",
     "title": "AI转型最大的门槛，不是技术，是人 – 量子位",
     "source": "量子位",
     "source_type": "media",
-    "published_at": "2026-06-24T13:30:25+08:00",
+    "published_at": "2026-06-24T13:47:44+08:00",
     "language": "zh",
     "url": "https://www.qbitai.com/2026/06/436435.html",
     "entities": [
@@ -296,10 +341,10 @@
     "event_type": "market_commentary",
     "industry_area": "enterprise_ai",
     "key_facts": [
-      "基础设施、算力、芯片，这些浪潮信息最擅长的领域，彭震没把它们当成重点",
-      "用三分之二的时间在讲文化、组织和流程"
+      "彭震用三分之二时间讲文化、组织和流程",
+      "基础设施、算力、芯片不是重点"
     ],
-    "summary": "值得注意的是，基础设施、算力、芯片，这些浪潮信息最擅长的领域，彭震没把它们当成重点，却用三分之二的时间在讲文化、组织和流程。",
+    "summary": "值得注意的是，基础设施、算力、芯片，这些浪潮信息最擅长的领域，彭震没把它们当成重点，却用三分之二的时间在讲 文化、组织和流程 。",
     "sentiment": "neutral",
     "impact_scope": [
       "industry"
@@ -310,19 +355,19 @@
     "opportunity_tags": [
       "组织变革"
     ],
-    "importance_score": 3,
-    "confidence": "medium",
+    "importance_score": 2,
+    "confidence": "high",
     "evidence": [
-      "原文：'基础设施、算力、芯片，这些浪潮信息最擅长的领域，彭震没把它们当成重点，却用三分之二的时间在讲文化、组织和流程。'"
+      "摘要提到'彭震没把它们当成重点，却用三分之二的时间在讲 文化、组织和流程'"
     ],
     "suspected_hallucinations": []
   },
   {
-    "news_id": "news_324885060252",
+    "news_id": "news_1901b013c951",
     "title": "云计算一哥，让小鹏、Kimi和猎豹都爽了一把 – 量子位",
     "source": "量子位",
     "source_type": "media",
-    "published_at": "2026-06-24T13:30:24+08:00",
+    "published_at": "2026-06-24T13:47:43+08:00",
     "language": "zh",
     "url": "https://www.qbitai.com/2026/06/437672.html",
     "entities": [
@@ -335,59 +380,14 @@
       "Kiro",
       "Amazon Bedrock",
       "Amazon EKS",
-      "AI编程",
-      "Agentic工作平台"
+      "灵犀"
     ],
     "event_type": "partnership",
-    "industry_area": "enterprise_ai",
+    "industry_area": "ai_infrastructure",
     "key_facts": [
-      "小鹏基于亚马逊云科技的Kiro、Amazon Bedrock、Amazon EKS等服务",
-      "搭了一套企业内部AI编程与Agentic工作平台，名字叫灵犀"
+      "小鹏基于亚马逊云科技服务搭建企业内部AI编程与Agentic工作平台'灵犀'"
     ],
-    "summary": "更准确地说，小鹏基于亚马逊云科技的Kiro、Amazon Bedrock、Amazon EKS等服务，搭了一套企业内部AI编程与Agentic工作平台，名字叫灵犀。",
-    "sentiment": "positive",
-    "impact_scope": [
-      "company"
-    ],
-    "risk_tags": [
-      "none"
-    ],
-    "opportunity_tags": [
-      "云计算",
-      "AI平台"
-    ],
-    "importance_score": 3,
-    "confidence": "medium",
-    "evidence": [
-      "原文：'小鹏基于亚马逊云科技的Kiro、Amazon Bedrock、Amazon EKS等服务，搭了一套企业内部AI编程与Agentic工作平台，名字叫灵犀。'"
-    ],
-    "suspected_hallucinations": []
-  },
-  {
-    "news_id": "news_a5f80feea984",
-    "title": "刚刚，豆包2.1发布！Agent自己跑18个小时搞定芯片设计代码 – 量子位",
-    "source": "量子位",
-    "source_type": "media",
-    "published_at": "2026-06-24T13:30:24+08:00",
-    "language": "zh",
-    "url": "https://www.qbitai.com/2026/06/437503.html",
-    "entities": [
-      "豆包",
-      "火山方舟"
-    ],
-    "technologies": [
-      "Doubao-Seed-2.1-Pro",
-      "Doubao-Seed-2.1-Turbo",
-      "Agent",
-      "芯片设计"
-    ],
-    "event_type": "model_release",
-    "industry_area": "foundation_model",
-    "key_facts": [
-      "这个版本一共包含2个模型，分别是Doubao-Seed-2.1-Pro和Doubao-Seed-2.1-Turbo",
-      "API服务已全量上线火山方舟"
-    ],
-    "summary": "这个版本一共包含2个模型，分别是Doubao-Seed-2.1-Pro和Doubao-Seed-2.1-Turbo，并且API服务已全量上线火山方舟。",
+    "summary": "更准确地说，小鹏基于亚马逊云科技的 Kiro 、 Amazon Bedrock 、 Amazon EKS 等服务，搭了一套企业内部AI编程与Agentic工作平台，名字叫 灵犀 。",
     "sentiment": "positive",
     "impact_scope": [
       "industry"
@@ -396,14 +396,13 @@
       "none"
     ],
     "opportunity_tags": [
-      "豆包2.1",
-      "芯片设计",
-      "Agent"
+      "云计算合作",
+      "AI平台"
     ],
-    "importance_score": 4,
-    "confidence": "medium",
+    "importance_score": 3,
+    "confidence": "high",
     "evidence": [
-      "原文：'这个版本一共包含2个模型，分别是Doubao-Seed-2.1-Pro和Doubao-Seed-2.1-Turbo，并且API服务已全量上线火山方舟。'"
+      "摘要提到'小鹏基于亚马逊云科技的 Kiro 、 Amazon Bedrock 、 Amazon EKS 等服务，搭了一套企业内部AI编程与Agentic工作平台'"
     ],
     "suspected_hallucinations": []
   },
@@ -441,7 +440,7 @@
     "importance_score": 3,
     "confidence": "medium",
     "evidence": [
-      "The all-cash deal gives MoEngage access to technology that assigns AI agents to individual customers."
+      "The summary states: 'The all-cash deal gives MoEngage access to technology that assigns AI agents to individual customers.'"
     ],
     "suspected_hallucinations": []
   },
@@ -469,26 +468,26 @@
       "ChatGPT"
     ],
     "event_type": "market_commentary",
-    "industry_area": "other",
+    "industry_area": "consumer_ai",
     "key_facts": [
       "Netflix, A24, Focus Features, and Warner Bros.' Clockwork have passed on picking up 'Artificial'",
       "Neon and Mubi are still interested"
     ],
-    "summary": "Netflix, A24, Focus Features, and Warner Bros.' Clockwork have all reportedly decided to pass on picking up Artificial - director Luca Guadagnino's new biographical drama about OpenAI cofounder / CEO Sam Altman - for distribution deals. And while Neon and Mubi are still said to be interested in the film, this situation makes it seem [...]",
+    "summary": "Netflix, A24, Focus Features, and Warner Bros.' Clockwork have all reportedly decided to pass on picking up Artificial - director Luca Guadagnino's new biographical drama about OpenAI cofounder / CEO Sam Altman - for distribution deals. And while Neon and Mubi are still said to be interested in the film, this situation makes it seem [&#8230;]",
     "sentiment": "mixed",
     "impact_scope": [
       "industry"
     ],
     "risk_tags": [
-      "none"
+      "Hollywood resistance to AI"
     ],
     "opportunity_tags": [
       "none"
     ],
-    "importance_score": 2,
+    "importance_score": 3,
     "confidence": "medium",
     "evidence": [
-      "Netflix, A24, Focus Features, and Warner Bros.' Clockwork have all reportedly decided to pass on picking up Artificial ... Neon and Mubi are still said to be interested"
+      "The summary mentions that major studios passed on the film about Sam Altman, while some remain interested."
     ],
     "suspected_hallucinations": []
   },
@@ -509,8 +508,8 @@
     "event_type": "research",
     "industry_area": "research",
     "key_facts": [
-      "InSight framework unlocks autonomous skill acquisition by rendering VLAs steerable at primitive-action level",
-      "evaluated across simulation and real-world manipulation tasks without human demonstrations of target skills"
+      "InSight enables autonomous skill acquisition by rendering VLAs steerable at primitive-action level",
+      "evaluated on block flipping, drawer closing, sweeping, twisting, pouring without human demonstrations"
     ],
     "summary": "Vision-language-action (VLA) models can learn manipulation skills from demonstrations, but their capabilities are bounded by the skills in the training data. We present InSight, a framework that unlocks autonomous skill acquisition by rendering VLAs steerable at the primitive-action level (e.g., \"move gripper to the bowl\", \"lift upward\", \"pour the bottle\"). InSight consists of two primary stages: (1) an automated segmentation pipeline that partitions demonstrations into labeled primitives via VLM plan decomposition and end-effector poses to enable VLA primitive steerability, and (2) a VLM-guided data flywheel that identifies missing primitives required to accomplish a novel task, autonomously attempts demonstrations of the missing primitives with VLM-proposed low-level control, and automatically labels, stores, and integrates successful demonstrations into the VLA training set. We evaluate InSight across simulation and real-world manipulation tasks, including block flipping, drawer closing, sweeping, twisting, and pouring, without any human demonstrations of these target skills. Once learned, these primitives can be composed to execute novel, long-horizon tasks without additional human demonstrations. Our findings demonstrate that primitive steerability provides a practical foundation for continual skill acquisition in VLA policies. Project website: https://insight-vla.github.io.",
     "sentiment": "positive",
@@ -527,7 +526,7 @@
     "importance_score": 4,
     "confidence": "high",
     "evidence": [
-      "We present InSight, a framework that unlocks autonomous skill acquisition by rendering VLAs steerable at the primitive-action level ... evaluated across simulation and real-world manipulation tasks ... without any human demonstrations of these target skills."
+      "The abstract describes the framework and its evaluation on tasks without human demonstrations."
     ],
     "suspected_hallucinations": []
   },
@@ -546,12 +545,12 @@
     "event_type": "research",
     "industry_area": "research",
     "key_facts": [
-      "Proves last iterate optimization error of order 1/√n for i.i.d. noise",
-      "Without i.i.d. assumption, error can be (log n)/√n",
+      "Proves optimization error of order 1/sqrt(n) for last iterate under i.i.d. noise",
+      "Without i.i.d. assumption, error can be (log n)/sqrt(n)",
       "Resolves open problem from Koren and Segal, COLT, 2020"
     ],
-    "summary": "We study the last iterate of the stochastic subgradient method for one-dimensional convex Lipschitz objectives. For a fixed horizon n, we consider the standard fixed stepsizes η=Θ(1/√n). We prove that, for such stepsize policies, under additive i.i.d. subgradient noise with uniformly bounded variance, the last iterate features an optimization error of order 1/√n, thereby removing the extra (log n) factor present in existing generic bounds. On the other hand, we show that without the i.i.d. assumption, the optimization error can be of order (log n)/√n. Thus, under the uniformly bounded variance assumption alone, the last iterate of SsGM is suboptimal even in dimension one, resolving negatively an open problem posed in Koren and Segal, COLT, 2020.",
-    "sentiment": "positive",
+    "summary": "We study the last iterate of the stochastic subgradient method for one-dimensional convex Lipschitz objectives. For a fixed horizon $n$, we consider the standard fixed stepsizes $η=Θ(1/\\sqrt n)$. We prove that, for such stepsize policies, under additive i.i.d. subgradient noise with uniformly bounded variance, the last iterate features an optimization error of order $1/\\sqrt n$, thereby removing the extra $(\\log n)$ factor present in existing generic bounds. On the other hand, we show that without the i.i.d. assumption, the optimization error can be of order $(\\log n)/\\sqrt n$. Thus, under the uniformly bounded variance assumption alone, the last iterate of SsGM is suboptimal even in dimension one, resolving negatively an open problem posed in Koren and Segal, COLT, 2020.",
+    "sentiment": "neutral",
     "impact_scope": [
       "research"
     ],
@@ -564,7 +563,7 @@
     "importance_score": 3,
     "confidence": "high",
     "evidence": [
-      "We prove that ... the last iterate features an optimization error of order 1/√n ... resolving negatively an open problem posed in Koren and Segal, COLT, 2020."
+      "The abstract states the results and the resolution of an open problem."
     ],
     "suspected_hallucinations": []
   },
@@ -580,16 +579,14 @@
     "technologies": [
       "3D Gaussian Splatting",
       "diffusion transformers",
-      "FLUX3D",
-      "DA-SLAT",
-      "SMDiT",
-      "MARoPE"
+      "FLUX3D"
     ],
     "event_type": "research",
     "industry_area": "research",
     "key_facts": [
-      "FLUX3D improves appearance fidelity and outperforms SOTA in generating high-quality 3DGS assets",
-      "Proposes Diffusion-Aligned Structured Latents (DA-SLAT) and Sparse-structure Multimodal Diffusion Transformer (SMDiT)"
+      "FLUX3D improves image-to-3DGS generation",
+      "Proposes Diffusion-Aligned Structured Latents (DA-SLAT) and Sparse-structure Multimodal Diffusion Transformer (SMDiT)",
+      "Outperforms state-of-the-art methods"
     ],
     "summary": "Sparse voxel representation has emerged as a scalable foundation for image-to-3D Gaussian Splatting (3DGS) generation, yet current methods struggle to preserve high-frequency visual details of input images due to two structural bottlenecks. First, they adopt discriminative 2D features optimized for semantic abstraction to construct sparse voxel latents, which suppress reconstructive cues and induce a representation bottleneck. Second, in the generation stage, standard diffusion transformers lack effective mechanisms to align dense 2D image tokens with sparse 3D voxel latents, resulting in a cross-modal correspondence bottleneck. To address these issues, we propose FLUX3D, a scalable image-to-3DGS framework that boosts both representation learning and cross-modal alignment during generation. We first revisit 2D feature selection for sparse-voxel-based 3D representation learning, propose Diffusion-Aligned Structured Latents (DA-SLAT) and couple it with a decoder-only architecture to improve 3DGS reconstruction fidelity. We also design a sparse-structure-aware diffusion framework, which integrates the Sparse-structure Multimodal Diffusion Transformer (SMDiT) and Modal-Aware Rotary Positional Embedding (MARoPE) to achieve geometry-agnostic 2D-3D alignment. Extensive benchmark experiments demonstrate that FLUX3D yields substantial improvements in appearance fidelity and significantly outperforms all state-of-the-art (SOTA) methods in generating high-quality 3DGS assets.",
     "sentiment": "positive",
@@ -606,7 +603,7 @@
     "importance_score": 4,
     "confidence": "high",
     "evidence": [
-      "FLUX3D yields substantial improvements in appearance fidelity and significantly outperforms all state-of-the-art (SOTA) methods in generating high-quality 3DGS assets."
+      "The abstract describes the proposed method and claims significant improvements over SOTA."
     ],
     "suspected_hallucinations": []
   },
@@ -622,16 +619,16 @@
     "technologies": [
       "agentic language models",
       "data curation pipeline",
-      "Qwen3-32B"
+      "fine-tuning"
     ],
     "event_type": "research",
     "industry_area": "research",
     "key_facts": [
-      "conducted more than 100 controlled ablation experiments",
-      "assembled a training set of 100K examples",
-      "fine-tuned Qwen3-32B on this dataset",
-      "yields an average accuracy of 44.8% across seven agentic benchmarks",
-      "3.9 percentage point improvement over Nemotron-Terminal-32B (40.9%)"
+      "OpenThoughts-Agent project addresses gap with fully open data curation pipeline for training agentic models.",
+      "Conducted more than 100 controlled ablation experiments.",
+      "Assembled training set of 100K examples and fine-tuned Qwen3-32B, yielding average accuracy 44.8% across seven agentic benchmarks.",
+      "Improvement of 3.9 percentage points over strongest existing open data agentic model (Nemotron-Terminal-32B, 40.9%).",
+      "Training data exhibits strong scaling properties."
     ],
     "summary": "Agentic language models dramatically expand the applications of AI yet little is publicly known about how to curate training data for broadly capable agents. Existing open efforts such as SWE-Smith, SERA, and Nemotron-Terminal typically target a single benchmark, leaving open the question of how to train models that generalize across diverse agentic tasks. The OpenThoughts-Agent (OT-Agent) project addresses this gap with a fully open data curation pipeline for training agentic models. We conduct more than 100 controlled ablation experiments to systematically investigate each stage of the pipeline, yielding insights on the importance of task sources and diversity. We then assemble a training set of 100K examples from our pipeline and fine-tune Qwen3-32B on this dataset, which yields an average accuracy of 44.8% across seven agentic benchmarks and a 3.9 percentage point improvement over the strongest existing open data agentic model (Nemotron-Terminal-32B, 40.9%). Moreover, our training data exhibits strong scaling properties, outperforming alternative open datasets at every training set size in compute-controlled comparisons. We publicly release our training sets, data pipeline, experimental data, and models at openthoughts.ai to support future open research on agentic model training.",
     "sentiment": "positive",
@@ -642,13 +639,14 @@
       "none"
     ],
     "opportunity_tags": [
-      "open data pipeline",
-      "improved agentic model training"
+      "open source",
+      "agentic models",
+      "data curation"
     ],
     "importance_score": 4,
     "confidence": "high",
     "evidence": [
-      "The paper states 'We conduct more than 100 controlled ablation experiments' and 'fine-tune Qwen3-32B on this dataset, which yields an average accuracy of 44.8%'."
+      "The paper states: 'OpenThoughts-Agent (OT-Agent) project addresses this gap with a fully open data curation pipeline for training agentic models.' and 'yields an average accuracy of 44.8% across seven agentic benchmarks and a 3.9 percentage point improvement over the strongest existing open data agentic model'."
     ],
     "suspected_hallucinations": []
   },
@@ -662,30 +660,32 @@
     "url": "http://arxiv.org/abs/2606.24854v1",
     "entities": [],
     "technologies": [
-      "AI",
-      "AAC interfaces"
+      "AI-powered AAC interfaces"
     ],
     "event_type": "research",
     "industry_area": "research",
     "key_facts": [
-      "explores the complicated nature of six AAC problem spaces",
-      "suggests more robust methods of evaluation"
+      "AI can enhance what people who use augmentative and alternative communication (AAC) are able to do.",
+      "Evaluating AI-powered AAC interfaces can be difficult.",
+      "Explores the complicated nature of six AAC problem spaces.",
+      "Suggests more robust methods of evaluation that take intersectional nuances into account."
     ],
     "summary": "Artificial intelligence (AI) can enhance what people who use augmentative and alternative communication (AAC) are able to do with their systems. However, evaluating AI-powered AAC interfaces can be difficult. People are intersectional beings and current evaluation metrics can struggle to capture the multifaceted and nuanced desires people may have for their AAC. We explore the complicated nature of six AAC problem spaces, explore how AI might be used in these spaces, and suggest more robust methods of evaluation that take the intersectional nuances of people into account. We also discuss broader issues that arise across these problem spaces and how they could be addressed using our proposed evaluation methods.",
     "sentiment": "neutral",
     "impact_scope": [
-      "AAC users and developers"
+      "AAC community"
     ],
     "risk_tags": [
-      "evaluation challenges"
+      "none"
     ],
     "opportunity_tags": [
-      "improved AAC design"
+      "AAC",
+      "AI evaluation"
     ],
-    "importance_score": 3,
+    "importance_score": 2,
     "confidence": "medium",
     "evidence": [
-      "The paper states 'evaluating AI-powered AAC interfaces can be difficult' and 'suggest more robust methods of evaluation'."
+      "The paper states: 'evaluating AI-powered AAC interfaces can be difficult' and 'suggest more robust methods of evaluation that take the intersectional nuances of people into account'."
     ],
     "suspected_hallucinations": []
   },
@@ -706,9 +706,10 @@
     "event_type": "research",
     "industry_area": "research",
     "key_facts": [
-      "introduces the Hartley Neural Operator (HNO)",
-      "HNO is the exact real-valued mirror of FNO",
-      "finds an elliptic-versus-time-dependent split that is monotone in operator phase content"
+      "Introduces Hartley Neural Operator (HNO), real-valued mirror of FNO.",
+      "HNO replaces FFT with Discrete Hartley Transform.",
+      "Self-adjoint elliptic operators favor HNO; time-dependent operators favor FNO.",
+      "Findings give predictive rule: match spectral basis to symmetry of solution operator."
     ],
     "summary": "Fourier Neural Operators (FNO) learn solution operators of partial differential equations by parameterizing global convolutions in the complex Fourier domain. For real-valued PDE solutions, the complex FFT carries representational redundancy through conjugate symmetry. We introduce the Hartley Neural Operator (HNO), the exact real-valued mirror of FNO: it replaces the FFT with the purely real Discrete Hartley Transform and learns a single real multiplier per retained spectral mode, with no complex arithmetic. Because the real Hartley spectrum is not halved by conjugate symmetry, HNO retains twice as many frequency corners as FNO but one real weight where FNO carries a complex pair, so the two operators are iso-parametric at equal width and differ only in spectral basis. Our central thesis is that the best basis is a property of the operator. Self-adjoint elliptic operators (Poisson, biharmonic) have real, symmetric Green's functions that the real Hartley multiplier diagonalizes exactly, and HNO is favored there. Time-dependent operators carry phase, from oscillation in the wave equation to transport in advection, Burgers, and Navier-Stokes, which a real diagonal multiplier cannot represent, so FNO is favored there, and increasingly so with the operator's phase content, leaving the phaseless heat equation as the borderline case. Training both operators identically and benchmarking across PDE classes, initial-condition families, and boundary conditions, we find an elliptic-versus-time-dependent split that is monotone in operator phase content and matches the Green's-function theory we develop. Rather than a universal winner, our findings give a predictive rule: match the spectral basis to the symmetry of the solution operator.",
     "sentiment": "neutral",
@@ -719,12 +720,13 @@
       "none"
     ],
     "opportunity_tags": [
-      "improved neural operators for PDEs"
+      "neural operators",
+      "PDE solving"
     ],
     "importance_score": 3,
     "confidence": "high",
     "evidence": [
-      "The paper states 'We introduce the Hartley Neural Operator (HNO)' and 'find an elliptic-versus-time-dependent split'."
+      "The paper states: 'We introduce the Hartley Neural Operator (HNO), the exact real-valued mirror of FNO' and 'our findings give a predictive rule: match the spectral basis to the symmetry of the solution operator'."
     ],
     "suspected_hallucinations": []
   },
@@ -745,25 +747,27 @@
     "event_type": "research",
     "industry_area": "research",
     "key_facts": [
-      "proposes Implicit Visual Chain-of-Thought (IV-CoT)",
-      "IV-CoT decomposes visual conditioning queries into structural-to-semantic cascade",
-      "achieves superior results on GenEval and T2I-CompBench"
+      "Proposes Implicit Visual Chain-of-Thought (IV-CoT) for query-conditioned image generation.",
+      "IV-CoT decomposes visual conditioning queries into structural-to-semantic cascade.",
+      "Introduces training-only sketch supervision.",
+      "Achieves superior results on GenEval and T2I-CompBench."
     ],
     "summary": "Unified multi-modal large language models (MLLMs) have achieved strong text-to-image generation quality, but still struggle with structure-aware prompt following, where object counts, spatial relations, attribute bindings, and coarse layouts must be preserved. We attribute this limitation in part to the entanglement of structural planning and appearance rendering within a single conditioning stream. To address this issue, we propose Implicit Visual Chain-of-Thought (IV-CoT), a latent visual reasoning framework for query-conditioned image generation. IV-CoT decomposes the visual conditioning queries into a structural-to-semantic cascade, where structural queries first form a latent visual plan and semantic queries then render appearance conditioned on this plan. To guide the structural queries, we introduce training-only sketch supervision, which encourages them to capture structure from sketches without requiring sketch extraction or intermediate decoding at inference time. IV-CoT performs implicit CoT reasoning in a single forward pass and achieves superior results on GenEval and T2I-CompBench. Visualizations and analyses demonstrate that the learned structural and semantic queries play complementary roles in structure-aware generation.",
     "sentiment": "positive",
     "impact_scope": [
-      "text-to-image generation research"
+      "text-to-image generation community"
     ],
     "risk_tags": [
       "none"
     ],
     "opportunity_tags": [
-      "improved structure-aware generation"
+      "structure-aware generation",
+      "chain-of-thought"
     ],
     "importance_score": 3,
     "confidence": "high",
     "evidence": [
-      "The paper states 'propose Implicit Visual Chain-of-Thought (IV-CoT)' and 'achieves superior results on GenEval and T2I-CompBench'."
+      "The paper states: 'We propose Implicit Visual Chain-of-Thought (IV-CoT), a latent visual reasoning framework for query-conditioned image generation' and 'achieves superior results on GenEval and T2I-CompBench'."
     ],
     "suspected_hallucinations": []
   },
@@ -784,25 +788,27 @@
     "event_type": "research",
     "industry_area": "research",
     "key_facts": [
-      "proves that general agents are not universal",
-      "introduces structural certification",
-      "provides algorithms that filter specific transitions using deep compositional goals"
+      "Proves that general agents are not universal, rendering standard worst-case analysis uninformative.",
+      "Introduces structural certification, a transition-local framework.",
+      "Provides algorithms that filter specific transitions using deep compositional goals.",
+      "Proves a general agent on these goals has a structural world model with O(1/n) + O(δ) error bound."
     ],
-    "summary": "In the big-world regime, agents cannot be universally capable and their ability is inevitably specialized across a world model in pieces. Consequently, standard uniform guarantees fail to distinguish between the understanding of critical bottlenecks and irrelevant failures. We first formalize this limitation by proving that general agents are not universal, rendering standard worst-case analysis uninformative. To overcome this, we introduce structural certification, a transition-local framework that maps bounded goal-conditioned performance to entry-wise guarantees on the agent's internal world model. Our main contribution is constructive. We provide algorithms that filter specific transitions using deep compositional goals and prove that a general agent on these goals has a structural world model with a $\\mathcal{O}(1/n) + \\mathcal{O}(δ)$ error bound. Conversely, this bound is tight in the small-$δ$ regime, whose existence is explicitly guaranteed by our certification. These results enable the certifiable deployment of general agents by localizing the specific transitions where long-horizon planning is reliable.",
+    "summary": "In the big-world regime, agents cannot be universally capable and their ability is inevitably specialized across a world model in pieces. Consequently, standard uniform guarantees fail to distinguish between the understanding of critical bottlenecks and irrelevant failures. We first formalize this limitation by proving that general agents are not universal, rendering standard worst-case analysis uninformative. To overcome this, we introduce structural certification, a transition-local framework that maps bounded goal-conditioned performance to entry-wise guarantees on the agent's internal world model. Our main contribution is constructive. We provide algorithms that filter specific transitions using deep compositional goals and prove that a general agent on these goals has a structural world model with a O(1/n) + O(δ) error bound. Conversely, this bound is tight in the small-δ regime, whose existence is explicitly guaranteed by our certification. These results enable the certifiable deployment of general agents by localizing the specific transitions where long-horizon planning is reliable.",
     "sentiment": "neutral",
     "impact_scope": [
       "AI safety and agent deployment"
     ],
     "risk_tags": [
-      "agent non-universality"
+      "agent reliability"
     ],
     "opportunity_tags": [
-      "certifiable deployment"
+      "certification",
+      "world models"
     ],
     "importance_score": 4,
     "confidence": "high",
     "evidence": [
-      "The paper states 'proving that general agents are not universal' and 'introduce structural certification'."
+      "The paper states: 'proving that general agents are not universal' and 'introduce structural certification, a transition-local framework' and 'provide algorithms that filter specific transitions using deep compositional goals'."
     ],
     "suspected_hallucinations": []
   }

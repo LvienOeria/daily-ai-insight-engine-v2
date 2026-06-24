@@ -120,10 +120,10 @@ def run_quality_check(
         weak_points.append("no observed source was evaluated as core or auxiliary")
 
     docs_exist = all((_DOCS_DIR / doc).exists() for doc in _REQUIRED_DOCS)
-    has_schema_doc = (_DOCS_DIR / "schema-design.md").exists()
-    has_ai_usage_doc = (_DOCS_DIR / "ai-usage.md").exists()
-    has_process_doc = (_DOCS_DIR / "process.md").exists()
-    has_data_source_doc = (_DOCS_DIR / "data-source-decisions.md").exists()
+    has_schema_doc = (_DOCS_DIR / "结构化设计.md").exists()
+    has_ai_usage_doc = (_DOCS_DIR / "AI使用方式.md").exists()
+    has_process_doc = (_DOCS_DIR / "核心流程.md").exists()
+    has_data_source_doc = (_DOCS_DIR / "数据源决策.md").exists()
 
     if not docs_exist:
         missing_docs = [doc for doc in _REQUIRED_DOCS if not (_DOCS_DIR / doc).exists()]
