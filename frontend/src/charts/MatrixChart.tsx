@@ -109,7 +109,6 @@ export function MatrixChart({ data }: MatrixChartProps) {
                       onMouseLeave={() => setHovered(null)}
                       onClick={() => setSelected(datum)}
                     />
-                    <title>{datum.event_name + "\n"}risk={datum.risk_level.toFixed(2)} opp={datum.opportunity_level.toFixed(2)} {datum.event_type}</title>
                   </g>
                 );
               })}
