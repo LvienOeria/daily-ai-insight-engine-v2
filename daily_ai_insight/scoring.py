@@ -51,7 +51,7 @@ def _score_breakdown(event: EventItem, related: list[StructuredNewsItem]) -> Sco
     _AUTHORITY_MAP: dict[str, int] = {
         "arXiv": 5, "OpenAI News": 5, "Google DeepMind Blog": 5,
         "TechCrunch AI": 4, "The Verge": 4, "36氪": 4,
-        "量子位": 3, "Hacker News": 2,
+        "量子位": 4, "Hacker News": 2,
     }
     sources = {item.source for item in related}
     source_authority = max(

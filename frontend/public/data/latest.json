@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-06-24T10:17:39Z",
+  "generated_at": "2026-06-24T10:23:36Z",
   "report": {
     "timezone": "Asia/Shanghai",
     "window_days": 3,
-    "markdown": "好的，这是根据您提供的结构化数据生成的每日AI洞察报告。\n\n---\n\n# 每日 AI 洞察报告 | 2026年6月24日\n\n## 1. 今日概览\n\n今日AI领域呈现出“商业落地加速”与“基础研究突破”并行的态势。在商业层面，物理AI在公路货运领域率先跑通商业闭环，成为今日最受关注的事件；同时，AI Agent的成本优化（阿里峰谷Token）和工具进化（Claude Tag）也取得重要进展。在产业生态层面，36氪WAVES大会上的多场圆桌讨论揭示了AI投资、医疗、具身智能及“一人公司”等领域的深刻变革与挑战。学术研究方面，多篇高质量论文在机器人技能学习、3D生成和智能体模型训练等领域取得突破。\n\n## 2. 今日 AI 领域 Top 5 热点事件\n\n| 排名 | 事件名称 | 核心要点 | 来源 | 综合评分 |\n| :--- | :--- | :--- | :--- | :--- |\n| **1** | **DeepWay深向智能新能源重卡规模化交付** | 物理AI在公路货运领域率先实现数据与商业双闭环，被多家头部物流企业采用。 | 量子位 | 3.69 |\n| **2** | **36氪WAVES2026圆桌讨论AI“一人公司”** | AI平权催生“超级个体”，一人公司利用AI工具实现接近公司的交付能力，云服务需求增长。 | 36氪 | 3.51 |\n| **3** | **抖音发布3D内容创作工具“造世界”** | 集成多Agents，降低3D UGC门槛，服务于抖音3D社交场景。 | 36氪 | 3.47 |\n| **4** | **36氪WAVES2026圆桌讨论AI投资趋势** | 讨论Anthropic模型因安全限制停服，中国大模型公司通过开源应对，AI Agent成为投资热点。 | 36氪 | 3.47 |\n| **5** | **36氪WAVES2026圆桌讨论AI医疗** | AI制药进入关键转折点，望石智慧与广药、华为达成三方合作，数据成为核心壁垒。 | 36氪 | 3.47 |\n\n## 3. 重要事件深度总结\n\n### 3.1 商业落地：物理AI与AI Agent的“双轮驱动”\n\n- **物理AI商业化里程碑**：**DeepWay深向**的智能新能源重卡实现规模化交付，被**鸭嘴兽、马士基、安能、申通**等货运物流企业采用。这标志着物理AI在公路货运这一万亿级市场中率先跑通了商业闭环，验证了自动驾驶重卡的经济可行性，对行业具有极强的示范效应（事件ID: evt_005）。\n- **AI Agent成本与能力进化**：\n    - **成本优化**：**阿里QoderWork**推出国内首个“峰谷Token”模式，夜间使用**Qwen3.7-Max**模型低至2折。此举大幅降低了Agent的使用成本，有望推动AI Agent的普及（事件ID: evt_001）。\n    - **能力进化**：**Anthropic**推出**Claude Tag**，定位为Claude Code的进化版，更主动、更擅长团队协作。公司内部约65%的产品代码已由Claude Tag参与完成。AI专家**卡帕西**称其为“LLM用户界面的第三次重大变革”，预示着AI编程工具正从辅助编码向深度参与软件开发全流程演进（事件ID: evt_002）。\n\n### 3.2 产业生态：AI转型的“人”与“组织”之困\n\n- **转型最大门槛是人**：**浪潮信息**董事长**彭震**在AIEC2026上提出，AI转型最大的门槛不是技术，而是人，并提出了“**Humagent**”概念，强调组织、文化、流程是转型的关键。这提醒业界，在追逐技术的同时，必须重视组织变革的阻力（事件ID: evt_003）。\n- **“一人公司”崛起**：在36氪WAVES2026上，圆桌讨论揭示了AI时代“一人公司”（OPC）的兴起。阿里云调研显示，传统开发者仅占20%，而产品运营和企业主占比更高。AI工具让个体拥有了接近公司的交付能力，催生了新的创业模式，但也带来了同质化竞争和平台依赖的风险（事件ID: evt_012）。\n- **具身智能商业化仍需突破**：尽管中国在服务机器人领域领先（如帕西尼触觉传感器出货量第一），但圆桌讨论指出，具身智能的商业化落地依然缓慢，需要突破技术瓶颈和应用场景（事件ID: evt_010）。\n\n### 3.3 学术前沿：机器人学习与3D生成取得突破\n\n- **机器人自主技能学习**：**InSight**框架提出了一种无需人类演示，即可让机器人通过可操控的视觉-语言-动作（VLA）模型自主获取新技能的方法。该框架在模拟和真实任务中均表现出色，为机器人实现长时任务执行提供了新思路（事件ID: evt_015）。\n- **高保真3D生成**：**FLUX3D**框架通过引入扩散对齐的稀疏表示（DA-SLAT）和稀疏结构多模态扩散Transformer（SMDiT），在图像到3D高斯泼溅（3DGS）生成任务上，显著超越了现有方法，提升了生成内容的外观保真度（事件ID: evt_017）。\n- **开源智能体模型**：**OpenThoughts-Agent**项目开源了完整的智能体模型训练数据管线。通过超过100次消融实验，该管线微调的**Qwen3-32B**模型在7个智能体基准测试中取得了44.8%的平均准确率，超越现有最强开源模型，为智能体AI研究提供了宝贵资源（事件ID: evt_018）。\n\n## 4. 趋势判断\n\n1.  **AI Agent进入“普惠化”与“专业化”并行阶段**：一方面，阿里“峰谷Token”等成本优化措施降低了Agent的使用门槛，推动其普惠化；另一方面，Anthropic的Claude Tag等工具正朝着更专业、更深度参与团队协作的方向进化。这表明AI Agent市场正在快速分化。\n2.  **物理AI商业化从“概念验证”走向“规模落地”**：DeepWay深向在公路货运领域的成功，是物理AI商业化的重要里程碑。预计未来将有更多物理AI应用在物流、制造、农业等垂直领域跑通商业闭环。\n3.  **AI产业投资逻辑从“技术驱动”转向“应用与数据驱动”**：从WAVES大会的讨论可以看出，投资热点正从基础大模型转向AI Agent、AI制药等具体应用场景。数据壁垒和商业化能力成为评估项目价值的关键。\n4.  **开源生态成为应对地缘政治风险的关键策略**：面对Anthropic模型因安全限制停服等事件，中国大模型公司纷纷选择开源，以构建自主可控的技术生态，并吸引全球开发者。\n\n## 5. 风险与机会提示\n\n### 风险提示\n- **组织变革阻力**：浪潮信息提出的“Humagent”概念揭示了AI转型中“人”的挑战。企业若忽视组织文化、流程的变革，技术投入可能无法转化为实际效益（风险等级：2.613）。\n- **地缘政治与模型安全**：Anthropic模型因安全问题被限制使用的事件，凸显了AI行业面临的地缘政治和合规风险。依赖单一或特定地区模型的企业需警惕供应链中断风险（风险等级：3.445）。\n- **商业化落地缓慢**：具身智能等前沿领域虽然技术进展迅速，但商业化落地依然缓慢，投资者需警惕估值泡沫（风险等级：2.614）。\n- **同质化竞争与平台依赖**：AI“一人公司”模式虽然降低了创业门槛，但也可能导致大量同质化竞争，且对云平台等基础设施的依赖度较高（风险等级：3.411）。\n\n### 机会提示\n- **AI Agent成本优化**：阿里“峰谷Token”模式为开发者提供了低成本使用强大模型的机会，尤其适合夜间批处理任务，是开发者和中小企业降低AI应用成本的好时机（机会等级：3.41）。\n- **物理AI与自动驾驶货运**：DeepWay深向的成功验证了自动驾驶重卡的经济性，相关产业链（如传感器、物流平台、新能源重卡）蕴藏巨大机会（机会等级：3.406）。\n- **AI制药与计算医学**：AI制药进入关键转折点，与药企、云厂商的深度合作模式（如望石智慧与广药、华为的合作）为行业提供了新范式，数据壁垒成为核心竞争力（机会等级：3.427）。\n- **开源智能体模型**：OpenThoughts-Agent等开源项目为研究和开发智能体应用提供了强大的基础模型和数据管线，降低了进入门槛，是创业和研究的蓝海（机会等级：3.421）。\n- **AI赋能“一人公司”**：AI平权让个体创业者拥有了前所未有的生产力，在AIGC、AI+电商、AI+医疗等细分领域存在大量低门槛创业机会（机会等级：4.21）。\n\n## 6. 可视化说明\n\n### 6.1 事件类型分布\n今日事件以**学术研究**和**市场评论**为主，反映了行业在技术探索与商业思考上的并重。\n\n```mermaid\npie\n    title 今日事件类型分布\n    “学术研究” : 7\n    “市场评论” : 5\n    “产品发布” : 3\n    “商业动态” : 3\n    “其他” : 2\n```\n\n### 6.2 风险与机会矩阵\n下图展示了今日主要事件的风险与机会水平。**AI一人公司**和**AI投资趋势**相关讨论显示出较高的风险与机会并存；而**DeepWay深向**、**抖音造世界**等事件则呈现出低风险、高机会的特征。\n\n```mermaid\nquadrantChart\n    title 风险与机会矩阵\n    x-axis 低风险 --> 高风险\n    y-axis 低机会 --> 高机会\n    quadrant-1 高风险高机会\n    quadrant-2 低风险高机会\n    quadrant-3 低风险低机会\n    quadrant-4 高风险低机会\n    DeepWay深向: [0.1, 0.85]\n    AI一人公司: [0.85, 0.95]\n    抖音造世界: [0.08, 0.8]\n    AI投资趋势: [0.86, 0.78]\n    AI医疗: [0.65, 0.82]\n    仙工智能上市: [0.95, 0.5]\n    InSight框架: [0.12, 0.88]\n    FLUX3D: [0.09, 0.82]\n    OpenThoughts-Agent: [0.1, 0.84]\n    具身智能: [0.64, 0.8]\n    阿里峰谷Token: [0.11, 0.81]\n    Claude Tag: [0.12, 0.79]\n```\n\n## 7. 数据与方法说明\n\n- **数据来源**：本报告数据来源于对**量子位**、**36氪**、**TechCrunch AI**、**The Verge**等主流科技媒体，以及**arXiv**学术预印本平台的实时抓取与分析。共采集并分析了20条新闻与事件。\n- **分析方法**：采用多维度评分模型，综合考量事件的**影响范围**、**来源权威性**、**新颖性**、**多源支持度**、**技术/商业影响**、**风险与机会水平**及**时效性**，对事件进行量化排名。\n- **置信度说明**：本报告所有分析均基于提供的结构化数据。对于来源单一或信息不完整的事件（如MoEngage事件），报告中已标注“中等置信度”，并提示了不确定性。报告未引入任何外部知识或进行事实推断。"
+    "markdown": "好的，这是为您生成的每日 AI 洞察报告。\n\n***\n\n# 每日 AI 洞察报告 | 2026年6月24日\n\n## 1. 今日概览\n\n今日 AI 领域呈现出“应用深化”与“基础突破”并行的态势。产业端，阿里推出“峰谷 Token”模式降低大模型使用成本，抖音发布 3D 创作工具“造世界”，Anthropic 发布新一代 AI 编程工具 Claude Tag，均指向 AI 工具向更广泛用户群体的渗透。学术端，港大 MaRS Lab 的 FAST-LIVO2 荣获机器人领域顶级期刊最佳论文奖，多项研究在机器人自主技能学习、3D 生成、智能体模型训练等方面取得显著进展。此外，多位行业领袖在 36氪 WAVES2026 大会上指出，AI 转型的最大门槛在于组织与人才，而非技术本身。\n\n## 2. 今日 AI 领域 Top 5 热点事件\n\n| 排名 | 事件名称 | 核心要点 | 来源 | 综合评分 |\n| :--- | :--- | :--- | :--- | :--- |\n| **1** | **阿里QoderWork推出峰谷Token** | 国内首个上线“峰谷Token”的Agent产品，夜间使用Qwen3.7-Max模型低至2折，旨在降低用户成本。 | 量子位 | 3.95 |\n| **2** | **AI增强AAC接口的设计与评估** | 学术论文探讨AI如何增强辅助沟通（AAC）系统，并提出更鲁棒的评估方法，关注AI在辅助技术中的应用。 | arXiv | 3.69 |\n| **3** | **浪潮信息彭震谈AI转型门槛** | 浪潮信息董事长指出，企业AI转型的最大障碍是组织、文化与流程，而非技术本身，并提出“Humagent”概念。 | 量子位 | 3.51 |\n| **4** | **WAVES2026圆桌：AI时代一人公司（OPC）生态** | 圆桌讨论认为，AI平权使个体拥有公司级生产力，一人公司（OPC）利用AI工具可实现接近公司的交付能力。 | 36氪 | 3.51 |\n| **5** | **抖音发布3D创作工具“造世界”** | 集成多Agents的3D世界创作工具，支持多轮对话生成虚拟世界，服务于抖音3D UGC场景。 | 36氪 | 3.47 |\n\n## 3. 重要事件深度总结\n\n### 3.1 产业应用：AI 工具化与成本优化加速\n\n- **阿里QoderWork推出“峰谷Token”**：该事件标志着大模型服务进入精细化运营阶段。通过借鉴电力行业的“峰谷电价”模式，阿里将夜间闲置算力以低至2折的价格提供给用户，这不仅能有效降低开发者和企业的使用门槛，也为AI Agent产品的规模化落地提供了新的成本优化路径。**（来源：量子位，事件ID: event_2）**\n\n- **Anthropic发布Claude Tag**：被誉为“LLM用户界面第三次重大变革”的Claude Tag，其核心在于更主动的协作能力。Anthropic内部约65%的产品代码已由其参与完成，这展示了AI编程工具从辅助编码向深度参与软件工程全流程的演进。**（来源：量子位，事件ID: event_3）**\n\n- **抖音发布3D创作工具“造世界”**：该工具集成了多Agents，允许用户通过自然语言对话生成3D虚拟世界，极大地降低了3D内容创作的门槛。此举是抖音在3D UGC领域的重要布局，有望催生新的内容生态和社交场景。**（来源：36氪，事件ID: event_7）**\n\n### 3.2 学术前沿：机器人感知、技能学习与智能体模型\n\n- **FAST-LIVO2 获 IEEE TRO 最佳论文奖**：由香港大学 MaRS Lab 张富团队研发，第一作者郑纯然（华为天才少年）的 FAST-LIVO2 获得了机器人领域顶级期刊的殊荣。该工作聚焦于激光雷达与视觉的深度融合，代表了SLAM（即时定位与地图构建）领域的前沿水平，彰显了中国学者在该领域的学术影响力。**（来源：量子位，事件ID: event_1）**\n\n- **InSight框架实现自主技能获取**：该研究提出了一种名为InSight的框架，使视觉-语言-动作（VLA）模型能够在无需人类演示的情况下，自主获取并组合新技能以完成长时任务。这为机器人从“预设编程”向“自主学习”的转变提供了关键技术支撑。**（来源：arXiv，事件ID: event_15）**\n\n- **OpenThoughts-Agent：开源智能体模型数据配方**：该项目通过100多次消融实验，系统性地研究了训练通用智能体模型的数据配方。其开源的训练管道和数据集，以及对Qwen3-32B模型的微调结果（在7个基准上平均提升3.9个百分点），为社区训练更强大的智能体模型提供了宝贵资源。**（来源：arXiv，事件ID: event_18）**\n\n### 3.3 行业洞察：转型挑战与生态演变\n\n- **AI转型的最大门槛是人**：浪潮信息董事长彭震的观点在36氪WAVES2026大会上引发共鸣。多位嘉宾指出，技术已不再是瓶颈，如何重塑组织架构、企业文化、员工技能和业务流程，以适应AI驱动的变革，才是企业面临的核心挑战。**（来源：量子位，事件ID: event_5）**\n\n- **AI制药进入关键转折点**：在WAVES2026的圆桌讨论中，嘉宾认为AI制药已从概念验证走向实际应用。哲源科技的前瞻性虚拟临床试验结果与真实数据100%匹配，标志着计算医学在药物研发中的价值得到验证。数据壁垒和跨学科认知被认为是当前的主要挑战。**（来源：36氪，事件ID: event_9）**\n\n- **具身智能：局部领先，整体追赶**：圆桌讨论揭示了具身智能领域的现状。中国在触觉传感器（帕西尼出货量第一）、服务机器人（擎朗海外营收超50%）等细分领域已取得领先，但在具身智能模型层面，与国外仍存在约一代模型的差距。商业化落地速度是当前的主要风险。**（来源：36氪，事件ID: event_10）**\n\n## 4. 趋势判断\n\n1.  **AI 服务“水电化”趋势显现**：阿里“峰谷Token”的推出，预示着大模型算力正从稀缺资源向可灵活定价的公共服务转变。未来，类似“按需计费”、“闲时优惠”的模式将成为AI基础设施的标配，进一步推动AI应用的普及。**（支持证据：事件ID: event_2）**\n\n2.  **AI 编程工具从“辅助”走向“协作”**：Anthropic Claude Tag 的发布及其内部高达65%的代码参与率，表明AI编程工具已不再是简单的代码补全器，而是能够深度参与软件设计、开发与维护的“团队成员”。这将深刻改变软件开发的生产力模型。**（支持证据：事件ID: event_3）**\n\n3.  **AI 转型重心从“技术”转向“组织”**：多位行业领袖的共识表明，企业AI转型的下一阶段，核心瓶颈将从技术能力转向组织变革能力。如何培养“Humagent”（人机协作）文化、重构流程、提升全员AI素养，将成为企业竞争力的关键分水岭。**（支持证据：事件ID: event_5, event_12）**\n\n4.  **开源生态成为智能体模型发展的关键驱动力**：OpenThoughts-Agent 等项目通过开源数据、管道和模型，极大地降低了智能体模型的研究门槛。这种开放协作的模式有望加速通用智能体技术的迭代，并可能改变当前由少数巨头主导的格局。**（支持证据：事件ID: event_18, event_8）**\n\n## 5. 风险与机会提示\n\n### 风险提示\n\n- **融资泡沫风险**：WAVES2026圆桌指出，AI细分领域融资节奏极快，部分公司估值在几个月内翻几倍。这种过热现象可能预示着市场泡沫，投资者需警惕估值与基本面脱节的风险。**（来源：事件ID: event_8）**\n- **模型安全与地缘政治风险**：Anthropic最强模型因安全问题被美国政府限制非美国籍公民使用后停服，凸显了AI模型在安全合规和地缘政治背景下的脆弱性。依赖单一或受限制模型的业务面临中断风险。**（来源：事件ID: event_8）**\n- **组织变革阻力**：浪潮信息彭震的观点提醒，企业在推进AI转型时，可能面临来自组织文化、员工技能和既有流程的巨大阻力。忽视“人”的因素，可能导致AI项目投入巨大而收效甚微。**（来源：事件ID: event_5）**\n- **商业化落地不及预期**：具身智能等前沿领域虽然前景广阔，但商业化落地速度可能慢于市场预期。仙工智能上市首日的股价波动也反映了市场对高估值和盈利持续性的担忧。**（来源：事件ID: event_10, event_11）**\n\n### 机会提示\n\n- **AI成本优化带来的市场增量**：阿里“峰谷Token”模式为中小企业和个人开发者提供了低成本使用顶级大模型的机会。围绕“成本优化”的AI服务和应用，如夜间批处理、自动化任务等，将迎来发展机遇。**（来源：事件ID: event_2）**\n- **AI制药与虚拟临床试验**：AI制药已进入关键转折点，虚拟临床试验技术有望大幅缩短新药研发周期、降低成本。该领域存在巨大的技术壁垒和商业价值，是值得长期关注的投资方向。**（来源：事件ID: event_9）**\n- **“一人公司”（OPC）生态崛起**：AI平权使得个体创业者能够以极低成本撬动公司级生产力。专注于细分场景、利用AI工具和云服务的“一人公司”将成为新的创业趋势，相关的平台和服务生态也将随之繁荣。**（来源：事件ID: event_12）**\n- **开源智能体模型与数据**：OpenThoughts-Agent等项目为开发者提供了训练通用智能体模型的“配方”。基于这些开源资源进行二次开发和应用落地，是技术团队快速切入智能体赛道的有效途径。**（来源：事件ID: event_18）**\n\n## 6. 可视化说明\n\n### 6.1 今日事件类型分布\n今日事件以学术研究（Research）和行业评论（Market Commentary）为主，产品发布（Product Release）紧随其后，反映了行业在技术探索与商业化应用上的双重活跃度。\n\n```mermaid\npie\n    title 今日事件类型分布\n    “研究 (Research)” : 9\n    “行业评论 (Market Commentary)” : 4\n    “产品发布 (Product Release)” : 3\n    “商业动态 (Business Update)” : 2\n    “其他 (Other)” : 2\n```\n\n### 6.2 风险与机会矩阵\n下图展示了今日主要事件的风险与机会水平。位于右上象限的事件（如“浪潮信息彭震谈AI转型门槛”）兼具高机会与高风险，需要审慎对待；而位于左上象限的事件（如“阿里QoderWork推出峰谷Token”）则呈现出高机会、低风险的特征。\n\n```mermaid\nquadrantChart\n    title 风险与机会矩阵\n    x-axis 低风险 --> 高风险\n    y-axis 低机会 --> 高机会\n    quadrant-1 高机会-低风险\n    quadrant-2 高机会-高风险\n    quadrant-3 低机会-低风险\n    quadrant-4 低机会-高风险\n    “阿里QoderWork推出峰谷Token”: [0.15, 0.85]\n    “浪潮信息彭震谈AI转型门槛”: [0.7, 0.9]\n    “AI时代一人公司（OPC）生态”: [0.7, 0.85]\n    “抖音发布3D创作工具“造世界””: [0.1, 0.7]\n    “AI行业融资与开源趋势”: [0.7, 0.7]\n    “AI重构医疗产业”: [0.7, 0.7]\n    “仙工智能港股上市首日波动”: [0.85, 0.7]\n    “InSight框架实现自主技能获取”: [0.15, 0.7]\n    “FAST-LIVO2 获 IEEE TRO 最佳论文奖”: [0.15, 0.85]\n    “陶哲轩预言被AI实现”: [0.15, 0.9]\n    “具身智能发展现状”: [0.7, 0.85]\n    “Anthropic发布Claude Tag”: [0.1, 0.85]\n```\n\n## 7. 数据与方法说明\n\n- **数据来源**：本报告数据基于2026年6月24日采集的20条结构化新闻和20个事件，来源包括**量子位**、**36氪**、**TechCrunch AI**、**The Verge**等科技媒体，以及**arXiv**学术预印本平台。\n- **事件排名**：采用多维度评分模型，综合考量事件的**影响范围**、**来源权威性**、**技术/商业影响**、**新颖性**、**时效性**及**多源支持度**，计算得出最终重要性评分并排序。\n- **风险与机会评估**：基于事件内容中的关键事实、行业评论及专家观点，对每个事件进行风险与机会水平的量化评估，形成风险-机会矩阵。\n- **不确定性说明**：部分事件（如WAIC Future Tech创投生态展示、好莱坞制片厂放弃发行传记片）的置信度为“中等”，主要因其信息来源单一或细节不够充分。所有趋势判断均基于多个事件或结构化字段的交叉验证，当证据链较弱时已在报告中明确标注。"
   },
   "source_profiles": [
     {
@@ -148,222 +148,11 @@
   ],
   "structured_news": [
     {
-      "news_id": "news_cd6eec1ee52f",
-      "title": "阿里QoderWork推“峰谷Token”，夜间使用Qwen3.7低至2折 – 量子位",
-      "source": "量子位",
-      "source_type": "media",
-      "published_at": "2026-06-24T18:15:03+08:00",
-      "language": "zh",
-      "url": "https://www.qbitai.com/2026/06/437834.html",
-      "entities": [
-        "阿里",
-        "QoderWork",
-        "Qwen3.7"
-      ],
-      "technologies": [
-        "Qwen3.7-Max",
-        "峰谷Token"
-      ],
-      "event_type": "product_release",
-      "industry_area": "ai_agent",
-      "key_facts": [
-        "阿里QoderWork推出“峰谷Token”",
-        "夜间使用Qwen3.7-Max低至2折",
-        "国内首个上线“峰谷Token”的Agent产品"
-      ],
-      "summary": "6月23日晚，阿里QoderWork推出“峰谷Token”，Agent在每晚22:00到次日08:00运行可自动享受优惠，其中Qwen3.7-Max模型低至2折。这是国内首个上线“峰谷Token”的Agent产品，将大幅降低用户的使用成本。",
-      "sentiment": "positive",
-      "impact_scope": [
-        "industry"
-      ],
-      "risk_tags": [
-        "none"
-      ],
-      "opportunity_tags": [
-        "成本降低",
-        "夜间使用优惠"
-      ],
-      "importance_score": 4,
-      "confidence": "high",
-      "evidence": [
-        "阿里QoderWork推出“峰谷Token”，夜间使用Qwen3.7低至2折"
-      ],
-      "suspected_hallucinations": []
-    },
-    {
-      "news_id": "news_667c440eb9f2",
-      "title": "刚刚，Claude Code大升级！卡帕西：LLM第三次变革 – 量子位",
-      "source": "量子位",
-      "source_type": "media",
-      "published_at": "2026-06-24T18:15:03+08:00",
-      "language": "zh",
-      "url": "https://www.qbitai.com/2026/06/437734.html",
-      "entities": [
-        "Anthropic",
-        "Claude",
-        "卡帕西"
-      ],
-      "technologies": [
-        "Claude Code",
-        "Claude Tag"
-      ],
-      "event_type": "product_release",
-      "industry_area": "developer_tools",
-      "key_facts": [
-        "Anthropic约65%的产品代码已由Claude Tag参与完成",
-        "Claude Tag定位为Claude Code的进化",
-        "卡帕西称这是LLM用户界面的第三次重大变革"
-      ],
-      "summary": "Anthropic推出Claude Tag，定位为Claude Code的进化，更主动、更擅长团队协作。公司约65%的产品代码已由Claude Tag参与完成。卡帕西称这是LLM用户界面的第三次重大变革。",
-      "sentiment": "positive",
-      "impact_scope": [
-        "industry"
-      ],
-      "risk_tags": [
-        "none"
-      ],
-      "opportunity_tags": [
-        "团队协作",
-        "LLM变革"
-      ],
-      "importance_score": 4,
-      "confidence": "high",
-      "evidence": [
-        "Claude Code大升级，卡帕西：LLM第三次变革"
-      ],
-      "suspected_hallucinations": []
-    },
-    {
-      "news_id": "news_df75a18849d6",
-      "title": "AI转型最大的门槛，不是技术，是人 – 量子位",
-      "source": "量子位",
-      "source_type": "media",
-      "published_at": "2026-06-24T18:15:02+08:00",
-      "language": "zh",
-      "url": "https://www.qbitai.com/2026/06/436435.html",
-      "entities": [
-        "浪潮信息",
-        "彭震",
-        "清华大学全球产业研究院"
-      ],
-      "technologies": [],
-      "event_type": "market_commentary",
-      "industry_area": "enterprise_ai",
-      "key_facts": [
-        "浪潮信息董事长彭震在AIEC2026上提出AI转型最大门槛是人",
-        "彭震提出Humagent概念",
-        "麦肯锡调研显示88%企业至少一个场景常态化使用AI"
-      ],
-      "summary": "浪潮信息董事长彭震在人工智能+生态大会上表示，AI转型最大的门槛不是技术，而是人。他提出Humagent概念，认为组织、文化、流程是转型的关键。",
-      "sentiment": "neutral",
-      "impact_scope": [
-        "industry"
-      ],
-      "risk_tags": [
-        "组织变革阻力"
-      ],
-      "opportunity_tags": [
-        "Humagent",
-        "组织力提升"
-      ],
-      "importance_score": 3,
-      "confidence": "high",
-      "evidence": [
-        "AI转型最大的门槛，不是技术，是人"
-      ],
-      "suspected_hallucinations": []
-    },
-    {
-      "news_id": "news_21527a4d0141",
-      "title": "Future Tech谁会成为下一个AI巨头？这175个早期项目站上WAIC2026 – 量子位",
-      "source": "量子位",
-      "source_type": "media",
-      "published_at": "2026-06-24T18:15:02+08:00",
-      "language": "zh",
-      "url": "https://www.qbitai.com/2026/06/438157.html",
-      "entities": [
-        "WAIC",
-        "Future Tech",
-        "量坤科技"
-      ],
-      "technologies": [],
-      "event_type": "other",
-      "industry_area": "capital_market",
-      "key_facts": [
-        "WAIC Future Tech从全球超600个早期项目中选出200多个登台",
-        "2025年促成2.68亿元意向订单",
-        "2026年175个早期项目进驻WAIC创投生态展示专区"
-      ],
-      "summary": "WAIC Future Tech创投生态展示专区在2026年世界人工智能大会上展出175个早期项目，涵盖行业应用、具身与终端、基础设施、前沿科技四条赛道。",
-      "sentiment": "positive",
-      "impact_scope": [
-        "industry"
-      ],
-      "risk_tags": [
-        "none"
-      ],
-      "opportunity_tags": [
-        "早期项目投资",
-        "创投生态"
-      ],
-      "importance_score": 3,
-      "confidence": "high",
-      "evidence": [
-        "175个早期项目站上WAIC2026"
-      ],
-      "suspected_hallucinations": []
-    },
-    {
-      "news_id": "news_b8ec872b685b",
-      "title": "物理AI第一块万亿市场，在公路货运先跑通闭环了 – 量子位",
-      "source": "量子位",
-      "source_type": "media",
-      "published_at": "2026-06-24T18:15:02+08:00",
-      "language": "zh",
-      "url": "https://www.qbitai.com/2026/06/437853.html",
-      "entities": [
-        "DeepWay深向",
-        "鸭嘴兽",
-        "马士基",
-        "安能",
-        "申通"
-      ],
-      "technologies": [
-        "智能新能源重卡",
-        "自动驾驶"
-      ],
-      "event_type": "business_update",
-      "industry_area": "ai_infrastructure",
-      "key_facts": [
-        "DeepWay深向智能新能源重卡实现规模化交付",
-        "鸭嘴兽、马士基、安能、申通等货运物流企业采用",
-        "物理AI在公路货运领域率先跑通商业闭环"
-      ],
-      "summary": "DeepWay深向的智能新能源重卡实现规模化交付，鸭嘴兽、马士基、安能、申通等货运物流企业采用。物理AI在公路货运领域率先实现数据与商业双闭环。",
-      "sentiment": "positive",
-      "impact_scope": [
-        "industry"
-      ],
-      "risk_tags": [
-        "none"
-      ],
-      "opportunity_tags": [
-        "物理AI",
-        "自动驾驶货运"
-      ],
-      "importance_score": 4,
-      "confidence": "high",
-      "evidence": [
-        "物理AI第一块万亿市场，在公路货运先跑通闭环了"
-      ],
-      "suspected_hallucinations": []
-    },
-    {
-      "news_id": "news_7e0974ba75e0",
+      "news_id": "news_1ba18a68dc2a",
       "title": "华为天才少年一作，港大MaRS Lab拿下IEEE TRO傅京孙纪念最佳论文奖 – 量子位",
       "source": "量子位",
       "source_type": "media",
-      "published_at": "2026-06-24T18:15:02+08:00",
+      "published_at": "2026-06-24T18:19:25+08:00",
       "language": "zh",
       "url": "https://www.qbitai.com/2026/06/437833.html",
       "entities": [
@@ -382,11 +171,11 @@
       "event_type": "research",
       "industry_area": "research",
       "key_facts": [
-        "FAST-LIVO2获得IEEE TRO傅京孙纪念最佳论文奖",
+        "FAST-LIVO2 获得 IEEE TRO 傅京孙纪念最佳论文奖",
         "第一作者郑纯然入选华为天才少年",
-        "张富为通讯作者"
+        "通讯作者张富为港大副教授"
       ],
-      "summary": "香港大学MaRS Lab团队研发的FAST-LIVO2获得机器人领域顶级期刊IEEE TRO傅京孙纪念最佳论文奖，第一作者郑纯然为华为天才少年。",
+      "summary": "香港大学 MaRS Lab 张富团队研发的 FAST-LIVO2 获得机器人领域顶级期刊 IEEE TRO 傅京孙纪念最佳论文奖，第一作者郑纯然入选华为天才少年。",
       "sentiment": "positive",
       "impact_scope": [
         "academic"
@@ -396,12 +185,230 @@
       ],
       "opportunity_tags": [
         "机器人感知",
-        "SLAM技术"
+        "SLAM",
+        "学术荣誉"
       ],
       "importance_score": 4,
       "confidence": "high",
       "evidence": [
-        "论文《FAST-LIVO2: Fast, Direct LiDAR-Inertial-Visual Odometry》由郑纯然担任第一作者，其博士导师张富担任通讯作者。2025年其入选华为天才少年。"
+        "论文《FAST-LIVO2: Fast, Direct LiDAR-Inertial-Visual Odometry》由郑纯然担任第一作者，张富担任通讯作者。2025年其入选华为天才少年。"
+      ],
+      "suspected_hallucinations": []
+    },
+    {
+      "news_id": "news_32a88d56bd45",
+      "title": "阿里QoderWork推“峰谷Token”，夜间使用Qwen3.7低至2折 – 量子位",
+      "source": "量子位",
+      "source_type": "media",
+      "published_at": "2026-06-24T18:19:25+08:00",
+      "language": "zh",
+      "url": "https://www.qbitai.com/2026/06/437834.html",
+      "entities": [
+        "阿里",
+        "QoderWork",
+        "Qwen3.7"
+      ],
+      "technologies": [
+        "Qwen3.7-Max",
+        "峰谷Token"
+      ],
+      "event_type": "product_release",
+      "industry_area": "ai_infrastructure",
+      "key_facts": [
+        "夜间22:00到次日08:00使用Qwen3.7-Max低至2折",
+        "国内首个上线峰谷Token的Agent产品"
+      ],
+      "summary": "阿里QoderWork推出峰谷Token，夜间使用Qwen3.7-Max模型低至2折，降低用户成本。",
+      "sentiment": "positive",
+      "impact_scope": [
+        "industry"
+      ],
+      "risk_tags": [
+        "none"
+      ],
+      "opportunity_tags": [
+        "成本优化",
+        "Agent产品",
+        "夜间折扣"
+      ],
+      "importance_score": 3,
+      "confidence": "high",
+      "evidence": [
+        "阿里QoderWork推出“峰谷Token”，Agent在每晚22:00到次日08:00运行可自动享受优惠，其中Qwen3.7-Max模型低至2折。"
+      ],
+      "suspected_hallucinations": []
+    },
+    {
+      "news_id": "news_32512f7cd456",
+      "title": "刚刚，Claude Code大升级！卡帕西：LLM第三次变革 – 量子位",
+      "source": "量子位",
+      "source_type": "media",
+      "published_at": "2026-06-24T18:19:25+08:00",
+      "language": "zh",
+      "url": "https://www.qbitai.com/2026/06/437734.html",
+      "entities": [
+        "Anthropic",
+        "Claude Code",
+        "卡帕西"
+      ],
+      "technologies": [
+        "Claude Tag",
+        "LLM"
+      ],
+      "event_type": "product_release",
+      "industry_area": "developer_tools",
+      "key_facts": [
+        "Anthropic约65%的产品代码由Claude Tag参与完成",
+        "卡帕西称这是LLM用户界面的第三次重大变革"
+      ],
+      "summary": "Anthropic发布Claude Tag，定位为Claude Code的进化版，更主动、擅长团队协作，公司约65%产品代码已由其参与完成。",
+      "sentiment": "positive",
+      "impact_scope": [
+        "industry"
+      ],
+      "risk_tags": [
+        "none"
+      ],
+      "opportunity_tags": [
+        "AI编程",
+        "团队协作",
+        "LLM应用"
+      ],
+      "importance_score": 4,
+      "confidence": "high",
+      "evidence": [
+        "目前A社约65%的产品代码已经由Claude Tag参与完成。卡帕西表示这是LLM用户界面的第三次重大变革。"
+      ],
+      "suspected_hallucinations": []
+    },
+    {
+      "news_id": "news_bfc80962c507",
+      "title": "陶哲轩12年前的预言，现在AI帮他兑现了 – 量子位",
+      "source": "量子位",
+      "source_type": "media",
+      "published_at": "2026-06-24T18:19:24+08:00",
+      "language": "zh",
+      "url": "https://www.qbitai.com/2026/06/437023.html",
+      "entities": [
+        "陶哲轩",
+        "OpenAI",
+        "DeepMind"
+      ],
+      "technologies": [
+        "AI",
+        "形式化证明",
+        "Lean"
+      ],
+      "event_type": "research",
+      "industry_area": "research",
+      "key_facts": [
+        "陶哲轩12年前预言使用形式化语言写论文",
+        "AI在数学领域加速，OpenAI解决开放问题，DeepMind批量攻克数学猜想"
+      ],
+      "summary": "陶哲轩12年前关于形式化语言写论文的预言被AI实现，AI在数学领域加速发展。",
+      "sentiment": "positive",
+      "impact_scope": [
+        "academic"
+      ],
+      "risk_tags": [
+        "none"
+      ],
+      "opportunity_tags": [
+        "AI数学",
+        "形式化验证",
+        "人机协作"
+      ],
+      "importance_score": 3,
+      "confidence": "high",
+      "evidence": [
+        "12年前，陶哲轩预言将来或许不再用LaTeX撰写论文，而是使用形式化语言。过去一年，AI在数学领域疯狂提速。"
+      ],
+      "suspected_hallucinations": []
+    },
+    {
+      "news_id": "news_66a9a0a234d2",
+      "title": "AI转型最大的门槛，不是技术，是人 – 量子位",
+      "source": "量子位",
+      "source_type": "media",
+      "published_at": "2026-06-24T18:19:24+08:00",
+      "language": "zh",
+      "url": "https://www.qbitai.com/2026/06/436435.html",
+      "entities": [
+        "浪潮信息",
+        "彭震",
+        "清华大学"
+      ],
+      "technologies": [
+        "AI",
+        "Agent"
+      ],
+      "event_type": "market_commentary",
+      "industry_area": "enterprise_ai",
+      "key_facts": [
+        "浪潮信息董事长彭震认为AI转型最大门槛是组织、文化、流程",
+        "提出Humagent概念"
+      ],
+      "summary": "浪潮信息董事长彭震在AIEC2026上指出，AI转型最大门槛不是技术而是人，强调组织、文化、流程的重要性，并提出Humagent概念。",
+      "sentiment": "neutral",
+      "impact_scope": [
+        "industry"
+      ],
+      "risk_tags": [
+        "组织变革",
+        "员工抵触"
+      ],
+      "opportunity_tags": [
+        "AI转型",
+        "组织力",
+        "Humagent"
+      ],
+      "importance_score": 3,
+      "confidence": "high",
+      "evidence": [
+        "浪潮信息董事长彭震在人工智能+生态大会上表示，AI转型最大的门槛不是技术，而是文化、组织和流程。"
+      ],
+      "suspected_hallucinations": []
+    },
+    {
+      "news_id": "news_f581bb4ec150",
+      "title": "Future Tech谁会成为下一个AI巨头？这175个早期项目站上WAIC2026 – 量子位",
+      "source": "量子位",
+      "source_type": "media",
+      "published_at": "2026-06-24T18:19:24+08:00",
+      "language": "zh",
+      "url": "https://www.qbitai.com/2026/06/438157.html",
+      "entities": [
+        "WAIC",
+        "Future Tech",
+        "量坤科技",
+        "吕定顺"
+      ],
+      "technologies": [
+        "量子计算"
+      ],
+      "event_type": "other",
+      "industry_area": "other",
+      "key_facts": [
+        "WAIC Future Tech从全球超600个早期项目里选出200多个登台，七成成立不足三年，创始人里90后超过四成。",
+        "四天展期，100家投资机构、200位投资人进场做一对一洽谈，有效对接2000人次，现场触达意向客户超1200人次，最终谈成2.68亿元意向订单。",
+        "今年22个OPC项目和153家初创企业从1200个创新项目中脱颖而出，进驻WAIC创投生态展示专区。"
+      ],
+      "summary": "WAIC Future Tech创投生态展示专区汇集了175个早期项目，主要分布在行业应用、具身与终端、基础设施、前沿科技四条赛道，其中行业应用和具身最为拥挤。",
+      "sentiment": "positive",
+      "impact_scope": [
+        "industry"
+      ],
+      "risk_tags": [
+        "none"
+      ],
+      "opportunity_tags": [
+        "早期投资",
+        "创投生态"
+      ],
+      "importance_score": 3,
+      "confidence": "medium",
+      "evidence": [
+        "原文提到'从全球超600个早期项目里选出200多个登台'、'最终谈成2.68亿元意向订单'等。"
       ],
       "suspected_hallucinations": []
     },
@@ -425,11 +432,11 @@
       "event_type": "product_release",
       "industry_area": "consumer_ai",
       "key_facts": [
-        "抖音发布3D内容创作工具“造世界”",
-        "集成多Agents",
-        "服务于抖音3D UGC场景“多闪仔仔世界”"
+        "抖音在火山引擎FORCE大会上首次亮相“造世界”，一款集成多Agents的3D世界创作工具。",
+        "创作者可通过多轮对话、素材搭建和场景编辑，生成可发布、可游玩的虚拟世界模型。",
+        "“造世界”主要服务于抖音3D UGC场景“多闪仔仔世界”创作，作品完成后可进入抖音和多闪的社交与推荐分发场景。"
       ],
-      "summary": "抖音在火山引擎FORCE大会上发布3D内容创作工具“造世界”，集成多Agents，可生成可发布、可游玩的虚拟世界模型，服务于抖音3D UGC场景。",
+      "summary": "抖音发布3D内容创作工具“造世界”，集成多Agents，支持多轮对话生成虚拟世界，服务于3D UGC场景。",
       "sentiment": "positive",
       "impact_scope": [
         "industry"
@@ -444,7 +451,7 @@
       "importance_score": 3,
       "confidence": "high",
       "evidence": [
-        "抖音在火山引擎FORCE大会上首次亮相“造世界”，这是一款集成了多Agents的3D世界创作工具。"
+        "原文明确提到'抖音在火山引擎FORCE大会上首次亮相“造世界”'、'一款集成了多Agents的3D世界创作工具'。"
       ],
       "suspected_hallucinations": []
     },
@@ -472,27 +479,28 @@
       "event_type": "market_commentary",
       "industry_area": "capital_market",
       "key_facts": [
-        "圆桌讨论AI投资趋势",
-        "Anthropic模型因安全限制停服",
-        "中国大模型公司纷纷开源"
+        "AI发展极快，标志性事件每周甚至每天都有。",
+        "AI相关细分领域融资节奏与以前完全不同，很多公司同时开多轮，几个月估值翻几倍。",
+        "Anthropic最强模型因安全问题被美国政府限制非美国籍公民使用后停服。",
+        "中国领先大模型公司纷纷开源。"
       ],
-      "summary": "36氪WAVES2026圆桌讨论AI投资趋势，嘉宾认为AI发展迅速，融资节奏加快，Anthropic模型因安全限制停服，中国大模型公司通过开源应对。",
-      "sentiment": "neutral",
+      "summary": "圆桌讨论AI行业近况，嘉宾认为AI发展迅速，融资节奏加快，但存在泡沫风险；Anthropic模型停服事件凸显主权模型重要性，中国大模型开源策略赢得生态。",
+      "sentiment": "mixed",
       "impact_scope": [
         "industry"
       ],
       "risk_tags": [
-        "模型安全",
-        "地缘政治"
+        "融资泡沫",
+        "模型安全限制"
       ],
       "opportunity_tags": [
-        "AI Agent",
-        "开源模型"
+        "开源模型",
+        "AI应用落地"
       ],
-      "importance_score": 3,
+      "importance_score": 4,
       "confidence": "high",
       "evidence": [
-        "Anthropic最强的模型，因安全问题被美国政府限制非美国籍公民使用，后来停服了。反观中国领先的大模型公司纷纷开源。"
+        "原文提到'AI相关各个细分领域的融资节奏，跟以前完全不一样'、'Anthropic最强的模型，因安全问题被美国政府限制非美国籍公民使用，后来停服了'。"
       ],
       "suspected_hallucinations": []
     },
@@ -513,33 +521,34 @@
       ],
       "technologies": [
         "AI制药",
-        "计算医学",
-        "虚拟临床试验",
-        "多智能体"
+        "多智能体",
+        "数字孪生",
+        "计算医学"
       ],
-      "event_type": "market_commentary",
+      "event_type": "research",
       "industry_area": "enterprise_ai",
       "key_facts": [
-        "圆桌讨论AI在医疗领域的应用",
-        "望石智慧与广药、华为达成三方合作",
-        "哲源科技完成虚拟临床试验"
+        "望石智慧打造以微观世界模型为底座、多智能体协作的AI制药系统。",
+        "哲源科技搭建计算医学技术路线，完成前瞻性虚拟临床试验，预判与真实数据100%匹配。",
+        "弘晖基金认为AI制药已到关键转折点，数据是核心壁垒。"
       ],
-      "summary": "36氪WAVES2026圆桌讨论AI在医疗领域的应用，嘉宾认为AI制药已进入关键转折点，数据是核心壁垒，望石智慧与广药、华为达成三方合作。",
+      "summary": "圆桌讨论AI在医疗领域的应用，嘉宾认为AI制药已进入关键转折点，数据是核心壁垒，虚拟临床试验等新技术有望改变传统研发范式。",
       "sentiment": "positive",
       "impact_scope": [
         "industry"
       ],
       "risk_tags": [
-        "数据壁垒"
+        "数据壁垒",
+        "跨学科认知壁垒"
       ],
       "opportunity_tags": [
         "AI制药",
-        "计算医学"
+        "虚拟临床试验"
       ],
-      "importance_score": 3,
+      "importance_score": 4,
       "confidence": "high",
       "evidence": [
-        "今年5月，我们和广药、华为达成了三方战略合作，共同落地AI药研解决方案。"
+        "原文提到'AI制药已经来到行业发展关键转折点'、'模型预判结果与真实临床数据100%匹配'。"
       ],
       "suspected_hallucinations": []
     },
@@ -567,27 +576,29 @@
       "event_type": "market_commentary",
       "industry_area": "ai_agent",
       "key_facts": [
-        "圆桌讨论具身智能发展",
-        "帕西尼触觉传感器出货量第一",
-        "擎朗人形机器人落地酒店",
-        "极佳视界世界模型登顶"
+        "帕西尼触觉传感器出货量排名第一，黄仁勋亮相的14款人形机器人中有11款使用其传感器。",
+        "擎朗智能海外营收超过50%，认为中国服务机器人产品遥遥领先全球。",
+        "极佳视界认为国内具身智能模型与国外差距约一代模型之内。",
+        "大界机器人认为人形机器人进工厂价值不大，一般工业场景更需要柔性制造。"
       ],
-      "summary": "36氪WAVES2026圆桌讨论具身智能发展，嘉宾认为中国在服务机器人领域领先，但具身智能商业化仍需突破，帕西尼触觉传感器出货量第一。",
-      "sentiment": "neutral",
+      "summary": "圆桌讨论具身智能发展现状，嘉宾认为中国在触觉传感器、服务机器人等领域领先，但具身智能整体商业化落地仍需时间，世界模型与具身智能深度绑定。",
+      "sentiment": "mixed",
       "impact_scope": [
         "industry"
       ],
       "risk_tags": [
-        "商业化落地慢"
+        "商业化落地慢",
+        "中美差距"
       ],
       "opportunity_tags": [
-        "具身智能",
-        "触觉传感器"
+        "触觉传感器",
+        "服务机器人",
+        "世界模型"
       ],
-      "importance_score": 3,
+      "importance_score": 4,
       "confidence": "high",
       "evidence": [
-        "去年黄仁勋亮相的14款人形机器人里面有11款用的是帕西尼的传感器。"
+        "原文提到'帕西尼触觉传感器出货量已经排名第一'、'擎朗海外营收超过了50%'、'国内模型基本上跟国外的模型还是有一些差距的，但是差距大概在一代模型之内'。"
       ],
       "suspected_hallucinations": []
     },
@@ -601,8 +612,11 @@
       "url": "https://36kr.com/p/3866666733835522?f=rss",
       "entities": [
         "仙工智能",
+        "港交所",
         "高瓴HHLRA",
-        "广发基金"
+        "广发基金",
+        "极智嘉",
+        "埃斯顿"
       ],
       "technologies": [
         "机器人控制器",
@@ -611,30 +625,30 @@
       "event_type": "business_update",
       "industry_area": "other",
       "key_facts": [
-        "仙工智能（06106.HK）在港交所上市，开盘平开，最高涨38.3%，收涨13.88%。",
+        "仙工智能（06106.HK）在港交所上市，开盘平开，最高涨38.3%，收盘涨13.88%。",
         "暗盘破发7.28%，振幅49.21%。",
         "公开发行占9.5%，基石认购43.34%并锁6个月。",
-        "按收入算，仙工智能全球排第七（1.1%），中国第三（2.5%）。",
-        "整机毛利率38.4%，控制器销量第一但收入不第一。"
+        "机器人控制器全球份额24.8%，但按收入全球排第七（1.1%）。",
+        "整机毛利率38.4%，导致增收不增利。"
       ],
-      "summary": "仙工智能上市首日经历大幅波动，暗盘破发后首日冲高，但估值争议较大，控制器销量第一但收入排名靠后，整机毛利率较低。",
+      "summary": "仙工智能上市首日经历大幅波动，暗盘破发后首日冲高回落，市场对其高估值和盈利持续性存疑。",
       "sentiment": "mixed",
       "impact_scope": [
         "company"
       ],
       "risk_tags": [
-        "估值过高",
-        "毛利率低",
-        "市场份额有限"
+        "高估值",
+        "毛利率压力",
+        "市场份额窄"
       ],
       "opportunity_tags": [
-        "机器人行业增长",
-        "控制器市场潜力"
+        "机器人控制器领先",
+        "上市融资"
       ],
       "importance_score": 3,
       "confidence": "high",
       "evidence": [
-        "暗盘破发7%、首日冲高38%；控制器销量全球第一但收入全球第七；整机毛利率38.4%。"
+        "暗盘破发7%、首日冲高38%；控制器全球第一但收入排第七；整机毛利率38.4%。"
       ],
       "suspected_hallucinations": []
     },
@@ -653,19 +667,20 @@
         "广州大学城"
       ],
       "technologies": [
-        "AI",
+        "AI工具",
         "云计算",
-        "生成式引擎优化"
+        "GEO",
+        "Agent"
       ],
       "event_type": "market_commentary",
       "industry_area": "enterprise_ai",
       "key_facts": [
         "阿里云调研显示传统开发者仅占20%，产品运营占35%，企业主占21%。",
         "OPC（一人公司）利用AI工具实现接近公司的交付能力。",
-        "OPC创业方向包括AIGC、AI+电商、AI+医疗等。",
-        "云平台提供分阶段套餐降低使用门槛。"
+        "OPC的杠杆是代码和媒体，边际成本几乎为零。",
+        "平台与OPC是共生关系，OPC需专注细分场景。"
       ],
-      "summary": "圆桌讨论AI时代一人公司（OPC）的生态，认为AI平权让个体拥有接近公司的生产力，云平台和算力基础设施是关键支撑。",
+      "summary": "圆桌讨论AI时代一人公司（OPC）的生态，认为AI平权让个体拥有公司级生产力，但需依赖平台和基础设施。",
       "sentiment": "positive",
       "impact_scope": [
         "industry"
@@ -677,12 +692,12 @@
       "opportunity_tags": [
         "AI平权",
         "低门槛创业",
-        "云服务需求增长"
+        "云服务简化"
       ],
       "importance_score": 3,
       "confidence": "high",
       "evidence": [
-        "阿里云调研数据；OPC定义：超级个体+AI工具+外部协作网络；云平台提供套餐。"
+        "阿里云调研数据；OPC定义：超级个体+AI工具+外部协作网络。"
       ],
       "suspected_hallucinations": []
     },
@@ -703,9 +718,9 @@
       "event_type": "business_update",
       "industry_area": "enterprise_ai",
       "key_facts": [
-        "MoEngage以全现金交易获得技术，将AI代理分配给个人客户。"
+        "MoEngage以全现金交易获得将AI代理分配给单个客户的技术。"
       ],
-      "summary": "MoEngage押注营销未来是数百万AI代理，通过全现金交易获得相关技术。",
+      "summary": "MoEngage押注营销未来由数百万AI代理驱动，通过收购获得相关技术。",
       "sentiment": "positive",
       "impact_scope": [
         "company"
@@ -715,12 +730,12 @@
       ],
       "opportunity_tags": [
         "AI营销",
-        "个性化客户互动"
+        "个性化客户体验"
       ],
       "importance_score": 2,
       "confidence": "medium",
       "evidence": [
-        "全现金交易；技术将AI代理分配给个人客户。"
+        "The all-cash deal gives MoEngage access to technology that assigns AI agents to individual customers."
       ],
       "suspected_hallucinations": []
     },
@@ -747,11 +762,11 @@
       "event_type": "other",
       "industry_area": "other",
       "key_facts": [
-        "Netflix、A24、Focus Features和Warner Bros.的Clockwork均放弃发行关于Sam Altman的传记片《Artificial》。",
-        "Neon和Mubi仍有意向。"
+        "Netflix、A24、Focus Features和Warner Bros.的Clockwork均放弃发行关于Sam Altman的传记片。",
+        "Neon和Mubi仍对该片感兴趣。"
       ],
-      "summary": "好莱坞多家公司放弃发行关于OpenAI CEO Sam Altman的传记片，但Neon和Mubi仍感兴趣。",
-      "sentiment": "mixed",
+      "summary": "好莱坞多家制片厂放弃发行关于OpenAI CEO Sam Altman的传记片，但Neon和Mubi仍有意。",
+      "sentiment": "neutral",
       "impact_scope": [
         "industry"
       ],
@@ -762,9 +777,9 @@
         "none"
       ],
       "importance_score": 2,
-      "confidence": "high",
+      "confidence": "medium",
       "evidence": [
-        "Netflix、A24等放弃发行；Neon和Mubi仍感兴趣。"
+        "Netflix, A24, Focus Features, and Warner Bros.' Clockwork have all reportedly decided to pass on picking up Artificial."
       ],
       "suspected_hallucinations": []
     },
@@ -779,31 +794,32 @@
       "entities": [],
       "technologies": [
         "Vision-language-action (VLA) models",
-        "VLM"
+        "VLM",
+        "InSight"
       ],
       "event_type": "research",
       "industry_area": "research",
       "key_facts": [
-        "InSight框架使VLA模型在原始动作层面可操控。",
+        "InSight框架使VLA模型在基本动作层面可操控，实现自主技能获取。",
         "包括自动分割管道和VLM引导的数据飞轮。",
-        "在模拟和真实任务中评估，无需人类演示目标技能。"
+        "在模拟和真实操作任务中评估，无需人类演示目标技能。"
       ],
-      "summary": "InSight框架通过可操控的VLA模型实现自主技能获取，无需人类演示即可学习新技能并组合执行长时任务。",
+      "summary": "InSight框架通过使VLA模型可操控，实现自主技能获取，无需人类演示即可学习新技能并组合执行长时任务。",
       "sentiment": "positive",
       "impact_scope": [
-        "industry"
+        "research"
       ],
       "risk_tags": [
         "none"
       ],
       "opportunity_tags": [
         "机器人技能学习",
-        "自主数据收集"
+        "自主操作"
       ],
       "importance_score": 4,
       "confidence": "high",
       "evidence": [
-        "框架使VLA可操控；自动分割和数据飞轮；无需人类演示。"
+        "InSight框架解锁自主技能获取；在模拟和真实任务中评估，无需人类演示。"
       ],
       "suspected_hallucinations": []
     },
@@ -816,15 +832,11 @@
       "language": "en",
       "url": "http://arxiv.org/abs/2606.24879v1",
       "entities": [],
-      "technologies": [
-        "stochastic subgradient method"
-      ],
+      "technologies": [],
       "event_type": "research",
       "industry_area": "research",
       "key_facts": [
-        "Proves last iterate optimization error of order 1/√n under i.i.d. noise",
-        "Shows without i.i.d. assumption, error can be (log n)/√n",
-        "Resolves open problem from Koren and Segal, COLT 2020"
+        "We study the last iterate of the stochastic subgradient method for one-dimensional convex Lipschitz objectives."
       ],
       "summary": "We study the last iterate of the stochastic subgradient method for one-dimensional convex Lipschitz objectives. For a fixed horizon $n$, we consider the standard fixed stepsizes $η=Θ(1/\\sqrt n)$. We prove that, for such stepsize policies, under additive i.i.d. subgradient noise with uniformly bounded variance, the last iterate features an optimization error of order $1/\\sqrt n$, thereby removing the extra $(\\log n)$ factor present in existing generic bounds. On the other hand, we show that without the i.i.d. assumption, the optimization error can be of order $(\\log n)/\\sqrt n$. Thus, under the uniformly bounded variance assumption alone, the last iterate of SsGM is suboptimal even in dimension one, resolving negatively an open problem posed in Koren and Segal, COLT, 2020.",
       "sentiment": "neutral",
@@ -835,12 +847,12 @@
         "none"
       ],
       "opportunity_tags": [
-        "optimization theory"
+        "none"
       ],
       "importance_score": 3,
       "confidence": "high",
       "evidence": [
-        "Proves last iterate optimization error of order 1/√n under i.i.d. noise; shows without i.i.d. assumption, error can be (log n)/√n; resolves open problem from Koren and Segal, COLT 2020."
+        "The paper proves new bounds and resolves an open problem."
       ],
       "suspected_hallucinations": []
     },
@@ -855,32 +867,29 @@
       "entities": [],
       "technologies": [
         "3D Gaussian Splatting",
-        "diffusion transformers",
-        "sparse voxel representation"
+        "diffusion transformers"
       ],
       "event_type": "research",
-      "industry_area": "research",
+      "industry_area": "multimodal_ai",
       "key_facts": [
-        "Proposes FLUX3D framework for image-to-3DGS generation",
-        "Introduces Diffusion-Aligned Structured Latents (DA-SLAT) and Sparse-structure Multimodal Diffusion Transformer (SMDiT)",
-        "Outperforms state-of-the-art methods in appearance fidelity"
+        "Sparse voxel representation has emerged as a scalable foundation for image-to-3D Gaussian Splatting (3DGS) generation, yet current methods struggle to preserve high-frequency visual details of input images due to two structural bottlenecks."
       ],
       "summary": "Sparse voxel representation has emerged as a scalable foundation for image-to-3D Gaussian Splatting (3DGS) generation, yet current methods struggle to preserve high-frequency visual details of input images due to two structural bottlenecks. First, they adopt discriminative 2D features optimized for semantic abstraction to construct sparse voxel latents, which suppress reconstructive cues and induce a representation bottleneck. Second, in the generation stage, standard diffusion transformers lack effective mechanisms to align dense 2D image tokens with sparse 3D voxel latents, resulting in a cross-modal correspondence bottleneck. To address these issues, we propose FLUX3D, a scalable image-to-3DGS framework that boosts both representation learning and cross-modal alignment during generation. We first revisit 2D feature selection for sparse-voxel-based 3D representation learning, propose Diffusion-Aligned Structured Latents (DA-SLAT) and couple it with a decoder-only architecture to improve 3DGS reconstruction fidelity. We also design a sparse-structure-aware diffusion framework, which integrates the Sparse-structure Multimodal Diffusion Transformer (SMDiT) and Modal-Aware Rotary Positional Embedding (MARoPE) to achieve geometry-agnostic 2D-3D alignment. Extensive benchmark experiments demonstrate that FLUX3D yields substantial improvements in appearance fidelity and significantly outperforms all state-of-the-art (SOTA) methods in generating high-quality 3DGS assets.",
       "sentiment": "positive",
       "impact_scope": [
-        "academic"
+        "research"
       ],
       "risk_tags": [
         "none"
       ],
       "opportunity_tags": [
         "3D generation",
-        "computer vision"
+        "high-fidelity"
       ],
       "importance_score": 4,
       "confidence": "high",
       "evidence": [
-        "Proposes FLUX3D framework; introduces DA-SLAT and SMDiT; outperforms state-of-the-art methods in appearance fidelity."
+        "The paper claims substantial improvements and outperforms SOTA methods."
       ],
       "suspected_hallucinations": []
     },
@@ -896,33 +905,29 @@
         "Qwen3-32B"
       ],
       "technologies": [
-        "agentic language models",
-        "data curation pipeline"
+        "agentic language models"
       ],
       "event_type": "research",
-      "industry_area": "research",
+      "industry_area": "ai_agent",
       "key_facts": [
-        "OpenThoughts-Agent project addresses data curation for agentic models",
-        "Conducted over 100 controlled ablation experiments",
-        "Fine-tuned Qwen3-32B on 100K examples achieves 44.8% average accuracy across seven benchmarks",
-        "Improves over Nemotron-Terminal-32B by 3.9 percentage points"
+        "Agentic language models dramatically expand the applications of AI yet little is publicly known about how to curate training data for broadly capable agents."
       ],
       "summary": "Agentic language models dramatically expand the applications of AI yet little is publicly known about how to curate training data for broadly capable agents. Existing open efforts such as SWE-Smith, SERA, and Nemotron-Terminal typically target a single benchmark, leaving open the question of how to train models that generalize across diverse agentic tasks. The OpenThoughts-Agent (OT-Agent) project addresses this gap with a fully open data curation pipeline for training agentic models. We conduct more than 100 controlled ablation experiments to systematically investigate each stage of the pipeline, yielding insights on the importance of task sources and diversity. We then assemble a training set of 100K examples from our pipeline and fine-tune Qwen3-32B on this dataset, which yields an average accuracy of 44.8% across seven agentic benchmarks and a 3.9 percentage point improvement over the strongest existing open data agentic model (Nemotron-Terminal-32B, 40.9%). Moreover, our training data exhibits strong scaling properties, outperforming alternative open datasets at every training set size in compute-controlled comparisons. We publicly release our training sets, data pipeline, experimental data, and models at openthoughts.ai to support future open research on agentic model training.",
       "sentiment": "positive",
       "impact_scope": [
-        "academic"
+        "research"
       ],
       "risk_tags": [
         "none"
       ],
       "opportunity_tags": [
-        "agentic AI",
-        "open source"
+        "open data",
+        "agentic models"
       ],
       "importance_score": 4,
       "confidence": "high",
       "evidence": [
-        "OpenThoughts-Agent project; conducted over 100 controlled ablation experiments; fine-tuned Qwen3-32B on 100K examples achieves 44.8% average accuracy across seven benchmarks; improves over Nemotron-Terminal-32B by 3.9 percentage points."
+        "The paper reports a 3.9 percentage point improvement over the strongest existing open data agentic model."
       ],
       "suspected_hallucinations": []
     },
@@ -936,30 +941,29 @@
       "url": "http://arxiv.org/abs/2606.24854v1",
       "entities": [],
       "technologies": [
-        "AI-powered AAC interfaces"
+        "AI-powered AAC"
       ],
       "event_type": "research",
-      "industry_area": "research",
+      "industry_area": "consumer_ai",
       "key_facts": [
-        "Explores six AAC problem spaces",
-        "Suggests more robust evaluation methods considering intersectional nuances"
+        "Artificial intelligence (AI) can enhance what people who use augmentative and alternative communication (AAC) are able to do with their systems."
       ],
       "summary": "Artificial intelligence (AI) can enhance what people who use augmentative and alternative communication (AAC) are able to do with their systems. However, evaluating AI-powered AAC interfaces can be difficult. People are intersectional beings and current evaluation metrics can struggle to capture the multifaceted and nuanced desires people may have for their AAC. We explore the complicated nature of six AAC problem spaces, explore how AI might be used in these spaces, and suggest more robust methods of evaluation that take the intersectional nuances of people into account. We also discuss broader issues that arise across these problem spaces and how they could be addressed using our proposed evaluation methods.",
       "sentiment": "neutral",
       "impact_scope": [
-        "academic"
+        "research"
       ],
       "risk_tags": [
         "none"
       ],
       "opportunity_tags": [
-        "assistive technology",
-        "human-computer interaction"
+        "AAC",
+        "AI evaluation"
       ],
       "importance_score": 2,
       "confidence": "high",
       "evidence": [
-        "Explores six AAC problem spaces; suggests more robust evaluation methods taking intersectional nuances into account."
+        "The paper discusses evaluation challenges and proposes methods."
       ],
       "suspected_hallucinations": []
     },
@@ -974,21 +978,17 @@
       "entities": [],
       "technologies": [
         "Fourier Neural Operators",
-        "Hartley Neural Operator",
-        "spectral bases"
+        "Hartley Neural Operator"
       ],
       "event_type": "research",
       "industry_area": "research",
       "key_facts": [
-        "Introduces Hartley Neural Operator (HNO) as real-valued mirror of FNO",
-        "Shows self-adjoint elliptic operators favor real Hartley basis",
-        "Time-dependent operators favor complex Fourier basis",
-        "Provides predictive rule to match spectral basis to operator symmetry"
+        "Fourier Neural Operators (FNO) learn solution operators of partial differential equations by parameterizing global convolutions in the complex Fourier domain."
       ],
       "summary": "Fourier Neural Operators (FNO) learn solution operators of partial differential equations by parameterizing global convolutions in the complex Fourier domain. For real-valued PDE solutions, the complex FFT carries representational redundancy through conjugate symmetry. We introduce the Hartley Neural Operator (HNO), the exact real-valued mirror of FNO: it replaces the FFT with the purely real Discrete Hartley Transform and learns a single real multiplier per retained spectral mode, with no complex arithmetic. Because the real Hartley spectrum is not halved by conjugate symmetry, HNO retains twice as many frequency corners as FNO but one real weight where FNO carries a complex pair, so the two operators are iso-parametric at equal width and differ only in spectral basis. Our central thesis is that the best basis is a property of the operator. Self-adjoint elliptic operators (Poisson, biharmonic) have real, symmetric Green's functions that the real Hartley multiplier diagonalizes exactly, and HNO is favored there. Time-dependent operators carry phase, from oscillation in the wave equation to transport in advection, Burgers, and Navier-Stokes, which a real diagonal multiplier cannot represent, so FNO is favored there, and increasingly so with the operator's phase content, leaving the phaseless heat equation as the borderline case. Training both operators identically and benchmarking across PDE classes, initial-condition families, and boundary conditions, we find an elliptic-versus-time-dependent split that is monotone in operator phase content and matches the Green's-function theory we develop. Rather than a universal winner, our findings give a predictive rule: match the spectral basis to the symmetry of the solution operator.",
       "sentiment": "neutral",
       "impact_scope": [
-        "academic"
+        "research"
       ],
       "risk_tags": [
         "none"
@@ -1000,213 +1000,17 @@
       "importance_score": 3,
       "confidence": "high",
       "evidence": [
-        "Introduces Hartley Neural Operator (HNO); shows self-adjoint elliptic operators favor real Hartley basis; time-dependent operators favor complex Fourier basis; provides predictive rule to match spectral basis to operator symmetry."
+        "The paper introduces HNO and provides a predictive rule for basis selection."
       ],
       "suspected_hallucinations": []
     }
   ],
   "events": [
     {
-      "event_id": "evt_001",
-      "event_name": "阿里QoderWork推出峰谷Token优惠",
+      "event_id": "event_1",
+      "event_name": "FAST-LIVO2 获 IEEE TRO 最佳论文奖",
       "related_news_ids": [
-        "news_cd6eec1ee52f"
-      ],
-      "main_entities": [
-        "阿里",
-        "QoderWork",
-        "Qwen3.7"
-      ],
-      "core_topic": "阿里QoderWork推出峰谷Token，夜间使用Qwen3.7-Max低至2折",
-      "event_type": "product_release",
-      "industry_area": "ai_agent",
-      "technologies": [
-        "Qwen3.7-Max",
-        "峰谷Token"
-      ],
-      "key_facts": [
-        "阿里QoderWork推出峰谷Token",
-        "夜间使用Qwen3.7-Max低至2折",
-        "国内首个上线峰谷Token的Agent产品"
-      ],
-      "evidence": [
-        "阿里QoderWork推出峰谷Token，夜间使用Qwen3.7低至2折"
-      ],
-      "why_it_matters": "峰谷Token模式大幅降低Agent使用成本，可能推动AI Agent普及",
-      "impact_scope": [
-        "industry"
-      ],
-      "risk_tags": [
-        "none"
-      ],
-      "opportunity_tags": [
-        "成本降低",
-        "夜间使用优惠"
-      ],
-      "confidence": "high",
-      "published_at": "2026-06-24T18:15:03+08:00"
-    },
-    {
-      "event_id": "evt_002",
-      "event_name": "Anthropic推出Claude Tag",
-      "related_news_ids": [
-        "news_667c440eb9f2"
-      ],
-      "main_entities": [
-        "Anthropic",
-        "Claude",
-        "卡帕西"
-      ],
-      "core_topic": "Anthropic推出Claude Tag，卡帕西称其为LLM第三次变革",
-      "event_type": "product_release",
-      "industry_area": "developer_tools",
-      "technologies": [
-        "Claude Code",
-        "Claude Tag"
-      ],
-      "key_facts": [
-        "Anthropic约65%的产品代码已由Claude Tag参与完成",
-        "Claude Tag定位为Claude Code的进化",
-        "卡帕西称这是LLM用户界面的第三次重大变革"
-      ],
-      "evidence": [
-        "Claude Code大升级，卡帕西：LLM第三次变革"
-      ],
-      "why_it_matters": "Claude Tag代表AI编程工具的重大进化，可能改变软件开发模式",
-      "impact_scope": [
-        "industry"
-      ],
-      "risk_tags": [
-        "none"
-      ],
-      "opportunity_tags": [
-        "团队协作",
-        "LLM变革"
-      ],
-      "confidence": "high",
-      "published_at": "2026-06-24T18:15:03+08:00"
-    },
-    {
-      "event_id": "evt_003",
-      "event_name": "浪潮信息彭震提出Humagent概念",
-      "related_news_ids": [
-        "news_df75a18849d6"
-      ],
-      "main_entities": [
-        "浪潮信息",
-        "彭震",
-        "清华大学全球产业研究院"
-      ],
-      "core_topic": "浪潮信息董事长彭震称AI转型最大门槛是人，提出Humagent概念",
-      "event_type": "market_commentary",
-      "industry_area": "enterprise_ai",
-      "technologies": [],
-      "key_facts": [
-        "浪潮信息董事长彭震在AIEC2026上提出AI转型最大门槛是人",
-        "彭震提出Humagent概念",
-        "麦肯锡调研显示88%企业至少一个场景常态化使用AI"
-      ],
-      "evidence": [
-        "AI转型最大的门槛，不是技术，是人"
-      ],
-      "why_it_matters": "强调组织文化在AI转型中的关键作用，引导企业关注人机协作",
-      "impact_scope": [
-        "industry"
-      ],
-      "risk_tags": [
-        "组织变革阻力"
-      ],
-      "opportunity_tags": [
-        "Humagent",
-        "组织力提升"
-      ],
-      "confidence": "high",
-      "published_at": "2026-06-24T18:15:02+08:00"
-    },
-    {
-      "event_id": "evt_004",
-      "event_name": "WAIC Future Tech 2026展示175个早期项目",
-      "related_news_ids": [
-        "news_21527a4d0141"
-      ],
-      "main_entities": [
-        "WAIC",
-        "Future Tech",
-        "量坤科技"
-      ],
-      "core_topic": "WAIC Future Tech创投生态展示专区展出175个早期项目",
-      "event_type": "other",
-      "industry_area": "capital_market",
-      "technologies": [],
-      "key_facts": [
-        "WAIC Future Tech从全球超600个早期项目中选出200多个登台",
-        "2025年促成2.68亿元意向订单",
-        "2026年175个早期项目进驻WAIC创投生态展示专区"
-      ],
-      "evidence": [
-        "175个早期项目站上WAIC2026"
-      ],
-      "why_it_matters": "展示AI早期创业生态，促进投融资对接",
-      "impact_scope": [
-        "industry"
-      ],
-      "risk_tags": [
-        "none"
-      ],
-      "opportunity_tags": [
-        "早期项目投资",
-        "创投生态"
-      ],
-      "confidence": "high",
-      "published_at": "2026-06-24T18:15:02+08:00"
-    },
-    {
-      "event_id": "evt_005",
-      "event_name": "DeepWay深向智能新能源重卡规模化交付",
-      "related_news_ids": [
-        "news_b8ec872b685b"
-      ],
-      "main_entities": [
-        "DeepWay深向",
-        "鸭嘴兽",
-        "马士基",
-        "安能",
-        "申通"
-      ],
-      "core_topic": "DeepWay深向智能新能源重卡实现规模化交付，物理AI在公路货运跑通闭环",
-      "event_type": "business_update",
-      "industry_area": "ai_infrastructure",
-      "technologies": [
-        "智能新能源重卡",
-        "自动驾驶"
-      ],
-      "key_facts": [
-        "DeepWay深向智能新能源重卡实现规模化交付",
-        "鸭嘴兽、马士基、安能、申通等货运物流企业采用",
-        "物理AI在公路货运领域率先跑通商业闭环"
-      ],
-      "evidence": [
-        "物理AI第一块万亿市场，在公路货运先跑通闭环了"
-      ],
-      "why_it_matters": "物理AI在货运领域率先实现商业闭环，验证自动驾驶重卡的经济可行性",
-      "impact_scope": [
-        "industry"
-      ],
-      "risk_tags": [
-        "none"
-      ],
-      "opportunity_tags": [
-        "物理AI",
-        "自动驾驶货运"
-      ],
-      "confidence": "high",
-      "published_at": "2026-06-24T18:15:02+08:00"
-    },
-    {
-      "event_id": "evt_006",
-      "event_name": "港大FAST-LIVO2获IEEE TRO最佳论文奖",
-      "related_news_ids": [
-        "news_7e0974ba75e0"
+        "news_1ba18a68dc2a"
       ],
       "main_entities": [
         "香港大学",
@@ -1216,7 +1020,7 @@
         "华为",
         "IEEE"
       ],
-      "core_topic": "港大MaRS Lab的FAST-LIVO2获IEEE TRO傅京孙纪念最佳论文奖，一作为华为天才少年",
+      "core_topic": "FAST-LIVO2 获得 IEEE TRO 傅京孙纪念最佳论文奖",
       "event_type": "research",
       "industry_area": "research",
       "technologies": [
@@ -1225,14 +1029,14 @@
         "激光雷达与视觉融合"
       ],
       "key_facts": [
-        "FAST-LIVO2获得IEEE TRO傅京孙纪念最佳论文奖",
+        "FAST-LIVO2 获得 IEEE TRO 傅京孙纪念最佳论文奖",
         "第一作者郑纯然入选华为天才少年",
-        "张富为通讯作者"
+        "通讯作者张富为港大副教授"
       ],
       "evidence": [
-        "论文《FAST-LIVO2: Fast, Direct LiDAR-Inertial-Visual Odometry》由郑纯然担任第一作者，其博士导师张富担任通讯作者。2025年其入选华为天才少年。"
+        "论文《FAST-LIVO2: Fast, Direct LiDAR-Inertial-Visual Odometry》由郑纯然担任第一作者，张富担任通讯作者。2025年其入选华为天才少年。"
       ],
-      "why_it_matters": "该奖项是机器人领域顶级荣誉，FAST-LIVO2在SLAM技术上取得突破",
+      "why_it_matters": "该奖项是机器人领域顶级期刊的最佳论文奖，体现了中国学者在SLAM领域的领先水平。",
       "impact_scope": [
         "academic"
       ],
@@ -1241,14 +1045,217 @@
       ],
       "opportunity_tags": [
         "机器人感知",
-        "SLAM技术"
+        "SLAM",
+        "学术荣誉"
       ],
       "confidence": "high",
-      "published_at": "2026-06-24T18:15:02+08:00"
+      "published_at": "2026-06-24T18:19:25+08:00"
     },
     {
-      "event_id": "evt_007",
-      "event_name": "抖音发布3D内容创作工具造世界",
+      "event_id": "event_2",
+      "event_name": "阿里QoderWork推出峰谷Token",
+      "related_news_ids": [
+        "news_32a88d56bd45"
+      ],
+      "main_entities": [
+        "阿里",
+        "QoderWork",
+        "Qwen3.7"
+      ],
+      "core_topic": "阿里QoderWork推出峰谷Token，夜间使用Qwen3.7-Max低至2折",
+      "event_type": "product_release",
+      "industry_area": "ai_infrastructure",
+      "technologies": [
+        "Qwen3.7-Max",
+        "峰谷Token"
+      ],
+      "key_facts": [
+        "夜间22:00到次日08:00使用Qwen3.7-Max低至2折",
+        "国内首个上线峰谷Token的Agent产品"
+      ],
+      "evidence": [
+        "阿里QoderWork推出“峰谷Token”，Agent在每晚22:00到次日08:00运行可自动享受优惠，其中Qwen3.7-Max模型低至2折。"
+      ],
+      "why_it_matters": "峰谷Token模式降低了用户使用大模型的成本，可能推动更多企业采用Agent产品。",
+      "impact_scope": [
+        "industry"
+      ],
+      "risk_tags": [
+        "none"
+      ],
+      "opportunity_tags": [
+        "成本优化",
+        "Agent产品",
+        "夜间折扣"
+      ],
+      "confidence": "high",
+      "published_at": "2026-06-24T18:19:25+08:00"
+    },
+    {
+      "event_id": "event_3",
+      "event_name": "Anthropic发布Claude Tag",
+      "related_news_ids": [
+        "news_32512f7cd456"
+      ],
+      "main_entities": [
+        "Anthropic",
+        "Claude Code",
+        "卡帕西"
+      ],
+      "core_topic": "Anthropic发布Claude Tag，公司约65%产品代码由其参与完成",
+      "event_type": "product_release",
+      "industry_area": "developer_tools",
+      "technologies": [
+        "Claude Tag",
+        "LLM"
+      ],
+      "key_facts": [
+        "Anthropic约65%的产品代码由Claude Tag参与完成",
+        "卡帕西称这是LLM用户界面的第三次重大变革"
+      ],
+      "evidence": [
+        "目前A社约65%的产品代码已经由Claude Tag参与完成。卡帕西表示这是LLM用户界面的第三次重大变革。"
+      ],
+      "why_it_matters": "Claude Tag代表了AI编程工具的重大进步，可能改变软件开发模式。",
+      "impact_scope": [
+        "industry"
+      ],
+      "risk_tags": [
+        "none"
+      ],
+      "opportunity_tags": [
+        "AI编程",
+        "团队协作",
+        "LLM应用"
+      ],
+      "confidence": "high",
+      "published_at": "2026-06-24T18:19:25+08:00"
+    },
+    {
+      "event_id": "event_4",
+      "event_name": "陶哲轩预言被AI实现",
+      "related_news_ids": [
+        "news_bfc80962c507"
+      ],
+      "main_entities": [
+        "陶哲轩",
+        "OpenAI",
+        "DeepMind"
+      ],
+      "core_topic": "陶哲轩12年前关于形式化语言写论文的预言被AI实现",
+      "event_type": "research",
+      "industry_area": "research",
+      "technologies": [
+        "AI",
+        "形式化证明",
+        "Lean"
+      ],
+      "key_facts": [
+        "陶哲轩12年前预言使用形式化语言写论文",
+        "AI在数学领域加速，OpenAI解决开放问题，DeepMind批量攻克数学猜想"
+      ],
+      "evidence": [
+        "12年前，陶哲轩预言将来或许不再用LaTeX撰写论文，而是使用形式化语言。过去一年，AI在数学领域疯狂提速。"
+      ],
+      "why_it_matters": "AI在数学领域的进展可能改变数学研究范式，加速科学发现。",
+      "impact_scope": [
+        "academic"
+      ],
+      "risk_tags": [
+        "none"
+      ],
+      "opportunity_tags": [
+        "AI数学",
+        "形式化验证",
+        "人机协作"
+      ],
+      "confidence": "high",
+      "published_at": "2026-06-24T18:19:24+08:00"
+    },
+    {
+      "event_id": "event_5",
+      "event_name": "浪潮信息彭震谈AI转型门槛",
+      "related_news_ids": [
+        "news_66a9a0a234d2"
+      ],
+      "main_entities": [
+        "浪潮信息",
+        "彭震",
+        "清华大学"
+      ],
+      "core_topic": "浪潮信息董事长彭震认为AI转型最大门槛是组织、文化、流程",
+      "event_type": "market_commentary",
+      "industry_area": "enterprise_ai",
+      "technologies": [
+        "AI",
+        "Agent"
+      ],
+      "key_facts": [
+        "浪潮信息董事长彭震认为AI转型最大门槛是组织、文化、流程",
+        "提出Humagent概念"
+      ],
+      "evidence": [
+        "浪潮信息董事长彭震在人工智能+生态大会上表示，AI转型最大的门槛不是技术，而是文化、组织和流程。"
+      ],
+      "why_it_matters": "该观点提醒企业在AI转型中需重视组织变革，而非仅关注技术。",
+      "impact_scope": [
+        "industry"
+      ],
+      "risk_tags": [
+        "组织变革",
+        "员工抵触"
+      ],
+      "opportunity_tags": [
+        "AI转型",
+        "组织力",
+        "Humagent"
+      ],
+      "confidence": "high",
+      "published_at": "2026-06-24T18:19:24+08:00"
+    },
+    {
+      "event_id": "event_6",
+      "event_name": "WAIC Future Tech创投生态展示",
+      "related_news_ids": [
+        "news_f581bb4ec150"
+      ],
+      "main_entities": [
+        "WAIC",
+        "Future Tech",
+        "量坤科技",
+        "吕定顺"
+      ],
+      "core_topic": "WAIC Future Tech展示175个早期项目，达成2.68亿元意向订单",
+      "event_type": "other",
+      "industry_area": "other",
+      "technologies": [
+        "量子计算"
+      ],
+      "key_facts": [
+        "WAIC Future Tech从全球超600个早期项目里选出200多个登台",
+        "四天展期有效对接2000人次，达成2.68亿元意向订单",
+        "今年22个OPC项目和153家初创企业进驻"
+      ],
+      "evidence": [
+        "原文提到'从全球超600个早期项目里选出200多个登台'、'最终谈成2.68亿元意向订单'等。"
+      ],
+      "why_it_matters": "该活动展示了AI早期创业生态的活跃度，为投资者和创业者提供了对接平台。",
+      "impact_scope": [
+        "industry"
+      ],
+      "risk_tags": [
+        "none"
+      ],
+      "opportunity_tags": [
+        "早期投资",
+        "创投生态"
+      ],
+      "confidence": "medium",
+      "published_at": "2026-06-24T18:19:24+08:00"
+    },
+    {
+      "event_id": "event_7",
+      "event_name": "抖音发布3D创作工具“造世界”",
       "related_news_ids": [
         "news_7fd34504c6a9"
       ],
@@ -1256,7 +1263,7 @@
         "抖音",
         "火山引擎"
       ],
-      "core_topic": "抖音在火山引擎FORCE大会上发布3D内容创作工具造世界",
+      "core_topic": "抖音发布集成多Agents的3D世界创作工具“造世界”",
       "event_type": "product_release",
       "industry_area": "consumer_ai",
       "technologies": [
@@ -1265,14 +1272,14 @@
         "虚拟世界模型"
       ],
       "key_facts": [
-        "抖音发布3D内容创作工具造世界",
-        "集成多Agents",
-        "服务于抖音3D UGC场景多闪仔仔世界"
+        "抖音在火山引擎FORCE大会上首次亮相“造世界”",
+        "创作者可通过多轮对话生成虚拟世界模型",
+        "服务于抖音3D UGC场景“多闪仔仔世界”"
       ],
       "evidence": [
-        "抖音在火山引擎FORCE大会上首次亮相造世界，这是一款集成了多Agents的3D世界创作工具。"
+        "原文明确提到'抖音在火山引擎FORCE大会上首次亮相“造世界”'、'一款集成了多Agents的3D世界创作工具'。"
       ],
-      "why_it_matters": "降低3D内容创作门槛，推动UGC向3D空间发展",
+      "why_it_matters": "该工具降低了3D内容创作门槛，可能推动UGC生态向3D领域扩展。",
       "impact_scope": [
         "industry"
       ],
@@ -1287,8 +1294,8 @@
       "published_at": "2026-06-24T17:00:00+08:00"
     },
     {
-      "event_id": "evt_008",
-      "event_name": "36氪WAVES2026圆桌讨论AI投资趋势",
+      "event_id": "event_8",
+      "event_name": "WAVES2026圆桌：AI行业融资与开源趋势",
       "related_news_ids": [
         "news_36e29c3c97cf"
       ],
@@ -1300,7 +1307,7 @@
         "智谱",
         "DeepSeek"
       ],
-      "core_topic": "36氪WAVES2026圆桌讨论AI投资趋势，涉及Anthropic停服和中国开源模型",
+      "core_topic": "圆桌讨论AI行业融资加速、Anthropic模型停服及中国开源策略",
       "event_type": "market_commentary",
       "industry_area": "capital_market",
       "technologies": [
@@ -1309,31 +1316,31 @@
         "开源模型"
       ],
       "key_facts": [
-        "圆桌讨论AI投资趋势",
-        "Anthropic模型因安全限制停服",
-        "中国大模型公司纷纷开源"
+        "AI相关细分领域融资节奏加快，几个月估值翻几倍",
+        "Anthropic最强模型因安全问题被美国政府限制后停服",
+        "中国领先大模型公司纷纷开源"
       ],
       "evidence": [
-        "Anthropic最强的模型，因安全问题被美国政府限制非美国籍公民使用，后来停服了。反观中国领先的大模型公司纷纷开源。"
+        "原文提到'AI相关各个细分领域的融资节奏，跟以前完全不一样'、'Anthropic最强的模型，因安全问题被美国政府限制非美国籍公民使用，后来停服了'。"
       ],
-      "why_it_matters": "反映AI行业的地缘政治影响和开源趋势",
+      "why_it_matters": "反映了AI行业融资泡沫风险、模型安全限制以及开源生态的重要性。",
       "impact_scope": [
         "industry"
       ],
       "risk_tags": [
-        "模型安全",
-        "地缘政治"
+        "融资泡沫",
+        "模型安全限制"
       ],
       "opportunity_tags": [
-        "AI Agent",
-        "开源模型"
+        "开源模型",
+        "AI应用落地"
       ],
       "confidence": "high",
       "published_at": "2026-06-24T16:17:52+08:00"
     },
     {
-      "event_id": "evt_009",
-      "event_name": "36氪WAVES2026圆桌讨论AI医疗",
+      "event_id": "event_9",
+      "event_name": "WAVES2026圆桌：AI重构医疗产业",
       "related_news_ids": [
         "news_a06984e85c7a"
       ],
@@ -1344,40 +1351,41 @@
         "广药",
         "华为"
       ],
-      "core_topic": "36氪WAVES2026圆桌讨论AI在医疗领域的应用，望石智慧与广药华为合作",
-      "event_type": "market_commentary",
+      "core_topic": "圆桌讨论AI制药进入关键转折点，虚拟临床试验等新技术改变研发范式",
+      "event_type": "research",
       "industry_area": "enterprise_ai",
       "technologies": [
         "AI制药",
-        "计算医学",
-        "虚拟临床试验",
-        "多智能体"
+        "多智能体",
+        "数字孪生",
+        "计算医学"
       ],
       "key_facts": [
-        "圆桌讨论AI在医疗领域的应用",
-        "望石智慧与广药、华为达成三方合作",
-        "哲源科技完成虚拟临床试验"
+        "望石智慧打造以微观世界模型为底座、多智能体协作的AI制药系统",
+        "哲源科技完成前瞻性虚拟临床试验，预判与真实数据100%匹配",
+        "弘晖基金认为AI制药已到关键转折点"
       ],
       "evidence": [
-        "今年5月，我们和广药、华为达成了三方战略合作，共同落地AI药研解决方案。"
+        "原文提到'AI制药已经来到行业发展关键转折点'、'模型预判结果与真实临床数据100%匹配'。"
       ],
-      "why_it_matters": "AI制药进入关键转折点，数据成为核心壁垒",
+      "why_it_matters": "AI制药的突破有望大幅降低新药研发成本和时间，改变医疗产业。",
       "impact_scope": [
         "industry"
       ],
       "risk_tags": [
-        "数据壁垒"
+        "数据壁垒",
+        "跨学科认知壁垒"
       ],
       "opportunity_tags": [
         "AI制药",
-        "计算医学"
+        "虚拟临床试验"
       ],
       "confidence": "high",
       "published_at": "2026-06-24T15:31:56+08:00"
     },
     {
-      "event_id": "evt_010",
-      "event_name": "36氪WAVES2026圆桌讨论具身智能",
+      "event_id": "event_10",
+      "event_name": "WAVES2026圆桌：具身智能发展现状",
       "related_news_ids": [
         "news_4cf69b80eb9d"
       ],
@@ -1388,7 +1396,7 @@
         "大界机器人",
         "蚂蚁集团"
       ],
-      "core_topic": "36氪WAVES2026圆桌讨论具身智能发展，帕西尼触觉传感器出货量第一",
+      "core_topic": "圆桌讨论具身智能：中国在触觉传感器、服务机器人领先，但商业化落地仍需时间",
       "event_type": "market_commentary",
       "industry_area": "ai_agent",
       "technologies": [
@@ -1398,40 +1406,44 @@
         "人形机器人"
       ],
       "key_facts": [
-        "圆桌讨论具身智能发展",
-        "帕西尼触觉传感器出货量第一",
-        "擎朗人形机器人落地酒店",
-        "极佳视界世界模型登顶"
+        "帕西尼触觉传感器出货量排名第一，黄仁勋亮相的14款人形机器人中有11款使用其传感器",
+        "擎朗智能海外营收超过50%",
+        "极佳视界认为国内具身智能模型与国外差距约一代模型之内"
       ],
       "evidence": [
-        "去年黄仁勋亮相的14款人形机器人里面有11款用的是帕西尼的传感器。"
+        "原文提到'帕西尼触觉传感器出货量已经排名第一'、'擎朗海外营收超过了50%'、'国内模型基本上跟国外的模型还是有一些差距的，但是差距大概在一代模型之内'。"
       ],
-      "why_it_matters": "具身智能商业化仍需突破，但中国在服务机器人领域领先",
+      "why_it_matters": "具身智能是AI的重要方向，中国在某些细分领域领先，但整体仍需追赶。",
       "impact_scope": [
         "industry"
       ],
       "risk_tags": [
-        "商业化落地慢"
+        "商业化落地慢",
+        "中美差距"
       ],
       "opportunity_tags": [
-        "具身智能",
-        "触觉传感器"
+        "触觉传感器",
+        "服务机器人",
+        "世界模型"
       ],
       "confidence": "high",
       "published_at": "2026-06-24T14:39:25+08:00"
     },
     {
-      "event_id": "evt_011",
+      "event_id": "event_11",
       "event_name": "仙工智能港股上市首日波动",
       "related_news_ids": [
         "news_34b9745c2d76"
       ],
       "main_entities": [
         "仙工智能",
+        "港交所",
         "高瓴HHLRA",
-        "广发基金"
+        "广发基金",
+        "极智嘉",
+        "埃斯顿"
       ],
-      "core_topic": "仙工智能港股上市，暗盘破发后首日冲高，估值争议大",
+      "core_topic": "仙工智能港股上市，暗盘破发后首日冲高回落，市场对其盈利持续性存疑",
       "event_type": "business_update",
       "industry_area": "other",
       "technologies": [
@@ -1439,34 +1451,33 @@
         "工业智能机器人"
       ],
       "key_facts": [
-        "仙工智能（06106.HK）在港交所上市，开盘平开，最高涨38.3%，收涨13.88%",
-        "暗盘破发7.28%，振幅49.21%",
-        "公开发行占9.5%，基石认购43.34%并锁6个月",
-        "按收入算，仙工智能全球排第七（1.1%），中国第三（2.5%）",
-        "整机毛利率38.4%，控制器销量第一但收入不第一"
+        "仙工智能在港交所上市，开盘平开，最高涨38.3%，收盘涨13.88%",
+        "暗盘破发7.28%",
+        "机器人控制器全球份额24.8%，但按收入全球排第七（1.1%）",
+        "整机毛利率38.4%"
       ],
       "evidence": [
-        "暗盘破发7%、首日冲高38%；控制器销量全球第一但收入全球第七；整机毛利率38.4%。"
+        "暗盘破发7%、首日冲高38%；控制器全球第一但收入排第七；整机毛利率38.4%。"
       ],
-      "why_it_matters": "反映机器人行业资本市场对估值和盈利能力的关注",
+      "why_it_matters": "仙工智能的股价波动反映了市场对机器人公司高估值和盈利能力的担忧。",
       "impact_scope": [
         "company"
       ],
       "risk_tags": [
-        "估值过高",
-        "毛利率低",
-        "市场份额有限"
+        "高估值",
+        "毛利率压力",
+        "市场份额窄"
       ],
       "opportunity_tags": [
-        "机器人行业增长",
-        "控制器市场潜力"
+        "机器人控制器领先",
+        "上市融资"
       ],
       "confidence": "high",
       "published_at": "2026-06-24T12:17:53+08:00"
     },
     {
-      "event_id": "evt_012",
-      "event_name": "36氪WAVES2026圆桌讨论AI一人公司",
+      "event_id": "event_12",
+      "event_name": "WAVES2026圆桌：AI时代一人公司（OPC）生态",
       "related_news_ids": [
         "news_a290c7472841"
       ],
@@ -1476,24 +1487,24 @@
         "芝麻财经",
         "广州大学城"
       ],
-      "core_topic": "36氪WAVES2026圆桌讨论AI时代一人公司（OPC）生态",
+      "core_topic": "圆桌讨论AI时代一人公司（OPC）利用AI工具实现公司级生产力",
       "event_type": "market_commentary",
       "industry_area": "enterprise_ai",
       "technologies": [
-        "AI",
+        "AI工具",
         "云计算",
-        "生成式引擎优化"
+        "GEO",
+        "Agent"
       ],
       "key_facts": [
         "阿里云调研显示传统开发者仅占20%，产品运营占35%，企业主占21%",
-        "OPC（一人公司）利用AI工具实现接近公司的交付能力",
-        "OPC创业方向包括AIGC、AI+电商、AI+医疗等",
-        "云平台提供分阶段套餐降低使用门槛"
+        "OPC利用AI工具实现接近公司的交付能力",
+        "OPC的杠杆是代码和媒体，边际成本几乎为零"
       ],
       "evidence": [
-        "阿里云调研数据；OPC定义：超级个体+AI工具+外部协作网络；云平台提供套餐。"
+        "阿里云调研数据；OPC定义：超级个体+AI工具+外部协作网络。"
       ],
-      "why_it_matters": "AI平权让个体拥有接近公司的生产力，催生新创业模式",
+      "why_it_matters": "AI平权使个体拥有公司级生产力，可能改变就业和创业模式。",
       "impact_scope": [
         "industry"
       ],
@@ -1504,33 +1515,33 @@
       "opportunity_tags": [
         "AI平权",
         "低门槛创业",
-        "云服务需求增长"
+        "云服务简化"
       ],
       "confidence": "high",
       "published_at": "2026-06-24T12:00:08+08:00"
     },
     {
-      "event_id": "evt_013",
-      "event_name": "MoEngage押注AI代理营销",
+      "event_id": "event_13",
+      "event_name": "MoEngage收购AI代理技术",
       "related_news_ids": [
         "news_c72876eec0ae"
       ],
       "main_entities": [
         "MoEngage"
       ],
-      "core_topic": "MoEngage以全现金交易获得技术，将AI代理分配给个人客户",
+      "core_topic": "MoEngage以全现金交易获得将AI代理分配给单个客户的技术",
       "event_type": "business_update",
       "industry_area": "enterprise_ai",
       "technologies": [
         "AI agents"
       ],
       "key_facts": [
-        "MoEngage以全现金交易获得技术，将AI代理分配给个人客户"
+        "MoEngage以全现金交易获得将AI代理分配给单个客户的技术"
       ],
       "evidence": [
-        "全现金交易；技术将AI代理分配给个人客户。"
+        "The all-cash deal gives MoEngage access to technology that assigns AI agents to individual customers."
       ],
-      "why_it_matters": "营销领域AI代理个性化客户互动的新模式",
+      "why_it_matters": "该收购表明营销领域正转向个性化AI代理驱动的客户互动。",
       "impact_scope": [
         "company"
       ],
@@ -1539,14 +1550,14 @@
       ],
       "opportunity_tags": [
         "AI营销",
-        "个性化客户互动"
+        "个性化客户体验"
       ],
       "confidence": "medium",
       "published_at": "2026-06-24T07:30:00+08:00"
     },
     {
-      "event_id": "evt_014",
-      "event_name": "好莱坞放弃发行Sam Altman传记片",
+      "event_id": "event_14",
+      "event_name": "好莱坞制片厂放弃发行Sam Altman传记片",
       "related_news_ids": [
         "news_2224e8f2e900"
       ],
@@ -1561,18 +1572,18 @@
         "Sam Altman",
         "Luca Guadagnino"
       ],
-      "core_topic": "多家好莱坞公司放弃发行关于Sam Altman的传记片，Neon和Mubi仍有意向",
+      "core_topic": "多家好莱坞制片厂放弃发行关于OpenAI CEO Sam Altman的传记片",
       "event_type": "other",
       "industry_area": "other",
       "technologies": [],
       "key_facts": [
-        "Netflix、A24、Focus Features和Warner Bros.的Clockwork均放弃发行关于Sam Altman的传记片《Artificial》",
-        "Neon和Mubi仍有意向"
+        "Netflix、A24、Focus Features和Warner Bros.的Clockwork均放弃发行关于Sam Altman的传记片",
+        "Neon和Mubi仍对该片感兴趣"
       ],
       "evidence": [
-        "Netflix、A24等放弃发行；Neon和Mubi仍感兴趣。"
+        "Netflix, A24, Focus Features, and Warner Bros.' Clockwork have all reportedly decided to pass on picking up Artificial."
       ],
-      "why_it_matters": "反映好莱坞对AI行业人物的复杂态度",
+      "why_it_matters": "反映了好莱坞对AI行业敏感题材的谨慎态度。",
       "impact_scope": [
         "industry"
       ],
@@ -1582,67 +1593,66 @@
       "opportunity_tags": [
         "none"
       ],
-      "confidence": "high",
+      "confidence": "medium",
       "published_at": "2026-06-24T06:03:18+08:00"
     },
     {
-      "event_id": "evt_015",
+      "event_id": "event_15",
       "event_name": "InSight框架实现自主技能获取",
       "related_news_ids": [
         "news_de8af1478e75"
       ],
       "main_entities": [],
-      "core_topic": "InSight框架使VLA模型可操控，实现无需人类演示的自主技能获取",
+      "core_topic": "InSight框架使VLA模型可操控，实现自主技能获取，无需人类演示",
       "event_type": "research",
       "industry_area": "research",
       "technologies": [
         "Vision-language-action (VLA) models",
-        "VLM"
+        "VLM",
+        "InSight"
       ],
       "key_facts": [
-        "InSight框架使VLA模型在原始动作层面可操控",
+        "InSight框架使VLA模型在基本动作层面可操控，实现自主技能获取",
         "包括自动分割管道和VLM引导的数据飞轮",
-        "在模拟和真实任务中评估，无需人类演示目标技能"
+        "在模拟和真实操作任务中评估，无需人类演示目标技能"
       ],
       "evidence": [
-        "框架使VLA可操控；自动分割和数据飞轮；无需人类演示。"
+        "InSight框架解锁自主技能获取；在模拟和真实任务中评估，无需人类演示。"
       ],
-      "why_it_matters": "推动机器人自主学习和长时任务执行能力",
+      "why_it_matters": "该研究推动了机器人技能学习的发展，使机器人能自主获取新技能。",
       "impact_scope": [
-        "industry"
+        "research"
       ],
       "risk_tags": [
         "none"
       ],
       "opportunity_tags": [
         "机器人技能学习",
-        "自主数据收集"
+        "自主操作"
       ],
       "confidence": "high",
       "published_at": "2026-06-24T01:59:01+08:00"
     },
     {
-      "event_id": "evt_016",
-      "event_name": "随机次梯度方法最后迭代界的新结果",
+      "event_id": "event_16",
+      "event_name": "随机次梯度方法最后迭代的新界",
       "related_news_ids": [
         "news_4a4008ebbd38"
       ],
       "main_entities": [],
-      "core_topic": "论文证明随机次梯度方法最后迭代的优化误差界，解决开放问题",
+      "core_topic": "论文证明随机次梯度方法最后迭代的优化误差新界，解决开放问题",
       "event_type": "research",
       "industry_area": "research",
-      "technologies": [
-        "stochastic subgradient method"
-      ],
+      "technologies": [],
       "key_facts": [
-        "Proves last iterate optimization error of order 1/√n under i.i.d. noise",
-        "Shows without i.i.d. assumption, error can be (log n)/√n",
-        "Resolves open problem from Koren and Segal, COLT 2020"
+        "论文研究一维凸Lipschitz目标的随机次梯度方法最后迭代",
+        "证明在i.i.d.噪声下优化误差为1/√n，去除了log因子",
+        "没有i.i.d.假设时误差为(log n)/√n，解决开放问题"
       ],
       "evidence": [
-        "Proves last iterate optimization error of order 1/√n under i.i.d. noise; shows without i.i.d. assumption, error can be (log n)/√n; resolves open problem from Koren and Segal, COLT 2020."
+        "The paper proves new bounds and resolves an open problem."
       ],
-      "why_it_matters": "优化理论的重要进展，解决长期开放问题",
+      "why_it_matters": "该结果深化了对随机优化算法收敛性的理解，具有理论意义。",
       "impact_scope": [
         "academic"
       ],
@@ -1650,148 +1660,141 @@
         "none"
       ],
       "opportunity_tags": [
-        "optimization theory"
+        "none"
       ],
       "confidence": "high",
       "published_at": "2026-06-24T01:55:18+08:00"
     },
     {
-      "event_id": "evt_017",
-      "event_name": "FLUX3D高保真3D高斯生成框架",
-      "related_news_ids": [
-        "news_42adf9bfa22c"
-      ],
+      "event_id": "event_17",
+      "event_name": "FLUX3D：高保真3D高斯生成",
+      "related_news_ids": [],
       "main_entities": [],
-      "core_topic": "FLUX3D框架提出扩散对齐稀疏表示，实现高保真图像到3DGS生成",
+      "core_topic": "FLUX3D框架通过扩散对齐稀疏表示实现高保真3D高斯生成",
       "event_type": "research",
-      "industry_area": "research",
+      "industry_area": "multimodal_ai",
       "technologies": [
         "3D Gaussian Splatting",
-        "diffusion transformers",
-        "sparse voxel representation"
+        "diffusion transformers"
       ],
       "key_facts": [
-        "Proposes FLUX3D framework for image-to-3DGS generation",
-        "Introduces Diffusion-Aligned Structured Latents (DA-SLAT) and Sparse-structure Multimodal Diffusion Transformer (SMDiT)",
-        "Outperforms state-of-the-art methods in appearance fidelity"
+        "FLUX3D提出DA-SLAT和SMDiT解决表示瓶颈和跨模态对齐问题",
+        "在基准测试中显著优于现有方法"
       ],
       "evidence": [
-        "Proposes FLUX3D framework; introduces DA-SLAT and SMDiT; outperforms state-of-the-art methods in appearance fidelity."
+        "The paper claims substantial improvements and outperforms SOTA methods."
       ],
-      "why_it_matters": "提升3D内容生成质量，推动3DGS技术发展",
+      "why_it_matters": "该研究提升了3D内容生成的保真度，对虚拟现实、游戏等领域有重要应用。",
       "impact_scope": [
-        "academic"
+        "research"
       ],
       "risk_tags": [
         "none"
       ],
       "opportunity_tags": [
         "3D generation",
-        "computer vision"
+        "high-fidelity"
       ],
       "confidence": "high",
-      "published_at": "2026-06-24T01:52:21+08:00"
+      "published_at": null
     },
     {
-      "event_id": "evt_018",
-      "event_name": "OpenThoughts-Agent开源数据管线",
+      "event_id": "event_18",
+      "event_name": "OpenThoughts-Agent：开源智能体模型数据配方",
       "related_news_ids": [
         "news_96d08d992c0a"
       ],
       "main_entities": [
         "Qwen3-32B"
       ],
-      "core_topic": "OpenThoughts-Agent项目开源智能体模型训练数据管线，Qwen3-32B微调后性能领先",
+      "core_topic": "OpenThoughts-Agent项目开源智能体模型训练数据管道，微调Qwen3-32B取得领先性能",
       "event_type": "research",
-      "industry_area": "research",
+      "industry_area": "ai_agent",
       "technologies": [
-        "agentic language models",
-        "data curation pipeline"
+        "agentic language models"
       ],
       "key_facts": [
-        "OpenThoughts-Agent project addresses data curation for agentic models",
-        "Conducted over 100 controlled ablation experiments",
-        "Fine-tuned Qwen3-32B on 100K examples achieves 44.8% average accuracy across seven benchmarks",
-        "Improves over Nemotron-Terminal-32B by 3.9 percentage points"
+        "OT-Agent项目进行100多次消融实验，组装10万训练样本",
+        "微调Qwen3-32B在7个智能体基准上平均44.8%，比最强开源模型高3.9个百分点",
+        "训练数据具有强扩展性"
       ],
       "evidence": [
-        "OpenThoughts-Agent project; conducted over 100 controlled ablation experiments; fine-tuned Qwen3-32B on 100K examples achieves 44.8% average accuracy across seven benchmarks; improves over Nemotron-Terminal-32B by 3.9 percentage points."
+        "The paper reports a 3.9 percentage point improvement over the strongest existing open data agentic model."
       ],
-      "why_it_matters": "开源智能体模型训练数据管线，促进智能体AI研究",
+      "why_it_matters": "该工作为训练通用智能体模型提供了开源数据和管道，促进该领域研究。",
       "impact_scope": [
-        "academic"
+        "research"
       ],
       "risk_tags": [
         "none"
       ],
       "opportunity_tags": [
-        "agentic AI",
-        "open source"
+        "open data",
+        "agentic models"
       ],
       "confidence": "high",
       "published_at": "2026-06-24T01:34:29+08:00"
     },
     {
-      "event_id": "evt_019",
-      "event_name": "AI增强AAC接口设计评估研究",
+      "event_id": "event_19",
+      "event_name": "AI增强AAC接口的设计与评估",
       "related_news_ids": [
         "news_0a0005a57333"
       ],
       "main_entities": [],
-      "core_topic": "论文探讨AI增强AAC接口的六个问题空间，提出更鲁棒的评估方法",
+      "core_topic": "论文探讨AI增强辅助沟通（AAC）接口的设计与评估挑战",
       "event_type": "research",
-      "industry_area": "research",
+      "industry_area": "consumer_ai",
       "technologies": [
-        "AI-powered AAC interfaces"
+        "AI-powered AAC"
       ],
       "key_facts": [
-        "Explores six AAC problem spaces",
-        "Suggests more robust evaluation methods considering intersectional nuances"
+        "AI可以增强AAC用户的能力",
+        "评估AI驱动的AAC接口困难，现有指标无法捕捉用户的多面需求",
+        "提出更鲁棒的评估方法"
       ],
       "evidence": [
-        "Explores six AAC problem spaces; suggests more robust evaluation methods taking intersectional nuances into account."
+        "The paper discusses evaluation challenges and proposes methods."
       ],
-      "why_it_matters": "改善辅助技术评估，关注用户多样性",
+      "why_it_matters": "该研究关注AI在辅助技术中的应用，有助于改善残障人士的沟通体验。",
       "impact_scope": [
-        "academic"
+        "research"
       ],
       "risk_tags": [
         "none"
       ],
       "opportunity_tags": [
-        "assistive technology",
-        "human-computer interaction"
+        "AAC",
+        "AI evaluation"
       ],
       "confidence": "high",
       "published_at": "2026-06-24T01:34:18+08:00"
     },
     {
-      "event_id": "evt_020",
-      "event_name": "Hartley神经算子与傅里叶神经算子对比研究",
+      "event_id": "event_20",
+      "event_name": "Hartley神经算子：实值谱基的神经算子",
       "related_news_ids": [
         "news_c452fb5440cb"
       ],
       "main_entities": [],
-      "core_topic": "论文提出Hartley神经算子，给出谱基选择预测规则",
+      "core_topic": "论文引入Hartley神经算子（HNO），提出根据算子对称性选择谱基的预测规则",
       "event_type": "research",
       "industry_area": "research",
       "technologies": [
         "Fourier Neural Operators",
-        "Hartley Neural Operator",
-        "spectral bases"
+        "Hartley Neural Operator"
       ],
       "key_facts": [
-        "Introduces Hartley Neural Operator (HNO) as real-valued mirror of FNO",
-        "Shows self-adjoint elliptic operators favor real Hartley basis",
-        "Time-dependent operators favor complex Fourier basis",
-        "Provides predictive rule to match spectral basis to operator symmetry"
+        "HNO是FNO的实值镜像，使用离散Hartley变换",
+        "自伴椭圆算子适合HNO，含时算子适合FNO",
+        "实验验证了基于格林函数理论的预测规则"
       ],
       "evidence": [
-        "Introduces Hartley Neural Operator (HNO); shows self-adjoint elliptic operators favor real Hartley basis; time-dependent operators favor complex Fourier basis; provides predictive rule to match spectral basis to operator symmetry."
+        "The paper introduces HNO and provides a predictive rule for basis selection."
       ],
-      "why_it_matters": "为神经算子选择谱基提供理论指导",
+      "why_it_matters": "该工作为神经算子选择谱基提供了理论指导，有助于提高PDE求解效率。",
       "impact_scope": [
-        "academic"
+        "research"
       ],
       "risk_tags": [
         "none"
@@ -1806,53 +1809,53 @@
   ],
   "ranked_events": [
     {
-      "event_id": "evt_005",
-      "event_name": "DeepWay深向智能新能源重卡规模化交付",
-      "final_importance_score": 3.69,
+      "event_id": "event_2",
+      "event_name": "阿里QoderWork推出峰谷Token",
+      "final_importance_score": 3.95,
       "rank": 1,
       "score_breakdown": {
         "impact_scope": 4,
-        "source_authority": 3,
+        "source_authority": 4,
         "novelty": 3,
         "multi_source_support": 3,
         "technical_impact": 4,
         "business_impact": 4,
-        "risk_level": 0.336,
-        "opportunity_level": 3.406,
+        "risk_level": 0.353,
+        "opportunity_level": 4.177,
         "recency": 5
       },
-      "ranking_reason": "该事件来自 量子位，影响范围评分 4，来源权威性评分 3，技术影响评分 4，商业影响评分 4。",
+      "ranking_reason": "该事件来自 量子位，影响范围评分 4，来源权威性评分 4，技术影响评分 4，商业影响评分 4。",
       "supporting_evidence": [
-        "物理AI第一块万亿市场，在公路货运先跑通闭环了"
+        "阿里QoderWork推出“峰谷Token”，Agent在每晚22:00到次日08:00运行可自动享受优惠，其中Qwen3.7-Max模型低至2折。"
       ],
       "confidence": "high"
     },
     {
-      "event_id": "evt_012",
-      "event_name": "36氪WAVES2026圆桌讨论AI一人公司",
-      "final_importance_score": 3.51,
+      "event_id": "event_19",
+      "event_name": "AI增强AAC接口的设计与评估",
+      "final_importance_score": 3.69,
       "rank": 2,
       "score_breakdown": {
         "impact_scope": 3,
-        "source_authority": 4,
+        "source_authority": 5,
         "novelty": 3,
         "multi_source_support": 3,
         "technical_impact": 2,
         "business_impact": 4,
-        "risk_level": 3.411,
-        "opportunity_level": 4.21,
+        "risk_level": 0.314,
+        "opportunity_level": 3.427,
         "recency": 5
       },
-      "ranking_reason": "该事件来自 36氪，影响范围评分 3，来源权威性评分 4，技术影响评分 2，商业影响评分 4。",
+      "ranking_reason": "该事件来自 arXiv，影响范围评分 3，来源权威性评分 5，技术影响评分 2，商业影响评分 4。",
       "supporting_evidence": [
-        "阿里云调研数据；OPC定义：超级个体+AI工具+外部协作网络；云平台提供套餐。"
+        "The paper discusses evaluation challenges and proposes methods."
       ],
       "confidence": "high"
     },
     {
-      "event_id": "evt_007",
-      "event_name": "抖音发布3D内容创作工具造世界",
-      "final_importance_score": 3.47,
+      "event_id": "event_5",
+      "event_name": "浪潮信息彭震谈AI转型门槛",
+      "final_importance_score": 3.51,
       "rank": 3,
       "score_breakdown": {
         "impact_scope": 3,
@@ -1861,20 +1864,20 @@
         "multi_source_support": 3,
         "technical_impact": 2,
         "business_impact": 4,
-        "risk_level": 0.276,
-        "opportunity_level": 3.38,
+        "risk_level": 3.391,
+        "opportunity_level": 4.26,
         "recency": 5
       },
-      "ranking_reason": "该事件来自 36氪，影响范围评分 3，来源权威性评分 4，技术影响评分 2，商业影响评分 4。",
+      "ranking_reason": "该事件来自 量子位，影响范围评分 3，来源权威性评分 4，技术影响评分 2，商业影响评分 4。",
       "supporting_evidence": [
-        "抖音在火山引擎FORCE大会上首次亮相造世界，这是一款集成了多Agents的3D世界创作工具。"
+        "浪潮信息董事长彭震在人工智能+生态大会上表示，AI转型最大的门槛不是技术，而是文化、组织和流程。"
       ],
       "confidence": "high"
     },
     {
-      "event_id": "evt_008",
-      "event_name": "36氪WAVES2026圆桌讨论AI投资趋势",
-      "final_importance_score": 3.47,
+      "event_id": "event_12",
+      "event_name": "WAVES2026圆桌：AI时代一人公司（OPC）生态",
+      "final_importance_score": 3.51,
       "rank": 4,
       "score_breakdown": {
         "impact_scope": 3,
@@ -1883,19 +1886,19 @@
         "multi_source_support": 3,
         "technical_impact": 2,
         "business_impact": 4,
-        "risk_level": 3.445,
-        "opportunity_level": 3.373,
+        "risk_level": 3.427,
+        "opportunity_level": 4.195,
         "recency": 5
       },
       "ranking_reason": "该事件来自 36氪，影响范围评分 3，来源权威性评分 4，技术影响评分 2，商业影响评分 4。",
       "supporting_evidence": [
-        "Anthropic最强的模型，因安全问题被美国政府限制非美国籍公民使用，后来停服了。反观中国领先的大模型公司纷纷开源。"
+        "阿里云调研数据；OPC定义：超级个体+AI工具+外部协作网络。"
       ],
       "confidence": "high"
     },
     {
-      "event_id": "evt_009",
-      "event_name": "36氪WAVES2026圆桌讨论AI医疗",
+      "event_id": "event_7",
+      "event_name": "抖音发布3D创作工具“造世界”",
       "final_importance_score": 3.47,
       "rank": 5,
       "score_breakdown": {
@@ -1905,19 +1908,19 @@
         "multi_source_support": 3,
         "technical_impact": 2,
         "business_impact": 4,
-        "risk_level": 2.656,
-        "opportunity_level": 3.427,
+        "risk_level": 0.303,
+        "opportunity_level": 3.433,
         "recency": 5
       },
       "ranking_reason": "该事件来自 36氪，影响范围评分 3，来源权威性评分 4，技术影响评分 2，商业影响评分 4。",
       "supporting_evidence": [
-        "今年5月，我们和广药、华为达成了三方战略合作，共同落地AI药研解决方案。"
+        "原文明确提到'抖音在火山引擎FORCE大会上首次亮相“造世界”'、'一款集成了多Agents的3D世界创作工具'。"
       ],
       "confidence": "high"
     },
     {
-      "event_id": "evt_011",
-      "event_name": "仙工智能港股上市首日波动",
+      "event_id": "event_8",
+      "event_name": "WAVES2026圆桌：AI行业融资与开源趋势",
       "final_importance_score": 3.47,
       "rank": 6,
       "score_breakdown": {
@@ -1927,63 +1930,63 @@
         "multi_source_support": 3,
         "technical_impact": 2,
         "business_impact": 4,
-        "risk_level": 4.246,
-        "opportunity_level": 3.459,
+        "risk_level": 3.434,
+        "opportunity_level": 3.456,
         "recency": 5
       },
       "ranking_reason": "该事件来自 36氪，影响范围评分 3，来源权威性评分 4，技术影响评分 2，商业影响评分 4。",
       "supporting_evidence": [
-        "暗盘破发7%、首日冲高38%；控制器销量全球第一但收入全球第七；整机毛利率38.4%。"
+        "原文提到'AI相关各个细分领域的融资节奏，跟以前完全不一样'、'Anthropic最强的模型，因安全问题被美国政府限制非美国籍公民使用，后来停服了'。"
       ],
       "confidence": "high"
     },
     {
-      "event_id": "evt_015",
-      "event_name": "InSight框架实现自主技能获取",
+      "event_id": "event_9",
+      "event_name": "WAVES2026圆桌：AI重构医疗产业",
       "final_importance_score": 3.47,
       "rank": 7,
       "score_breakdown": {
         "impact_scope": 3,
-        "source_authority": 5,
+        "source_authority": 4,
         "novelty": 3,
         "multi_source_support": 3,
-        "technical_impact": 4,
-        "business_impact": 2,
-        "risk_level": 0.348,
-        "opportunity_level": 3.456,
+        "technical_impact": 2,
+        "business_impact": 4,
+        "risk_level": 3.447,
+        "opportunity_level": 3.431,
         "recency": 5
       },
-      "ranking_reason": "该事件来自 arXiv，影响范围评分 3，来源权威性评分 5，技术影响评分 4，商业影响评分 2。",
+      "ranking_reason": "该事件来自 36氪，影响范围评分 3，来源权威性评分 4，技术影响评分 2，商业影响评分 4。",
       "supporting_evidence": [
-        "框架使VLA可操控；自动分割和数据飞轮；无需人类演示。"
+        "原文提到'AI制药已经来到行业发展关键转折点'、'模型预判结果与真实临床数据100%匹配'。"
       ],
       "confidence": "high"
     },
     {
-      "event_id": "evt_017",
-      "event_name": "FLUX3D高保真3D高斯生成框架",
+      "event_id": "event_11",
+      "event_name": "仙工智能港股上市首日波动",
       "final_importance_score": 3.47,
       "rank": 8,
       "score_breakdown": {
         "impact_scope": 3,
-        "source_authority": 5,
+        "source_authority": 4,
         "novelty": 3,
         "multi_source_support": 3,
-        "technical_impact": 4,
-        "business_impact": 2,
-        "risk_level": 0.286,
-        "opportunity_level": 3.41,
+        "technical_impact": 2,
+        "business_impact": 4,
+        "risk_level": 4.214,
+        "opportunity_level": 3.424,
         "recency": 5
       },
-      "ranking_reason": "该事件来自 arXiv，影响范围评分 3，来源权威性评分 5，技术影响评分 4，商业影响评分 2。",
+      "ranking_reason": "该事件来自 36氪，影响范围评分 3，来源权威性评分 4，技术影响评分 2，商业影响评分 4。",
       "supporting_evidence": [
-        "Proposes FLUX3D framework; introduces DA-SLAT and SMDiT; outperforms state-of-the-art methods in appearance fidelity."
+        "暗盘破发7%、首日冲高38%；控制器全球第一但收入排第七；整机毛利率38.4%。"
       ],
       "confidence": "high"
     },
     {
-      "event_id": "evt_018",
-      "event_name": "OpenThoughts-Agent开源数据管线",
+      "event_id": "event_15",
+      "event_name": "InSight框架实现自主技能获取",
       "final_importance_score": 3.47,
       "rank": 9,
       "score_breakdown": {
@@ -1993,19 +1996,19 @@
         "multi_source_support": 3,
         "technical_impact": 4,
         "business_impact": 2,
-        "risk_level": 0.302,
-        "opportunity_level": 3.421,
+        "risk_level": 0.36,
+        "opportunity_level": 3.448,
         "recency": 5
       },
       "ranking_reason": "该事件来自 arXiv，影响范围评分 3，来源权威性评分 5，技术影响评分 4，商业影响评分 2。",
       "supporting_evidence": [
-        "OpenThoughts-Agent project; conducted over 100 controlled ablation experiments; fine-tuned Qwen3-32B on 100K examples achieves 44.8% average accuracy across seven benchmarks; improves over Nemotron-Terminal-32B by 3.9 percentage points."
+        "InSight框架解锁自主技能获取；在模拟和真实任务中评估，无需人类演示。"
       ],
       "confidence": "high"
     },
     {
-      "event_id": "evt_019",
-      "event_name": "AI增强AAC接口设计评估研究",
+      "event_id": "event_18",
+      "event_name": "OpenThoughts-Agent：开源智能体模型数据配方",
       "final_importance_score": 3.47,
       "rank": 10,
       "score_breakdown": {
@@ -2015,19 +2018,19 @@
         "multi_source_support": 3,
         "technical_impact": 4,
         "business_impact": 2,
-        "risk_level": 0.277,
-        "opportunity_level": 3.381,
+        "risk_level": 0.308,
+        "opportunity_level": 3.41,
         "recency": 5
       },
       "ranking_reason": "该事件来自 arXiv，影响范围评分 3，来源权威性评分 5，技术影响评分 4，商业影响评分 2。",
       "supporting_evidence": [
-        "Explores six AAC problem spaces; suggests more robust evaluation methods taking intersectional nuances into account."
+        "The paper reports a 3.9 percentage point improvement over the strongest existing open data agentic model."
       ],
       "confidence": "high"
     },
     {
-      "event_id": "evt_020",
-      "event_name": "Hartley神经算子与傅里叶神经算子对比研究",
+      "event_id": "event_20",
+      "event_name": "Hartley神经算子：实值谱基的神经算子",
       "final_importance_score": 3.47,
       "rank": 11,
       "score_breakdown": {
@@ -2037,19 +2040,19 @@
         "multi_source_support": 3,
         "technical_impact": 4,
         "business_impact": 2,
-        "risk_level": 0.352,
-        "opportunity_level": 3.424,
+        "risk_level": 0.29,
+        "opportunity_level": 3.428,
         "recency": 5
       },
       "ranking_reason": "该事件来自 arXiv，影响范围评分 3，来源权威性评分 5，技术影响评分 4，商业影响评分 2。",
       "supporting_evidence": [
-        "Introduces Hartley Neural Operator (HNO); shows self-adjoint elliptic operators favor real Hartley basis; time-dependent operators favor complex Fourier basis; provides predictive rule to match spectral basis to operator symmetry."
+        "The paper introduces HNO and provides a predictive rule for basis selection."
       ],
       "confidence": "high"
     },
     {
-      "event_id": "evt_013",
-      "event_name": "MoEngage押注AI代理营销",
+      "event_id": "event_13",
+      "event_name": "MoEngage收购AI代理技术",
       "final_importance_score": 3.46,
       "rank": 12,
       "score_breakdown": {
@@ -2059,20 +2062,20 @@
         "multi_source_support": 3,
         "technical_impact": 2,
         "business_impact": 4,
-        "risk_level": 0.168,
-        "opportunity_level": 3.277,
+        "risk_level": 0.122,
+        "opportunity_level": 3.244,
         "recency": 5
       },
       "ranking_reason": "该事件来自 TechCrunch AI，影响范围评分 3，来源权威性评分 4，技术影响评分 2，商业影响评分 4。",
       "supporting_evidence": [
-        "全现金交易；技术将AI代理分配给个人客户。"
+        "The all-cash deal gives MoEngage access to technology that assigns AI agents to individual customers."
       ],
       "confidence": "medium"
     },
     {
-      "event_id": "evt_016",
-      "event_name": "随机次梯度方法最后迭代界的新结果",
-      "final_importance_score": 3.42,
+      "event_id": "event_16",
+      "event_name": "随机次梯度方法最后迭代的新界",
+      "final_importance_score": 3.3,
       "rank": 13,
       "score_breakdown": {
         "impact_scope": 3,
@@ -2081,42 +2084,42 @@
         "multi_source_support": 3,
         "technical_impact": 4,
         "business_impact": 2,
-        "risk_level": 0.278,
-        "opportunity_level": 2.611,
+        "risk_level": 0.319,
+        "opportunity_level": 0.343,
         "recency": 5
       },
       "ranking_reason": "该事件来自 arXiv，影响范围评分 3，来源权威性评分 5，技术影响评分 4，商业影响评分 2。",
       "supporting_evidence": [
-        "Proves last iterate optimization error of order 1/√n under i.i.d. noise; shows without i.i.d. assumption, error can be (log n)/√n; resolves open problem from Koren and Segal, COLT 2020."
+        "The paper proves new bounds and resolves an open problem."
       ],
       "confidence": "high"
     },
     {
-      "event_id": "evt_003",
-      "event_name": "浪潮信息彭震提出Humagent概念",
-      "final_importance_score": 3.25,
+      "event_id": "event_1",
+      "event_name": "FAST-LIVO2 获 IEEE TRO 最佳论文奖",
+      "final_importance_score": 3.29,
       "rank": 14,
       "score_breakdown": {
         "impact_scope": 3,
-        "source_authority": 3,
+        "source_authority": 4,
         "novelty": 3,
         "multi_source_support": 3,
-        "technical_impact": 2,
-        "business_impact": 4,
-        "risk_level": 2.613,
-        "opportunity_level": 3.418,
+        "technical_impact": 4,
+        "business_impact": 2,
+        "risk_level": 0.351,
+        "opportunity_level": 4.178,
         "recency": 5
       },
-      "ranking_reason": "该事件来自 量子位，影响范围评分 3，来源权威性评分 3，技术影响评分 2，商业影响评分 4。",
+      "ranking_reason": "该事件来自 量子位，影响范围评分 3，来源权威性评分 4，技术影响评分 4，商业影响评分 2。",
       "supporting_evidence": [
-        "AI转型最大的门槛，不是技术，是人"
+        "论文《FAST-LIVO2: Fast, Direct LiDAR-Inertial-Visual Odometry》由郑纯然担任第一作者，张富担任通讯作者。2025年其入选华为天才少年。"
       ],
       "confidence": "high"
     },
     {
-      "event_id": "evt_010",
-      "event_name": "36氪WAVES2026圆桌讨论具身智能",
-      "final_importance_score": 3.25,
+      "event_id": "event_4",
+      "event_name": "陶哲轩预言被AI实现",
+      "final_importance_score": 3.29,
       "rank": 15,
       "score_breakdown": {
         "impact_scope": 3,
@@ -2125,86 +2128,86 @@
         "multi_source_support": 3,
         "technical_impact": 4,
         "business_impact": 2,
-        "risk_level": 2.614,
-        "opportunity_level": 3.416,
+        "risk_level": 0.362,
+        "opportunity_level": 4.268,
+        "recency": 5
+      },
+      "ranking_reason": "该事件来自 量子位，影响范围评分 3，来源权威性评分 4，技术影响评分 4，商业影响评分 2。",
+      "supporting_evidence": [
+        "12年前，陶哲轩预言将来或许不再用LaTeX撰写论文，而是使用形式化语言。过去一年，AI在数学领域疯狂提速。"
+      ],
+      "confidence": "high"
+    },
+    {
+      "event_id": "event_10",
+      "event_name": "WAVES2026圆桌：具身智能发展现状",
+      "final_importance_score": 3.29,
+      "rank": 16,
+      "score_breakdown": {
+        "impact_scope": 3,
+        "source_authority": 4,
+        "novelty": 3,
+        "multi_source_support": 3,
+        "technical_impact": 4,
+        "business_impact": 2,
+        "risk_level": 3.427,
+        "opportunity_level": 4.254,
         "recency": 5
       },
       "ranking_reason": "该事件来自 36氪，影响范围评分 3，来源权威性评分 4，技术影响评分 4，商业影响评分 2。",
       "supporting_evidence": [
-        "去年黄仁勋亮相的14款人形机器人里面有11款用的是帕西尼的传感器。"
+        "原文提到'帕西尼触觉传感器出货量已经排名第一'、'擎朗海外营收超过了50%'、'国内模型基本上跟国外的模型还是有一些差距的，但是差距大概在一代模型之内'。"
       ],
       "confidence": "high"
     },
     {
-      "event_id": "evt_004",
-      "event_name": "WAIC Future Tech 2026展示175个早期项目",
-      "final_importance_score": 3.24,
-      "rank": 16,
-      "score_breakdown": {
-        "impact_scope": 3,
-        "source_authority": 3,
-        "novelty": 3,
-        "multi_source_support": 3,
-        "technical_impact": 2,
-        "business_impact": 4,
-        "risk_level": 0.313,
-        "opportunity_level": 3.401,
-        "recency": 5
-      },
-      "ranking_reason": "该事件来自 量子位，影响范围评分 3，来源权威性评分 3，技术影响评分 2，商业影响评分 4。",
-      "supporting_evidence": [
-        "175个早期项目站上WAIC2026"
-      ],
-      "confidence": "high"
-    },
-    {
-      "event_id": "evt_001",
-      "event_name": "阿里QoderWork推出峰谷Token优惠",
-      "final_importance_score": 3.02,
+      "event_id": "event_3",
+      "event_name": "Anthropic发布Claude Tag",
+      "final_importance_score": 2.96,
       "rank": 17,
       "score_breakdown": {
         "impact_scope": 3,
-        "source_authority": 3,
+        "source_authority": 4,
         "novelty": 3,
         "multi_source_support": 3,
-        "technical_impact": 4,
+        "technical_impact": 2,
         "business_impact": 2,
-        "risk_level": 0.343,
-        "opportunity_level": 3.41,
+        "risk_level": 0.3,
+        "opportunity_level": 4.206,
         "recency": 5
       },
-      "ranking_reason": "该事件来自 量子位，影响范围评分 3，来源权威性评分 3，技术影响评分 4，商业影响评分 2。",
+      "ranking_reason": "该事件来自 量子位，影响范围评分 3，来源权威性评分 4，技术影响评分 2，商业影响评分 2。",
       "supporting_evidence": [
-        "阿里QoderWork推出峰谷Token，夜间使用Qwen3.7低至2折"
+        "目前A社约65%的产品代码已经由Claude Tag参与完成。卡帕西表示这是LLM用户界面的第三次重大变革。"
       ],
       "confidence": "high"
     },
     {
-      "event_id": "evt_006",
-      "event_name": "港大FAST-LIVO2获IEEE TRO最佳论文奖",
-      "final_importance_score": 3.02,
+      "event_id": "event_6",
+      "event_name": "WAIC Future Tech创投生态展示",
+      "final_importance_score": 2.9,
       "rank": 18,
       "score_breakdown": {
         "impact_scope": 3,
-        "source_authority": 3,
+        "source_authority": 4,
         "novelty": 3,
         "multi_source_support": 3,
-        "technical_impact": 4,
+        "technical_impact": 2,
         "business_impact": 2,
-        "risk_level": 0.283,
-        "opportunity_level": 3.4,
+        "risk_level": 0.196,
+        "opportunity_level": 3.279,
         "recency": 5
       },
-      "ranking_reason": "该事件来自 量子位，影响范围评分 3，来源权威性评分 3，技术影响评分 4，商业影响评分 2。",
+      "ranking_reason": "该事件来自 量子位，影响范围评分 3，来源权威性评分 4，技术影响评分 2，商业影响评分 2。",
       "supporting_evidence": [
-        "论文《FAST-LIVO2: Fast, Direct LiDAR-Inertial-Visual Odometry》由郑纯然担任第一作者，其博士导师张富担任通讯作者。2025年其入选华为天才少年。"
+        "原文提到'从全球超600个早期项目里选出200多个登台'、'最终谈成2.68亿元意向订单'等。"
       ],
-      "confidence": "high"
+      "confidence": "medium"
     },
     {
-      "event_id": "evt_014",
-      "event_name": "好莱坞放弃发行Sam Altman传记片",
-      "final_importance_score": 2.74,
+      "event_id": "event_14",
+      "event_name": "好莱坞制片厂放弃发行Sam Altman传记片",
+      "final_importance_score": 2.73,
       "rank": 19,
       "score_breakdown": {
         "impact_scope": 3,
@@ -2213,41 +2216,41 @@
         "multi_source_support": 3,
         "technical_impact": 2,
         "business_impact": 2,
-        "risk_level": 2.651,
-        "opportunity_level": 0.281,
+        "risk_level": 2.511,
+        "opportunity_level": 0.166,
         "recency": 5
       },
       "ranking_reason": "该事件来自 The Verge，影响范围评分 3，来源权威性评分 4，技术影响评分 2，商业影响评分 2。",
       "supporting_evidence": [
-        "Netflix、A24等放弃发行；Neon和Mubi仍感兴趣。"
+        "Netflix, A24, Focus Features, and Warner Bros.' Clockwork have all reportedly decided to pass on picking up Artificial."
       ],
-      "confidence": "high"
+      "confidence": "medium"
     },
     {
-      "event_id": "evt_002",
-      "event_name": "Anthropic推出Claude Tag",
-      "final_importance_score": 2.69,
+      "event_id": "event_17",
+      "event_name": "FLUX3D：高保真3D高斯生成",
+      "final_importance_score": 2.18,
       "rank": 20,
       "score_breakdown": {
         "impact_scope": 3,
-        "source_authority": 3,
+        "source_authority": 0,
         "novelty": 3,
-        "multi_source_support": 3,
-        "technical_impact": 2,
+        "multi_source_support": 0,
+        "technical_impact": 4,
         "business_impact": 2,
-        "risk_level": 0.354,
-        "opportunity_level": 3.383,
+        "risk_level": 0.173,
+        "opportunity_level": 3.26,
         "recency": 5
       },
-      "ranking_reason": "该事件来自 量子位，影响范围评分 3，来源权威性评分 3，技术影响评分 2，商业影响评分 2。",
+      "ranking_reason": "该事件来自 unknown source，影响范围评分 3，来源权威性评分 0，技术影响评分 4，商业影响评分 2。",
       "supporting_evidence": [
-        "Claude Code大升级，卡帕西：LLM第三次变革"
+        "The paper claims substantial improvements and outperforms SOTA methods."
       ],
       "confidence": "high"
     }
   ],
   "visualization_data": {
-    "generated_at": "2026-06-24T10:16:55Z",
+    "generated_at": "2026-06-24T10:23:05Z",
     "source_type_distribution": [
       {
         "name": "media",
@@ -2261,83 +2264,71 @@
     "event_type_distribution": [
       {
         "name": "research",
-        "count": 7
+        "count": 9
       },
       {
         "name": "market_commentary",
-        "count": 5
+        "count": 4
       },
       {
         "name": "product_release",
         "count": 3
       },
       {
-        "name": "business_update",
-        "count": 3
+        "name": "other",
+        "count": 2
       },
       {
-        "name": "other",
+        "name": "business_update",
         "count": 2
       }
     ],
     "industry_area_distribution": [
       {
         "name": "research",
-        "count": 7
+        "count": 5
       },
       {
         "name": "enterprise_ai",
         "count": 4
       },
       {
+        "name": "other",
+        "count": 3
+      },
+      {
+        "name": "consumer_ai",
+        "count": 2
+      },
+      {
         "name": "ai_agent",
         "count": 2
-      },
-      {
-        "name": "capital_market",
-        "count": 2
-      },
-      {
-        "name": "other",
-        "count": 2
-      },
-      {
-        "name": "developer_tools",
-        "count": 1
       },
       {
         "name": "ai_infrastructure",
         "count": 1
       },
       {
-        "name": "consumer_ai",
+        "name": "developer_tools",
+        "count": 1
+      },
+      {
+        "name": "capital_market",
+        "count": 1
+      },
+      {
+        "name": "multimodal_ai",
         "count": 1
       }
     ],
     "technology_distribution": [
       {
-        "name": "Qwen3.7-Max",
-        "count": 1
+        "name": "AI",
+        "count": 2
       },
       {
-        "name": "峰谷Token",
-        "count": 1
-      },
-      {
-        "name": "Claude Code",
-        "count": 1
-      },
-      {
-        "name": "Claude Tag",
-        "count": 1
-      },
-      {
-        "name": "智能新能源重卡",
-        "count": 1
-      },
-      {
-        "name": "自动驾驶",
-        "count": 1
+        "name": "Agent",
+        "count": 2
       },
       {
         "name": "FAST-LIVO2",
@@ -2352,50 +2343,66 @@
         "count": 1
       },
       {
-        "name": "3D UGC",
+        "name": "Qwen3.7-Max",
         "count": 1
       },
       {
-        "name": "多Agents",
+        "name": "峰谷Token",
         "count": 1
       },
       {
-        "name": "虚拟世界模型",
+        "name": "Claude Tag",
+        "count": 1
+      },
+      {
+        "name": "LLM",
+        "count": 1
+      },
+      {
+        "name": "形式化证明",
+        "count": 1
+      },
+      {
+        "name": "Lean",
+        "count": 1
+      },
+      {
+        "name": "量子计算",
         "count": 1
       }
     ],
     "top_event_scores": [
       {
-        "event_id": "evt_005",
-        "event_name": "DeepWay深向智能新能源重卡规模化交付",
+        "event_id": "event_2",
+        "event_name": "阿里QoderWork推出峰谷Token",
         "rank": 1,
+        "score": 3.95,
+        "confidence": "high"
+      },
+      {
+        "event_id": "event_19",
+        "event_name": "AI增强AAC接口的设计与评估",
+        "rank": 2,
         "score": 3.69,
         "confidence": "high"
       },
       {
-        "event_id": "evt_012",
-        "event_name": "36氪WAVES2026圆桌讨论AI一人公司",
-        "rank": 2,
+        "event_id": "event_5",
+        "event_name": "浪潮信息彭震谈AI转型门槛",
+        "rank": 3,
         "score": 3.51,
         "confidence": "high"
       },
       {
-        "event_id": "evt_007",
-        "event_name": "抖音发布3D内容创作工具造世界",
-        "rank": 3,
-        "score": 3.47,
-        "confidence": "high"
-      },
-      {
-        "event_id": "evt_008",
-        "event_name": "36氪WAVES2026圆桌讨论AI投资趋势",
+        "event_id": "event_12",
+        "event_name": "WAVES2026圆桌：AI时代一人公司（OPC）生态",
         "rank": 4,
-        "score": 3.47,
+        "score": 3.51,
         "confidence": "high"
       },
       {
-        "event_id": "evt_009",
-        "event_name": "36氪WAVES2026圆桌讨论AI医疗",
+        "event_id": "event_7",
+        "event_name": "抖音发布3D创作工具“造世界”",
         "rank": 5,
         "score": 3.47,
         "confidence": "high"
@@ -2403,164 +2410,164 @@
     ],
     "risk_opportunity_matrix": [
       {
-        "event_id": "evt_005",
-        "event_name": "DeepWay深向智能新能源重卡规模化交付",
-        "risk_level": 0.336,
-        "opportunity_level": 3.406,
-        "confidence": "high",
-        "event_type": "business_update"
-      },
-      {
-        "event_id": "evt_012",
-        "event_name": "36氪WAVES2026圆桌讨论AI一人公司",
-        "risk_level": 3.411,
-        "opportunity_level": 4.21,
-        "confidence": "high",
-        "event_type": "market_commentary"
-      },
-      {
-        "event_id": "evt_007",
-        "event_name": "抖音发布3D内容创作工具造世界",
-        "risk_level": 0.276,
-        "opportunity_level": 3.38,
+        "event_id": "event_2",
+        "event_name": "阿里QoderWork推出峰谷Token",
+        "risk_level": 0.353,
+        "opportunity_level": 4.177,
         "confidence": "high",
         "event_type": "product_release"
       },
       {
-        "event_id": "evt_008",
-        "event_name": "36氪WAVES2026圆桌讨论AI投资趋势",
-        "risk_level": 3.445,
-        "opportunity_level": 3.373,
-        "confidence": "high",
-        "event_type": "market_commentary"
-      },
-      {
-        "event_id": "evt_009",
-        "event_name": "36氪WAVES2026圆桌讨论AI医疗",
-        "risk_level": 2.656,
+        "event_id": "event_19",
+        "event_name": "AI增强AAC接口的设计与评估",
+        "risk_level": 0.314,
         "opportunity_level": 3.427,
-        "confidence": "high",
-        "event_type": "market_commentary"
-      },
-      {
-        "event_id": "evt_011",
-        "event_name": "仙工智能港股上市首日波动",
-        "risk_level": 4.246,
-        "opportunity_level": 3.459,
-        "confidence": "high",
-        "event_type": "business_update"
-      },
-      {
-        "event_id": "evt_015",
-        "event_name": "InSight框架实现自主技能获取",
-        "risk_level": 0.348,
-        "opportunity_level": 3.456,
         "confidence": "high",
         "event_type": "research"
       },
       {
-        "event_id": "evt_017",
-        "event_name": "FLUX3D高保真3D高斯生成框架",
-        "risk_level": 0.286,
+        "event_id": "event_5",
+        "event_name": "浪潮信息彭震谈AI转型门槛",
+        "risk_level": 3.391,
+        "opportunity_level": 4.26,
+        "confidence": "high",
+        "event_type": "market_commentary"
+      },
+      {
+        "event_id": "event_12",
+        "event_name": "WAVES2026圆桌：AI时代一人公司（OPC）生态",
+        "risk_level": 3.427,
+        "opportunity_level": 4.195,
+        "confidence": "high",
+        "event_type": "market_commentary"
+      },
+      {
+        "event_id": "event_7",
+        "event_name": "抖音发布3D创作工具“造世界”",
+        "risk_level": 0.303,
+        "opportunity_level": 3.433,
+        "confidence": "high",
+        "event_type": "product_release"
+      },
+      {
+        "event_id": "event_8",
+        "event_name": "WAVES2026圆桌：AI行业融资与开源趋势",
+        "risk_level": 3.434,
+        "opportunity_level": 3.456,
+        "confidence": "high",
+        "event_type": "market_commentary"
+      },
+      {
+        "event_id": "event_9",
+        "event_name": "WAVES2026圆桌：AI重构医疗产业",
+        "risk_level": 3.447,
+        "opportunity_level": 3.431,
+        "confidence": "high",
+        "event_type": "research"
+      },
+      {
+        "event_id": "event_11",
+        "event_name": "仙工智能港股上市首日波动",
+        "risk_level": 4.214,
+        "opportunity_level": 3.424,
+        "confidence": "high",
+        "event_type": "business_update"
+      },
+      {
+        "event_id": "event_15",
+        "event_name": "InSight框架实现自主技能获取",
+        "risk_level": 0.36,
+        "opportunity_level": 3.448,
+        "confidence": "high",
+        "event_type": "research"
+      },
+      {
+        "event_id": "event_18",
+        "event_name": "OpenThoughts-Agent：开源智能体模型数据配方",
+        "risk_level": 0.308,
         "opportunity_level": 3.41,
         "confidence": "high",
         "event_type": "research"
       },
       {
-        "event_id": "evt_018",
-        "event_name": "OpenThoughts-Agent开源数据管线",
-        "risk_level": 0.302,
-        "opportunity_level": 3.421,
+        "event_id": "event_20",
+        "event_name": "Hartley神经算子：实值谱基的神经算子",
+        "risk_level": 0.29,
+        "opportunity_level": 3.428,
         "confidence": "high",
         "event_type": "research"
       },
       {
-        "event_id": "evt_019",
-        "event_name": "AI增强AAC接口设计评估研究",
-        "risk_level": 0.277,
-        "opportunity_level": 3.381,
-        "confidence": "high",
-        "event_type": "research"
-      },
-      {
-        "event_id": "evt_020",
-        "event_name": "Hartley神经算子与傅里叶神经算子对比研究",
-        "risk_level": 0.352,
-        "opportunity_level": 3.424,
-        "confidence": "high",
-        "event_type": "research"
-      },
-      {
-        "event_id": "evt_013",
-        "event_name": "MoEngage押注AI代理营销",
-        "risk_level": 0.168,
-        "opportunity_level": 3.277,
+        "event_id": "event_13",
+        "event_name": "MoEngage收购AI代理技术",
+        "risk_level": 0.122,
+        "opportunity_level": 3.244,
         "confidence": "medium",
         "event_type": "business_update"
       },
       {
-        "event_id": "evt_016",
-        "event_name": "随机次梯度方法最后迭代界的新结果",
-        "risk_level": 0.278,
-        "opportunity_level": 2.611,
+        "event_id": "event_16",
+        "event_name": "随机次梯度方法最后迭代的新界",
+        "risk_level": 0.319,
+        "opportunity_level": 0.343,
         "confidence": "high",
         "event_type": "research"
       },
       {
-        "event_id": "evt_003",
-        "event_name": "浪潮信息彭震提出Humagent概念",
-        "risk_level": 2.613,
-        "opportunity_level": 3.418,
-        "confidence": "high",
-        "event_type": "market_commentary"
-      },
-      {
-        "event_id": "evt_010",
-        "event_name": "36氪WAVES2026圆桌讨论具身智能",
-        "risk_level": 2.614,
-        "opportunity_level": 3.416,
-        "confidence": "high",
-        "event_type": "market_commentary"
-      },
-      {
-        "event_id": "evt_004",
-        "event_name": "WAIC Future Tech 2026展示175个早期项目",
-        "risk_level": 0.313,
-        "opportunity_level": 3.401,
-        "confidence": "high",
-        "event_type": "other"
-      },
-      {
-        "event_id": "evt_001",
-        "event_name": "阿里QoderWork推出峰谷Token优惠",
-        "risk_level": 0.343,
-        "opportunity_level": 3.41,
-        "confidence": "high",
-        "event_type": "product_release"
-      },
-      {
-        "event_id": "evt_006",
-        "event_name": "港大FAST-LIVO2获IEEE TRO最佳论文奖",
-        "risk_level": 0.283,
-        "opportunity_level": 3.4,
+        "event_id": "event_1",
+        "event_name": "FAST-LIVO2 获 IEEE TRO 最佳论文奖",
+        "risk_level": 0.351,
+        "opportunity_level": 4.178,
         "confidence": "high",
         "event_type": "research"
       },
       {
-        "event_id": "evt_014",
-        "event_name": "好莱坞放弃发行Sam Altman传记片",
-        "risk_level": 2.651,
-        "opportunity_level": 0.281,
+        "event_id": "event_4",
+        "event_name": "陶哲轩预言被AI实现",
+        "risk_level": 0.362,
+        "opportunity_level": 4.268,
         "confidence": "high",
+        "event_type": "research"
+      },
+      {
+        "event_id": "event_10",
+        "event_name": "WAVES2026圆桌：具身智能发展现状",
+        "risk_level": 3.427,
+        "opportunity_level": 4.254,
+        "confidence": "high",
+        "event_type": "market_commentary"
+      },
+      {
+        "event_id": "event_3",
+        "event_name": "Anthropic发布Claude Tag",
+        "risk_level": 0.3,
+        "opportunity_level": 4.206,
+        "confidence": "high",
+        "event_type": "product_release"
+      },
+      {
+        "event_id": "event_6",
+        "event_name": "WAIC Future Tech创投生态展示",
+        "risk_level": 0.196,
+        "opportunity_level": 3.279,
+        "confidence": "medium",
         "event_type": "other"
       },
       {
-        "event_id": "evt_002",
-        "event_name": "Anthropic推出Claude Tag",
-        "risk_level": 0.354,
-        "opportunity_level": 3.383,
+        "event_id": "event_14",
+        "event_name": "好莱坞制片厂放弃发行Sam Altman传记片",
+        "risk_level": 2.511,
+        "opportunity_level": 0.166,
+        "confidence": "medium",
+        "event_type": "other"
+      },
+      {
+        "event_id": "event_17",
+        "event_name": "FLUX3D：高保真3D高斯生成",
+        "risk_level": 0.173,
+        "opportunity_level": 3.26,
         "confidence": "high",
-        "event_type": "product_release"
+        "event_type": "research"
       }
     ]
   },
