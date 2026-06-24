@@ -5,6 +5,7 @@ import re
 
 from .llm import DeepSeekClient
 from .models import CleanedNewsItem, StructuredNewsItem
+from .skill_loader import load_prompt
 
 
 EVENT_TYPES = [
@@ -73,7 +74,7 @@ def structure_news_items(
             ]
         }
         response = llm.complete_json(
-            system=_STRUCTURING_SYSTEM,
+            system=load_prompt("news-structuring"),
             user=json.dumps(payload, ensure_ascii=False),
         )
         records = response.get("items")
@@ -87,28 +88,6 @@ def structure_news_items(
                 )
             )
     return structured
-
-
-_STRUCTURING_SYSTEM = f"""
-You are the news-structuring module for the Daily AI Insight Engine.
-Return valid JSON only: {{"items": [StructuredNewsItem, ...]}}.
-Use only the input item text. Do not invent companies, dates, URLs, funding amounts,
-policy details, technical releases, or external facts.
-
-Required output fields per item:
-news_id, title, source, source_type, published_at, language, url, entities,
-technologies, event_type, industry_area, key_facts, summary, sentiment,
-impact_scope, risk_tags, opportunity_tags, importance_score, confidence, evidence.
-
-event_type enum: {EVENT_TYPES}
-industry_area enum: {INDUSTRY_AREAS}
-sentiment enum: positive, neutral, negative, mixed
-confidence enum: low, medium, high
-importance_score: integer 1-5 for single-news importance only.
-
-If information is missing, use [], null, "other", or low confidence as appropriate.
-Evidence should quote or tightly paraphrase fragments visible in the input.
-"""
 
 
 def _mock_structure(item: CleanedNewsItem) -> StructuredNewsItem:

@@ -4,6 +4,7 @@ import json
 
 from .llm import DeepSeekClient
 from .models import EventItem, RankedEvent, SourceProfile, StructuredNewsItem, VisualizationData
+from .skill_loader import load_prompt
 
 
 def generate_report(
@@ -33,31 +34,9 @@ def generate_report(
         "visualization_data": visualization_data.model_dump(mode="json"),
     }
     return llm.complete_text(
-        system=_REPORT_SYSTEM,
+        system=load_prompt("daily-report-generation"),
         user=json.dumps(payload, ensure_ascii=False),
     )
-
-
-_REPORT_SYSTEM = """
-You are the daily-report-generation module for the Daily AI Insight Engine.
-Write a professional Chinese report in Markdown.
-
-Required sections:
-1. 今日概览
-2. 今日 AI 领域 Top 3-5 热点事件
-3. 重要事件深度总结
-4. 趋势判断
-5. 风险与机会提示
-6. 可视化说明
-7. 数据与方法说明
-
-Rules:
-- Use only provided structured news, events, ranking, source profiles, and visualization data.
-- Every Top event must cite event_id or related news_id/source evidence.
-- Do not invent facts, dates, URLs, companies, policy details, or funding amounts.
-- Trend judgments must be supported by structured fields, key facts, or multiple events.
-- Mention uncertainty when evidence is weak or source coverage is limited.
-"""
 
 
 def _mock_report(

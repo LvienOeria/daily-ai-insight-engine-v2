@@ -1,141 +1,141 @@
 {
   "ranked_events": [
     {
-      "event_id": "event_7",
-      "event_name": "36氪WAVES2026圆桌论坛讨论科技趋势",
-      "final_importance_score": 3.4,
+      "event_id": "evt_015",
+      "event_name": "InSight框架实现VLA模型自主技能获取",
+      "final_importance_score": 3.56,
       "rank": 1,
       "score_breakdown": {
         "impact_scope": 3,
-        "source_authority": 3,
+        "source_authority": 5,
         "novelty": 3,
         "multi_source_support": 3,
         "technical_impact": 4,
         "business_impact": 2,
-        "risk_level": 3.403,
-        "opportunity_level": 4.233,
+        "risk_level": 0.348,
+        "opportunity_level": 3.456,
         "recency": 5
       },
-      "ranking_reason": "该事件来自 36氪，影响范围评分 3，来源权威性评分 3，技术影响评分 4，商业影响评分 2。",
+      "ranking_reason": "该事件来自 arXiv，影响范围评分 3，来源权威性评分 5，技术影响评分 4，商业影响评分 2。",
       "supporting_evidence": [
-        "文本包含圆桌对话内容，嘉宾发言提及'帕西尼触觉传感器出货量第一'、'擎朗海外营收超过50%'、'极佳视界模型击败谷歌、英伟达'、'大界机器人超越欧洲冠军'"
+        "We present InSight, a framework that unlocks autonomous skill acquisition by rendering VLAs steerable at the primitive-action level."
       ],
       "confidence": "high"
     },
     {
-      "event_id": "event_11",
-      "event_name": "仙工智能上市首日股价大幅波动",
-      "final_importance_score": 3.4,
+      "event_id": "evt_017",
+      "event_name": "FLUX3D实现高保真3D高斯生成",
+      "final_importance_score": 3.55,
       "rank": 2,
       "score_breakdown": {
         "impact_scope": 3,
-        "source_authority": 3,
+        "source_authority": 5,
         "novelty": 3,
         "multi_source_support": 3,
-        "technical_impact": 2,
-        "business_impact": 4,
-        "risk_level": 4.214,
-        "opportunity_level": 3.424,
+        "technical_impact": 4,
+        "business_impact": 2,
+        "risk_level": 0.286,
+        "opportunity_level": 3.41,
         "recency": 5
       },
-      "ranking_reason": "该事件来自 36氪，影响范围评分 3，来源权威性评分 3，技术影响评分 2，商业影响评分 4。",
+      "ranking_reason": "该事件来自 arXiv，影响范围评分 3，来源权威性评分 5，技术影响评分 4，商业影响评分 2。",
       "supporting_evidence": [
-        "暗盘破发7%、首日冲高38%；控制器全球第一但收入排名靠后；整机毛利率38.4%"
+        "The paper claims: 'FLUX3D yields substantial improvements in appearance fidelity and significantly outperforms all state-of-the-art (SOTA) methods'."
       ],
       "confidence": "high"
     },
     {
-      "event_id": "event_12",
-      "event_name": "AI时代一人公司（OPC）生态讨论",
-      "final_importance_score": 3.4,
+      "event_id": "evt_018",
+      "event_name": "OpenThoughts-Agent开源数据配方训练通用Agent模型",
+      "final_importance_score": 3.55,
       "rank": 3,
+      "score_breakdown": {
+        "impact_scope": 3,
+        "source_authority": 5,
+        "novelty": 3,
+        "multi_source_support": 3,
+        "technical_impact": 4,
+        "business_impact": 2,
+        "risk_level": 0.302,
+        "opportunity_level": 3.421,
+        "recency": 5
+      },
+      "ranking_reason": "该事件来自 arXiv，影响范围评分 3，来源权威性评分 5，技术影响评分 4，商业影响评分 2。",
+      "supporting_evidence": [
+        "The paper states: 'yields an average accuracy of 44.8% across seven agentic benchmarks and a 3.9 percentage point improvement over the strongest existing open data agentic model (Nemotron-Terminal-32B, 40.9%)'."
+      ],
+      "confidence": "high"
+    },
+    {
+      "event_id": "evt_019",
+      "event_name": "AI增强辅助沟通（AAC）界面设计与评估研究",
+      "final_importance_score": 3.55,
+      "rank": 4,
+      "score_breakdown": {
+        "impact_scope": 3,
+        "source_authority": 5,
+        "novelty": 3,
+        "multi_source_support": 3,
+        "technical_impact": 2,
+        "business_impact": 4,
+        "risk_level": 0.277,
+        "opportunity_level": 3.381,
+        "recency": 5
+      },
+      "ranking_reason": "该事件来自 arXiv，影响范围评分 3，来源权威性评分 5，技术影响评分 2，商业影响评分 4。",
+      "supporting_evidence": [
+        "The paper states: 'We explore the complicated nature of six AAC problem spaces...and suggest more robust methods of evaluation'."
+      ],
+      "confidence": "high"
+    },
+    {
+      "event_id": "evt_020",
+      "event_name": "Hartley神经算子与傅里叶神经算子对比研究",
+      "final_importance_score": 3.55,
+      "rank": 5,
+      "score_breakdown": {
+        "impact_scope": 3,
+        "source_authority": 5,
+        "novelty": 3,
+        "multi_source_support": 3,
+        "technical_impact": 4,
+        "business_impact": 2,
+        "risk_level": 0.352,
+        "opportunity_level": 3.424,
+        "recency": 5
+      },
+      "ranking_reason": "该事件来自 arXiv，影响范围评分 3，来源权威性评分 5，技术影响评分 4，商业影响评分 2。",
+      "supporting_evidence": [
+        "The paper states: 'Our findings give a predictive rule: match the spectral basis to the symmetry of the solution operator'."
+      ],
+      "confidence": "high"
+    },
+    {
+      "event_id": "evt_006",
+      "event_name": "小鹏基于亚马逊云科技搭建AI编程与Agentic平台",
+      "final_importance_score": 3.53,
+      "rank": 6,
       "score_breakdown": {
         "impact_scope": 3,
         "source_authority": 3,
         "novelty": 3,
         "multi_source_support": 3,
-        "technical_impact": 2,
-        "business_impact": 4,
-        "risk_level": 3.427,
-        "opportunity_level": 4.195,
-        "recency": 5
-      },
-      "ranking_reason": "该事件来自 36氪，影响范围评分 3，来源权威性评分 3，技术影响评分 2，商业影响评分 4。",
-      "supporting_evidence": [
-        "阿里云调研数据；王子健一人完成多角色工作；学生创业方向列举"
-      ],
-      "confidence": "high"
-    },
-    {
-      "event_id": "event_2",
-      "event_name": "阿里QoderWork推出峰谷Token",
-      "final_importance_score": 3.3,
-      "rank": 4,
-      "score_breakdown": {
-        "impact_scope": 4,
-        "source_authority": 3,
-        "novelty": 3,
-        "multi_source_support": 3,
         "technical_impact": 4,
         "business_impact": 4,
-        "risk_level": 0.353,
-        "opportunity_level": 3.377,
+        "risk_level": 0.133,
+        "opportunity_level": 3.25,
         "recency": 5
       },
-      "ranking_reason": "该事件来自 量子位，影响范围评分 4，来源权威性评分 3，技术影响评分 4，商业影响评分 4。",
+      "ranking_reason": "该事件来自 量子位，影响范围评分 3，来源权威性评分 3，技术影响评分 4，商业影响评分 4。",
       "supporting_evidence": [
-        "阿里QoderWork推出峰谷Token，夜间Qwen3.7-Max低至2折，国内首个。"
-      ],
-      "confidence": "high"
-    },
-    {
-      "event_id": "event_8",
-      "event_name": "英伟达PCB降价传闻导致板块大跌",
-      "final_importance_score": 3.28,
-      "rank": 5,
-      "score_breakdown": {
-        "impact_scope": 4,
-        "source_authority": 3,
-        "novelty": 3,
-        "multi_source_support": 3,
-        "technical_impact": 4,
-        "business_impact": 4,
-        "risk_level": 3.284,
-        "opportunity_level": 0.206,
-        "recency": 5
-      },
-      "ranking_reason": "该事件来自 36氪，影响范围评分 4，来源权威性评分 3，技术影响评分 4，商业影响评分 4。",
-      "supporting_evidence": [
-        "文本提到'PCB板块大跌'、'胜宏科技单日重挫逾7%'、'英伟达要求PCB厂商降价10%'、'公司经营一切正常'"
+        "小鹏基于亚马逊云科技的 Kiro、Amazon Bedrock、Amazon EKS 等服务，搭了一套企业内部AI编程与Agentic工作平台，名字叫 灵犀。"
       ],
       "confidence": "medium"
     },
     {
-      "event_id": "event_6",
-      "event_name": "豆包2.1发布",
-      "final_importance_score": 3.2,
-      "rank": 6,
-      "score_breakdown": {
-        "impact_scope": 4,
-        "source_authority": 3,
-        "novelty": 4,
-        "multi_source_support": 3,
-        "technical_impact": 4,
-        "business_impact": 2,
-        "risk_level": 0.346,
-        "opportunity_level": 3.429,
-        "recency": 5
-      },
-      "ranking_reason": "该事件来自 量子位，影响范围评分 4，来源权威性评分 3，技术影响评分 4，商业影响评分 2。",
-      "supporting_evidence": [
-        "文本提到'豆包2.1发布'、'Seed 2.1 Pro连续运行近18个小时'、'基本上能和Claude Opus 4.7持平'、'超过Opus 4.7和GPT-5.5'"
-      ],
-      "confidence": "high"
-    },
-    {
-      "event_id": "event_15",
-      "event_name": "InSight框架实现自主技能获取",
-      "final_importance_score": 3.2,
+      "event_id": "evt_016",
+      "event_name": "随机次梯度方法最后迭代优化误差新界",
+      "final_importance_score": 3.45,
       "rank": 7,
       "score_breakdown": {
         "impact_scope": 3,
@@ -144,197 +144,175 @@
         "multi_source_support": 3,
         "technical_impact": 4,
         "business_impact": 2,
-        "risk_level": 0.36,
-        "opportunity_level": 3.448,
+        "risk_level": 0.278,
+        "opportunity_level": 2.611,
         "recency": 5
       },
       "ranking_reason": "该事件来自 arXiv，影响范围评分 3，来源权威性评分 5，技术影响评分 4，商业影响评分 2。",
       "supporting_evidence": [
-        "We present InSight, a framework that unlocks autonomous skill acquisition by rendering VLAs steerable at the primitive-action level"
+        "The paper states: 'We prove that...the last iterate features an optimization error of order 1/√n' and 'without the i.i.d. assumption, the optimization error can be of order (log n)/√n'."
       ],
       "confidence": "high"
     },
     {
-      "event_id": "event_17",
-      "event_name": "FLUX3D: 高保真3D高斯生成",
-      "final_importance_score": 3.19,
+      "event_id": "evt_002",
+      "event_name": "港大MaRS Lab获IEEE TRO傅京孙纪念最佳论文奖",
+      "final_importance_score": 3.4,
       "rank": 8,
       "score_breakdown": {
         "impact_scope": 3,
-        "source_authority": 5,
+        "source_authority": 3,
         "novelty": 3,
         "multi_source_support": 3,
         "technical_impact": 4,
         "business_impact": 2,
-        "risk_level": 0.293,
-        "opportunity_level": 3.38,
+        "risk_level": 0.354,
+        "opportunity_level": 4.183,
         "recency": 5
       },
-      "ranking_reason": "该事件来自 arXiv，影响范围评分 3，来源权威性评分 5，技术影响评分 4，商业影响评分 2。",
+      "ranking_reason": "该事件来自 量子位，影响范围评分 3，来源权威性评分 3，技术影响评分 4，商业影响评分 2。",
       "supporting_evidence": [
-        "The paper claims substantial improvements and outperforming all SOTA methods in generating high-quality 3DGS assets."
+        "港大MaRS Lab张富副教授团队研发的FAST-LIVO2，获得机器人领域顶级期刊IEEE Transactions on Robotics（TRO）傅京孙纪念最佳论文奖。论文第一作者郑纯然，2025年其入选华为天才少年。"
       ],
       "confidence": "high"
     },
     {
-      "event_id": "event_18",
-      "event_name": "OpenThoughts-Agent: 智能体模型数据配方",
-      "final_importance_score": 3.19,
+      "event_id": "evt_003",
+      "event_name": "阿里QoderWork推出峰谷Token夜间折扣",
+      "final_importance_score": 3.4,
       "rank": 9,
       "score_breakdown": {
         "impact_scope": 3,
-        "source_authority": 5,
-        "novelty": 3,
-        "multi_source_support": 3,
-        "technical_impact": 4,
-        "business_impact": 2,
-        "risk_level": 0.308,
-        "opportunity_level": 3.41,
-        "recency": 5
-      },
-      "ranking_reason": "该事件来自 arXiv，影响范围评分 3，来源权威性评分 5，技术影响评分 4，商业影响评分 2。",
-      "supporting_evidence": [
-        "The paper reports a 3.9 percentage point improvement over the strongest existing open data agentic model and strong scaling properties."
-      ],
-      "confidence": "high"
-    },
-    {
-      "event_id": "event_19",
-      "event_name": "AI增强AAC接口的设计与评估",
-      "final_importance_score": 3.19,
-      "rank": 10,
-      "score_breakdown": {
-        "impact_scope": 3,
-        "source_authority": 5,
+        "source_authority": 3,
         "novelty": 3,
         "multi_source_support": 3,
         "technical_impact": 2,
         "business_impact": 4,
-        "risk_level": 0.314,
-        "opportunity_level": 3.427,
+        "risk_level": 0.313,
+        "opportunity_level": 4.218,
         "recency": 5
       },
-      "ranking_reason": "该事件来自 arXiv，影响范围评分 3，来源权威性评分 5，技术影响评分 2，商业影响评分 4。",
+      "ranking_reason": "该事件来自 量子位，影响范围评分 3，来源权威性评分 3，技术影响评分 2，商业影响评分 4。",
       "supporting_evidence": [
-        "The paper discusses the complicated nature of six AAC problem spaces and suggests more robust evaluation methods."
+        "6月23日晚，阿里QoderWork推出“峰谷Token”，Agent在每晚22:00到次日08:00运行可自动享受优惠，其中Qwen3.7-Max模型低至2折。这是国内首个上线“峰谷Token”的Agent产品。"
       ],
       "confidence": "high"
     },
     {
-      "event_id": "event_20",
-      "event_name": "Hartley神经算子与傅里叶神经算子比较",
-      "final_importance_score": 3.19,
+      "event_id": "evt_004",
+      "event_name": "Anthropic发布Claude Tag团队协作AI",
+      "final_importance_score": 3.4,
+      "rank": 10,
+      "score_breakdown": {
+        "impact_scope": 3,
+        "source_authority": 3,
+        "novelty": 3,
+        "multi_source_support": 3,
+        "technical_impact": 2,
+        "business_impact": 4,
+        "risk_level": 0.313,
+        "opportunity_level": 4.201,
+        "recency": 5
+      },
+      "ranking_reason": "该事件来自 量子位，影响范围评分 3，来源权威性评分 3，技术影响评分 2，商业影响评分 4。",
+      "supporting_evidence": [
+        "Anthropic透露，目前公司约65%的产品代码已经由Claude Tag参与完成。卡帕西表示：这是LLM用户界面的第三次重大变革。"
+      ],
+      "confidence": "high"
+    },
+    {
+      "event_id": "evt_005",
+      "event_name": "360发布AI安全核心能力并联合发起磐石之盾计划",
+      "final_importance_score": 3.4,
       "rank": 11,
       "score_breakdown": {
         "impact_scope": 3,
-        "source_authority": 5,
+        "source_authority": 3,
         "novelty": 3,
         "multi_source_support": 3,
-        "technical_impact": 4,
-        "business_impact": 2,
-        "risk_level": 0.29,
-        "opportunity_level": 3.428,
+        "technical_impact": 2,
+        "business_impact": 4,
+        "risk_level": 3.436,
+        "opportunity_level": 4.206,
         "recency": 5
       },
-      "ranking_reason": "该事件来自 arXiv，影响范围评分 3，来源权威性评分 5，技术影响评分 4，商业影响评分 2。",
+      "ranking_reason": "该事件来自 量子位，影响范围评分 3，来源权威性评分 3，技术影响评分 2，商业影响评分 4。",
       "supporting_evidence": [
-        "The paper introduces the Hartley Neural Operator and provides a predictive rule for matching spectral basis to operator symmetry."
+        "周鸿祎正式发布360 AI安全“倚天屠龙”两大核心能力：漏洞自动化挖掘智能体“图龙锋”和网络安全自动化防御系统“仪天阵”。同时，360联合飞腾、麒麟等共同发起“磐石之盾”安全协作计划。"
       ],
       "confidence": "high"
     },
     {
-      "event_id": "event_9",
-      "event_name": "Pragmatic半导体推出柔性NFC芯片",
-      "final_importance_score": 3.16,
+      "event_id": "evt_008",
+      "event_name": "36氪WAVES圆桌讨论AI行业趋势与投资",
+      "final_importance_score": 3.4,
       "rank": 12,
       "score_breakdown": {
         "impact_scope": 3,
         "source_authority": 3,
         "novelty": 3,
         "multi_source_support": 3,
-        "technical_impact": 4,
+        "technical_impact": 2,
         "business_impact": 4,
-        "risk_level": 0.197,
-        "opportunity_level": 3.281,
+        "risk_level": 3.445,
+        "opportunity_level": 4.173,
         "recency": 5
       },
-      "ranking_reason": "该事件来自 36氪，影响范围评分 3，来源权威性评分 3，技术影响评分 4，商业影响评分 4。",
+      "ranking_reason": "该事件来自 36氪，影响范围评分 3，来源权威性评分 3，技术影响评分 2，商业影响评分 4。",
       "supporting_evidence": [
-        "文本提到'Pragmatic半导体发布Pragmatic NFC Protect PR1311'、'集成即时篡改检测、产品真伪验证'、'面向零售、医药与工业等市场'"
+        "Anthropic最强的模型，因安全问题被美国政府限制非美国籍公民使用，后来停服了。"
       ],
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
-      "event_id": "event_10",
-      "event_name": "阿斯麦与TNO合作扩大光子芯片制造",
-      "final_importance_score": 3.16,
+      "event_id": "evt_009",
+      "event_name": "36氪WAVES圆桌讨论AI重构医疗产业",
+      "final_importance_score": 3.4,
       "rank": 13,
       "score_breakdown": {
         "impact_scope": 3,
         "source_authority": 3,
         "novelty": 3,
         "multi_source_support": 3,
-        "technical_impact": 4,
+        "technical_impact": 2,
         "business_impact": 4,
-        "risk_level": 0.177,
-        "opportunity_level": 3.304,
+        "risk_level": 3.456,
+        "opportunity_level": 4.227,
         "recency": 5
       },
-      "ranking_reason": "该事件来自 36氪，影响范围评分 3，来源权威性评分 3，技术影响评分 4，商业影响评分 4。",
+      "ranking_reason": "该事件来自 36氪，影响范围评分 3，来源权威性评分 3，技术影响评分 2，商业影响评分 4。",
       "supporting_evidence": [
-        "文本提到'阿斯麦与TNO合作扩大欧洲光子芯片制造规模'"
+        "礼来与英伟达达成10亿美金级别算力合作、默沙东联合谷歌合作搭建全栈式AI研发体系。"
       ],
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
-      "event_id": "event_4",
-      "event_name": "360发布AI安全能力并启动磐石之盾计划",
-      "final_importance_score": 3.1,
+      "event_id": "evt_010",
+      "event_name": "36氪WAVES圆桌讨论具身智能与世界模型进展",
+      "final_importance_score": 3.4,
       "rank": 14,
       "score_breakdown": {
         "impact_scope": 3,
         "source_authority": 3,
         "novelty": 3,
         "multi_source_support": 3,
-        "technical_impact": 2,
-        "business_impact": 2,
-        "risk_level": 3.462,
-        "opportunity_level": 3.468,
-        "recency": 5
-      },
-      "ranking_reason": "该事件来自 量子位，影响范围评分 3，来源权威性评分 3，技术影响评分 2，商业影响评分 2。",
-      "supporting_evidence": [
-        "周鸿祎发布图龙锋和仪天阵；联合飞腾、麒麟等发起磐石之盾；宣布打造中国版Mythos。"
-      ],
-      "confidence": "high"
-    },
-    {
-      "event_id": "event_1",
-      "event_name": "FAST-LIVO2获IEEE TRO最佳论文奖",
-      "final_importance_score": 2.97,
-      "rank": 15,
-      "score_breakdown": {
-        "impact_scope": 3,
-        "source_authority": 3,
-        "novelty": 3,
-        "multi_source_support": 3,
         "technical_impact": 4,
         "business_impact": 2,
-        "risk_level": 0.351,
-        "opportunity_level": 3.378,
+        "risk_level": 3.414,
+        "opportunity_level": 4.216,
         "recency": 5
       },
-      "ranking_reason": "该事件来自 量子位，影响范围评分 3，来源权威性评分 3，技术影响评分 4，商业影响评分 2。",
+      "ranking_reason": "该事件来自 36氪，影响范围评分 3，来源权威性评分 3，技术影响评分 4，商业影响评分 2。",
       "supporting_evidence": [
-        "论文《FAST-LIVO2: Fast, Direct LiDAR-Inertial-Visual Odometry》获得IEEE TRO傅京孙纪念最佳论文奖；第一作者郑纯然入选华为天才少年。"
+        "黄仁勋亮相的14款人形机器人里面有11款用的是帕西尼的传感器。"
       ],
       "confidence": "high"
     },
     {
-      "event_id": "event_5",
-      "event_name": "小鹏基于亚马逊云科技搭建AI编程平台灵犀",
-      "final_importance_score": 2.97,
-      "rank": 16,
+      "event_id": "evt_012",
+      "event_name": "36氪WAVES圆桌讨论AI时代一人公司生态",
+      "final_importance_score": 3.4,
+      "rank": 15,
       "score_breakdown": {
         "impact_scope": 3,
         "source_authority": 3,
@@ -342,20 +320,42 @@
         "multi_source_support": 3,
         "technical_impact": 2,
         "business_impact": 4,
-        "risk_level": 0.291,
-        "opportunity_level": 3.46,
+        "risk_level": 3.411,
+        "opportunity_level": 4.21,
         "recency": 5
       },
-      "ranking_reason": "该事件来自 量子位，影响范围评分 3，来源权威性评分 3，技术影响评分 2，商业影响评分 4。",
+      "ranking_reason": "该事件来自 36氪，影响范围评分 3，来源权威性评分 3，技术影响评分 2，商业影响评分 4。",
       "supporting_evidence": [
-        "小鹏基于亚马逊云科技Kiro、Bedrock、EKS搭建灵犀平台；储瑞松称Agentic AI爆发拐点来临。"
+        "阿里云调研显示传统开发者仅占20%；王子健一人完成5-10人工作；阿里云推出OPC套餐。"
       ],
       "confidence": "high"
     },
     {
-      "event_id": "event_13",
-      "event_name": "MoEngage押注AI代理营销",
-      "final_importance_score": 2.93,
+      "event_id": "evt_001",
+      "event_name": "DeepWay深向智能新能源重卡规模化交付",
+      "final_importance_score": 3.38,
+      "rank": 16,
+      "score_breakdown": {
+        "impact_scope": 3,
+        "source_authority": 3,
+        "novelty": 3,
+        "multi_source_support": 3,
+        "technical_impact": 4,
+        "business_impact": 2,
+        "risk_level": 0.193,
+        "opportunity_level": 4.06,
+        "recency": 5
+      },
+      "ranking_reason": "该事件来自 量子位，影响范围评分 3，来源权威性评分 3，技术影响评分 4，商业影响评分 2。",
+      "supporting_evidence": [
+        "DeepWay深向的智能新能源重卡最近接连实现规模化交付。鸭嘴兽、马士基、安能、申通——这些货运物流行业的老玩家，正在用真金白银为智能驾驶技术买单。"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "event_id": "evt_011",
+      "event_name": "仙工智能港股上市首日大幅波动",
+      "final_importance_score": 3.31,
       "rank": 17,
       "score_breakdown": {
         "impact_scope": 3,
@@ -364,8 +364,52 @@
         "multi_source_support": 3,
         "technical_impact": 2,
         "business_impact": 4,
-        "risk_level": 0.122,
-        "opportunity_level": 3.244,
+        "risk_level": 4.246,
+        "opportunity_level": 3.459,
+        "recency": 5
+      },
+      "ranking_reason": "该事件来自 36氪，影响范围评分 3，来源权威性评分 3，技术影响评分 2，商业影响评分 4。",
+      "supporting_evidence": [
+        "暗盘收跌7.28%，首日最高涨38.3%，收盘涨13.88%；控制器全球份额24.8%但按收入全球排第七（1.1%）。"
+      ],
+      "confidence": "high"
+    },
+    {
+      "event_id": "evt_007",
+      "event_name": "抖音发布3D内容创作工具“造世界”",
+      "final_importance_score": 3.28,
+      "rank": 18,
+      "score_breakdown": {
+        "impact_scope": 3,
+        "source_authority": 3,
+        "novelty": 3,
+        "multi_source_support": 3,
+        "technical_impact": 2,
+        "business_impact": 4,
+        "risk_level": 0.126,
+        "opportunity_level": 3.23,
+        "recency": 5
+      },
+      "ranking_reason": "该事件来自 36氪，影响范围评分 3，来源权威性评分 3，技术影响评分 2，商业影响评分 4。",
+      "supporting_evidence": [
+        "抖音在火山引擎FORCE大会上首次亮相“造世界”，这是一款集成了多Agents的3D世界创作工具。"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "event_id": "evt_013",
+      "event_name": "MoEngage收购AI代理技术押注营销未来",
+      "final_importance_score": 3.28,
+      "rank": 19,
+      "score_breakdown": {
+        "impact_scope": 3,
+        "source_authority": 3,
+        "novelty": 3,
+        "multi_source_support": 3,
+        "technical_impact": 2,
+        "business_impact": 4,
+        "risk_level": 0.168,
+        "opportunity_level": 3.277,
         "recency": 5
       },
       "ranking_reason": "该事件来自 TechCrunch AI，影响范围评分 3，来源权威性评分 3，技术影响评分 2，商业影响评分 4。",
@@ -375,53 +419,9 @@
       "confidence": "medium"
     },
     {
-      "event_id": "event_16",
-      "event_name": "随机次梯度方法最后迭代的新界",
-      "final_importance_score": 2.85,
-      "rank": 18,
-      "score_breakdown": {
-        "impact_scope": 3,
-        "source_authority": 5,
-        "novelty": 3,
-        "multi_source_support": 3,
-        "technical_impact": 4,
-        "business_impact": 2,
-        "risk_level": 0.319,
-        "opportunity_level": 0.343,
-        "recency": 5
-      },
-      "ranking_reason": "该事件来自 arXiv，影响范围评分 3，来源权威性评分 5，技术影响评分 4，商业影响评分 2。",
-      "supporting_evidence": [
-        "The paper proves new bounds for the last iterate of the stochastic subgradient method, resolving an open problem."
-      ],
-      "confidence": "high"
-    },
-    {
-      "event_id": "event_3",
-      "event_name": "Anthropic升级Claude Code为Claude Tag",
-      "final_importance_score": 2.75,
-      "rank": 19,
-      "score_breakdown": {
-        "impact_scope": 3,
-        "source_authority": 3,
-        "novelty": 3,
-        "multi_source_support": 3,
-        "technical_impact": 2,
-        "business_impact": 2,
-        "risk_level": 0.3,
-        "opportunity_level": 3.406,
-        "recency": 5
-      },
-      "ranking_reason": "该事件来自 量子位，影响范围评分 3，来源权威性评分 3，技术影响评分 2，商业影响评分 2。",
-      "supporting_evidence": [
-        "Anthropic约65%产品代码由Claude Tag参与完成；卡帕西称其为LLM第三次变革。"
-      ],
-      "confidence": "high"
-    },
-    {
-      "event_id": "event_14",
-      "event_name": "好莱坞多家公司拒绝发行Sam Altman传记片",
-      "final_importance_score": 2.41,
+      "event_id": "evt_014",
+      "event_name": "好莱坞制片厂拒绝发行Sam Altman传记片",
+      "final_importance_score": 2.66,
       "rank": 20,
       "score_breakdown": {
         "impact_scope": 3,
@@ -430,13 +430,13 @@
         "multi_source_support": 3,
         "technical_impact": 2,
         "business_impact": 2,
-        "risk_level": 0.361,
-        "opportunity_level": 0.316,
+        "risk_level": 0.351,
+        "opportunity_level": 0.281,
         "recency": 5
       },
       "ranking_reason": "该事件来自 The Verge，影响范围评分 3，来源权威性评分 3，技术影响评分 2，商业影响评分 2。",
       "supporting_evidence": [
-        "Netflix, A24, Focus Features, and Warner Bros.' Clockwork have all reportedly decided to pass on picking up Artificial"
+        "Netflix, A24, Focus Features, and Warner Bros.' Clockwork have all reportedly decided to pass on picking up Artificial."
       ],
       "confidence": "high"
     }

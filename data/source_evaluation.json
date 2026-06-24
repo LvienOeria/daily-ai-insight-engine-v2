@@ -125,14 +125,14 @@
     },
     "strengths": [
       "Chinese tech startup and business news with substantial AI coverage.",
-      "Observed 13 candidate items during fetch attempt."
+      "Observed 11 candidate items during fetch attempt."
     ],
     "weaknesses": [],
     "risks": [
       "general tech feed",
       "AI keyword filter on title+summary"
     ],
-    "observed_item_count": 13,
+    "observed_item_count": 11,
     "fetch_status": "success",
     "fetch_error": null,
     "recommended_tier": "core",

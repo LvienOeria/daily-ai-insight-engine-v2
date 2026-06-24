@@ -5,6 +5,7 @@ import json
 from .io_utils import stable_id
 from .llm import DeepSeekClient
 from .models import EventItem, StructuredNewsItem
+from .skill_loader import load_prompt
 
 
 def cluster_events(
@@ -18,7 +19,7 @@ def cluster_events(
 
     payload = {"items": [item.model_dump(mode="json") for item in structured]}
     response = llm.complete_json(
-        system=_CLUSTERING_SYSTEM,
+        system=load_prompt("event-clustering"),
         user=json.dumps(payload, ensure_ascii=False),
     )
     records = response.get("events")
@@ -36,24 +37,6 @@ def cluster_events(
         if not event.evidence:
             raise ValueError(f"event {event.event_id} has no evidence")
     return events
-
-
-_CLUSTERING_SYSTEM = """
-You are the event-clustering module for the Daily AI Insight Engine.
-Return valid JSON only: {"events": [EventItem, ...]}.
-
-Group records only when they describe the same concrete event or tightly connected event chain.
-Do not group records merely because they share a broad topic, same day, same sentiment,
-or the same company with different facts.
-
-Each event must include:
-event_id, event_name, related_news_ids, main_entities, core_topic, event_type,
-industry_area, technologies, key_facts, evidence, why_it_matters, impact_scope,
-risk_tags, opportunity_tags, confidence.
-
-Every related_news_ids value must come from the input. Every event must include evidence.
-Single-news events are allowed when they are well supported.
-"""
 
 
 def _single_item_event(item: StructuredNewsItem) -> EventItem:
