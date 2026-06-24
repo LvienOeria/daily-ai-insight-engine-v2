@@ -12,9 +12,10 @@
 | 源 | 方式 | 语言 | 覆盖范围 |
 |:---|:---|:---|:---|
 | arXiv | API | 英文 | AI/ML/CL 研究预印本 |
-| 量子位 (qbitai.com) | HTTP 抓取 | 中文 | 中国 AI 产业与技术报道 |
+| 量子位 (qbitai.com) | HTTP 抓取（全文提取） | 中文 | 中国 AI 产业与技术报道 |
 | TechCrunch AI | RSS | 英文 | 创业融资、产品发布 |
 | The Verge | RSS + AI 关键词过滤 | 英文 | 消费科技与 AI 报道 |
+| 36氪 | RSS + AI 关键词过滤 | 中文 | 创业、科技与 AI 商业化报道 |
 
 ## 运行环境
 
@@ -39,6 +40,7 @@ DEEPSEEK_API_KEY=sk-...
 - 报告窗口：最近 3 天
 - 时区：`Asia/Shanghai`
 - RSS 缓存：1 小时
+- 每源最多 6 条，全局最多 20 条
 
 ## 运行
 
