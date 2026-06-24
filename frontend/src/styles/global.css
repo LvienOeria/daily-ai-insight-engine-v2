@@ -442,8 +442,7 @@ h1, h2, h3, p { margin: 0; }
 }
 .source-links a:hover { text-decoration: underline; }
 .evidence-list li, .evidence-block li {
-  display: grid; grid-template-columns: 14px 1fr; gap: 6px;
-  color: var(--text-secondary); font-size: 12px; line-height: 1.4;
+  color: var(--text-secondary); font-size: 13px; line-height: 1.5;
 }
 .compact-links { margin: 8px 0; }
 
