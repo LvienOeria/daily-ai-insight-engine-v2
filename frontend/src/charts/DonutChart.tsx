@@ -8,7 +8,7 @@ interface DonutChartProps {
   description?: string;
 }
 
-const colors = ["#2563eb", "#059669", "#dc2626", "#7c3aed", "#d97706", "#0891b2"];
+const colors = ["#00D9A6", "#3B82F6", "#F59E0B", "#A78BFA", "#FB7185", "#38BDF8", "#34D399", "#E879F9"];
 
 export function DonutChart({ data, label, description }: DonutChartProps) {
   const [hovered, setHovered] = useState<DistributionDatum | null>(null);

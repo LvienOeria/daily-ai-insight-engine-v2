@@ -9,11 +9,11 @@ const IW = W - M.left - M.right;
 const IH = H - M.top - M.bottom;
 
 const EVENT_COLORS: Record<string, string> = {
-  research: "#2563eb", model_release: "#dc2626", product_release: "#ea580c",
-  funding: "#059669", partnership: "#7c3aed", regulation: "#d97706",
-  security_risk: "#b91c1c", open_source: "#0891b2", infrastructure: "#4f46e5",
-  business_update: "#db2777", acquisition: "#9333ea", market_commentary: "#64748b",
-  other: "#94a3b8",
+  research: "#3B82F6", model_release: "#F87171", product_release: "#FB923C",
+  funding: "#34D399", partnership: "#A78BFA", regulation: "#FBBF24",
+  security_risk: "#EF4444", open_source: "#22D3EE", infrastructure: "#818CF8",
+  business_update: "#F472B6", acquisition: "#C084FC", market_commentary: "#94A3B8",
+  other: "#64748B",
 };
 const COLOR_DEFAULT = "#94a3b8";
 
@@ -93,9 +93,6 @@ export function MatrixChart({ data }: MatrixChartProps) {
       <figcaption>
         <span>Risk / Opportunity Matrix</span>
       </figcaption>
-      <p className="chart-description">
-        Scroll zoom · drag pan · right-click reset · color=event type · size=confidence
-      </p>
       {data.length === 0 ? (
         <p className="muted chart-empty">No events available.</p>
       ) : (
@@ -116,7 +113,7 @@ export function MatrixChart({ data }: MatrixChartProps) {
                 const cx = x(datum.opportunity_level + dx);
                 const cy = y(datum.risk_level + dy);
                 const color = EVENT_COLORS[datum.event_type] || COLOR_DEFAULT;
-                const r = datum.confidence === "high" ? 9 : datum.confidence === "medium" ? 7 : 5;
+                const r = datum.confidence === "high" ? 6 : datum.confidence === "medium" ? 5 : 3.5;
                 const isActive = active?.event_id === datum.event_id;
                 return (
                   <g key={datum.event_id}>
