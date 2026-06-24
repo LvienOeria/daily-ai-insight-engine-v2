@@ -1,5 +1,5 @@
 import * as d3 from "d3";
-import { useEffect, useMemo, useRef, useState } from "react";
+import { useMemo, useRef, useState } from "react";
 import type { RiskOpportunityDatum } from "../types";
 
 const W = 440;
@@ -55,26 +55,9 @@ export function MatrixChart({ data }: MatrixChartProps) {
   const [hovered, setHovered] = useState<RiskOpportunityDatum | null>(null);
   const [selected, setSelected] = useState<RiskOpportunityDatum | null>(null);
   const [tooltipPos, setTooltipPos] = useState<{ x: number; y: number }>({ x: 0, y: 0 });
-  const svgRef = useRef<SVGSVGElement>(null);
   const containerRef = useRef<HTMLDivElement>(null);
 
   const layout = useMemo(() => computeLayout(data), [data]);
-
-  useEffect(() => {
-    const svgEl = svgRef.current;
-    if (!svgEl) return;
-    const svg = d3.select(svgEl);
-    const g = svg.select<SVGGElement>("g.zoom-group");
-    const zoom = d3.zoom<SVGSVGElement, unknown>()
-      .scaleExtent([0.8, 5])
-      .on("zoom", (evt) => g.attr("transform", evt.transform.toString()));
-    svg.call(zoom);
-    svg.on("contextmenu", (evt) => { evt.preventDefault(); resetZoom(); });
-    svg.on("dblclick.zoom", () => resetZoom());
-    function resetZoom() {
-      (svg as any).transition().duration(250).call(zoom.transform, d3.zoomIdentity);
-    }
-  }, []);
 
   const x = d3.scaleLinear().domain([0, 5]).range([0, IW]);
   const y = d3.scaleLinear().domain([5, 0]).range([0, IH]);
@@ -97,8 +80,8 @@ export function MatrixChart({ data }: MatrixChartProps) {
         <p className="muted chart-empty">No events available.</p>
       ) : (
         <div style={{ position: "relative" }}>
-          <svg ref={svgRef} viewBox={`0 0 ${W} ${H}`} role="img" style={{ cursor: "grab", display: "block" }}>
-            <g className="zoom-group" transform={`translate(${M.left},${M.top})`}>
+          <svg viewBox={`0 0 ${W} ${H}`} role="img" style={{ display: "block" }}>
+            <g transform={`translate(${M.left},${M.top})`}>
               {[0, 1, 2, 3, 4, 5].map((t) => (
                 <g key={`g-${t}`}>
                   <line x1={x(t)} x2={x(t)} y1={y(5)} y2={y(0)} className="grid-line" />
