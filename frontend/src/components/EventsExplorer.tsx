@@ -118,33 +118,34 @@ function EventCard({ event, ranked, sources }: EventCardProps) {
         </div>
       ) : null}
       <div className="source-links">
-        <h4>来源链接</h4>
-        {sources.length === 0 ? (
-          <p className="muted">无可用链接</p>
-        ) : (
-          <ul>
-            {sources.map((s) => (
-              <li key={s.news_id}>
+        <h4>来源</h4>
+        <div className="source-cards">
+          {sources.length === 0 ? (
+            <p className="muted">无可用链接</p>
+          ) : (
+            sources.map((s) => (
+              <div className="source-card" key={s.news_id}>
+                <span className="source-badge">{s.source}</span>
                 {s.url ? (
-                  <a href={s.url} target="_blank" rel="noreferrer">
+                  <a href={s.url} target="_blank" rel="noreferrer" className="source-title">
                     <ExternalLink size={14} />
-                    <span>{s.source}: {s.title.slice(0, 80)}</span>
+                    {s.title}
                   </a>
                 ) : (
-                  <span>{s.source}: {s.title.slice(0, 80)}</span>
+                  <span className="source-title">{s.title}</span>
                 )}
-              </li>
-            ))}
-          </ul>
-        )}
+              </div>
+            ))
+          )}
+        </div>
       </div>
       <div className="evidence-block">
         <h4>证据</h4>
-        <ul>
+        <div className="evidence-cards">
           {(event.evidence.length ? event.evidence : event.key_facts).slice(0, 4).map((ev) => (
-            <li key={ev}>{ev}</li>
+            <div className="evidence-item" key={ev}>{ev}</div>
           ))}
-        </ul>
+        </div>
       </div>
     </article>
   );
