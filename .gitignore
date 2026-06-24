@@ -27,3 +27,4 @@ frontend/tsconfig.tsbuildinfo
 *.log
 tmp/
 .cache/
+frontend/.vite
