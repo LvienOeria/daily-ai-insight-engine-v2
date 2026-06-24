@@ -42,5 +42,16 @@
     "known_constraints": ["general tech feed", "AI keyword filter applied"],
     "enabled": true,
     "params": { "keyword_filter": true }
+  },
+  {
+    "source_name": "36氪",
+    "source_type": "media",
+    "access_method": "rss",
+    "endpoint_url": "https://36kr.com/feed",
+    "language": "zh",
+    "coverage": "Chinese tech startup and business news with substantial AI coverage.",
+    "known_constraints": ["general tech feed", "AI keyword filter on title+summary"],
+    "enabled": true,
+    "params": { "keyword_filter": true, "filter_mode": "title_summary" }
   }
 ]

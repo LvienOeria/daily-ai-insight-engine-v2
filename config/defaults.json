@@ -3,7 +3,8 @@
     "timezone": "Asia/Shanghai",
     "window_days": 3,
     "min_items": 10,
-    "max_items": 20
+    "max_items": 20,
+    "max_items_per_source": 6
   },
   "llm": {
     "provider": "deepseek",

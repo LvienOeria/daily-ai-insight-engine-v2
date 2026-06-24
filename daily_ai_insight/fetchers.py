@@ -66,6 +66,8 @@ def _fetch_rss(candidate: CandidateSource, config: AppConfig) -> list[RawNewsIte
         "llm", "agent", "openai", "chatgpt", "claude", "gemini", "deepmind",
         "anthropic", "llama", "gpt", "copilot", "automation", "github",
         "gpu", "neural", "transformer", "diffusion", "benchmark",
+        "人工智能", "大模型", "智能体", "算法", "算力", "芯片", "机器人",
+        "模型", "机器学习", "深度学习", "开源", "推理", "训练",
     ]
     items: list[RawNewsItem] = []
     for entry in parsed.entries:
@@ -79,9 +81,12 @@ def _fetch_rss(candidate: CandidateSource, config: AppConfig) -> list[RawNewsIte
         title = _clean_text(getattr(entry, "title", None))
         url = getattr(entry, "link", None)
         if keyword_filter:
-            # Require at least one AI keyword in the title — body-only matches are too noisy
-            title_lower = (title or "").lower()
-            if not any(kw in title_lower for kw in ai_keywords):
+            mode = candidate.params.get("filter_mode", "title")
+            if mode == "title":
+                text = (title or "").lower()
+            else:
+                text = f"{title or ''} {summary or ''}".lower()
+            if not any(kw in text for kw in ai_keywords):
                 continue
         items.append(
             _raw_item(

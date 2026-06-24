@@ -1,64 +1,76 @@
 {
-  "generated_at": "2026-06-24T05:49:27Z",
+  "generated_at": "2026-06-24T07:31:43Z",
   "source_type_distribution": [
     {
       "name": "media",
-      "count": 12
+      "count": 14
     },
     {
       "name": "research",
-      "count": 8
+      "count": 6
     }
   ],
   "event_type_distribution": [
     {
       "name": "research",
-      "count": 10
+      "count": 7
+    },
+    {
+      "name": "product_release",
+      "count": 4
+    },
+    {
+      "name": "business_update",
+      "count": 3
     },
     {
       "name": "market_commentary",
       "count": 3
     },
     {
-      "name": "partnership",
-      "count": 2
-    },
-    {
-      "name": "product_release",
-      "count": 2
-    },
-    {
-      "name": "other",
-      "count": 1
-    },
-    {
       "name": "model_release",
       "count": 1
     },
     {
-      "name": "business_update",
+      "name": "partnership",
+      "count": 1
+    },
+    {
+      "name": "other",
       "count": 1
     }
   ],
   "industry_area_distribution": [
     {
       "name": "research",
-      "count": 11
+      "count": 4
+    },
+    {
+      "name": "enterprise_ai",
+      "count": 3
     },
     {
       "name": "ai_infrastructure",
       "count": 2
     },
     {
-      "name": "enterprise_ai",
+      "name": "ai_agent",
       "count": 2
     },
     {
-      "name": "ai_safety",
-      "count": 1
+      "name": "chip_compute",
+      "count": 2
+    },
+    {
+      "name": "other",
+      "count": 2
     },
     {
       "name": "developer_tools",
+      "count": 1
+    },
+    {
+      "name": "ai_safety",
       "count": 1
     },
     {
@@ -66,7 +78,7 @@
       "count": 1
     },
     {
-      "name": "ai_agent",
+      "name": "multimodal_ai",
       "count": 1
     },
     {
@@ -76,15 +88,27 @@
   ],
   "technology_distribution": [
     {
-      "name": "漏洞自动化挖掘智能体",
-      "count": 1
+      "name": "VLA",
+      "count": 2
     },
     {
-      "name": "网络安全自动化防御系统",
-      "count": 1
+      "name": "AI",
+      "count": 2
     },
     {
       "name": "FAST-LIVO2",
+      "count": 1
+    },
+    {
+      "name": "LiDAR-Inertial-Visual Odometry",
+      "count": 1
+    },
+    {
+      "name": "激光雷达与视觉融合",
+      "count": 1
+    },
+    {
+      "name": "峰谷Token",
       "count": 1
     },
     {
@@ -96,231 +120,219 @@
       "count": 1
     },
     {
-      "name": "LLM",
+      "name": "Claude Tag",
       "count": 1
     },
     {
-      "name": "Doubao-Seed-2.1-Pro",
+      "name": "图龙锋",
       "count": 1
     },
     {
-      "name": "Doubao-Seed-2.1-Turbo",
+      "name": "仪天阵",
       "count": 1
     },
     {
-      "name": "Agent",
-      "count": 1
-    },
-    {
-      "name": "具身智能",
-      "count": 1
-    },
-    {
-      "name": "AI",
-      "count": 1
-    },
-    {
-      "name": "形式化系统",
+      "name": "漏洞自动化挖掘",
       "count": 1
     }
   ],
   "top_event_scores": [
     {
-      "event_id": "event_020",
-      "event_name": "世界模型的结构化认证",
+      "event_id": "event_7",
+      "event_name": "36氪WAVES2026圆桌论坛讨论科技趋势",
       "rank": 1,
-      "score": 3.45,
+      "score": 3.4,
       "confidence": "high"
     },
     {
-      "event_id": "event_004",
-      "event_name": "阿里QoderWork推出峰谷Token降低夜间使用成本",
+      "event_id": "event_11",
+      "event_name": "仙工智能上市首日股价大幅波动",
       "rank": 2,
-      "score": 3.3,
+      "score": 3.4,
       "confidence": "high"
     },
     {
-      "event_id": "event_010",
-      "event_name": "小鹏基于亚马逊云科技搭建AI编程与Agentic工作平台",
+      "event_id": "event_12",
+      "event_name": "AI时代一人公司（OPC）生态讨论",
       "rank": 3,
+      "score": 3.4,
+      "confidence": "high"
+    },
+    {
+      "event_id": "event_2",
+      "event_name": "阿里QoderWork推出峰谷Token",
+      "rank": 4,
       "score": 3.3,
       "confidence": "high"
     },
     {
-      "event_id": "event_016",
-      "event_name": "OpenThoughts-Agent: 开放数据配方训练智能体模型",
-      "rank": 4,
-      "score": 3.29,
-      "confidence": "high"
-    },
-    {
-      "event_id": "event_006",
-      "event_name": "豆包2.1模型发布",
+      "event_id": "event_8",
+      "event_name": "英伟达PCB降价传闻导致板块大跌",
       "rank": 5,
-      "score": 3.2,
-      "confidence": "high"
+      "score": 3.28,
+      "confidence": "medium"
     }
   ],
   "risk_opportunity_matrix": [
     {
-      "event_id": "event_020",
-      "event_name": "世界模型的结构化认证",
-      "risk_level": 2.612,
-      "opportunity_level": 3.452,
+      "event_id": "event_7",
+      "event_name": "36氪WAVES2026圆桌论坛讨论科技趋势",
+      "risk_level": 3.403,
+      "opportunity_level": 4.233,
       "confidence": "high",
-      "event_type": "research"
+      "event_type": "market_commentary"
     },
     {
-      "event_id": "event_004",
-      "event_name": "阿里QoderWork推出峰谷Token降低夜间使用成本",
-      "risk_level": 0.284,
-      "opportunity_level": 3.446,
+      "event_id": "event_11",
+      "event_name": "仙工智能上市首日股价大幅波动",
+      "risk_level": 4.214,
+      "opportunity_level": 3.424,
+      "confidence": "high",
+      "event_type": "business_update"
+    },
+    {
+      "event_id": "event_12",
+      "event_name": "AI时代一人公司（OPC）生态讨论",
+      "risk_level": 3.427,
+      "opportunity_level": 4.195,
+      "confidence": "high",
+      "event_type": "market_commentary"
+    },
+    {
+      "event_id": "event_2",
+      "event_name": "阿里QoderWork推出峰谷Token",
+      "risk_level": 0.353,
+      "opportunity_level": 3.377,
       "confidence": "high",
       "event_type": "product_release"
     },
     {
-      "event_id": "event_010",
-      "event_name": "小鹏基于亚马逊云科技搭建AI编程与Agentic工作平台",
-      "risk_level": 0.313,
-      "opportunity_level": 3.404,
-      "confidence": "high",
-      "event_type": "partnership"
+      "event_id": "event_8",
+      "event_name": "英伟达PCB降价传闻导致板块大跌",
+      "risk_level": 3.284,
+      "opportunity_level": 0.206,
+      "confidence": "medium",
+      "event_type": "market_commentary"
     },
     {
-      "event_id": "event_016",
-      "event_name": "OpenThoughts-Agent: 开放数据配方训练智能体模型",
-      "risk_level": 0.341,
-      "opportunity_level": 4.232,
-      "confidence": "high",
-      "event_type": "research"
-    },
-    {
-      "event_id": "event_006",
-      "event_name": "豆包2.1模型发布",
-      "risk_level": 0.334,
-      "opportunity_level": 3.431,
+      "event_id": "event_6",
+      "event_name": "豆包2.1发布",
+      "risk_level": 0.346,
+      "opportunity_level": 3.429,
       "confidence": "high",
       "event_type": "model_release"
     },
     {
-      "event_id": "event_013",
-      "event_name": "InSight: 自主技能获取框架",
-      "risk_level": 0.313,
-      "opportunity_level": 3.386,
+      "event_id": "event_15",
+      "event_name": "InSight框架实现自主技能获取",
+      "risk_level": 0.36,
+      "opportunity_level": 3.448,
       "confidence": "high",
       "event_type": "research"
     },
     {
-      "event_id": "event_015",
+      "event_id": "event_17",
       "event_name": "FLUX3D: 高保真3D高斯生成",
-      "risk_level": 0.299,
-      "opportunity_level": 3.397,
+      "risk_level": 0.293,
+      "opportunity_level": 3.38,
       "confidence": "high",
       "event_type": "research"
     },
     {
-      "event_id": "event_018",
-      "event_name": "实与复频谱基在神经算子中的比较",
-      "risk_level": 0.302,
-      "opportunity_level": 3.446,
+      "event_id": "event_18",
+      "event_name": "OpenThoughts-Agent: 智能体模型数据配方",
+      "risk_level": 0.308,
+      "opportunity_level": 3.41,
       "confidence": "high",
       "event_type": "research"
     },
     {
-      "event_id": "event_019",
-      "event_name": "IV-CoT: 隐式视觉思维链用于结构感知文本到图像生成",
-      "risk_level": 0.28,
-      "opportunity_level": 3.423,
+      "event_id": "event_19",
+      "event_name": "AI增强AAC接口的设计与评估",
+      "risk_level": 0.314,
+      "opportunity_level": 3.427,
       "confidence": "high",
       "event_type": "research"
     },
     {
-      "event_id": "event_017",
-      "event_name": "AI增强AAC接口的设计与评估探讨",
-      "risk_level": 0.137,
-      "opportunity_level": 3.253,
+      "event_id": "event_20",
+      "event_name": "Hartley神经算子与傅里叶神经算子比较",
+      "risk_level": 0.29,
+      "opportunity_level": 3.428,
+      "confidence": "high",
+      "event_type": "research"
+    },
+    {
+      "event_id": "event_9",
+      "event_name": "Pragmatic半导体推出柔性NFC芯片",
+      "risk_level": 0.197,
+      "opportunity_level": 3.281,
       "confidence": "medium",
-      "event_type": "research"
+      "event_type": "product_release"
     },
     {
-      "event_id": "event_009",
-      "event_name": "浪潮信息彭震强调AI转型中文化、组织和流程的重要性",
-      "risk_level": 2.622,
-      "opportunity_level": 2.656,
-      "confidence": "high",
-      "event_type": "market_commentary"
-    },
-    {
-      "event_id": "event_014",
-      "event_name": "随机次梯度方法最后迭代的新界",
-      "risk_level": 0.347,
-      "opportunity_level": 2.576,
-      "confidence": "high",
-      "event_type": "research"
-    },
-    {
-      "event_id": "event_001",
-      "event_name": "360发布AI安全能力并联合发起安全协作计划",
-      "risk_level": 0.368,
-      "opportunity_level": 3.454,
-      "confidence": "high",
+      "event_id": "event_10",
+      "event_name": "阿斯麦与TNO合作扩大光子芯片制造",
+      "risk_level": 0.177,
+      "opportunity_level": 3.304,
+      "confidence": "medium",
       "event_type": "partnership"
     },
     {
-      "event_id": "event_003",
-      "event_name": "港大MaRS Lab获IEEE TRO傅京孙纪念最佳论文奖",
-      "risk_level": 0.302,
-      "opportunity_level": 3.421,
+      "event_id": "event_4",
+      "event_name": "360发布AI安全能力并启动磐石之盾计划",
+      "risk_level": 3.462,
+      "opportunity_level": 3.468,
+      "confidence": "high",
+      "event_type": "product_release"
+    },
+    {
+      "event_id": "event_1",
+      "event_name": "FAST-LIVO2获IEEE TRO最佳论文奖",
+      "risk_level": 0.351,
+      "opportunity_level": 3.378,
       "confidence": "high",
       "event_type": "research"
     },
     {
-      "event_id": "event_007",
-      "event_name": "2026年具身智能融资增长迅速",
-      "risk_level": 0.288,
-      "opportunity_level": 3.42,
+      "event_id": "event_5",
+      "event_name": "小鹏基于亚马逊云科技搭建AI编程平台灵犀",
+      "risk_level": 0.291,
+      "opportunity_level": 3.46,
       "confidence": "high",
-      "event_type": "market_commentary"
+      "event_type": "business_update"
     },
     {
-      "event_id": "event_008",
-      "event_name": "AI在数学证明领域取得进展",
-      "risk_level": 0.334,
-      "opportunity_level": 3.4,
-      "confidence": "high",
-      "event_type": "research"
-    },
-    {
-      "event_id": "event_002",
-      "event_name": "2026世界人工智能大会发布SAIL奖TOP30及青年优秀论文奖TOP20",
-      "risk_level": 0.194,
-      "opportunity_level": 3.222,
-      "confidence": "medium",
-      "event_type": "other"
-    },
-    {
-      "event_id": "event_011",
-      "event_name": "MoEngage押注AI Agent营销未来",
-      "risk_level": 0.158,
-      "opportunity_level": 2.5,
+      "event_id": "event_13",
+      "event_name": "MoEngage押注AI代理营销",
+      "risk_level": 0.122,
+      "opportunity_level": 3.244,
       "confidence": "medium",
       "event_type": "business_update"
     },
     {
-      "event_id": "event_012",
-      "event_name": "好莱坞对OpenAI题材电影态度分歧",
-      "risk_level": 2.487,
-      "opportunity_level": 0.203,
-      "confidence": "medium",
-      "event_type": "market_commentary"
+      "event_id": "event_16",
+      "event_name": "随机次梯度方法最后迭代的新界",
+      "risk_level": 0.319,
+      "opportunity_level": 0.343,
+      "confidence": "high",
+      "event_type": "research"
     },
     {
-      "event_id": "event_005",
-      "event_name": "Claude Code大升级，卡帕西称LLM第三次变革",
-      "risk_level": 0.319,
+      "event_id": "event_3",
+      "event_name": "Anthropic升级Claude Code为Claude Tag",
+      "risk_level": 0.3,
       "opportunity_level": 3.406,
       "confidence": "high",
       "event_type": "product_release"
+    },
+    {
+      "event_id": "event_14",
+      "event_name": "好莱坞多家公司拒绝发行Sam Altman传记片",
+      "risk_level": 0.361,
+      "opportunity_level": 0.316,
+      "confidence": "high",
+      "event_type": "other"
     }
   ]
 }

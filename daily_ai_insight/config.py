@@ -29,6 +29,7 @@ class ReportConfig:
     window_days: int
     min_items: int
     max_items: int
+    max_items_per_source: int = 6
 
 
 @dataclass(frozen=True)
@@ -76,6 +77,7 @@ def load_config(root: Path | None = None) -> AppConfig:
         window_days=_env_int("REPORT_WINDOW_DAYS", report_defaults["window_days"]),
         min_items=_env_int("REPORT_MIN_ITEMS", report_defaults["min_items"]),
         max_items=_env_int("REPORT_MAX_ITEMS", report_defaults["max_items"]),
+        max_items_per_source=_env_int("REPORT_MAX_ITEMS_PER_SOURCE", report_defaults.get("max_items_per_source", 6)),
     )
 
     api_key_env = llm_defaults.get("api_key_env", "DEEPSEEK_API_KEY")

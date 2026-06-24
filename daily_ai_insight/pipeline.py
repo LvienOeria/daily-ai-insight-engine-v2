@@ -9,7 +9,7 @@ from .config import AppConfig, load_config
 from .fetchers import fetch_candidate, load_candidates
 from .io_utils import write_json, write_text
 from .llm import DeepSeekClient
-from .models import PipelineManifest, RawNewsItem, utc_now_iso
+from .models import CleanedNewsItem, PipelineManifest, RawNewsItem, utc_now_iso
 from .quality import run_quality_check
 from .reporting import generate_report
 from .scoring import score_events
@@ -62,7 +62,18 @@ def run_pipeline(
         timezone=config.report.timezone,
         window_days=config.report.window_days,
     )
-    cleaned = cleaned[: config.report.max_items]
+    # Per-source cap, then global cap
+    from collections import Counter
+    source_counts: Counter[str] = Counter()
+    capped: list[CleanedNewsItem] = []
+    limit = config.report.max_items_per_source
+    for item in cleaned:
+        if source_counts[item.source] < limit:
+            capped.append(item)
+            source_counts[item.source] += 1
+        if len(capped) >= config.report.max_items:
+            break
+    cleaned = capped
     write_json(config.path("cleaned_news"), cleaned)
 
     llm = None if options.mock_llm else DeepSeekClient(config.llm)

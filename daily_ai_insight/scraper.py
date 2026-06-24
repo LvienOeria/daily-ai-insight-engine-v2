@@ -68,9 +68,9 @@ def _do_fetch(
                 continue
             art_html = art_resp.text
             title = link.get("title") or _extract_title(art_html) or link.get("text", "")
-            summary = _extract_meta_description(art_html)
-            if not summary or len(summary) < 40:
-                summary = _extract_first_paragraph(art_html) or _extract_text(art_html)[:500]
+            summary = _extract_body_text(art_html) or _extract_meta_description(art_html)
+            if not summary or len(_clean(summary)) < 40:
+                summary = _extract_meta_description(art_html) or ""
             published = (
                 _extract_published(art_html)
                 or _guess_published_from_url(article_url)
@@ -183,6 +183,22 @@ def _guess_published_from_url(url: str) -> str | None:
             return now.replace(microsecond=0).isoformat()
         return f"{m.group(1)}-{m.group(2)}-01T00:00:00+08:00"
     return None
+
+
+def _extract_body_text(html: str, max_len: int = 2000) -> str | None:
+    """Extract all substantive paragraph text from article body."""
+    for tag in ["script", "style", "nav", "footer", "header"]:
+        html = re.sub(rf"<{tag}[^>]*>.*?</{tag}>", "", html, flags=re.DOTALL | re.IGNORECASE)
+    paragraphs: list[str] = []
+    for m in re.finditer(r"<p[^>]*>(.*?)</p>", html, re.DOTALL | re.IGNORECASE):
+        text = _clean(_HTML_RE.sub(" ", m.group(1)))
+        if len(text) >= 30:
+            paragraphs.append(text)
+            if sum(len(p) for p in paragraphs) >= max_len:
+                break
+    if not paragraphs:
+        return None
+    return " ".join(paragraphs)
 
 
 def _extract_first_paragraph(html: str) -> str | None:
