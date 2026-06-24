@@ -81,17 +81,19 @@ Implementation rules:
 - Commit frontend source and `pnpm-lock.yaml`. Do not commit `node_modules/`.
 - Do not treat frontend polish as a replacement for reproducible data artifacts.
 
-## Chinese Websearch Constraints
+## Chinese Source Constraints
 
-Chinese websearch is a compatibility path, not a shortcut around source evaluation.
+Chinese-language data is collected via direct HTTP scraping. Three candidate sources were evaluated:
+
+- **量子位 (`qbitai.com`)**: ✅ Reachable. Article pages return HTTP 200; title, summary, and date are extractable. The only working Chinese source for the MVP.
+- **机器之心 (`jiqizhixin.com`)**: ❌ SSL handshake timeout. Geo-blocked from non-China IPs. DeepSeek API's `enable_search` does not actually trigger web requests.
+- **知乎 (`zhihu.com`)**: ❌ Redirects to sign-in. Cannot be scraped without authentication.
 
 Implementation rules:
 
-- Use DeepSeek websearch only for allowlisted pages from 量子位 (`qbitai.com`), 机器之心 (`jiqizhixin.com`), and 知乎 (`zhihu.com`).
-- Store websearch observations separately before cleaning and validation.
-- Accept a result into the main dataset only after it has title, source/site, published_at or traceable visible date, URL, and summary/content.
-- Treat 知乎 as community signal by default. It should not become primary evidence for Top events unless the specific item is complete, traceable, and factually grounded.
-- Record rejected or quarantined websearch results in source evaluation notes when they explain source-selection tradeoffs.
+- Scraped results are evaluated for field completeness before entering the main dataset.
+- Accept a result only after it has title, source, published_at (or URL-inferrable date), URL, and summary/content.
+- Record unreachable or rejected sources in source evaluation notes.
 
 ## Secret Handling Rules
 
