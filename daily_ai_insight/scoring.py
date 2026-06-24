@@ -12,10 +12,21 @@ def score_events(events: list[EventItem], structured: list[StructuredNewsItem]) 
     for event in events:
         related = [news_by_id[news_id] for news_id in event.related_news_ids if news_id in news_by_id]
         breakdown = _score_breakdown(event, related)
-        # Exclude risk_level from importance: high risk ≠ more important
+        # Weighted importance: business > source > tech > impact, exclude risk
+        weights = {
+            "business_impact": 4,
+            "source_authority": 3,
+            "technical_impact": 2,
+            "impact_scope": 1,
+            "novelty": 1,
+            "multi_source_support": 1,
+            "opportunity_level": 1,
+            "recency": 1,
+        }
         dims = breakdown.model_dump()
-        importance_values = [v for k, v in dims.items() if k != "risk_level"]
-        final = round(mean(importance_values), 2)
+        weighted_sum = sum(v * weights.get(k, 1) for k, v in dims.items() if k != "risk_level")
+        total_weight = sum(weights.get(k, 1) for k in dims if k != "risk_level")
+        final = round(weighted_sum / total_weight, 2)
         ranked.append(
             RankedEvent(
                 event_id=event.event_id,
