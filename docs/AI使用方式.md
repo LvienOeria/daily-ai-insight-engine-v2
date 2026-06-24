@@ -60,18 +60,3 @@ DeepSeek 不用于：
 ## Mock 模式
 
 `--mock-llm` 将所有 DeepSeek 调用替换为确定性的关键词匹配启发式规则。适用于开发和测试，无需 API 费用。质量低于真实 LLM 抽取。
-
-## Skill 系统
-
-3 个 DeepSeek 调用的 prompt 通过 skill 系统管理：
-
-```
-skills/
-  news-structuring/prompt.txt      → 结构化抽取的 system prompt
-  event-clustering/prompt.txt      → 事件聚类的 system prompt
-  daily-report-generation/prompt.txt → 日报生成的 system prompt
-```
-
-`daily_ai_insight/skill_loader.py` 在运行时加载对应的 prompt 文件。修改 prompt 只需编辑 `prompt.txt`，无需改代码。3 个程序化 skill（数据源评估、重要性评分、质量检查）不需要 prompt，直接在代码中实现。
-
-Prompt 均以中文编写，因为 DeepSeek 对中文指令的理解和执行更精准。
