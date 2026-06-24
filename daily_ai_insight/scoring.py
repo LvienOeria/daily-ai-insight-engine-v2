@@ -14,10 +14,10 @@ def score_events(events: list[EventItem], structured: list[StructuredNewsItem]) 
         breakdown = _score_breakdown(event, related)
         # Weighted importance: business > source > tech > impact, exclude risk
         weights = {
-            "business_impact": 4,
-            "source_authority": 3,
-            "technical_impact": 2,
-            "impact_scope": 1,
+            "business_impact": 5,
+            "source_authority": 4,
+            "technical_impact": 3,
+            "impact_scope": 2,
             "novelty": 1,
             "multi_source_support": 1,
             "opportunity_level": 1,
@@ -47,9 +47,18 @@ def score_events(events: list[EventItem], structured: list[StructuredNewsItem]) 
 
 
 def _score_breakdown(event: EventItem, related: list[StructuredNewsItem]) -> ScoreBreakdown:
-    source_types = {item.source_type for item in related}
-    source_authority = 5 if source_types & {"official", "research"} else 3 if related else 0
-    if len(source_types) > 1:
+    # Source credibility by name, not just type
+    _AUTHORITY_MAP: dict[str, int] = {
+        "arXiv": 5, "OpenAI News": 5, "Google DeepMind Blog": 5,
+        "TechCrunch AI": 4, "The Verge": 4, "36氪": 4,
+        "量子位": 3, "Hacker News": 2,
+    }
+    sources = {item.source for item in related}
+    source_authority = max(
+        (_AUTHORITY_MAP.get(s, 3) for s in sources), default=0
+    )
+    # Multi-source boost: different outlets corroborating = stronger signal
+    if len(sources) >= 2:
         source_authority = min(5, source_authority + 1)
 
     multi_source_support = 5 if len({item.source for item in related}) >= 2 else 3 if related else 0

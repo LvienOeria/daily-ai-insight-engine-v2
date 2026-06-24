@@ -1,10 +1,221 @@
 [
   {
-    "news_id": "news_3990e6bc9ffa",
+    "news_id": "news_cd6eec1ee52f",
+    "title": "阿里QoderWork推“峰谷Token”，夜间使用Qwen3.7低至2折 – 量子位",
+    "source": "量子位",
+    "source_type": "media",
+    "published_at": "2026-06-24T18:15:03+08:00",
+    "language": "zh",
+    "url": "https://www.qbitai.com/2026/06/437834.html",
+    "entities": [
+      "阿里",
+      "QoderWork",
+      "Qwen3.7"
+    ],
+    "technologies": [
+      "Qwen3.7-Max",
+      "峰谷Token"
+    ],
+    "event_type": "product_release",
+    "industry_area": "ai_agent",
+    "key_facts": [
+      "阿里QoderWork推出“峰谷Token”",
+      "夜间使用Qwen3.7-Max低至2折",
+      "国内首个上线“峰谷Token”的Agent产品"
+    ],
+    "summary": "6月23日晚，阿里QoderWork推出“峰谷Token”，Agent在每晚22:00到次日08:00运行可自动享受优惠，其中Qwen3.7-Max模型低至2折。这是国内首个上线“峰谷Token”的Agent产品，将大幅降低用户的使用成本。",
+    "sentiment": "positive",
+    "impact_scope": [
+      "industry"
+    ],
+    "risk_tags": [
+      "none"
+    ],
+    "opportunity_tags": [
+      "成本降低",
+      "夜间使用优惠"
+    ],
+    "importance_score": 4,
+    "confidence": "high",
+    "evidence": [
+      "阿里QoderWork推出“峰谷Token”，夜间使用Qwen3.7低至2折"
+    ],
+    "suspected_hallucinations": []
+  },
+  {
+    "news_id": "news_667c440eb9f2",
+    "title": "刚刚，Claude Code大升级！卡帕西：LLM第三次变革 – 量子位",
+    "source": "量子位",
+    "source_type": "media",
+    "published_at": "2026-06-24T18:15:03+08:00",
+    "language": "zh",
+    "url": "https://www.qbitai.com/2026/06/437734.html",
+    "entities": [
+      "Anthropic",
+      "Claude",
+      "卡帕西"
+    ],
+    "technologies": [
+      "Claude Code",
+      "Claude Tag"
+    ],
+    "event_type": "product_release",
+    "industry_area": "developer_tools",
+    "key_facts": [
+      "Anthropic约65%的产品代码已由Claude Tag参与完成",
+      "Claude Tag定位为Claude Code的进化",
+      "卡帕西称这是LLM用户界面的第三次重大变革"
+    ],
+    "summary": "Anthropic推出Claude Tag，定位为Claude Code的进化，更主动、更擅长团队协作。公司约65%的产品代码已由Claude Tag参与完成。卡帕西称这是LLM用户界面的第三次重大变革。",
+    "sentiment": "positive",
+    "impact_scope": [
+      "industry"
+    ],
+    "risk_tags": [
+      "none"
+    ],
+    "opportunity_tags": [
+      "团队协作",
+      "LLM变革"
+    ],
+    "importance_score": 4,
+    "confidence": "high",
+    "evidence": [
+      "Claude Code大升级，卡帕西：LLM第三次变革"
+    ],
+    "suspected_hallucinations": []
+  },
+  {
+    "news_id": "news_df75a18849d6",
+    "title": "AI转型最大的门槛，不是技术，是人 – 量子位",
+    "source": "量子位",
+    "source_type": "media",
+    "published_at": "2026-06-24T18:15:02+08:00",
+    "language": "zh",
+    "url": "https://www.qbitai.com/2026/06/436435.html",
+    "entities": [
+      "浪潮信息",
+      "彭震",
+      "清华大学全球产业研究院"
+    ],
+    "technologies": [],
+    "event_type": "market_commentary",
+    "industry_area": "enterprise_ai",
+    "key_facts": [
+      "浪潮信息董事长彭震在AIEC2026上提出AI转型最大门槛是人",
+      "彭震提出Humagent概念",
+      "麦肯锡调研显示88%企业至少一个场景常态化使用AI"
+    ],
+    "summary": "浪潮信息董事长彭震在人工智能+生态大会上表示，AI转型最大的门槛不是技术，而是人。他提出Humagent概念，认为组织、文化、流程是转型的关键。",
+    "sentiment": "neutral",
+    "impact_scope": [
+      "industry"
+    ],
+    "risk_tags": [
+      "组织变革阻力"
+    ],
+    "opportunity_tags": [
+      "Humagent",
+      "组织力提升"
+    ],
+    "importance_score": 3,
+    "confidence": "high",
+    "evidence": [
+      "AI转型最大的门槛，不是技术，是人"
+    ],
+    "suspected_hallucinations": []
+  },
+  {
+    "news_id": "news_21527a4d0141",
+    "title": "Future Tech谁会成为下一个AI巨头？这175个早期项目站上WAIC2026 – 量子位",
+    "source": "量子位",
+    "source_type": "media",
+    "published_at": "2026-06-24T18:15:02+08:00",
+    "language": "zh",
+    "url": "https://www.qbitai.com/2026/06/438157.html",
+    "entities": [
+      "WAIC",
+      "Future Tech",
+      "量坤科技"
+    ],
+    "technologies": [],
+    "event_type": "other",
+    "industry_area": "capital_market",
+    "key_facts": [
+      "WAIC Future Tech从全球超600个早期项目中选出200多个登台",
+      "2025年促成2.68亿元意向订单",
+      "2026年175个早期项目进驻WAIC创投生态展示专区"
+    ],
+    "summary": "WAIC Future Tech创投生态展示专区在2026年世界人工智能大会上展出175个早期项目，涵盖行业应用、具身与终端、基础设施、前沿科技四条赛道。",
+    "sentiment": "positive",
+    "impact_scope": [
+      "industry"
+    ],
+    "risk_tags": [
+      "none"
+    ],
+    "opportunity_tags": [
+      "早期项目投资",
+      "创投生态"
+    ],
+    "importance_score": 3,
+    "confidence": "high",
+    "evidence": [
+      "175个早期项目站上WAIC2026"
+    ],
+    "suspected_hallucinations": []
+  },
+  {
+    "news_id": "news_b8ec872b685b",
+    "title": "物理AI第一块万亿市场，在公路货运先跑通闭环了 – 量子位",
+    "source": "量子位",
+    "source_type": "media",
+    "published_at": "2026-06-24T18:15:02+08:00",
+    "language": "zh",
+    "url": "https://www.qbitai.com/2026/06/437853.html",
+    "entities": [
+      "DeepWay深向",
+      "鸭嘴兽",
+      "马士基",
+      "安能",
+      "申通"
+    ],
+    "technologies": [
+      "智能新能源重卡",
+      "自动驾驶"
+    ],
+    "event_type": "business_update",
+    "industry_area": "ai_infrastructure",
+    "key_facts": [
+      "DeepWay深向智能新能源重卡实现规模化交付",
+      "鸭嘴兽、马士基、安能、申通等货运物流企业采用",
+      "物理AI在公路货运领域率先跑通商业闭环"
+    ],
+    "summary": "DeepWay深向的智能新能源重卡实现规模化交付，鸭嘴兽、马士基、安能、申通等货运物流企业采用。物理AI在公路货运领域率先实现数据与商业双闭环。",
+    "sentiment": "positive",
+    "impact_scope": [
+      "industry"
+    ],
+    "risk_tags": [
+      "none"
+    ],
+    "opportunity_tags": [
+      "物理AI",
+      "自动驾驶货运"
+    ],
+    "importance_score": 4,
+    "confidence": "high",
+    "evidence": [
+      "物理AI第一块万亿市场，在公路货运先跑通闭环了"
+    ],
+    "suspected_hallucinations": []
+  },
+  {
+    "news_id": "news_7e0974ba75e0",
     "title": "华为天才少年一作，港大MaRS Lab拿下IEEE TRO傅京孙纪念最佳论文奖 – 量子位",
     "source": "量子位",
     "source_type": "media",
-    "published_at": "2026-06-24T18:04:57+08:00",
+    "published_at": "2026-06-24T18:15:02+08:00",
     "language": "zh",
     "url": "https://www.qbitai.com/2026/06/437833.html",
     "entities": [
@@ -13,7 +224,7 @@
       "张富",
       "郑纯然",
       "华为",
-      "IEEE TRO"
+      "IEEE"
     ],
     "technologies": [
       "FAST-LIVO2",
@@ -25,9 +236,9 @@
     "key_facts": [
       "FAST-LIVO2获得IEEE TRO傅京孙纪念最佳论文奖",
       "第一作者郑纯然入选华为天才少年",
-      "通讯作者张富为港大副教授"
+      "张富为通讯作者"
     ],
-    "summary": "香港大学MaRS Lab的FAST-LIVO2论文获得机器人领域顶级期刊IEEE TRO最佳论文奖，第一作者郑纯然为华为天才少年。",
+    "summary": "香港大学MaRS Lab团队研发的FAST-LIVO2获得机器人领域顶级期刊IEEE TRO傅京孙纪念最佳论文奖，第一作者郑纯然为华为天才少年。",
     "sentiment": "positive",
     "impact_scope": [
       "academic"
@@ -42,225 +253,7 @@
     "importance_score": 4,
     "confidence": "high",
     "evidence": [
-      "论文《FAST-LIVO2: Fast, Direct LiDAR-Inertial-Visual Odometry》获得IEEE TRO傅京孙纪念最佳论文奖；第一作者郑纯然入选华为天才少年。"
-    ],
-    "suspected_hallucinations": []
-  },
-  {
-    "news_id": "news_7f0b3376b451",
-    "title": "阿里QoderWork推“峰谷Token”，夜间使用Qwen3.7低至2折 – 量子位",
-    "source": "量子位",
-    "source_type": "media",
-    "published_at": "2026-06-24T18:04:57+08:00",
-    "language": "zh",
-    "url": "https://www.qbitai.com/2026/06/437834.html",
-    "entities": [
-      "阿里",
-      "QoderWork",
-      "Qwen3.7"
-    ],
-    "technologies": [
-      "Qwen3.7-Max",
-      "峰谷Token",
-      "Agent"
-    ],
-    "event_type": "product_release",
-    "industry_area": "ai_infrastructure",
-    "key_facts": [
-      "夜间22:00到次日08:00使用Qwen3.7-Max低至2折",
-      "国内首个上线峰谷Token的Agent产品"
-    ],
-    "summary": "阿里QoderWork推出峰谷Token，夜间使用Qwen3.7-Max模型低至2折，降低用户成本。",
-    "sentiment": "positive",
-    "impact_scope": [
-      "industry"
-    ],
-    "risk_tags": [
-      "none"
-    ],
-    "opportunity_tags": [
-      "成本优化",
-      "Agent应用"
-    ],
-    "importance_score": 3,
-    "confidence": "high",
-    "evidence": [
-      "阿里QoderWork推出峰谷Token，夜间折扣低至2折；国内首个上线峰谷Token的Agent产品。"
-    ],
-    "suspected_hallucinations": []
-  },
-  {
-    "news_id": "news_9efaed3152af",
-    "title": "刚刚，Claude Code大升级！卡帕西：LLM第三次变革 – 量子位",
-    "source": "量子位",
-    "source_type": "media",
-    "published_at": "2026-06-24T18:04:57+08:00",
-    "language": "zh",
-    "url": "https://www.qbitai.com/2026/06/437734.html",
-    "entities": [
-      "Anthropic",
-      "Claude",
-      "卡帕西"
-    ],
-    "technologies": [
-      "Claude Tag",
-      "Claude Code",
-      "LLM"
-    ],
-    "event_type": "product_release",
-    "industry_area": "ai_agent",
-    "key_facts": [
-      "Anthropic约65%的产品代码由Claude Tag参与完成",
-      "卡帕西称这是LLM用户界面的第三次重大变革"
-    ],
-    "summary": "Anthropic发布Claude Tag，定位为更主动、擅长团队协作的Claude Code升级版，卡帕西称其为LLM第三次变革。",
-    "sentiment": "positive",
-    "impact_scope": [
-      "industry"
-    ],
-    "risk_tags": [
-      "none"
-    ],
-    "opportunity_tags": [
-      "AI协作",
-      "企业级AI"
-    ],
-    "importance_score": 4,
-    "confidence": "high",
-    "evidence": [
-      "Anthropic约65%的产品代码由Claude Tag参与完成；卡帕西称这是LLM用户界面的第三次重大变革。"
-    ],
-    "suspected_hallucinations": []
-  },
-  {
-    "news_id": "news_289d2ca7870c",
-    "title": "陶哲轩12年前的预言，现在AI帮他兑现了 – 量子位",
-    "source": "量子位",
-    "source_type": "media",
-    "published_at": "2026-06-24T18:04:56+08:00",
-    "language": "zh",
-    "url": "https://www.qbitai.com/2026/06/437023.html",
-    "entities": [
-      "陶哲轩",
-      "OpenAI",
-      "DeepMind",
-      "Lean"
-    ],
-    "technologies": [
-      "形式化语言",
-      "Lean",
-      "AI+人类协作"
-    ],
-    "event_type": "research",
-    "industry_area": "research",
-    "key_facts": [
-      "陶哲轩12年前预言用形式化语言写论文",
-      "AI在数学领域加速，形式化证明进展显著"
-    ],
-    "summary": "陶哲轩12年前关于形式化语言撰写论文的预言正在被AI实现，数学证明形式化取得突破。",
-    "sentiment": "positive",
-    "impact_scope": [
-      "academic"
-    ],
-    "risk_tags": [
-      "none"
-    ],
-    "opportunity_tags": [
-      "数学证明",
-      "形式化验证"
-    ],
-    "importance_score": 3,
-    "confidence": "high",
-    "evidence": [
-      "陶哲轩12年前预言用形式化语言写论文；AI在数学领域加速，形式化证明进展显著。"
-    ],
-    "suspected_hallucinations": []
-  },
-  {
-    "news_id": "news_1eb2485f562f",
-    "title": "AI转型最大的门槛，不是技术，是人 – 量子位",
-    "source": "量子位",
-    "source_type": "media",
-    "published_at": "2026-06-24T18:04:56+08:00",
-    "language": "zh",
-    "url": "https://www.qbitai.com/2026/06/436435.html",
-    "entities": [
-      "浪潮信息",
-      "彭震",
-      "清华大学全球产业研究院"
-    ],
-    "technologies": [
-      "Humagent",
-      "Agent"
-    ],
-    "event_type": "market_commentary",
-    "industry_area": "enterprise_ai",
-    "key_facts": [
-      "彭震认为AI转型最大门槛是组织、文化、流程",
-      "88%企业至少一个场景常态化使用AI，但仅三分之一推进规模化"
-    ],
-    "summary": "浪潮信息董事长彭震在AIEC2026上指出，AI转型的最大门槛不是技术，而是组织、文化和流程。",
-    "sentiment": "neutral",
-    "impact_scope": [
-      "industry"
-    ],
-    "risk_tags": [
-      "组织变革",
-      "员工抵触"
-    ],
-    "opportunity_tags": [
-      "AI转型",
-      "组织优化"
-    ],
-    "importance_score": 3,
-    "confidence": "high",
-    "evidence": [
-      "彭震称AI转型最大门槛是组织、文化、流程；88%企业至少一个场景常态化使用AI，但仅三分之一推进规模化。"
-    ],
-    "suspected_hallucinations": []
-  },
-  {
-    "news_id": "news_12beffb6fa1e",
-    "title": "Future Tech谁会成为下一个AI巨头？这175个早期项目站上WAIC2026 – 量子位",
-    "source": "量子位",
-    "source_type": "media",
-    "published_at": "2026-06-24T18:04:56+08:00",
-    "language": "zh",
-    "url": "https://www.qbitai.com/2026/06/438157.html",
-    "entities": [
-      "WAIC",
-      "Future Tech",
-      "量坤科技",
-      "吕定顺",
-      "谷歌"
-    ],
-    "technologies": [
-      "量子计算"
-    ],
-    "event_type": "other",
-    "industry_area": "other",
-    "key_facts": [
-      "WAIC Future Tech从全球超600个早期项目里选出200多个登台，七成成立不足三年，创始人里90后超过四成。",
-      "四天展期，100家投资机构、200位投资人进场做一对一洽谈，有效对接2000人次，现场触达意向客户超1200人次，最终谈成2.68亿元意向订单。",
-      "今年22个OPC项目和153家初创企业从1200个创新项目中脱颖而出，进驻WAIC创投生态展示专区。"
-    ],
-    "summary": "WAIC Future Tech创投生态展示专区从1200个创新项目中筛选出175个早期项目，涵盖行业应用、具身与终端、基础设施、前沿科技四条赛道，旨在为年轻团队提供资本、场景和技术支持。",
-    "sentiment": "positive",
-    "impact_scope": [
-      "industry"
-    ],
-    "risk_tags": [
-      "none"
-    ],
-    "opportunity_tags": [
-      "早期投资",
-      "创业生态",
-      "AI应用"
-    ],
-    "importance_score": 3,
-    "confidence": "medium",
-    "evidence": [
-      "从全球超600个早期项目里选出200多个登台，七成成立不足三年，创始人里90后超过四成。最终谈成2.68亿元意向订单。"
+      "论文《FAST-LIVO2: Fast, Direct LiDAR-Inertial-Visual Odometry》由郑纯然担任第一作者，其博士导师张富担任通讯作者。2025年其入选华为天才少年。"
     ],
     "suspected_hallucinations": []
   },
@@ -274,22 +267,21 @@
     "url": "https://36kr.com/newsflashes/3866926745965569?f=rss",
     "entities": [
       "抖音",
-      "火山引擎",
-      "多闪"
+      "火山引擎"
     ],
     "technologies": [
       "3D UGC",
       "多Agents",
-      "3D世界创作"
+      "虚拟世界模型"
     ],
     "event_type": "product_release",
     "industry_area": "consumer_ai",
     "key_facts": [
-      "抖音在火山引擎FORCE大会上首次亮相“造世界”，一款集成多Agents的3D世界创作工具。",
-      "创作者可通过多轮对话、素材搭建和场景编辑，生成可发布、可游玩的虚拟世界模型。",
-      "作品完成后可进入抖音和多闪的社交与推荐分发场景。"
+      "抖音发布3D内容创作工具“造世界”",
+      "集成多Agents",
+      "服务于抖音3D UGC场景“多闪仔仔世界”"
     ],
-    "summary": "抖音发布3D内容创作工具“造世界”，集成多Agents，支持多轮对话和场景编辑，生成的虚拟世界模型可分发至抖音和多闪，加速3D UGC互动内容布局。",
+    "summary": "抖音在火山引擎FORCE大会上发布3D内容创作工具“造世界”，集成多Agents，可生成可发布、可游玩的虚拟世界模型，服务于抖音3D UGC场景。",
     "sentiment": "positive",
     "impact_scope": [
       "industry"
@@ -298,9 +290,8 @@
       "none"
     ],
     "opportunity_tags": [
-      "3D内容",
-      "UGC",
-      "社交分发"
+      "3D内容创作",
+      "UGC"
     ],
     "importance_score": 3,
     "confidence": "high",
@@ -323,41 +314,37 @@
       "光合创投",
       "Anthropic",
       "智谱",
-      "DeepSeek",
-      "OpenClaw"
+      "DeepSeek"
     ],
     "technologies": [
       "AI Agent",
       "大模型",
-      "具身智能",
-      "世界模型"
+      "开源模型"
     ],
     "event_type": "market_commentary",
     "industry_area": "capital_market",
     "key_facts": [
-      "王蓓（高瓴创投）认为AI发展太快，更关注AI的实际收入。",
-      "汪洋（松禾资本）指出AI融资节奏极快，几个月估值翻几倍，但担心不健康。",
-      "蔡伟（光合创投）提到Anthropic最强模型因安全问题被美国政府限制非美国籍公民使用，后停服。",
-      "蔡伟认为中国大模型公司开源是应对行政禁令的策略。"
+      "圆桌讨论AI投资趋势",
+      "Anthropic模型因安全限制停服",
+      "中国大模型公司纷纷开源"
     ],
-    "summary": "36氪WAVES2026圆桌讨论AI行业变化，投资人分享了对AI收入、融资节奏、模型安全及开源策略的观察，认为AI Agent和应用层投资需关注稳定性和商业化落地。",
-    "sentiment": "mixed",
+    "summary": "36氪WAVES2026圆桌讨论AI投资趋势，嘉宾认为AI发展迅速，融资节奏加快，Anthropic模型因安全限制停服，中国大模型公司通过开源应对。",
+    "sentiment": "neutral",
     "impact_scope": [
       "industry"
     ],
     "risk_tags": [
       "模型安全",
-      "融资泡沫"
+      "地缘政治"
     ],
     "opportunity_tags": [
       "AI Agent",
-      "开源模型",
-      "商业化落地"
+      "开源模型"
     ],
-    "importance_score": 4,
+    "importance_score": 3,
     "confidence": "high",
     "evidence": [
-      "Anthropic最强的模型，因安全问题被美国政府限制非美国籍公民使用，后来停服了。"
+      "Anthropic最强的模型，因安全问题被美国政府限制非美国籍公民使用，后来停服了。反观中国领先的大模型公司纷纷开源。"
     ],
     "suspected_hallucinations": []
   },
@@ -379,34 +366,32 @@
     "technologies": [
       "AI制药",
       "计算医学",
-      "数字孪生",
+      "虚拟临床试验",
       "多智能体"
     ],
-    "event_type": "research",
+    "event_type": "market_commentary",
     "industry_area": "enterprise_ai",
     "key_facts": [
-      "望石智慧打造以微观世界模型为底座、多智能体协作的AI制药系统。",
-      "哲源科技的核心技术“生命功能的数字孪生技术”获国家科技部“全国颠覆性技术”认定。",
-      "哲源科技针对胰腺癌的1类创新药PR00012已披露临床一期数据。",
-      "弘晖基金认为AI制药已到关键转折点，数据是核心壁垒。"
+      "圆桌讨论AI在医疗领域的应用",
+      "望石智慧与广药、华为达成三方合作",
+      "哲源科技完成虚拟临床试验"
     ],
-    "summary": "36氪WAVES2026圆桌讨论AI重构医疗产业，望石智慧、哲源科技和弘晖基金分享了AI在药物研发中的应用，包括微观世界模型、数字孪生技术及数据壁垒的重要性。",
+    "summary": "36氪WAVES2026圆桌讨论AI在医疗领域的应用，嘉宾认为AI制药已进入关键转折点，数据是核心壁垒，望石智慧与广药、华为达成三方合作。",
     "sentiment": "positive",
     "impact_scope": [
       "industry"
     ],
     "risk_tags": [
-      "none"
+      "数据壁垒"
     ],
     "opportunity_tags": [
       "AI制药",
-      "数字孪生",
-      "新药研发"
+      "计算医学"
     ],
-    "importance_score": 4,
+    "importance_score": 3,
     "confidence": "high",
     "evidence": [
-      "哲源科技的核心技术“生命功能的数字孪生技术”曾拿到首届国家科技部“全国颠覆性技术”认定。"
+      "今年5月，我们和广药、华为达成了三方战略合作，共同落地AI药研解决方案。"
     ],
     "suspected_hallucinations": []
   },
@@ -423,47 +408,38 @@
       "擎朗智能",
       "极佳视界",
       "大界机器人",
-      "蚂蚁集团",
-      "比亚迪",
-      "京东",
-      "TCL",
-      "香格里拉",
-      "挪瓦咖啡"
+      "蚂蚁集团"
     ],
     "technologies": [
-      "触觉传感器",
       "具身智能",
       "世界模型",
-      "人形机器人",
-      "柔性制造"
+      "触觉传感器",
+      "人形机器人"
     ],
     "event_type": "market_commentary",
     "industry_area": "ai_agent",
     "key_facts": [
-      "帕西尼触觉传感器出货量排名第一，黄仁勋亮相的14款人形机器人中有11款使用其传感器。",
-      "擎朗智能海外营收超过50%，在香格里拉酒店部署人形机器人XMAN-R1担任迎宾员。",
-      "极佳视界认为国内具身智能模型与国外差距在一代模型之内。",
-      "大界机器人认为人形机器人在工业场景中价值不大，真正的机会在一般工业的柔性制造。"
+      "圆桌讨论具身智能发展",
+      "帕西尼触觉传感器出货量第一",
+      "擎朗人形机器人落地酒店",
+      "极佳视界世界模型登顶"
     ],
-    "summary": "36氪WAVES2026圆桌讨论2026年科技趋势，帕西尼、擎朗、极佳视界和大界机器人分享了具身智能、世界模型和柔性制造的进展，认为中国在部分领域领先但商业化仍需突破。",
-    "sentiment": "mixed",
+    "summary": "36氪WAVES2026圆桌讨论具身智能发展，嘉宾认为中国在服务机器人领域领先，但具身智能商业化仍需突破，帕西尼触觉传感器出货量第一。",
+    "sentiment": "neutral",
     "impact_scope": [
       "industry"
     ],
     "risk_tags": [
-      "商业化慢",
-      "技术差距"
+      "商业化落地慢"
     ],
     "opportunity_tags": [
-      "触觉传感器",
-      "人形机器人",
-      "世界模型",
-      "柔性制造"
+      "具身智能",
+      "触觉传感器"
     ],
-    "importance_score": 4,
+    "importance_score": 3,
     "confidence": "high",
     "evidence": [
-      "黄仁勋亮相的14款人形机器人里面有11款用的是帕西尼的传感器。"
+      "去年黄仁勋亮相的14款人形机器人里面有11款用的是帕西尼的传感器。"
     ],
     "suspected_hallucinations": []
   },
@@ -478,9 +454,7 @@
     "entities": [
       "仙工智能",
       "高瓴HHLRA",
-      "广发基金",
-      "极智嘉",
-      "埃斯顿"
+      "广发基金"
     ],
     "technologies": [
       "机器人控制器",
@@ -489,31 +463,30 @@
     "event_type": "business_update",
     "industry_area": "other",
     "key_facts": [
-      "仙工智能（06106.HK）在港交所上市，开盘平开，最高涨38.3%，收盘涨13.88%。",
+      "仙工智能（06106.HK）在港交所上市，开盘平开，最高涨38.3%，收涨13.88%。",
       "暗盘破发7.28%，振幅49.21%。",
       "公开发行占9.5%，基石认购43.34%并锁6个月。",
-      "按市值127.8亿港元计算，静态市销率约25倍。",
-      "控制器全球份额24.8%但按收入全球排第七（1.1%）。",
-      "整机毛利率38.4%，导致增收不增利。"
+      "按收入算，仙工智能全球排第七（1.1%），中国第三（2.5%）。",
+      "整机毛利率38.4%，控制器销量第一但收入不第一。"
     ],
-    "summary": "仙工智能上市首日经历大幅波动，暗盘破发后首日冲高回落，市场对其高估值和盈利持续性存在疑虑。",
+    "summary": "仙工智能上市首日经历大幅波动，暗盘破发后首日冲高，但估值争议较大，控制器销量第一但收入排名靠后，整机毛利率较低。",
     "sentiment": "mixed",
     "impact_scope": [
       "company"
     ],
     "risk_tags": [
-      "高估值",
-      "盈利压力",
-      "市场份额争议"
+      "估值过高",
+      "毛利率低",
+      "市场份额有限"
     ],
     "opportunity_tags": [
-      "机器人控制器领先",
-      "上市融资"
+      "机器人行业增长",
+      "控制器市场潜力"
     ],
-    "importance_score": 4,
+    "importance_score": 3,
     "confidence": "high",
     "evidence": [
-      "文章详细描述了股价波动、估值倍数、市场份额数据及业内人士评论。"
+      "暗盘破发7%、首日冲高38%；控制器销量全球第一但收入全球第七；整机毛利率38.4%。"
     ],
     "suspected_hallucinations": []
   },
@@ -532,38 +505,36 @@
       "广州大学城"
     ],
     "technologies": [
-      "AI工具",
-      "云平台",
-      "GEO",
-      "Agent"
+      "AI",
+      "云计算",
+      "生成式引擎优化"
     ],
     "event_type": "market_commentary",
     "industry_area": "enterprise_ai",
     "key_facts": [
       "阿里云调研显示传统开发者仅占20%，产品运营占35%，企业主占21%。",
       "OPC（一人公司）利用AI工具实现接近公司的交付能力。",
-      "OPC与平台是共生关系，平台提供基础设施。",
-      "OPC发展路径分为Starter、Lite、Professional阶段。",
-      "学生OPC主要方向包括AIGC、AI+电商、AI+医疗、AI+硬件。"
+      "OPC创业方向包括AIGC、AI+电商、AI+医疗等。",
+      "云平台提供分阶段套餐降低使用门槛。"
     ],
-    "summary": "圆桌讨论AI时代一人公司（OPC）的生态，强调AI平权、平台支持及OPC的灵活优势。",
+    "summary": "圆桌讨论AI时代一人公司（OPC）的生态，认为AI平权让个体拥有接近公司的生产力，云平台和算力基础设施是关键支撑。",
     "sentiment": "positive",
     "impact_scope": [
       "industry"
     ],
     "risk_tags": [
       "同质化竞争",
-      "规模化挑战"
+      "平台依赖"
     ],
     "opportunity_tags": [
       "AI平权",
-      "低创业门槛",
-      "平台生态"
+      "低门槛创业",
+      "云服务需求增长"
     ],
     "importance_score": 3,
     "confidence": "high",
     "evidence": [
-      "文章直接引用嘉宾观点和调研数据。"
+      "阿里云调研数据；OPC定义：超级个体+AI工具+外部协作网络；云平台提供套餐。"
     ],
     "suspected_hallucinations": []
   },
@@ -584,9 +555,9 @@
     "event_type": "business_update",
     "industry_area": "enterprise_ai",
     "key_facts": [
-      "MoEngage通过全现金交易获得技术，该技术为每个客户分配AI代理。"
+      "MoEngage以全现金交易获得技术，将AI代理分配给个人客户。"
     ],
-    "summary": "MoEngage押注营销未来是数百万AI代理，通过收购获得相关技术。",
+    "summary": "MoEngage押注营销未来是数百万AI代理，通过全现金交易获得相关技术。",
     "sentiment": "positive",
     "impact_scope": [
       "company"
@@ -601,7 +572,7 @@
     "importance_score": 2,
     "confidence": "medium",
     "evidence": [
-      "摘要提到'all-cash deal gives MoEngage access to technology that assigns AI agents to individual customers.'"
+      "全现金交易；技术将AI代理分配给个人客户。"
     ],
     "suspected_hallucinations": []
   },
@@ -629,15 +600,15 @@
     "industry_area": "other",
     "key_facts": [
       "Netflix、A24、Focus Features和Warner Bros.的Clockwork均放弃发行关于Sam Altman的传记片《Artificial》。",
-      "Neon和Mubi仍对该片感兴趣。"
+      "Neon和Mubi仍有意向。"
     ],
-    "summary": "好莱坞主要制片厂放弃发行关于OpenAI CEO Sam Altman的传记片，但Neon和Mubi仍有意。",
-    "sentiment": "neutral",
+    "summary": "好莱坞多家公司放弃发行关于OpenAI CEO Sam Altman的传记片，但Neon和Mubi仍感兴趣。",
+    "sentiment": "mixed",
     "impact_scope": [
       "industry"
     ],
     "risk_tags": [
-      "none"
+      "行业抵制"
     ],
     "opportunity_tags": [
       "none"
@@ -645,7 +616,7 @@
     "importance_score": 2,
     "confidence": "high",
     "evidence": [
-      "摘要明确列出哪些公司放弃发行，哪些仍感兴趣。"
+      "Netflix、A24等放弃发行；Neon和Mubi仍感兴趣。"
     ],
     "suspected_hallucinations": []
   },
@@ -660,33 +631,31 @@
     "entities": [],
     "technologies": [
       "Vision-language-action (VLA) models",
-      "VLM",
-      "InSight"
+      "VLM"
     ],
     "event_type": "research",
     "industry_area": "research",
     "key_facts": [
       "InSight框架使VLA模型在原始动作层面可操控。",
       "包括自动分割管道和VLM引导的数据飞轮。",
-      "在模拟和真实世界任务中评估，无需人类演示目标技能。",
-      "学习到的原语可组合执行新任务。"
+      "在模拟和真实任务中评估，无需人类演示目标技能。"
     ],
-    "summary": "InSight框架实现VLA模型的自主技能获取，通过可操控原语和自动数据飞轮，无需人类演示即可学习新技能。",
+    "summary": "InSight框架通过可操控的VLA模型实现自主技能获取，无需人类演示即可学习新技能并组合执行长时任务。",
     "sentiment": "positive",
     "impact_scope": [
-      "research"
+      "industry"
     ],
     "risk_tags": [
       "none"
     ],
     "opportunity_tags": [
       "机器人技能学习",
-      "自主数据生成"
+      "自主数据收集"
     ],
-    "importance_score": 3,
+    "importance_score": 4,
     "confidence": "high",
     "evidence": [
-      "摘要详细描述了方法、评估和结果。"
+      "框架使VLA可操控；自动分割和数据飞轮；无需人类演示。"
     ],
     "suspected_hallucinations": []
   },
@@ -705,9 +674,9 @@
     "event_type": "research",
     "industry_area": "research",
     "key_facts": [
-      "proves optimization error of order 1/√n for last iterate under i.i.d. noise",
-      "shows without i.i.d. assumption error can be (log n)/√n",
-      "resolves open problem from Koren and Segal, COLT 2020"
+      "Proves last iterate optimization error of order 1/√n under i.i.d. noise",
+      "Shows without i.i.d. assumption, error can be (log n)/√n",
+      "Resolves open problem from Koren and Segal, COLT 2020"
     ],
     "summary": "We study the last iterate of the stochastic subgradient method for one-dimensional convex Lipschitz objectives. For a fixed horizon $n$, we consider the standard fixed stepsizes $η=Θ(1/\\sqrt n)$. We prove that, for such stepsize policies, under additive i.i.d. subgradient noise with uniformly bounded variance, the last iterate features an optimization error of order $1/\\sqrt n$, thereby removing the extra $(\\log n)$ factor present in existing generic bounds. On the other hand, we show that without the i.i.d. assumption, the optimization error can be of order $(\\log n)/\\sqrt n$. Thus, under the uniformly bounded variance assumption alone, the last iterate of SsGM is suboptimal even in dimension one, resolving negatively an open problem posed in Koren and Segal, COLT, 2020.",
     "sentiment": "neutral",
@@ -718,12 +687,12 @@
       "none"
     ],
     "opportunity_tags": [
-      "improved convergence bounds"
+      "optimization theory"
     ],
     "importance_score": 3,
     "confidence": "high",
     "evidence": [
-      "The paper states: 'prove that ... the last iterate features an optimization error of order 1/√n' and 'resolving negatively an open problem posed in Koren and Segal, COLT, 2020.'"
+      "Proves last iterate optimization error of order 1/√n under i.i.d. noise; shows without i.i.d. assumption, error can be (log n)/√n; resolves open problem from Koren and Segal, COLT 2020."
     ],
     "suspected_hallucinations": []
   },
@@ -744,10 +713,9 @@
     "event_type": "research",
     "industry_area": "research",
     "key_facts": [
-      "proposes FLUX3D framework for image-to-3DGS generation",
-      "introduces Diffusion-Aligned Structured Latents (DA-SLAT)",
-      "designs Sparse-structure Multimodal Diffusion Transformer (SMDiT) and Modal-Aware Rotary Positional Embedding (MARoPE)",
-      "outperforms all SOTA methods in generating high-quality 3DGS assets"
+      "Proposes FLUX3D framework for image-to-3DGS generation",
+      "Introduces Diffusion-Aligned Structured Latents (DA-SLAT) and Sparse-structure Multimodal Diffusion Transformer (SMDiT)",
+      "Outperforms state-of-the-art methods in appearance fidelity"
     ],
     "summary": "Sparse voxel representation has emerged as a scalable foundation for image-to-3D Gaussian Splatting (3DGS) generation, yet current methods struggle to preserve high-frequency visual details of input images due to two structural bottlenecks. First, they adopt discriminative 2D features optimized for semantic abstraction to construct sparse voxel latents, which suppress reconstructive cues and induce a representation bottleneck. Second, in the generation stage, standard diffusion transformers lack effective mechanisms to align dense 2D image tokens with sparse 3D voxel latents, resulting in a cross-modal correspondence bottleneck. To address these issues, we propose FLUX3D, a scalable image-to-3DGS framework that boosts both representation learning and cross-modal alignment during generation. We first revisit 2D feature selection for sparse-voxel-based 3D representation learning, propose Diffusion-Aligned Structured Latents (DA-SLAT) and couple it with a decoder-only architecture to improve 3DGS reconstruction fidelity. We also design a sparse-structure-aware diffusion framework, which integrates the Sparse-structure Multimodal Diffusion Transformer (SMDiT) and Modal-Aware Rotary Positional Embedding (MARoPE) to achieve geometry-agnostic 2D-3D alignment. Extensive benchmark experiments demonstrate that FLUX3D yields substantial improvements in appearance fidelity and significantly outperforms all state-of-the-art (SOTA) methods in generating high-quality 3DGS assets.",
     "sentiment": "positive",
@@ -758,12 +726,13 @@
       "none"
     ],
     "opportunity_tags": [
-      "improved 3D generation fidelity"
+      "3D generation",
+      "computer vision"
     ],
-    "importance_score": 3,
+    "importance_score": 4,
     "confidence": "high",
     "evidence": [
-      "The paper states: 'FLUX3D yields substantial improvements in appearance fidelity and significantly outperforms all state-of-the-art (SOTA) methods.'"
+      "Proposes FLUX3D framework; introduces DA-SLAT and SMDiT; outperforms state-of-the-art methods in appearance fidelity."
     ],
     "suspected_hallucinations": []
   },
@@ -776,38 +745,36 @@
     "language": "en",
     "url": "http://arxiv.org/abs/2606.24855v1",
     "entities": [
-      "Qwen3-32B",
-      "Nemotron-Terminal-32B"
+      "Qwen3-32B"
     ],
     "technologies": [
       "agentic language models",
       "data curation pipeline"
     ],
     "event_type": "research",
-    "industry_area": "ai_agent",
+    "industry_area": "research",
     "key_facts": [
-      "conducts more than 100 controlled ablation experiments",
-      "assembles training set of 100K examples",
-      "fine-tunes Qwen3-32B achieving 44.8% average accuracy across seven agentic benchmarks",
-      "improves 3.9 percentage points over Nemotron-Terminal-32B (40.9%)",
-      "releases training sets, data pipeline, experimental data, and models at openthoughts.ai"
+      "OpenThoughts-Agent project addresses data curation for agentic models",
+      "Conducted over 100 controlled ablation experiments",
+      "Fine-tuned Qwen3-32B on 100K examples achieves 44.8% average accuracy across seven benchmarks",
+      "Improves over Nemotron-Terminal-32B by 3.9 percentage points"
     ],
     "summary": "Agentic language models dramatically expand the applications of AI yet little is publicly known about how to curate training data for broadly capable agents. Existing open efforts such as SWE-Smith, SERA, and Nemotron-Terminal typically target a single benchmark, leaving open the question of how to train models that generalize across diverse agentic tasks. The OpenThoughts-Agent (OT-Agent) project addresses this gap with a fully open data curation pipeline for training agentic models. We conduct more than 100 controlled ablation experiments to systematically investigate each stage of the pipeline, yielding insights on the importance of task sources and diversity. We then assemble a training set of 100K examples from our pipeline and fine-tune Qwen3-32B on this dataset, which yields an average accuracy of 44.8% across seven agentic benchmarks and a 3.9 percentage point improvement over the strongest existing open data agentic model (Nemotron-Terminal-32B, 40.9%). Moreover, our training data exhibits strong scaling properties, outperforming alternative open datasets at every training set size in compute-controlled comparisons. We publicly release our training sets, data pipeline, experimental data, and models at openthoughts.ai to support future open research on agentic model training.",
     "sentiment": "positive",
     "impact_scope": [
-      "industry"
+      "academic"
     ],
     "risk_tags": [
       "none"
     ],
     "opportunity_tags": [
-      "open data pipeline for agentic models",
-      "improved benchmark performance"
+      "agentic AI",
+      "open source"
     ],
     "importance_score": 4,
     "confidence": "high",
     "evidence": [
-      "The paper states: 'fine-tune Qwen3-32B ... yields an average accuracy of 44.8% ... 3.9 percentage point improvement over the strongest existing open data agentic model (Nemotron-Terminal-32B, 40.9%).'"
+      "OpenThoughts-Agent project; conducted over 100 controlled ablation experiments; fine-tuned Qwen3-32B on 100K examples achieves 44.8% average accuracy across seven benchmarks; improves over Nemotron-Terminal-32B by 3.9 percentage points."
     ],
     "suspected_hallucinations": []
   },
@@ -824,10 +791,10 @@
       "AI-powered AAC interfaces"
     ],
     "event_type": "research",
-    "industry_area": "other",
+    "industry_area": "research",
     "key_facts": [
-      "explores six AAC problem spaces",
-      "suggests more robust evaluation methods taking intersectional nuances into account"
+      "Explores six AAC problem spaces",
+      "Suggests more robust evaluation methods considering intersectional nuances"
     ],
     "summary": "Artificial intelligence (AI) can enhance what people who use augmentative and alternative communication (AAC) are able to do with their systems. However, evaluating AI-powered AAC interfaces can be difficult. People are intersectional beings and current evaluation metrics can struggle to capture the multifaceted and nuanced desires people may have for their AAC. We explore the complicated nature of six AAC problem spaces, explore how AI might be used in these spaces, and suggest more robust methods of evaluation that take the intersectional nuances of people into account. We also discuss broader issues that arise across these problem spaces and how they could be addressed using our proposed evaluation methods.",
     "sentiment": "neutral",
@@ -838,12 +805,13 @@
       "none"
     ],
     "opportunity_tags": [
-      "improved AAC evaluation methods"
+      "assistive technology",
+      "human-computer interaction"
     ],
     "importance_score": 2,
     "confidence": "high",
     "evidence": [
-      "The paper states: 'suggest more robust methods of evaluation that take the intersectional nuances of people into account.'"
+      "Explores six AAC problem spaces; suggests more robust evaluation methods taking intersectional nuances into account."
     ],
     "suspected_hallucinations": []
   },
@@ -864,10 +832,10 @@
     "event_type": "research",
     "industry_area": "research",
     "key_facts": [
-      "introduces Hartley Neural Operator (HNO) as real-valued mirror of FNO",
-      "shows HNO favored for self-adjoint elliptic operators",
-      "shows FNO favored for time-dependent operators with phase",
-      "provides predictive rule: match spectral basis to symmetry of solution operator"
+      "Introduces Hartley Neural Operator (HNO) as real-valued mirror of FNO",
+      "Shows self-adjoint elliptic operators favor real Hartley basis",
+      "Time-dependent operators favor complex Fourier basis",
+      "Provides predictive rule to match spectral basis to operator symmetry"
     ],
     "summary": "Fourier Neural Operators (FNO) learn solution operators of partial differential equations by parameterizing global convolutions in the complex Fourier domain. For real-valued PDE solutions, the complex FFT carries representational redundancy through conjugate symmetry. We introduce the Hartley Neural Operator (HNO), the exact real-valued mirror of FNO: it replaces the FFT with the purely real Discrete Hartley Transform and learns a single real multiplier per retained spectral mode, with no complex arithmetic. Because the real Hartley spectrum is not halved by conjugate symmetry, HNO retains twice as many frequency corners as FNO but one real weight where FNO carries a complex pair, so the two operators are iso-parametric at equal width and differ only in spectral basis. Our central thesis is that the best basis is a property of the operator. Self-adjoint elliptic operators (Poisson, biharmonic) have real, symmetric Green's functions that the real Hartley multiplier diagonalizes exactly, and HNO is favored there. Time-dependent operators carry phase, from oscillation in the wave equation to transport in advection, Burgers, and Navier-Stokes, which a real diagonal multiplier cannot represent, so FNO is favored there, and increasingly so with the operator's phase content, leaving the phaseless heat equation as the borderline case. Training both operators identically and benchmarking across PDE classes, initial-condition families, and boundary conditions, we find an elliptic-versus-time-dependent split that is monotone in operator phase content and matches the Green's-function theory we develop. Rather than a universal winner, our findings give a predictive rule: match the spectral basis to the symmetry of the solution operator.",
     "sentiment": "neutral",
@@ -878,12 +846,13 @@
       "none"
     ],
     "opportunity_tags": [
-      "guidance for choosing spectral basis in neural operators"
+      "neural operators",
+      "PDE solving"
     ],
     "importance_score": 3,
     "confidence": "high",
     "evidence": [
-      "The paper states: 'our findings give a predictive rule: match the spectral basis to the symmetry of the solution operator.'"
+      "Introduces Hartley Neural Operator (HNO); shows self-adjoint elliptic operators favor real Hartley basis; time-dependent operators favor complex Fourier basis; provides predictive rule to match spectral basis to operator symmetry."
     ],
     "suspected_hallucinations": []
   }
