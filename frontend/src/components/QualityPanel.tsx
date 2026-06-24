@@ -20,15 +20,15 @@ export function QualityPanel({ quality }: QualityPanelProps) {
       <div className="quality-state">
         {quality.passed ? <CheckCircle2 size={22} /> : <AlertTriangle size={22} />}
         <div>
-          <h2>Quality Check</h2>
-          <p>{quality.passed ? "Passed" : "Needs review"}</p>
+          <h2>质量检查</h2>
+          <p>{quality.passed ? "通过" : "待审查"}</p>
         </div>
       </div>
       <div className="quality-grid">
         <div>
-          <h3>Failed Requirements</h3>
+          <h3>未通过项</h3>
           {failures.length === 0 ? (
-            <p className="muted">None</p>
+            <p className="muted">无</p>
           ) : (
             <ul>
               {failures.map(([name]) => (
@@ -38,9 +38,9 @@ export function QualityPanel({ quality }: QualityPanelProps) {
           )}
         </div>
         <div>
-          <h3>Issues</h3>
+          <h3>问题</h3>
           {issues.length === 0 ? (
-            <p className="muted">None</p>
+            <p className="muted">无</p>
           ) : (
             <ul>
               {issues.slice(0, 8).map((issue) => (

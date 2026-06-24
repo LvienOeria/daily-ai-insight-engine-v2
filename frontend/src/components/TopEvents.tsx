@@ -23,8 +23,8 @@ export function TopEvents({ rankedEvents, events, news }: TopEventsProps) {
   return (
     <section className="section">
       <div className="section-heading">
-        <h2>Top Events</h2>
-        <span>{rankedEvents.slice(0, 5).length} ranked</span>
+        <h2>热点事件</h2>
+        <span>{rankedEvents.slice(0, 5).length} 已排名</span>
       </div>
       <div className="event-list">
         {rankedEvents.slice(0, 5).map((ranked) => {
@@ -54,21 +54,21 @@ export function TopEvents({ rankedEvents, events, news }: TopEventsProps) {
                 ) : null}
                 <dl>
                   <div>
-                    <dt>Score</dt>
+                    <dt>评分</dt>
                     <dd>{ranked.final_importance_score}</dd>
                   </div>
                   <div>
-                    <dt>Event ID</dt>
+                    <dt>事件ID</dt>
                     <dd>{ranked.event_id}</dd>
                   </div>
                   <div>
-                    <dt>News IDs</dt>
+                    <dt>新闻ID</dt>
                     <dd>{event?.related_news_ids.join(", ") || "n/a"}</dd>
                   </div>
                 </dl>
                 {sources.length ? (
                   <div className="source-links compact-links">
-                    <h4>Source Links</h4>
+                    <h4>来源链接</h4>
                     <ul>
                       {sources.map((source) => (
                         <li key={source.news_id}>

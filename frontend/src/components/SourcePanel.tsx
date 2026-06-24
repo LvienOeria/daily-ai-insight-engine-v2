@@ -8,8 +8,8 @@ export function SourcePanel({ sources }: SourcePanelProps) {
   return (
     <section className="section">
       <div className="section-heading">
-        <h2>Sources</h2>
-        <span>{sources.length} evaluated</span>
+        <h2>数据源</h2>
+        <span>{sources.length} 已评估</span>
       </div>
       <div className="table-wrap">
         <table>

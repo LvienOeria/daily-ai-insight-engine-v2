@@ -74,7 +74,7 @@ export function MatrixChart({ data }: MatrixChartProps) {
       }}
     >
       <figcaption>
-        <span>Risk / Opportunity Matrix</span>
+        <span>风险 / 机会矩阵</span>
       </figcaption>
       {data.length === 0 ? (
         <p className="muted chart-empty">No events available.</p>
@@ -90,8 +90,8 @@ export function MatrixChart({ data }: MatrixChartProps) {
                   <text x={-14} y={y(t) + 4} textAnchor="end" className="axis-label">{t}</text>
                 </g>
               ))}
-              <text x={IW / 2} y={IH + 44} textAnchor="middle" className="axis-title">Opportunity →</text>
-              <text transform={`translate(-42, ${IH / 2}) rotate(-90)`} textAnchor="middle" className="axis-title">Risk →</text>
+              <text x={IW / 2} y={IH + 44} textAnchor="middle" className="axis-title">机会 →</text>
+              <text transform={`translate(-42, ${IH / 2}) rotate(-90)`} textAnchor="middle" className="axis-title">风险 →</text>
               {layout.map(({ datum, dx, dy }) => {
                 const cx = x(datum.opportunity_level + dx);
                 const cy = y(datum.risk_level + dy);
@@ -129,7 +129,7 @@ export function MatrixChart({ data }: MatrixChartProps) {
             {hovered && (
               <>
                 <strong>{hovered.event_name}</strong>
-                <span>Risk {hovered.risk_level.toFixed(2)} · Opp {hovered.opportunity_level.toFixed(2)}</span>
+                <span>风险 {hovered.risk_level.toFixed(2)} · 机会 {hovered.opportunity_level.toFixed(2)}</span>
                 <span className="muted">{hovered.event_type} · {hovered.confidence}</span>
               </>
             )}

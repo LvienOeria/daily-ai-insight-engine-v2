@@ -8,11 +8,11 @@ interface NavBarProps {
 }
 
 const items: Array<{ key: ViewKey; label: string; icon: typeof Gauge }> = [
-  { key: "overview", label: "Overview", icon: Gauge },
-  { key: "events", label: "Events", icon: ListTree },
-  { key: "analysis", label: "Analysis", icon: FileText },
-  { key: "sources", label: "Sources", icon: BarChart3 },
-  { key: "quality", label: "Quality", icon: ShieldCheck },
+  { key: "overview", label: "概览", icon: Gauge },
+  { key: "events", label: "事件", icon: ListTree },
+  { key: "analysis", label: "分析", icon: FileText },
+  { key: "sources", label: "数据源", icon: BarChart3 },
+  { key: "quality", label: "质量", icon: ShieldCheck },
 ];
 
 export function NavBar({ active, onChange }: NavBarProps) {

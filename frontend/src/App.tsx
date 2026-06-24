@@ -59,8 +59,8 @@ export function App() {
         </div>
         <div className="header-meta">
           <span>{data.report.timezone}</span>
-          <span>{data.report.window_days} days</span>
-          <span>{new Date(data.generated_at).toLocaleString()}</span>
+          <span>近 {data.report.window_days} 天</span>
+          <span>{new Date(data.generated_at).toLocaleString("zh-CN")}</span>
         </div>
       </header>
 
@@ -71,37 +71,37 @@ export function App() {
           <section className="metric-row">
             <div className="metric">
               <Database size={18} />
-              <span>Structured News</span>
+              <span>结构化新闻</span>
               <strong>{data.structured_news.length}</strong>
             </div>
             <div className="metric">
               <Activity size={18} />
-              <span>Events</span>
+              <span>事件</span>
               <strong>{data.events.length}</strong>
             </div>
             <div className="metric">
               <FileText size={18} />
-              <span>Top Score</span>
+              <span>最高评分</span>
               <strong>{summary.topScore}</strong>
             </div>
             <div className="metric">
               <Link2 size={18} />
-              <span>Source Links</span>
+              <span>来源链接</span>
               <strong>{linkedNewsCount}</strong>
             </div>
           </section>
 
           <section className="insight-strip">
             <article>
-              <span>Evidence Coverage</span>
+              <span>证据覆盖</span>
               <strong>{linkedNewsCount}/{data.structured_news.length}</strong>
             </article>
             <article>
-              <span>Observed Sources</span>
+              <span>可用数据源</span>
               <strong>{summary.sourceCount}</strong>
             </article>
             <article>
-              <span>High Confidence Events</span>
+              <span>高置信度事件</span>
               <strong>{summary.highConfidence}</strong>
             </article>
           </section>
@@ -109,11 +109,11 @@ export function App() {
           <div className="dashboard-grid">
             <DonutChart
               data={visualization.source_type_distribution}
-              label="Source Types"
+              label="来源类型"
             />
             <DonutChart
               data={visualization.event_type_distribution}
-              label="Event Types"
+              label="事件类型"
             />
           </div>
 
@@ -142,12 +142,12 @@ export function App() {
           <div className="dashboard-grid">
             <DonutChart
               data={visualization.source_type_distribution}
-              label="Accepted Source Types"
+              label="Accepted 来源类型"
               description="Distribution after cleaning and structured extraction."
             />
             <BarChart
               data={visualization.industry_area_distribution}
-              label="Industry Areas"
+              label="行业领域"
               description="Topic coverage across structured items."
             />
           </div>
