@@ -3,9 +3,18 @@
 Reproducible MVP workflow for AI news intelligence:
 
 ```text
-candidate sources -> source evaluation -> raw news -> cleaned news -> structured extraction
+fetch (RSS + HTTP + API) -> clean -> structured extraction (DeepSeek)
 -> event clustering -> importance scoring -> daily report -> React/D3 dashboard -> quality check
 ```
+
+## Data Sources
+
+| Source | Method | Language | Coverage |
+|:---|:---|:---|:---|
+| arXiv | API | en | AI/ML/CL research preprints |
+| 量子位 (qbitai.com) | HTTP scraping | zh | Chinese AI industry & technology |
+| TechCrunch AI | RSS | en | Startup funding, product launches |
+| The Verge | RSS + AI filter | en | Consumer tech & AI coverage |
 
 ## Runtime
 
@@ -23,71 +32,52 @@ cd frontend
 pnpm install
 ```
 
-Use Node.js 20 or newer. This workspace was verified with:
-
-```bash
-PATH=/Users/chx/.nvm/versions/node/v22.22.2/bin:$PATH pnpm build
-```
+Requires Node.js 20+. Verified with Node 22.22.2.
 
 ## Configuration
 
-Copy `.env.example` to `.env` and fill local secrets only in `.env`.
-
-Required for real LLM execution:
+Copy `.env.example` to `.env` and set:
 
 ```text
-DEEPSEEK_API_KEY
+DEEPSEEK_API_KEY=sk-...
 ```
 
 Defaults:
-
-- LLM provider: DeepSeek
-- LLM model: `deepseek-v4-flash` for both extraction and report generation
+- LLM: DeepSeek (`deepseek-v4-flash` for extraction, `deepseek-v4-pro` for reports)
 - Reporting window: latest 3 days
 - Timezone: `Asia/Shanghai`
-- Frontend data artifact: `frontend/public/data/latest.json`
+- RSS cache: 1 hour (`data/cache/`)
 
 ## Run
 
-Development run without LLM calls:
-
 ```bash
-.venv/bin/python -m daily_ai_insight run --mock-llm
-```
-
-Real LLM run:
-
-```bash
+# Real LLM run
 .venv/bin/python -m daily_ai_insight run
+
+# Dev mode (no LLM calls, deterministic extraction)
+.venv/bin/python -m daily_ai_insight run --mock-llm
+
+# Start dashboard
+cd frontend && pnpm dev
 ```
 
-Start dashboard:
+## Pipeline
 
-```bash
-cd frontend
-PATH=/Users/chx/.nvm/versions/node/v22.22.2/bin:$PATH pnpm dev
 ```
-
-## Chinese Websearch Compatibility
-
-Chinese DeepSeek websearch is constrained to:
-
-- 量子位: `qbitai.com`
-- 机器之心: `jiqizhixin.com`
-- 知乎: `zhihu.com`
-
-The current implementation consumes saved websearch observations from:
-
-```text
-data/manual/chinese_websearch_observations.json
+sources.json -> fetch -> source_evaluation.json
+    -> raw_news.json -> clean -> cleaned_news.json
+    -> structure (DeepSeek) -> structured_news.json
+    -> cluster (DeepSeek) -> clustered_events.json
+    -> score -> importance_scores.json
+    -> visualize -> visualization_data.json
+    -> report (DeepSeek) -> daily_ai_report.md
+    -> quality check -> quality_check.json
+    -> frontend/public/data/latest.json
 ```
-
-If the file is absent, those sources are marked as future/fetch issue in source evaluation. Websearch results are accepted only after allowlist and required-field validation.
 
 ## Verification
 
 ```bash
 .venv/bin/python -m pytest
-.venv/bin/ruff check daily_ai_insight tests
-cd frontend && PATH=/Users/chx/.nvm/versions/node/v22.22.2/bin:$PATH pnpm build
+cd frontend && pnpm build
 ```

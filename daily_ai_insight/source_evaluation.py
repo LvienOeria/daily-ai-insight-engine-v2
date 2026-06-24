@@ -85,7 +85,6 @@ def evaluate_source(
         weaknesses.append(f"Fetch issue: {error}")
 
     risks = list(candidate.known_constraints)
-        risks.append("DeepSeek websearch observations require allowlist and field validation.")
 
     strengths = [candidate.coverage]
     if items:

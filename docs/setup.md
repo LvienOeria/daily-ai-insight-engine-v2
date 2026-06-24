@@ -2,101 +2,58 @@
 
 ## Repository
 
-This project is initialized as a git repository.
-
-Keep generated datasets, structured outputs, reports, visualizations, and documentation in the repository when they are part of the reproducible MVP. Do not commit local secrets, caches, virtual environments, or machine-specific files.
+Keep generated datasets and reports in the repository for reproducibility. Never commit `.env`, caches, virtual environments, or `node_modules/`.
 
 ## API Key Configuration
 
-Create a local `.env` file from `.env.example`:
+Copy `.env.example` to `.env`:
 
 ```bash
 cp .env.example .env
 ```
 
-Fill only the keys selected for the MVP after source evaluation.
+Required:
 
-### Required Now
+- `DEEPSEEK_API_KEY` — for LLM-powered structuring, clustering, and report generation
 
-The MVP will use DeepSeek for local LLM scripts.
+Optional (for additional source connectivity):
 
-Required local value:
+- `TAVILY_API_KEY` — alternative search backend
 
-- `DEEPSEEK_API_KEY`
-
-Configured defaults:
-
-- `LLM_PROVIDER=deepseek`
-- `DEEPSEEK_BASE_URL=https://api.deepseek.com`
-- `DEEPSEEK_MODEL=deepseek-v4-flash`
-- `DEEPSEEK_REPORT_MODEL=deepseek-v4-flash`
-- `DEEPSEEK_WEBSEARCH_ENABLED=true`
-- `DEEPSEEK_WEBSEARCH_ALLOWED_SITES=qbitai.com,jiqizhixin.com,zhihu.com`
-- `REPORT_TIMEZONE=Asia/Shanghai`
-- `REPORT_WINDOW_DAYS=3`
-
-DeepSeek's API is OpenAI-compatible, so local scripts can use the OpenAI SDK with the DeepSeek base URL.
-
-### Likely Optional
-
-- `NEWS_API_KEY` or `GNEWS_API_KEY`: useful if the selected collection path depends on a news aggregation API.
-- `GITHUB_TOKEN`: useful if GitHub repositories, releases, or issues are used and unauthenticated rate limits are too low.
-- `SERPAPI_API_KEY` or `TAVILY_API_KEY`: useful for search-based collection, but this should be treated as auxiliary or future scope unless source evaluation justifies it.
-
-RSS feeds, arXiv, and Hacker News public APIs normally do not require API keys.
+RSS feeds, arXiv API, and direct HTTP scraping do not require API keys.
 
 ## Current MVP Defaults
 
-The current default runtime settings are also captured in `config/defaults.json`.
+Configured in `config/defaults.json`:
 
-- Reporting window: latest 3 days
-- Reporting timezone: `Asia/Shanghai`
+- Reporting window: 3 days
+- Timezone: `Asia/Shanghai`
 - LLM provider: DeepSeek API
-- LLM execution mode: local scripts
-- Data source policy: attempt candidate fetching first, evaluate observed data quality, then select core sources
-- Chinese source compatibility path: DeepSeek websearch, restricted to 量子位, 机器之心, and 知乎
-- Frontend: React + Vite + pnpm
-- Visualization: D3.js
+- Extraction model: `deepseek-v4-flash`
+- Report model: `deepseek-v4-pro`
+- Frontend: React + Vite + pnpm + D3.js
 
-## Configuration To Decide Before Implementation
+## Data Sources
 
-Before writing the workflow code, confirm or record:
+Four sources configured in `config/sources.json`:
 
-- Data source mix after attempted fetches. Example: official AI company blogs, arXiv, Hacker News, and selected RSS feeds.
-- Chinese websearch query templates and per-site result caps.
-- Output locations for raw data, cleaned data, structured data, clustered events, rankings, visualizations, reports, and quality checks.
-- Whether generated public news datasets should be committed for reproducibility.
+| Source | Method | Language |
+|:---|:---|:---|
+| arXiv AI Search | API | en |
+| 量子位 (qbitai.com) | Direct HTTP scraping | zh |
+| TechCrunch AI | RSS | en |
+| The Verge | RSS + AI keyword filter | en |
 
-## Frontend and Visualization
+To add a new RSS source, add an entry with `"access_method": "rss"` and an `"endpoint_url"`. For an HTTP-scraped source, use `"access_method": "direct_http"`.
 
-The MVP frontend uses React, Vite, pnpm, and D3.js.
+## Frontend
 
-Implementation rules:
+- Python scripts own data collection, cleaning, structuring, clustering, scoring, reporting, and quality checks.
+- The React app is display-only. It reads `frontend/public/data/latest.json`.
+- D3 charts show source distribution, event type distribution, and a risk/opportunity matrix.
+- Commit `pnpm-lock.yaml`. Do not commit `node_modules/`.
 
-- Use Node.js 20 or newer. The local system Node 18.3.0 is too old for the selected Vite toolchain; this workspace has been verified with Node 22.22.2 via nvm.
-- Python scripts own data collection, cleaning, structuring, event clustering, importance scoring, report generation, and quality checks.
-- The React app is display-only. It must not generate facts, call LLMs, or change rankings.
-- D3 charts must read from structured JSON artifacts, primarily `frontend/public/data/latest.json`.
-- The dashboard should show evidence traceability for Top events, trends, risks, and opportunities through `news_id`, `event_id`, source names, key facts, or evidence snippets.
-- Commit frontend source and `pnpm-lock.yaml`. Do not commit `node_modules/`.
-- Do not treat frontend polish as a replacement for reproducible data artifacts.
+## Secret Handling
 
-## Chinese Source Constraints
-
-Chinese-language data is collected via direct HTTP scraping. Three candidate sources were evaluated:
-
-- **量子位 (`qbitai.com`)**: ✅ Reachable. Article pages return HTTP 200; title, summary, and date are extractable. The only working Chinese source for the MVP.
-- **机器之心 (`jiqizhixin.com`)**: ❌ SSL handshake timeout. Geo-blocked from non-China IPs. DeepSeek API's `enable_search` does not actually trigger web requests.
-- **知乎 (`zhihu.com`)**: ❌ Redirects to sign-in. Cannot be scraped without authentication.
-
-Implementation rules:
-
-- Scraped results are evaluated for field completeness before entering the main dataset.
-- Accept a result only after it has title, source, published_at (or URL-inferrable date), URL, and summary/content.
-- Record unreachable or rejected sources in source evaluation notes.
-
-## Secret Handling Rules
-
-- Do not paste real API keys into `AGENTS.md`, docs, source files, reports, or committed datasets.
-- Store real keys only in local `.env` or the operating system secret manager.
-- If a raw provider payload includes credentials, remove or redact the credential before saving the artifact.
+- Store real keys only in local `.env`.
+- Never paste API keys into docs, source files, or committed datasets.

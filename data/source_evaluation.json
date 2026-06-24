@@ -28,11 +28,11 @@
     "reason": "Observed results satisfy required fields and are suitable for the main dataset."
   },
   {
-    "source_name": "MCP Multi-Site Web Search",
+    "source_name": "量子位",
     "source_type": "media",
-    "access_method": "mcp_websearch",
-    "coverage": "AI news from 量子位, TechCrunch, The Verge, and 澎湃新闻 via DeepSeek function calling with websearch tool.",
-    "language": "mixed",
+    "access_method": "direct_http",
+    "coverage": "Chinese AI industry and technology reporting.",
+    "language": "zh",
     "field_completeness": {
       "title": "yes",
       "summary_or_content": "yes",
@@ -41,17 +41,70 @@
       "url": "yes"
     },
     "strengths": [
-      "AI news from 量子位, TechCrunch, The Verge, and 澎湃新闻 via DeepSeek function calling with websearch tool.",
-      "Observed 22 candidate items during fetch attempt."
+      "Chinese AI industry and technology reporting.",
+      "Observed 10 candidate items during fetch attempt."
     ],
-    "weaknesses": [
-      "Observed missing fields: published_at=1"
-    ],
+    "weaknesses": [],
     "risks": [
-      "requires DEEPSEEK_API_KEY",
-      "site availability varies by geo-location"
+      "HTML scraping, structure may change",
+      "date inferred from URL"
     ],
-    "observed_item_count": 22,
+    "observed_item_count": 10,
+    "fetch_status": "success",
+    "fetch_error": null,
+    "recommended_tier": "core",
+    "reason": "Observed results satisfy required fields and are suitable for the main dataset."
+  },
+  {
+    "source_name": "TechCrunch AI",
+    "source_type": "media",
+    "access_method": "rss",
+    "coverage": "AI startup funding, product launches, and industry analysis.",
+    "language": "en",
+    "field_completeness": {
+      "title": "yes",
+      "summary_or_content": "yes",
+      "source": "yes",
+      "published_at": "yes",
+      "url": "yes"
+    },
+    "strengths": [
+      "AI startup funding, product launches, and industry analysis.",
+      "Observed 19 candidate items during fetch attempt."
+    ],
+    "weaknesses": [],
+    "risks": [
+      "AI category RSS only"
+    ],
+    "observed_item_count": 19,
+    "fetch_status": "success",
+    "fetch_error": null,
+    "recommended_tier": "core",
+    "reason": "Observed results satisfy required fields and are suitable for the main dataset."
+  },
+  {
+    "source_name": "The Verge",
+    "source_type": "media",
+    "access_method": "rss",
+    "coverage": "Consumer tech and AI coverage from The Verge.",
+    "language": "en",
+    "field_completeness": {
+      "title": "yes",
+      "summary_or_content": "yes",
+      "source": "yes",
+      "published_at": "yes",
+      "url": "yes"
+    },
+    "strengths": [
+      "Consumer tech and AI coverage from The Verge.",
+      "Observed 1 candidate items during fetch attempt."
+    ],
+    "weaknesses": [],
+    "risks": [
+      "general tech feed",
+      "AI keyword filter applied"
+    ],
+    "observed_item_count": 1,
     "fetch_status": "success",
     "fetch_error": null,
     "recommended_tier": "core",

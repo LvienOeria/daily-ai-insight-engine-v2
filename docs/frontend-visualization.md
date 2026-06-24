@@ -1,62 +1,42 @@
 # Frontend and Visualization
 
-## Decision
+## Stack
 
-The MVP frontend uses:
-
-- React
-- Vite
+- React 18
+- Vite 6
 - pnpm
-- D3.js
+- D3.js 7
+- lucide-react (icons)
 
-## Role Boundary
+## Role
 
-The frontend is a display layer only.
+The frontend is display-only. Python scripts produce all authoritative data artifacts. The React app reads `frontend/public/data/latest.json` and renders a dashboard. It does not call LLMs, create facts, or alter rankings.
 
-Python scripts produce the authoritative artifacts:
+## Dashboard Views
 
-- raw news
-- cleaned news
-- structured news
-- clustered events
-- importance scores
-- visualization data
-- daily report
-- quality check result
+- **Overview**: metrics row, donut charts (source types, event types), risk/opportunity matrix, Top 5 events
+- **Events**: searchable list with full event details, score breakdowns, evidence, source links
+- **Analysis**: report text with 7 sections rendered as structured cards
+- **Sources**: source evaluation table with tier, status, item counts
+- **Quality**: quality check results with pass/fail, issues list
 
-The React app reads those artifacts and renders a dashboard. It must not call LLMs, create facts, alter rankings, or generate untraceable conclusions.
+## Charts
 
-## Dashboard Data Contract
+| Chart | Library | Description |
+|:---|:---|:---|
+| Source type distribution | D3 Donut | Research vs media vs community |
+| Event type distribution | D3 Donut | Clustering categories |
+| Risk/Opportunity Matrix | D3 Scatter | Color by event type, size by confidence, zoom/pan |
 
-The pipeline exports frontend-ready data to:
+## Data Contract
+
+The pipeline writes one file that the frontend consumes:
 
 ```text
 frontend/public/data/latest.json
 ```
 
-The dashboard may include:
-
-- source distribution
-- event type distribution
-- industry area distribution
-- Top event ranking
-- risk and opportunity matrix
-- report summary and evidence links
-
-## Evidence Requirements
-
-Top events, trends, risks, and opportunities must preserve traceability through:
-
-- `news_id`
-- `event_id`
-- source names
-- source URLs
-- key facts
-- evidence snippets
-
 ## Repository Rules
 
-- Commit frontend source files.
-- Commit `pnpm-lock.yaml` after dependencies are installed.
-- Do not commit `node_modules/`.
-- Do not treat built frontend assets as source unless a later delivery requirement explicitly asks for static build output.
+- Commit source files and `pnpm-lock.yaml`
+- Do not commit `node_modules/` or `dist/`
